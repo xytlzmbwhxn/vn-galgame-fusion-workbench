@@ -1,0 +1,12 @@
+{
+  "script": "02_projects\\019_天台自动售货机只收秘密\\02_generated_content\\scripts\\csv\\天台自动售货机只收秘密_S001_20260624.csv",
+  "project_id": "019_天台自动售货机只收秘密",
+  "generated_at": "2026-06-24T15:05:33+08:00",
+  "row_count": 82,
+  "dialogue_count": 45,
+  "thought_count": 9,
+  "choice_count": 2,
+  "debt_counts": {},
+  "blocking": [],
+  "debts": {}
+}

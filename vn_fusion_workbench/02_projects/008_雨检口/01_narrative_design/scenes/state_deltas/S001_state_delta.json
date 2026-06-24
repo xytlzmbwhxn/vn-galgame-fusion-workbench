@@ -1,0 +1,71 @@
+{
+  "scene_id": "S001",
+  "character_state_changes": [
+    {
+      "character": "CHR_shaoning",
+      "field": "fatigue",
+      "delta": 1,
+      "reason": "末班后异常进站记录触发旧事故压力"
+    },
+    {
+      "character": "CHR_cenyao",
+      "field": "trust",
+      "delta": 1,
+      "reason": "邵宁没有立刻报警，并允许她看纸质登记"
+    }
+  ],
+  "relationship_changes": [
+    {
+      "from": "CHR_cenyao",
+      "to": "CHR_shaoning",
+      "change": "暂时相信他不会马上把她交出去"
+    }
+  ],
+  "item_changes": [
+    {
+      "item": "OBJ_wet_ticket",
+      "holder_before": "CHR_cenyao",
+      "holder_after": "shared_table",
+      "state": "压在登记簿边上，露出两年前日期"
+    }
+  ],
+  "secret_changes": [
+    {
+      "secret": "SEC_old_record_changed",
+      "new_knowers": ["CHR_shaoning"],
+      "reveal_mode": "湿票根日期与纸质登记不一致"
+    }
+  ],
+  "route_flags": [
+    {
+      "name": "flag_checked_register_first",
+      "value": true
+    }
+  ],
+  "promises": [
+    {
+      "id": "PROM_no_police_yet",
+      "speaker": "CHR_shaoning",
+      "target": "CHR_cenyao",
+      "content": "先看纸质登记，三分钟内不报警",
+      "deadline": "S001 end"
+    }
+  ],
+  "foreshadow_payoff": [],
+  "deadline_changes": [
+    {
+      "id": "DL_station_lock",
+      "new_state": "backup_lock_in_3_minutes"
+    }
+  ],
+  "memory_entries_to_write": [
+    {
+      "target": "00_project_memory/memory_logs/character_memory/CHR_shaoning.md",
+      "content": "S001: 邵宁为岑遥延迟报警三分钟，代价是违反夜班异常流程。"
+    },
+    {
+      "target": "00_project_memory/memory_logs/character_memory/CHR_cenyao.md",
+      "content": "S001: 岑遥把湿票根放到登记簿边上，第一次允许邵宁看见日期。"
+    }
+  ]
+}

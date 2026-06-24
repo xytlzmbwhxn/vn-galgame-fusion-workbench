@@ -1,0 +1,47 @@
+{
+  "scene_id": "S001",
+  "choices": [
+    {
+      "choice_id": "label_recycle",
+      "label": "贴上黄标签，先封箱",
+      "effects": {
+        "trust_tangmi": -1,
+        "teacher_patience": 1,
+        "kept_pocket_note": false,
+        "rule_breach": 0
+      },
+      "visible_feedback": "唐米笑着退开，手指还停在箱盖边；陶笙催林秋把照片发过去。",
+      "future_callback": "唐米后续称林秋为林值班，不再叫小秋官。"
+    },
+    {
+      "choice_id": "label_archive",
+      "label": "拆开内袋，把纸星星留档",
+      "effects": {
+        "trust_tangmi": 1,
+        "teacher_patience": -1,
+        "kept_pocket_note": true,
+        "rule_breach": 1
+      },
+      "visible_feedback": "唐米第一次没补玩笑，陶笙让林秋只留两分钟。",
+      "future_callback": "打开唐米路线的纸星星记忆。"
+    },
+    {
+      "choice_id": "label_borrow",
+      "label": "把蓝借出牌翻到唐米名下",
+      "effects": {
+        "trust_tangmi": 2,
+        "teacher_patience": -2,
+        "kept_pocket_note": true,
+        "rule_breach": 2
+      },
+      "visible_feedback": "唐米拿到外套，却反过来要求林秋别替她签完。",
+      "future_callback": "林秋违规风险提高，陶笙路线出现钥匙警告。"
+    }
+  ],
+  "post_scene_memory": [
+    "唐米知道林秋摸到纸星星。",
+    "陶笙听见 48 号后给了两分钟缝隙。",
+    "林秋第一次把封箱流程改成关系处理。"
+  ]
+}
+

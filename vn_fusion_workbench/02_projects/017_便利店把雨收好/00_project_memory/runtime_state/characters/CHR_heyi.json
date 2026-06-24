@@ -1,0 +1,12 @@
+{
+  "character_id": "CHR_heyi",
+  "emotion_axes": {"trust": 3, "anger": 1, "fear": 1, "curiosity": 2, "fatigue": 2, "shame": 0},
+  "current_axes": {"trust": 3, "anger": 1, "fear": 1, "curiosity": 3, "fatigue": 2, "shame": 0},
+  "active_wants": ["夜班别添亏账", "把借伞这件事控制在店规里", "用便签把关心包装成扣工资"],
+  "voice_lock": "电话和便签口吻硬，骂人像盘点，心软藏在已办事项里。",
+  "state_history": ["S001前：白班店长，知道江迟会把规章当挡板。", "S001后：借伞和豆浆都被她的便签卷进账目里，成为后续电话/查账回调。"],
+  "current_goal": "明天查蓝伞、黑伞和豆浆账，同时继续装作只关心亏损。",
+  "current_lie": "她只是怕亏账。",
+  "known_facts": ["江迟常拿规章当挡板。", "黑伞借出给林檐。", "林檐明天可能带豆浆回来。"],
+  "relationship_pressure": "她会骂江迟，也会替他把伞查到；她的便签会继续把软心肠写成硬账。"
+}

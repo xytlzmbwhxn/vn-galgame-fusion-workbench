@@ -1,0 +1,19 @@
+{
+  "threads": [
+    {
+      "id": "relationship_probe",
+      "name": "旧同学的试探",
+      "question": "两人还能不能用玩笑确认彼此没有变得太远？"
+    },
+    {
+      "id": "hidden_need",
+      "name": "不说出口的求助",
+      "question": "梅糖能不能在不承认求救的情况下被接住？"
+    },
+    {
+      "id": "return_hook",
+      "name": "必须回来的理由",
+      "question": "糖罐能不能把今晚从偶遇变成明天的约定？"
+    }
+  ]
+}

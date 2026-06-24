@@ -1,0 +1,67 @@
+{
+  "id": "CHR_duanbo",
+  "name": "段伯",
+  "role": "dispatcher_guardian",
+  "identity": {
+    "age": "58",
+    "job": "公交总站退休返聘调度员",
+    "region": "本地老城",
+    "education_trace": "早年技校，后来跟车队跑遍全城线路",
+    "class_trace": "一辈子靠排班、修车、值夜班养家"
+  },
+  "desire": "让夜班无事收场，别让旧12路的事故重新被翻出来。",
+  "fear": "他怕年轻人用一句公平把旧人旧事全拖回雨里。",
+  "shame_source": "当年撤临站时，他劝过家属签字息事，也把一只遗失布包锁进档案柜。",
+  "presentation": {
+    "first_screen_impression": "嘴上凶，手里已经把备用钥匙推过来。",
+    "memory_points": ["用线路号称呼人", "腰间挂旧哨子", "训人时顺手递热水"],
+    "signature_objects": ["铁皮排班板", "旧哨子", "档案柜钥匙"],
+    "signature_gestures": ["咳一声再说重话", "把钥匙串按在桌上", "听雨时摸哨子"],
+    "relationship_hooks": ["他越护短越像威胁，越心软越说得难听"],
+    "arc_promise": "从压住旧账，到承认当年的沉默也需要被登记。",
+    "charm_hook": "严厉外壳下有粗糙照顾，偶尔冒出很旧派的冷笑话。",
+    "liveliness_floor": "台词要有生活粗粝感，禁止变成公告牌。",
+    "punctuation_play": "多用短促断句、反问、命令；少撒娇，多像老调度喊站。"
+  },
+  "taboo_topics": ["旧12路事故责任", "撤站签字", "遗失布包"],
+  "speech_fingerprint": {
+    "default_rhythm": "短、硬、带线路和规章，像夜班调度喊话。",
+    "pressure_rhythm": "先骂一句，再塞出解决办法。",
+    "vocabulary": ["末班", "排班", "别添乱", "钥匙", "旧12路", "票面"],
+    "fillers": ["啧", "行了", "小孩儿", "听见没"],
+    "forbidden_words": ["浪漫", "宿命", "灵魂", "治愈"],
+    "dodge": "把情感问题压成安全问题。",
+    "lie_style": "用职务口吻把自己藏在集体决定后面。",
+    "request_style": "命令式照顾。",
+    "tenderness_style": "骂完补东西，话硬手软。",
+    "cruelty_style": "拿规章堵住人，声音很平。",
+    "punctuation": "反问和顿号多，情绪上来会用感叹。"
+  },
+  "embodiment": {
+    "hands": ["钥匙串在掌心响", "拇指擦哨子", "把搪瓷杯推过线"],
+    "gaze": ["看排班板多过看人", "被逼问时盯窗口雨帘"],
+    "posture": ["站在门口挡风", "背微驼但脚步很稳"],
+    "idle_action": "把排班磁贴摆成直线。",
+    "pressure_action": "钥匙串猛地扣桌。",
+    "environment_first_touch": "先关门缝，再看两人的票。"
+  },
+  "emotion_axes": {
+    "trust": 1,
+    "anger": 2,
+    "fear": 3,
+    "curiosity": 1,
+    "fatigue": 4,
+    "shame": 4
+  },
+  "relationships": {
+    "CHR_linyu": "看着长大的临时工，知道他父亲和旧12路有关。",
+    "CHR_qiaomeng": "认出她像当年临站家属，却装作只看票不看人。"
+  },
+  "example_dialogue": {
+    "relaxed": ["老许又卡票？拍左边，别拍右边，右边是它自尊。"],
+    "pressured": ["旧12路别乱盖。小孩儿，一枚章盖下去，明早三张表等你。"],
+    "lying": ["临站？撤了。撤了就没了，问我也没用。"],
+    "apologizing": ["那年我话说重了。人老了，嘴还欠，账没少。"],
+    "intimate": ["钥匙拿着。别说我给的，就说抽屉自己想开。"]
+  }
+}

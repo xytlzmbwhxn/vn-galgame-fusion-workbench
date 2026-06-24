@@ -1,0 +1,75 @@
+{
+  "character_id": "CHR_shaoning",
+  "updated_after_scene": "S002",
+  "current_axes": {
+    "trust": 2,
+    "anger": 1,
+    "fear": 4,
+    "curiosity": 3,
+    "fatigue": 4,
+    "shame": 3
+  },
+  "active_wants": [
+    "keep the station incident inside controllable procedure for one more minute",
+    "protect the wet ticket without letting Cen Yao think he is collecting evidence against her",
+    "avoid repeating the two-years-ago mistake"
+  ],
+  "active_fears": [
+    "calling the police too early may send Cen Yao back to danger",
+    "delaying the alarm may destroy his job and the evidence",
+    "Cen Yao may know the old incident better than he does"
+  ],
+  "unspoken_truths": [
+    "he has already chosen to delay the alarm",
+    "he is using station rules as cover for personal guilt"
+  ],
+  "voice_lock": {
+    "sentence_shapes": [
+      "short instruction first, reason second",
+      "time count or procedure term when cornered",
+      "requests disguised as work arrangements",
+      "no speech longer than two clauses under pressure"
+    ],
+    "dodge_moves": [
+      "turn topic back to registration, camera, door, time, or proof",
+      "answer with an action requirement",
+      "report a number instead of naming a feeling"
+    ],
+    "allowed_words": ["登记", "规程", "门锁", "监控", "票根", "到点", "留证"],
+    "forbidden_drift": [
+      "lyrical self-analysis",
+      "clean moral speeches",
+      "calling his own action kindness",
+      "using abstract words like destiny or salvation"
+    ],
+    "sample_lines": [
+      "站里面说。外面有镜头。",
+      "别急着谢。还没到能谢的时候。",
+      "我只问这一格。你不填，我也不追。"
+    ]
+  },
+  "relationship_pressure": {
+    "CHR_cenyao": {
+      "current_leverage": "he controls station access and alarm timing; she controls old-register information",
+      "debt": "he delayed police for her and may have given station property to her",
+      "dangerous_line": "You can delete me."
+    }
+  },
+  "promises_and_debts": [
+    {
+      "id": "PROM_no_police_yet",
+      "status": "active",
+      "deadline": "after S002, 76 seconds remain"
+    }
+  ],
+  "state_history": [
+    {
+      "scene_id": "S001",
+      "change": "delayed alarm for three minutes and let Cen Yao see the paper register"
+    },
+    {
+      "scene_id": "S002",
+      "change": "used station property and camera positioning to protect her while still tracking proof"
+    }
+  ]
+}

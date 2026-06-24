@@ -1,0 +1,56 @@
+{
+  "project_id": "seventh_coin_demo",
+  "common_route": [
+    "S001"
+  ],
+  "routes": [
+    {
+      "id": "trace_route",
+      "dramatic_question": "闻舟能不能保留让夏停难受的证据，同时不把她推回雨里？",
+      "unlock_rule": "receipt_saved=true 或 cold_wash_selected=true。",
+      "key_scenes": ["S001", "S002_receipt_under_lamp"],
+      "bad_ends": ["BE_receipt_burned"],
+      "ending_logic": "保存热敏单，解锁病房时间线与妹妹对话。"
+    },
+    {
+      "id": "clean_route",
+      "dramatic_question": "如果先让对方喘口气，失去的字迹能不能用新的信任补回来？",
+      "unlock_rule": "quick_hot_selected=true 且 xia_trust>=2。",
+      "key_scenes": ["S001", "S002_dryer_argument"],
+      "bad_ends": ["BE_clean_no_trace"],
+      "ending_logic": "开衫干净，单据受损，后续通过罗姨和监控补线索。"
+    }
+  ],
+  "variables": [
+    {
+      "name": "trace_kept",
+      "type": "bool",
+      "visible": false,
+      "purpose": "开衫和热敏单是否保留可追查痕迹。"
+    },
+    {
+      "name": "receipt_saved",
+      "type": "bool",
+      "visible": false,
+      "purpose": "热敏单是否被闻舟取出并保存。"
+    },
+    {
+      "name": "heat_damage",
+      "type": "int",
+      "visible": false,
+      "purpose": "热烘/热水对单据和衣料造成的损伤程度。"
+    },
+    {
+      "name": "xia_trust",
+      "type": "int",
+      "visible": false,
+      "purpose": "夏停是否愿意承认开衫归属和病房时间。"
+    },
+    {
+      "name": "shop_risk",
+      "type": "int",
+      "visible": false,
+      "purpose": "闻舟私自改流程、延时、留物所承担的店铺风险。"
+    }
+  ]
+}

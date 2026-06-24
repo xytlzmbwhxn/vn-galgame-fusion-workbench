@@ -1,0 +1,25 @@
+{
+  "arcs": [
+    {
+      "id": "ARC_chengyan",
+      "character": "CHR_chengyan",
+      "start": "相信流程能替值班员避开偏心。",
+      "turn": "听见录音笔红点响起后，手停在印章上。",
+      "end_hint": "愿意把待核验留给人，不只留给物。"
+    },
+    {
+      "id": "ARC_lujin",
+      "character": "CHR_lujin",
+      "start": "用热闹和跑腿身份挡住真实请求。",
+      "turn": "程砚摸到伞柄暗格，她第一次叫他全名。",
+      "end_hint": "承认她不是只来拿伞，是来替许栀拖一分钟。"
+    },
+    {
+      "id": "ARC_xuzhi",
+      "character": "CHR_xuzhi",
+      "start": "把私人话录成可删除的声音文件。",
+      "turn": "备用灯亮起，她在电话里要求别外放，却没有挂断。",
+      "end_hint": "愿意把第三遍从录音笔里拿出来。"
+    }
+  ]
+}

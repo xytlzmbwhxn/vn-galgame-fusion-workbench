@@ -1,0 +1,291 @@
+{
+  "project": "020_旧钟楼只在午休响一次",
+  "script": "02_generated_content\\scripts\\csv\\P020_S001_lunch_bell.csv",
+  "scene_id": "S001",
+  "graph": {
+    "__START__": {
+      "rows": 0,
+      "row_types": {},
+      "speakers": {},
+      "memory_refs": [],
+      "effects": [],
+      "choices": [],
+      "jumps": []
+    },
+    "start": {
+      "rows": 23,
+      "row_types": {
+        "narration": 4,
+        "thought": 3,
+        "dialogue": 13,
+        "choice": 3
+      },
+      "speakers": {
+        "CHR_shenlu": 4,
+        "CHR_fuyao": 6,
+        "CHR_wenmian": 3
+      },
+      "memory_refs": [
+        "ARC_fuyao_request",
+        "ARC_shenlu_visible",
+        "ARC_wenmian_soft_threat",
+        "CHR_fuyao",
+        "CHR_shenlu",
+        "CHR_wenmian",
+        "FS_bell_1217",
+        "MEM_fuyao_broadcast_cover",
+        "MEM_fuyao_volume_knob",
+        "MEM_shenlu_key_ring",
+        "MEM_shenlu_lunch_delay",
+        "MEM_wenmian_empty_cup",
+        "MEM_wenmian_pudding_debt",
+        "MEM_wenmian_soft_pressure",
+        "THR_lunch_bell"
+      ],
+      "effects": [
+        {
+          "beat_id": "S001_0022",
+          "effects": "choice_label_48=branch_calm; trust_fuyao += 1; bell_clue += 1"
+        },
+        {
+          "beat_id": "S001_0023",
+          "effects": "choice_label_48=branch_snack; trust_wenmian += 1; bell_clue += 1"
+        },
+        {
+          "beat_id": "S001_0024",
+          "effects": "choice_label_48=branch_escape; shenlu_escape_debt += 1; bell_clue += 1"
+        }
+      ],
+      "choices": [
+        {
+          "beat_id": "S001_0022",
+          "group": "C001_lunch_bell",
+          "text": "先让钟楼冷静下来",
+          "target": "branch_calm",
+          "effects": "choice_label_48=branch_calm; trust_fuyao += 1; bell_clue += 1"
+        },
+        {
+          "beat_id": "S001_0023",
+          "group": "C001_lunch_bell",
+          "text": "先处理布丁赔偿问题",
+          "target": "branch_snack",
+          "effects": "choice_label_48=branch_snack; trust_wenmian += 1; bell_clue += 1"
+        },
+        {
+          "beat_id": "S001_0024",
+          "group": "C001_lunch_bell",
+          "text": "声明自己只是路过",
+          "target": "branch_escape",
+          "effects": "choice_label_48=branch_escape; shenlu_escape_debt += 1; bell_clue += 1"
+        }
+      ],
+      "jumps": []
+    },
+    "branch_calm": {
+      "rows": 4,
+      "row_types": {
+        "dialogue": 3,
+        "command": 1
+      },
+      "speakers": {
+        "CHR_shenlu": 1,
+        "CHR_fuyao": 1,
+        "CHR_wenmian": 1
+      },
+      "memory_refs": [
+        "ARC_fuyao_request",
+        "ARC_wenmian_soft_threat",
+        "CHR_fuyao",
+        "CHR_shenlu",
+        "CHR_wenmian",
+        "MEM_fuyao_broadcast_cover",
+        "THR_lunch_bell"
+      ],
+      "effects": [],
+      "choices": [],
+      "jumps": [
+        {
+          "beat_id": "S001_0029",
+          "target": "merge_after_choice"
+        }
+      ]
+    },
+    "branch_snack": {
+      "rows": 4,
+      "row_types": {
+        "dialogue": 3,
+        "command": 1
+      },
+      "speakers": {
+        "CHR_shenlu": 1,
+        "CHR_wenmian": 1,
+        "CHR_fuyao": 1
+      },
+      "memory_refs": [
+        "ARC_fuyao_request",
+        "ARC_wenmian_soft_threat",
+        "CHR_fuyao",
+        "CHR_shenlu",
+        "CHR_wenmian",
+        "MEM_wenmian_pudding_debt",
+        "THR_lunch_bell"
+      ],
+      "effects": [],
+      "choices": [],
+      "jumps": [
+        {
+          "beat_id": "S001_0034",
+          "target": "merge_after_choice"
+        }
+      ]
+    },
+    "branch_escape": {
+      "rows": 5,
+      "row_types": {
+        "dialogue": 3,
+        "thought": 1,
+        "command": 1
+      },
+      "speakers": {
+        "CHR_shenlu": 1,
+        "CHR_fuyao": 1,
+        "CHR_wenmian": 1
+      },
+      "memory_refs": [
+        "CHR_fuyao",
+        "CHR_shenlu",
+        "CHR_wenmian",
+        "MEM_fuyao_needs_shenlu",
+        "MEM_shenlu_key_ring",
+        "MEM_wenmian_soft_pressure",
+        "THR_lunch_bell"
+      ],
+      "effects": [],
+      "choices": [],
+      "jumps": [
+        {
+          "beat_id": "S001_0040",
+          "target": "merge_after_choice"
+        }
+      ]
+    },
+    "merge_after_choice": {
+      "rows": 15,
+      "row_types": {
+        "narration": 3,
+        "dialogue": 10,
+        "thought": 1,
+        "command": 1
+      },
+      "speakers": {
+        "CHR_fuyao": 4,
+        "CHR_shenlu": 3,
+        "CHR_wenmian": 3
+      },
+      "memory_refs": [
+        "ARC_fuyao_request",
+        "ARC_shenlu_visible",
+        "ARC_wenmian_soft_threat",
+        "CHR_fuyao",
+        "CHR_shenlu",
+        "CHR_wenmian",
+        "FS_bell_1217",
+        "MEM_fuyao_needs_shenlu",
+        "MEM_wenmian_empty_cup",
+        "MEM_wenmian_pudding_debt",
+        "THR_lunch_bell"
+      ],
+      "effects": [],
+      "choices": [],
+      "jumps": [
+        {
+          "beat_id": "S001_0056",
+          "target": "END"
+        }
+      ]
+    }
+  },
+  "known_refs_count": 31,
+  "used_memory_refs": [
+    "ARC_fuyao_request",
+    "ARC_shenlu_visible",
+    "ARC_wenmian_soft_threat",
+    "CHR_fuyao",
+    "CHR_shenlu",
+    "CHR_wenmian",
+    "FS_bell_1217",
+    "MEM_fuyao_broadcast_cover",
+    "MEM_fuyao_needs_shenlu",
+    "MEM_fuyao_volume_knob",
+    "MEM_shenlu_key_ring",
+    "MEM_shenlu_lunch_delay",
+    "MEM_wenmian_empty_cup",
+    "MEM_wenmian_pudding_debt",
+    "MEM_wenmian_soft_pressure",
+    "THR_lunch_bell"
+  ],
+  "unknown_memory_refs": [],
+  "effect_variables": [
+    "bell_clue",
+    "choice_label_48",
+    "shenlu_escape_debt",
+    "trust_fuyao",
+    "trust_wenmian"
+  ],
+  "state_delta_mismatches": [],
+  "character_control": [
+    {
+      "character_id": "CHR_fuyao",
+      "name": "符遥",
+      "card": true,
+      "state": true,
+      "memory_log": true,
+      "retrieval_blocks": 3,
+      "dialogue_rows": 13,
+      "voice_targets": [
+        "CHR_fuyao"
+      ],
+      "has_sentence_kernel": true,
+      "has_line_energy": true,
+      "has_social_texture": true
+    },
+    {
+      "character_id": "CHR_shenlu",
+      "name": "沈律",
+      "card": true,
+      "state": true,
+      "memory_log": true,
+      "retrieval_blocks": 3,
+      "dialogue_rows": 10,
+      "voice_targets": [
+        "CHR_shenlu"
+      ],
+      "has_sentence_kernel": true,
+      "has_line_energy": true,
+      "has_social_texture": true
+    },
+    {
+      "character_id": "CHR_wenmian",
+      "name": "温眠",
+      "card": true,
+      "state": true,
+      "memory_log": true,
+      "retrieval_blocks": 3,
+      "dialogue_rows": 9,
+      "voice_targets": [
+        "CHR_wenmian"
+      ],
+      "has_sentence_kernel": true,
+      "has_line_energy": true,
+      "has_social_texture": true
+    }
+  ],
+  "issues": [],
+  "source_lessons": [
+    "Yarn Spinner: analyse dialogue as nodes, blocks, destinations, and options.",
+    "ink: parse authored flow, then resolve references into runtime containers.",
+    "Ren'Py: lint jump/menu/label and expression boundaries before trusting script output.",
+    "TwineJS: keep passage ids, tags, and story metadata searchable.",
+    "Character memory systems: separate stable cards, runtime state, and retrievable episodic blocks."
+  ]
+}

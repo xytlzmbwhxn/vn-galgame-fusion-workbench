@@ -1,0 +1,88 @@
+# VN Workbench QA Report
+
+## Stats
+- rows: 95
+- dialogue: 49
+- narration: 31
+- thought: 9
+- choice: 3
+- command: 3
+- comment: 0
+- errors: 0
+- warnings: 35
+- dialogue_blocks: 18
+- narration_blocks: 16
+- thought_blocks: 6
+- max_dialogue_block: 9
+- max_narration_block: 4
+- max_thought_block: 3
+- lonely_narration_bridges: 7
+- dialogue_energy_marks: 5
+- dialogue_energy_pct: 10
+- dialogue_question_lines: 0
+- dialogue_exclaim_lines: 0
+- dialogue_pause_or_cut_lines: 5
+- dialogue_casual_particle_lines: 0
+- dialogue_casual_particle_pct: 0
+- dialogue_full_stop_pct: 98
+- dialogue_unmarked_endings: 0
+- dialogue_short_fragments: 33
+- dialogue_short_fragment_pct: 67
+- dialogue_low_payload_lines: 0
+- dialogue_low_payload_pct: 0
+- dialogue_payload_avg_x10: 31
+- branch_labels: 0
+- choice_targets: 3
+- jump_targets: 0
+- unresolved_branch_targets: 3
+- stage_cue_rows: 52
+- stage_cue_pct: 58
+- dialogue_wrapped_quotes: 0
+- dialogue_double_quotes: 0
+- ellipsis_only_boxes: 0
+- first_person_narration_lines: 0
+- comma_fragment_lines: 0
+- multi_sentence_boxes: 4
+- textbox_overflow_risk: 2
+- character_state_files: 2
+- thought_rows: 9
+- thought_to_dialogue_pct: 18
+- scene_contract_fields: 5
+- novel_architecture_files: 0
+
+## Issues
+- [WARNING] S001_072: textbox line may be long: 62 chars
+- [WARNING] scene: many single narration beats sit between dialogue lines; consider continuous dialogue blocks for immersion
+- [WARNING] dialogue: dialogue has low line energy; add character-specific questions, cutoffs, pauses, or mask-breaking punctuation
+- [WARNING] dialogue: dialogue has little casual speech texture; add character-specific particles, nicknames, corrections, or playful pressure where appropriate
+- [WARNING] dialogue: too many dialogue lines end the same way; vary punctuation by pressure and speaker voice
+- [WARNING] dialogue: too many low-information short textboxes; combine action, response, or implication into fuller playable beats
+- [WARNING] CHR_tangxu: speaker has one-note line endings; update voice card or rewrite the block for actable variation
+- [WARNING] CHR_linzhishi: speaker has one-note line endings; update voice card or rewrite the block for actable variation
+- [WARNING] S001_055: branch target 'S001_branch_own_voice' has no matching label command
+- [WARNING] S001_056: branch target 'S001_branch_leave_unsaid' has no matching label command
+- [WARNING] S001_057: branch target 'S001_branch_borrowed_voice' has no matching label command
+- [WARNING] S001_042: thought textbox contains too many sentence beats; split only where hesitation, clue reading, or choice pressure changes
+- [WARNING] S001_059: dialogue textbox contains too many sentence beats; split only where the click changes leverage
+- [WARNING] S001_072: dialogue textbox contains too many sentence beats; split only where the click changes leverage
+- [WARNING] S001_077: dialogue textbox contains too many sentence beats; split only where the click changes leverage
+- [WARNING] CHR_linzhishi: character_state lacks 'current_axes'
+- [WARNING] CHR_linzhishi: character_state lacks 'active_wants'
+- [WARNING] CHR_linzhishi: character_state lacks 'voice_lock'
+- [WARNING] CHR_linzhishi: character_state lacks 'state_history'
+- [WARNING] CHR_tangxu: character_state lacks 'current_axes'
+- [WARNING] CHR_tangxu: character_state lacks 'active_wants'
+- [WARNING] CHR_tangxu: character_state lacks 'voice_lock'
+- [WARNING] CHR_tangxu: character_state lacks 'state_history'
+- [WARNING] S001_004: thought row lacks concrete pressure; tie it to object, body, clue, risk, or unsaid word
+- [WARNING] S001_005: thought row lacks concrete pressure; tie it to object, body, clue, risk, or unsaid word
+- [WARNING] S001_006: thought row is too thin; inner monologue needs a clue, hesitation, contradiction, or choice pressure
+- [WARNING] S001_006: thought row lacks concrete pressure; tie it to object, body, clue, risk, or unsaid word
+- [WARNING] S001_020: thought row lacks concrete pressure; tie it to object, body, clue, risk, or unsaid word
+- [WARNING] S001_021: thought row lacks concrete pressure; tie it to object, body, clue, risk, or unsaid word
+- [WARNING] S001_029: thought row lacks concrete pressure; tie it to object, body, clue, risk, or unsaid word
+- [WARNING] S001_037: thought row lacks concrete pressure; tie it to object, body, clue, risk, or unsaid word
+- [WARNING] S001_042: thought row lacks concrete pressure; tie it to object, body, clue, risk, or unsaid word
+- [WARNING] S001_053: thought row lacks concrete pressure; tie it to object, body, clue, risk, or unsaid word
+- [WARNING] S001: scene card lacks complete-work fields: scene_answer
+- [WARNING] S001: missing novel architecture files; add chapter plan, narrative threads, character arcs, and foreshadow ledger

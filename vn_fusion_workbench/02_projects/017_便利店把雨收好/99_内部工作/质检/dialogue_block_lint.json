@@ -1,0 +1,394 @@
+{
+  "path": "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\017_便利店把雨收好\\02_generated_content\\可读剧本\\便利店把雨收好_短篇测试.md",
+  "dialogue_blocks": 77,
+  "long_blocks_checked": 32,
+  "warnings": [
+    {
+      "type": "long_pingpong_no_same_speaker_run",
+      "block_index": 4,
+      "start_line": 67,
+      "end_line": 85,
+      "dialogue_rows": 7,
+      "speakers": [
+        "林檐",
+        "江迟"
+      ],
+      "message": "Risk: long dialogue block has no same-speaker run. This may be valid for comic spar, argument, interrogation, confession, group chaos, or route-lock negotiation, but the draft must declare its long dialogue function and pressure escalation."
+    },
+    {
+      "type": "long_pingpong_no_same_speaker_run",
+      "block_index": 6,
+      "start_line": 111,
+      "end_line": 138,
+      "dialogue_rows": 10,
+      "speakers": [
+        "林檐",
+        "江迟"
+      ],
+      "message": "Risk: long dialogue block has no same-speaker run. This may be valid for comic spar, argument, interrogation, confession, group chaos, or route-lock negotiation, but the draft must declare its long dialogue function and pressure escalation."
+    },
+    {
+      "type": "long_pingpong_no_same_speaker_run",
+      "block_index": 7,
+      "start_line": 145,
+      "end_line": 166,
+      "dialogue_rows": 8,
+      "speakers": [
+        "林檐",
+        "江迟"
+      ],
+      "message": "Risk: long dialogue block has no same-speaker run. This may be valid for comic spar, argument, interrogation, confession, group chaos, or route-lock negotiation, but the draft must declare its long dialogue function and pressure escalation."
+    },
+    {
+      "type": "long_pingpong_no_same_speaker_run",
+      "block_index": 8,
+      "start_line": 179,
+      "end_line": 194,
+      "dialogue_rows": 6,
+      "speakers": [
+        "林檐",
+        "江迟"
+      ],
+      "message": "Risk: long dialogue block has no same-speaker run. This may be valid for comic spar, argument, interrogation, confession, group chaos, or route-lock negotiation, but the draft must declare its long dialogue function and pressure escalation."
+    },
+    {
+      "type": "long_pingpong_no_same_speaker_run",
+      "block_index": 11,
+      "start_line": 219,
+      "end_line": 237,
+      "dialogue_rows": 7,
+      "speakers": [
+        "林檐",
+        "江迟",
+        "选项A"
+      ],
+      "message": "Risk: long dialogue block has no same-speaker run. This may be valid for comic spar, argument, interrogation, confession, group chaos, or route-lock negotiation, but the draft must declare its long dialogue function and pressure escalation."
+    },
+    {
+      "type": "long_pingpong_no_same_speaker_run",
+      "block_index": 14,
+      "start_line": 269,
+      "end_line": 287,
+      "dialogue_rows": 7,
+      "speakers": [
+        "林檐",
+        "江迟"
+      ],
+      "message": "Risk: long dialogue block has no same-speaker run. This may be valid for comic spar, argument, interrogation, confession, group chaos, or route-lock negotiation, but the draft must declare its long dialogue function and pressure escalation."
+    },
+    {
+      "type": "long_pingpong_no_same_speaker_run",
+      "block_index": 15,
+      "start_line": 302,
+      "end_line": 329,
+      "dialogue_rows": 10,
+      "speakers": [
+        "林檐",
+        "江迟"
+      ],
+      "message": "Risk: long dialogue block has no same-speaker run. This may be valid for comic spar, argument, interrogation, confession, group chaos, or route-lock negotiation, but the draft must declare its long dialogue function and pressure escalation."
+    },
+    {
+      "type": "long_pingpong_no_same_speaker_run",
+      "block_index": 17,
+      "start_line": 355,
+      "end_line": 376,
+      "dialogue_rows": 8,
+      "speakers": [
+        "林檐",
+        "江迟"
+      ],
+      "message": "Risk: long dialogue block has no same-speaker run. This may be valid for comic spar, argument, interrogation, confession, group chaos, or route-lock negotiation, but the draft must declare its long dialogue function and pressure escalation."
+    },
+    {
+      "type": "long_pingpong_no_same_speaker_run",
+      "block_index": 18,
+      "start_line": 395,
+      "end_line": 413,
+      "dialogue_rows": 7,
+      "speakers": [
+        "何姨/短信",
+        "林檐",
+        "江迟"
+      ],
+      "message": "Risk: long dialogue block has no same-speaker run. This may be valid for comic spar, argument, interrogation, confession, group chaos, or route-lock negotiation, but the draft must declare its long dialogue function and pressure escalation."
+    },
+    {
+      "type": "long_pingpong_no_same_speaker_run",
+      "block_index": 19,
+      "start_line": 420,
+      "end_line": 444,
+      "dialogue_rows": 9,
+      "speakers": [
+        "林檐",
+        "江迟"
+      ],
+      "message": "Risk: long dialogue block has no same-speaker run. This may be valid for comic spar, argument, interrogation, confession, group chaos, or route-lock negotiation, but the draft must declare its long dialogue function and pressure escalation."
+    },
+    {
+      "type": "long_pingpong_no_same_speaker_run",
+      "block_index": 20,
+      "start_line": 460,
+      "end_line": 481,
+      "dialogue_rows": 8,
+      "speakers": [
+        "林檐",
+        "江迟"
+      ],
+      "message": "Risk: long dialogue block has no same-speaker run. This may be valid for comic spar, argument, interrogation, confession, group chaos, or route-lock negotiation, but the draft must declare its long dialogue function and pressure escalation."
+    },
+    {
+      "type": "long_pingpong_no_same_speaker_run",
+      "block_index": 22,
+      "start_line": 511,
+      "end_line": 529,
+      "dialogue_rows": 7,
+      "speakers": [
+        "林檐",
+        "江迟"
+      ],
+      "message": "Risk: long dialogue block has no same-speaker run. This may be valid for comic spar, argument, interrogation, confession, group chaos, or route-lock negotiation, but the draft must declare its long dialogue function and pressure escalation."
+    },
+    {
+      "type": "long_pingpong_no_same_speaker_run",
+      "block_index": 25,
+      "start_line": 575,
+      "end_line": 599,
+      "dialogue_rows": 9,
+      "speakers": [
+        "林檐",
+        "江迟"
+      ],
+      "message": "Risk: long dialogue block has no same-speaker run. This may be valid for comic spar, argument, interrogation, confession, group chaos, or route-lock negotiation, but the draft must declare its long dialogue function and pressure escalation."
+    },
+    {
+      "type": "long_pingpong_no_same_speaker_run",
+      "block_index": 26,
+      "start_line": 609,
+      "end_line": 633,
+      "dialogue_rows": 9,
+      "speakers": [
+        "林檐",
+        "江迟"
+      ],
+      "message": "Risk: long dialogue block has no same-speaker run. This may be valid for comic spar, argument, interrogation, confession, group chaos, or route-lock negotiation, but the draft must declare its long dialogue function and pressure escalation."
+    },
+    {
+      "type": "long_pingpong_no_same_speaker_run",
+      "block_index": 31,
+      "start_line": 717,
+      "end_line": 732,
+      "dialogue_rows": 6,
+      "speakers": [
+        "林檐",
+        "江迟"
+      ],
+      "message": "Risk: long dialogue block has no same-speaker run. This may be valid for comic spar, argument, interrogation, confession, group chaos, or route-lock negotiation, but the draft must declare its long dialogue function and pressure escalation."
+    },
+    {
+      "type": "long_pingpong_no_same_speaker_run",
+      "block_index": 35,
+      "start_line": 767,
+      "end_line": 797,
+      "dialogue_rows": 11,
+      "speakers": [
+        "林檐",
+        "江迟"
+      ],
+      "message": "Risk: long dialogue block has no same-speaker run. This may be valid for comic spar, argument, interrogation, confession, group chaos, or route-lock negotiation, but the draft must declare its long dialogue function and pressure escalation."
+    },
+    {
+      "type": "long_pingpong_no_same_speaker_run",
+      "block_index": 37,
+      "start_line": 813,
+      "end_line": 840,
+      "dialogue_rows": 10,
+      "speakers": [
+        "林檐",
+        "江迟"
+      ],
+      "message": "Risk: long dialogue block has no same-speaker run. This may be valid for comic spar, argument, interrogation, confession, group chaos, or route-lock negotiation, but the draft must declare its long dialogue function and pressure escalation."
+    },
+    {
+      "type": "long_pingpong_no_same_speaker_run",
+      "block_index": 41,
+      "start_line": 925,
+      "end_line": 940,
+      "dialogue_rows": 6,
+      "speakers": [
+        "林檐",
+        "江迟"
+      ],
+      "message": "Risk: long dialogue block has no same-speaker run. This may be valid for comic spar, argument, interrogation, confession, group chaos, or route-lock negotiation, but the draft must declare its long dialogue function and pressure escalation."
+    },
+    {
+      "type": "long_pingpong_no_same_speaker_run",
+      "block_index": 43,
+      "start_line": 959,
+      "end_line": 983,
+      "dialogue_rows": 9,
+      "speakers": [
+        "林檐",
+        "江迟"
+      ],
+      "message": "Risk: long dialogue block has no same-speaker run. This may be valid for comic spar, argument, interrogation, confession, group chaos, or route-lock negotiation, but the draft must declare its long dialogue function and pressure escalation."
+    },
+    {
+      "type": "long_pingpong_no_same_speaker_run",
+      "block_index": 46,
+      "start_line": 1025,
+      "end_line": 1049,
+      "dialogue_rows": 9,
+      "speakers": [
+        "林檐",
+        "江迟"
+      ],
+      "message": "Risk: long dialogue block has no same-speaker run. This may be valid for comic spar, argument, interrogation, confession, group chaos, or route-lock negotiation, but the draft must declare its long dialogue function and pressure escalation."
+    },
+    {
+      "type": "long_pingpong_no_same_speaker_run",
+      "block_index": 47,
+      "start_line": 1055,
+      "end_line": 1070,
+      "dialogue_rows": 6,
+      "speakers": [
+        "林檐",
+        "江迟"
+      ],
+      "message": "Risk: long dialogue block has no same-speaker run. This may be valid for comic spar, argument, interrogation, confession, group chaos, or route-lock negotiation, but the draft must declare its long dialogue function and pressure escalation."
+    },
+    {
+      "type": "long_pingpong_no_same_speaker_run",
+      "block_index": 48,
+      "start_line": 1077,
+      "end_line": 1101,
+      "dialogue_rows": 9,
+      "speakers": [
+        "林檐",
+        "江迟"
+      ],
+      "message": "Risk: long dialogue block has no same-speaker run. This may be valid for comic spar, argument, interrogation, confession, group chaos, or route-lock negotiation, but the draft must declare its long dialogue function and pressure escalation."
+    },
+    {
+      "type": "long_pingpong_no_same_speaker_run",
+      "block_index": 49,
+      "start_line": 1115,
+      "end_line": 1136,
+      "dialogue_rows": 8,
+      "speakers": [
+        "林檐",
+        "江迟"
+      ],
+      "message": "Risk: long dialogue block has no same-speaker run. This may be valid for comic spar, argument, interrogation, confession, group chaos, or route-lock negotiation, but the draft must declare its long dialogue function and pressure escalation."
+    },
+    {
+      "type": "long_pingpong_no_same_speaker_run",
+      "block_index": 60,
+      "start_line": 1368,
+      "end_line": 1383,
+      "dialogue_rows": 6,
+      "speakers": [
+        "林檐",
+        "江迟"
+      ],
+      "message": "Risk: long dialogue block has no same-speaker run. This may be valid for comic spar, argument, interrogation, confession, group chaos, or route-lock negotiation, but the draft must declare its long dialogue function and pressure escalation."
+    },
+    {
+      "type": "long_pingpong_no_same_speaker_run",
+      "block_index": 61,
+      "start_line": 1403,
+      "end_line": 1427,
+      "dialogue_rows": 9,
+      "speakers": [
+        "林檐",
+        "江迟"
+      ],
+      "message": "Risk: long dialogue block has no same-speaker run. This may be valid for comic spar, argument, interrogation, confession, group chaos, or route-lock negotiation, but the draft must declare its long dialogue function and pressure escalation."
+    },
+    {
+      "type": "long_pingpong_no_same_speaker_run",
+      "block_index": 62,
+      "start_line": 1444,
+      "end_line": 1474,
+      "dialogue_rows": 11,
+      "speakers": [
+        "林檐",
+        "江迟"
+      ],
+      "message": "Risk: long dialogue block has no same-speaker run. This may be valid for comic spar, argument, interrogation, confession, group chaos, or route-lock negotiation, but the draft must declare its long dialogue function and pressure escalation."
+    },
+    {
+      "type": "long_pingpong_no_same_speaker_run",
+      "block_index": 64,
+      "start_line": 1499,
+      "end_line": 1514,
+      "dialogue_rows": 6,
+      "speakers": [
+        "林檐",
+        "江迟"
+      ],
+      "message": "Risk: long dialogue block has no same-speaker run. This may be valid for comic spar, argument, interrogation, confession, group chaos, or route-lock negotiation, but the draft must declare its long dialogue function and pressure escalation."
+    },
+    {
+      "type": "long_pingpong_no_same_speaker_run",
+      "block_index": 68,
+      "start_line": 1567,
+      "end_line": 1591,
+      "dialogue_rows": 9,
+      "speakers": [
+        "林檐",
+        "江迟"
+      ],
+      "message": "Risk: long dialogue block has no same-speaker run. This may be valid for comic spar, argument, interrogation, confession, group chaos, or route-lock negotiation, but the draft must declare its long dialogue function and pressure escalation."
+    },
+    {
+      "type": "long_pingpong_no_same_speaker_run",
+      "block_index": 70,
+      "start_line": 1622,
+      "end_line": 1640,
+      "dialogue_rows": 7,
+      "speakers": [
+        "林檐",
+        "江迟"
+      ],
+      "message": "Risk: long dialogue block has no same-speaker run. This may be valid for comic spar, argument, interrogation, confession, group chaos, or route-lock negotiation, but the draft must declare its long dialogue function and pressure escalation."
+    },
+    {
+      "type": "long_pingpong_no_same_speaker_run",
+      "block_index": 73,
+      "start_line": 1689,
+      "end_line": 1707,
+      "dialogue_rows": 7,
+      "speakers": [
+        "林檐",
+        "江迟"
+      ],
+      "message": "Risk: long dialogue block has no same-speaker run. This may be valid for comic spar, argument, interrogation, confession, group chaos, or route-lock negotiation, but the draft must declare its long dialogue function and pressure escalation."
+    },
+    {
+      "type": "long_pingpong_no_same_speaker_run",
+      "block_index": 76,
+      "start_line": 1743,
+      "end_line": 1770,
+      "dialogue_rows": 10,
+      "speakers": [
+        "林檐",
+        "江迟"
+      ],
+      "message": "Risk: long dialogue block has no same-speaker run. This may be valid for comic spar, argument, interrogation, confession, group chaos, or route-lock negotiation, but the draft must declare its long dialogue function and pressure escalation."
+    },
+    {
+      "type": "long_pingpong_no_same_speaker_run",
+      "block_index": 77,
+      "start_line": 1776,
+      "end_line": 1794,
+      "dialogue_rows": 7,
+      "speakers": [
+        "林檐",
+        "江迟"
+      ],
+      "message": "Risk: long dialogue block has no same-speaker run. This may be valid for comic spar, argument, interrogation, confession, group chaos, or route-lock negotiation, but the draft must declare its long dialogue function and pressure escalation."
+    }
+  ],
+  "warning_count": 32
+}

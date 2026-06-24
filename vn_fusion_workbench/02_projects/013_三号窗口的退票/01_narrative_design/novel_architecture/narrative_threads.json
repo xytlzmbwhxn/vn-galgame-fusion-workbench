@@ -1,0 +1,25 @@
+{
+  "threads": [
+    {
+      "id": "THR_refund_trace",
+      "title": "拒退记录",
+      "question": "被拒绝的手续能不能成为继续追查的入口？",
+      "first_scene": "S001",
+      "payoff": "窗口日志提供孟舟最后被系统触碰的时间。"
+    },
+    {
+      "id": "THR_red_stamp",
+      "title": "今天的红章",
+      "question": "三个月前的旧票为什么有今天的印泥？",
+      "first_scene": "S001",
+      "payoff": "红章来源指向章盒被外借。"
+    },
+    {
+      "id": "THR_north_gate",
+      "title": "北门盲区",
+      "question": "孟舟最后从哪一道门消失？",
+      "first_scene": "S001",
+      "payoff": "北门巡更表与票角缺口对应。"
+    }
+  ]
+}

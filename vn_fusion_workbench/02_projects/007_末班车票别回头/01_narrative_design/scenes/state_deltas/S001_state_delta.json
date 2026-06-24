@@ -1,0 +1,93 @@
+{
+  "scene_id": "S001",
+  "character_state_changes": [
+    {
+      "character_id": "CHR_linyu",
+      "changes": ["curiosity +1", "fear +1", "admits_private_memory_seed"],
+      "condition": "always"
+    },
+    {
+      "character_id": "CHR_qiaomeng",
+      "changes": ["trust may increase", "shame visible through ticket history"],
+      "condition": "choice dependent"
+    },
+    {
+      "character_id": "CHR_duanbo",
+      "changes": ["warning rises", "key foreshadow seeded"],
+      "condition": "after branch merge"
+    }
+  ],
+  "relationship_changes": [
+    {
+      "from": "CHR_linyu",
+      "to": "CHR_qiaomeng",
+      "change": "从异常乘客变成需要认真听完的人。"
+    },
+    {
+      "from": "CHR_duanbo",
+      "to": "CHR_linyu",
+      "change": "警告增加，但保护姿态也显露。"
+    }
+  ],
+  "item_changes": [
+    {
+      "item_id": "OBJ_wet_ticket",
+      "change": "根据选择被盖章、保留票根或由乔萌按铃确认。"
+    },
+    {
+      "item_id": "OBJ_old_manual",
+      "change": "林屿注意到抽屉底旧手册。"
+    }
+  ],
+  "secret_changes": [
+    {
+      "id": "SEC_linyu_remembers_station",
+      "change": "玩家知道林屿对临站不是陌生。"
+    },
+    {
+      "id": "SEC_duanbo_knows_more",
+      "change": "段伯反应说明旧12路有隐情。"
+    }
+  ],
+  "route_flags": [
+    {
+      "name": "old_station_mark",
+      "values": ["stamp", "stub", "bell"],
+      "source": "choice_group TICKET_HANDLE"
+    }
+  ],
+  "promises": [
+    {
+      "from": "CHR_linyu",
+      "to": "CHR_qiaomeng",
+      "promise": "我只看一次，不没收。",
+      "condition": "pre_choice"
+    }
+  ],
+  "foreshadow_payoff": [
+    {
+      "id": "FS_old_manual",
+      "status": "seeded"
+    },
+    {
+      "id": "FS_duanbo_key",
+      "status": "seeded"
+    }
+  ],
+  "deadline_changes": [
+    {
+      "deadline": "末班车发车",
+      "time_remaining": "十七分钟到七分钟"
+    }
+  ],
+  "memory_entries_to_write": [
+    {
+      "target": "CHR_linyu",
+      "entry": "乔萌的旧票迫使他承认自己记得临站。"
+    },
+    {
+      "target": "CHR_qiaomeng",
+      "entry": "她发现林屿没有立刻把票判死。"
+    }
+  ]
+}

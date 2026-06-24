@@ -1,0 +1,25 @@
+{
+  "character_id": "CHR_xxx",
+  "updated_after_scene": "S000",
+  "current_axes": {
+    "trust": 0,
+    "anger": 0,
+    "fear": 0,
+    "curiosity": 0,
+    "fatigue": 0,
+    "shame": 0
+  },
+  "active_wants": [],
+  "active_fears": [],
+  "unspoken_truths": [],
+  "voice_lock": {
+    "sentence_shapes": [],
+    "dodge_moves": [],
+    "allowed_words": [],
+    "forbidden_drift": [],
+    "sample_lines": []
+  },
+  "relationship_pressure": {},
+  "promises_and_debts": [],
+  "state_history": []
+}

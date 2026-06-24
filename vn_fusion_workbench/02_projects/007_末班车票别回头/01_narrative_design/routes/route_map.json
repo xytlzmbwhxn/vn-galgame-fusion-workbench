@@ -1,0 +1,50 @@
+{
+  "project_id": "last_bus_ticket_demo",
+  "common_route": ["S001"],
+  "routes": [
+    {
+      "id": "ROUTE_stamp",
+      "dramatic_question": "如果系统没有那一站，玩家能不能用一枚异常章给它留位置？",
+      "unlock_rule": "S001选择按旧路线盖章或保留异常备注后进入。",
+      "key_scenes": ["S001"],
+      "bad_ends": ["临站仍被当作无效票处理，乔萌带票离开。"],
+      "ending_logic": "旧站名以异常章保留，后续引出档案柜旧站牌。"
+    },
+    {
+      "id": "ROUTE_stub",
+      "dramatic_question": "如果无法承认整张票，留下票根算不算一种见证？",
+      "unlock_rule": "S001选择撕票根存档后进入。",
+      "key_scenes": ["S001"],
+      "bad_ends": ["票面通过，人的来路消失。"],
+      "ending_logic": "票根进入失物夹，后续成为旧事故记录的钥匙。"
+    },
+    {
+      "id": "ROUTE_bell",
+      "dramatic_question": "承认旧站的人，能不能亲手按响确认铃？",
+      "unlock_rule": "S001选择让乔萌按确认铃后进入。",
+      "key_scenes": ["S001"],
+      "bad_ends": ["林屿替她决定，关系停在窗口两侧。"],
+      "ending_logic": "乔萌获得行动权，林屿的回避被迫转为陪同。"
+    }
+  ],
+  "variables": [
+    {
+      "name": "old_station_mark",
+      "type": "enum:none/stamp/stub/bell",
+      "visible": false,
+      "purpose": "记录临站以何种方式被承认。"
+    },
+    {
+      "name": "trust_qiaomeng",
+      "type": "int",
+      "visible": false,
+      "purpose": "衡量乔萌是否相信林屿愿意听她说完。"
+    },
+    {
+      "name": "duanbo_warning",
+      "type": "int",
+      "visible": false,
+      "purpose": "衡量段伯对旧12路被翻出的警惕程度。"
+    }
+  ]
+}

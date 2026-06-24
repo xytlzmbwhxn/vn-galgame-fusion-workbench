@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "VN Character Runtime State",
+  "type": "object",
+  "required": ["character_id", "updated_after_scene", "current_axes", "active_wants", "voice_lock", "state_history"],
+  "properties": {
+    "character_id": { "type": "string" },
+    "updated_after_scene": { "type": "string" },
+    "current_axes": {
+      "type": "object",
+      "properties": {
+        "trust": { "type": "integer", "minimum": 0, "maximum": 5 },
+        "anger": { "type": "integer", "minimum": 0, "maximum": 5 },
+        "fear": { "type": "integer", "minimum": 0, "maximum": 5 },
+        "curiosity": { "type": "integer", "minimum": 0, "maximum": 5 },
+        "fatigue": { "type": "integer", "minimum": 0, "maximum": 5 },
+        "shame": { "type": "integer", "minimum": 0, "maximum": 5 }
+      }
+    },
+    "active_wants": { "type": "array", "items": { "type": "string" } },
+    "active_fears": { "type": "array", "items": { "type": "string" } },
+    "unspoken_truths": { "type": "array", "items": { "type": "string" } },
+    "voice_lock": {
+      "type": "object",
+      "required": ["sentence_shapes", "dodge_moves", "allowed_words", "forbidden_drift"],
+      "properties": {
+        "sentence_shapes": { "type": "array", "items": { "type": "string" } },
+        "dodge_moves": { "type": "array", "items": { "type": "string" } },
+        "allowed_words": { "type": "array", "items": { "type": "string" } },
+        "forbidden_drift": { "type": "array", "items": { "type": "string" } },
+        "sample_lines": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "relationship_pressure": { "type": "object" },
+    "promises_and_debts": { "type": "array", "items": { "type": "object" } },
+    "state_history": { "type": "array", "items": { "type": "object" } }
+  }
+}

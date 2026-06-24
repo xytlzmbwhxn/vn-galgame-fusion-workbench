@@ -1,0 +1,18 @@
+{
+  "char_id": "CHR_tangxu",
+  "scene_id": "S001",
+  "emotional_state": {
+    "trust": 2,
+    "anger": 1,
+    "fear": 3,
+    "curiosity": 2,
+    "fatigue": 4,
+    "shame": 4
+  },
+  "current_target": "拿回许声远留下的最后一页谱。不让林知时知道那是谁留的",
+  "hiding_info": "她回来不是为了空乐谱夹。是为了谱架最下面那张谱。但她还没看见他已经翻到了",
+  "relation_chips": {
+    "CHR_linzhishi": "她记得他在毕业演出当听众的位置——第三排右边。她不知道他有没有注意到她唱破了"
+  },
+  "hand_object": "空乐谱夹。没放任何谱子。带过来是为了可以装着'只是来拿忘了的东西'"
+}

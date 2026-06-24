@@ -1,0 +1,62 @@
+{
+  "scene_id": "S001",
+  "scene_title": "搬走之前",
+  "route_map_id": "summer_echo_main",
+  "branch_type": "branch-and-bottleneck",
+  "branch_points": [
+    {
+      "choice_group": "S001_choice_who_played_for",
+      "trigger_row": "S001_body_question_who_played_for",
+      "options": [
+        {
+          "target": "S001_branch_own_voice",
+          "state_effects": {
+            "truth_admitted": "self",
+            "trust_tangxu": 3,
+            "shame_tangxu": 4
+          }
+        },
+        {
+          "target": "S001_branch_leave_unsaid",
+          "state_effects": {
+            "truth_admitted": "music",
+            "trust_tangxu": 2,
+            "curiosity_tangxu": 4
+          }
+        },
+        {
+          "target": "S001_branch_borrowed_voice",
+          "state_effects": {
+            "truth_admitted": "xushengyuan",
+            "trust_tangxu": 3,
+            "shame_linzhishi": 2
+          }
+        }
+      ]
+    }
+  ],
+  "endings": [
+    {
+      "end_id": "E001_own",
+      "label": "自己",
+      "condition": "branch_own_voice"
+    },
+    {
+      "end_id": "E001_music",
+      "label": "琴声",
+      "condition": "branch_leave_unsaid"
+    },
+    {
+      "end_id": "E001_echo",
+      "label": "回声",
+      "condition": "branch_borrowed_voice"
+    }
+  ],
+  "variables": [
+    "trust_tangxu",
+    "shame_linzhishi",
+    "shame_tangxu",
+    "curiosity_tangxu",
+    "truth_admitted"
+  ]
+}

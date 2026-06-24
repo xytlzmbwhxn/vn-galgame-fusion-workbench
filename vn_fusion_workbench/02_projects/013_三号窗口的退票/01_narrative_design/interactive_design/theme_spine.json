@@ -1,0 +1,24 @@
+{
+  "project": "ticket_window_demo",
+  "title": "三号窗口的退票",
+  "thesis_question": "当制度只认窗口记录，人能不能把一枚冷章写成继续追问的入口？",
+  "repeated_player_behavior": "检查票据、决定盖章或留存、填写备注。",
+  "concrete_object": "三个月前旧票的票角和退票失败章。",
+  "cost_model": {
+    "help_cost": "station_risk 上升，林桥名字进入异常日志。",
+    "safety_cost": "trust_meng 下降，孟雨可用线索减少。"
+  },
+  "route_arguments": [
+    {
+      "id": "argument_stamp",
+      "claim": "官方失败记录能让被拒绝的人继续发问。",
+      "risk": "原件被污染，且窗口签名可追责。"
+    },
+    {
+      "id": "argument_corner",
+      "claim": "保住物证能让真相少被手续磨损。",
+      "risk": "没有官方处理记录时，证据容易被说成私藏。"
+    }
+  ],
+  "final_payoff": "林桥把拒退记录和票角备注拆开处理，让孟雨带走一个入口，也让自己留下一笔签名。"
+}

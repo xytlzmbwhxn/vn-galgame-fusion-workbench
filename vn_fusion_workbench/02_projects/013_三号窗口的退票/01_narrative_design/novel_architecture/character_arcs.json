@@ -1,0 +1,25 @@
+{
+  "arcs": [
+    {
+      "id": "ARC_linqiao_rule_to_signature",
+      "character": "CHR_linqiao",
+      "start": "把规则当挡板",
+      "turn": "发现规则可以写出一个可追问的备注",
+      "end": "愿意让自己的名字承担一笔异常"
+    },
+    {
+      "id": "ARC_mengyu_joke_to_name",
+      "character": "CHR_mengyu",
+      "start": "用玩笑和撒娇护住旧票",
+      "turn": "确认林桥没有直接收票后交出哥哥姓名",
+      "end": "把真名和票角托给窗口"
+    },
+    {
+      "id": "ARC_zhaobo_deny_to_leak",
+      "character": "CHR_zhaobo",
+      "start": "催促关窗，否认北门异常",
+      "turn": "听见票号后漏出不能进废纸篓的提醒",
+      "end": "默认林桥留下一条待核备注"
+    }
+  ]
+}

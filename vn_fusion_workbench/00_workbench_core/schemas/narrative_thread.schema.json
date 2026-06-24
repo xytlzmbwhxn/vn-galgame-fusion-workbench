@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "VN Fusion Narrative Threads",
+  "type": "object",
+  "required": ["threads"],
+  "properties": {
+    "threads": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "question", "pressure", "scene_roles"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^THR_[A-Za-z0-9_]+$" },
+          "name": { "type": "string" },
+          "question": { "type": "string" },
+          "pressure": { "type": "string" },
+          "scene_roles": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string",
+              "enum": ["seed", "echo", "mislead", "reveal", "payoff", "complication"]
+            }
+          },
+          "notes": { "type": "string" }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": true
+}

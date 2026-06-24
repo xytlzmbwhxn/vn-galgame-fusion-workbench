@@ -1,0 +1,18 @@
+{
+  "arcs": [
+    {
+      "id": "ARC_shen_lan_process_to_care",
+      "character": "CHR_shen_lan",
+      "start": "用设备登记挡住关心。",
+      "turn": "愿意不读纸条并封存秘密。",
+      "promise": "学会承认流程正在保护某个人。"
+    },
+    {
+      "id": "ARC_xu_you_proxy_to_direct",
+      "character": "CHR_xu_you",
+      "start": "让机器先生替自己说心事。",
+      "turn": "把午休复核约定留给沈岚。",
+      "promise": "逐渐减少代理物，靠近直接表达。"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "S001",
+  "scene_id": "S001",
+  "title": "售货机今天只收秘密",
+  "route": "common_rooftop_secret",
+  "location": "午休前的教学楼天台；栏杆、影子、故障贴、自动售货机、柚子汽水都在视野里。",
+  "time": "第一天午休前十分钟",
+  "visual_state": "自动售货机屏幕显示“请投入秘密”，退币口卡着一角浅黄色纸条。",
+  "bgm": "轻快午休，远处广播试音，楼下操场有球声。",
+  "entering_pressure": "沈岚来检查故障，许柚抱着柚子汽水冲上天台，投诉机器吞掉了她的秘密。",
+  "player_want": "在不偷看许柚秘密的前提下处理故障，同时判断纸条是否与沈岚本人有关。",
+  "choice_pressure": "选择“封存”会保护许柚但暂时错过真相；选择“询问”会接近秘密但可能让许柚后退。",
+  "usable_objects": [
+    {
+      "object_id": "OBJ_secret_vending_machine",
+      "type": "device",
+      "description": "天台自动售货机，屏幕会显示“请投入秘密”“售后处理中”“请妥善保管”。",
+      "dramatic_use": "把普通售后流程变成秘密投递规则，推动选择与回调。"
+    },
+    {
+      "object_id": "OBJ_yellow_secret_note",
+      "type": "evidence",
+      "description": "退币口卡着的浅黄色纸条，边角露出一个“沈”字。",
+      "dramatic_use": "制造沈岚受限视角下的私人压力，决定封存或追问。"
+    },
+    {
+      "object_id": "OBJ_repair_sticker",
+      "type": "procedure_tool",
+      "description": "学生会故障贴与观察中贴纸。",
+      "dramatic_use": "把关心伪装成流程，也给秘密纸条一个可见封存状态。"
+    },
+    {
+      "object_id": "OBJ_clipboard",
+      "type": "pov_anchor",
+      "description": "沈岚的设备登记夹，记录故障、封套和复核时间。",
+      "dramatic_use": "提供第一人称行动锚点，避免心理空转。"
+    },
+    {
+      "object_id": "OBJ_warm_yuzu_soda",
+      "type": "callback_object",
+      "description": "售货机吐出的温柚子汽水。",
+      "dramatic_use": "作为轻喜剧索赔物和午休结束前再次见面的约定。"
+    }
+  ],
+  "spoken_agenda": "登记售货机异常、决定秘密纸条是否退回、处理机器吐出的温柚子汽水。",
+  "private_agenda": "许柚想让沈岚猜到秘密跟他有关；沈岚想保管纸条，又不想承认自己在意。",
+  "scene_question": "沈岚会按设备流程封存纸条，还是追问退货理由接近秘密内容？",
+  "scene_answer": "他没有公开读出纸条，只把纸条封存为观察样本，并约定午休结束前复核。",
+  "chapter_goal": "用一台只收秘密的自动售货机建立玩法规则、角色遮掩方式和午休复核回调。",
+  "scene_synopsis": "沈岚检查天台售货机异常，许柚投诉机器吞掉秘密。纸条露出沈字后，沈岚选择封存或询问理由，最终把秘密作为观察样本保管。",
+  "narrative_threads": [
+    "THR_secret_as_device_case",
+    "THR_rooftop_recheck"
+  ],
+  "foreshadow_role": [
+    "FS_note_corner_shen",
+    "FS_warm_yuzu_soda",
+    "FS_observation_sticker"
+  ],
+  "prose_texture_target": "第一人称受限视角；软开场；设备流程词遮掩心动；心理行要有嗯、好吧、大概等放松拍。",
+  "pov_character": "CHR_shen_lan",
+  "professional_ritual": "设备登记、故障贴、退币测试、观察样本封存。",
+  "dramatic_turn": "纸条边角露出“沈”字，售后投诉变成指定收件人问题。",
+  "sequel_decision": "午休结束前许柚回来复核，沈岚要决定是否继续封存。",
+  "theme_pressure": "流程能保护秘密，也会暴露谁值得被保护。",
+  "dialogue_ownership_plan": {
+    "pressure_owner": "许柚",
+    "same_speaker_run_owner": "许柚用广播事故、售后投诉、柚子汽水连续占压",
+    "interruption_point": "沈岚看到纸条边角露出“沈”字",
+    "thought_hinge": "沈岚用两行心理把机器故障和自己名字联系起来",
+    "anti_ping_pong": "用设备动作、故障贴、退币口和汽水打断纯轮流对话"
+  },
+  "choices": ["CHOICE_01"],
+  "exit_image": "自动售货机贴上观察中，秘密纸条被封存在沈岚登记夹里。"
+}

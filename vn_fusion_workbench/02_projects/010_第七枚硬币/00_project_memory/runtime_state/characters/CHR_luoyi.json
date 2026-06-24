@@ -1,0 +1,52 @@
+{
+  "character_id": "CHR_luoyi",
+  "updated_after_scene": "before_S001",
+  "current_axes": {
+    "trust": 3,
+    "anger": 2,
+    "fear": 2,
+    "curiosity": 3,
+    "fatigue": 3,
+    "shame": 2
+  },
+  "active_wants": [
+    "闻舟关掉七号机",
+    "别让店里留下赔偿事故",
+    "别直接赶走夏停"
+  ],
+  "active_fears": [
+    "七号机漏水",
+    "夏家的事在店里被说开",
+    "监控拍到争执"
+  ],
+  "unspoken_truths": [
+    "她认得夏停母亲的开衫",
+    "她知道夏停今晚可能去了医院"
+  ],
+  "voice_lock": {
+    "sentence_shapes": ["赔偿数字 + 命令", "骂人 + 给办法", "生活比喻"],
+    "dodge_moves": ["说机器", "说钱", "说监控"],
+    "allowed_words": ["小闻", "赔偿", "电闸", "毛巾", "七号机", "听见没"],
+    "forbidden_drift": ["伤春悲秋", "直接揭穿夏家事"],
+    "sample_lines": [
+      "七号机漏水你还开热烘？你嫌我店里地板太完整啊！",
+      "那机器今天要是再闹，我给它贴个离婚冷静期。",
+      "人淋成那样你也别站着骂，先拿毛巾。赔钱另算。"
+    ]
+  },
+  "relationship_pressure": {
+    "CHR_wenzhou": "雇佣关系和邻里信任混在一起。",
+    "CHR_xiating": "老社区熟人，知道太多又不想先开口。"
+  },
+  "promises_and_debts": [],
+  "state_history": [
+    {
+      "scene": "before_S001",
+      "change": "从监控里看到七号机漏水，打电话催闻舟关店"
+    },
+    {
+      "scene": "style_memory",
+      "change": "默认活泼度 +1：罗姨说钱和赔偿也要有生活化笑点，骂完必须带一个实际补救动作。"
+    }
+  ]
+}

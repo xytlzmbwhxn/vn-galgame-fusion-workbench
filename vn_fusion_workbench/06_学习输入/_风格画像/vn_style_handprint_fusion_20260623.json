@@ -1,0 +1,60 @@
+{
+  "id": "vn_style_handprint_fusion_public",
+  "purpose": "Public reusable style handprint for Chinese VN/Galgame drafting without exposing private reference sources.",
+  "source_policy": "No private source names, local paths, full-text corpus, or identifiable reference lines.",
+  "style_principles": [
+    "VN prose is click-after-click relationship change, not decorative prose.",
+    "Daily life should carry low-intensity friction, debt, misunderstanding, and callback.",
+    "Cuteness comes from pressure-specific deviations, not generic cute particles.",
+    "Thought rows show private choice cost, not author commentary.",
+    "Narration serves screen state, rhythm, and misread; it does not summarize the theme.",
+    "Punctuation belongs to character voice."
+  ],
+  "sentence_moves": [
+    {
+      "name": "light_banter_to_relationship_debt",
+      "use": "A joke or complaint creates a small obligation or softer relation state."
+    },
+    {
+      "name": "misread_to_private_inference",
+      "use": "POV misreads a line, then a concrete object or gesture revises the inference."
+    },
+    {
+      "name": "consecutive_questions_pressure",
+      "use": "Two to four compact questions narrow the escape route without author explanation."
+    },
+    {
+      "name": "procedure_as_affection",
+      "use": "Registration, refund, inspection, repair, or confirmation hides tenderness."
+    },
+    {
+      "name": "silence_without_explaining",
+      "use": "Silence is followed by object/action/task, not translated into theme."
+    },
+    {
+      "name": "sentence_tail_leak",
+      "use": "The speaker tries to keep a mask, but the ending softens, breaks, or changes course."
+    }
+  ],
+  "dialogue_ownership": {
+    "rule": "Do not default to A/B/A/B. Assign temporary pressure ownership.",
+    "same_speaker_run": "Allowed when each click changes tactic, information, cost, object state, or relationship pressure.",
+    "thought_hinge": "Thought usually enters after a dialogue block as inference or choice cost."
+  },
+  "private_thought": {
+    "valid_jobs": [
+      "private inference",
+      "unsafe wish",
+      "misread correction",
+      "choice cost",
+      "old debt callback",
+      "relation pressure"
+    ],
+    "avoid": [
+      "camera-visible action",
+      "theme explanation",
+      "repeating dialogue",
+      "essay-like inner monologue"
+    ]
+  }
+}

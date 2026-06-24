@@ -1,0 +1,87 @@
+{
+  "scene_id": "S001",
+  "title": "三号窗口的退票",
+  "route": "common_route",
+  "location": "城际车站三号退改签窗口",
+  "time": "23:58 交章前两分钟",
+  "entering_pressure": "林桥正在锁章盒，孟雨带着一张三个月前的旧票敲开三号窗口。",
+  "player_want": "准点交章，避免异常票据进入自己的窗口日志。",
+  "npc_wants": {
+    "CHR_mengyu": "让旧票留下今天被窗口处理过的官方痕迹，同时保住票角。",
+    "CHR_zhaobo": "催三号窗锁门，不让旧票和北门巡更牵到夜班保安。"
+  },
+  "withheld_truths": {
+    "CHR_linqiao": "三个月前他经手过一笔错退，家属后来来窗口追问。",
+    "CHR_mengyu": "旧票乘客孟舟是她哥哥，票角缺口对应北门进站记录。",
+    "CHR_zhaobo": "赵伯知道那晚北门监控盲区，也认得票上今天的红章。"
+  },
+  "visual_state": "窗口玻璃半降，雨水在外侧拉线，章盒开着一条缝，旧票被孟雨压在手机壳下。",
+  "sound_state": "打印机空转、雨棚滴水、末班车怠速、对讲机电流、广播误报。",
+  "chapter_goal": "让玩家学会退票流程，并在第一次异常件里承担流程选择。",
+  "scene_synopsis": "孟雨拿来过期旧票求退，林桥核票时发现票角有今天的红章，班次却已停运三个月。赵伯通过对讲催促关窗，红章来源和北门旧事同时逼近。玩家选择盖拒退章留下官方痕迹，或保留票角作为可继续追查的证据。两条路径回收后，林桥写下待核备注，孟雨第一次交出哥哥姓名。",
+  "pov_character": "CHR_linqiao",
+  "narrative_threads": ["THR_refund_trace", "THR_red_stamp", "THR_north_gate"],
+  "foreshadow_role": {
+    "seeds": ["FS_ticket_number_gap", "FS_zhao_radio_static", "FS_mengzhou_name"],
+    "echoes": ["FS_old_refund_log"],
+    "payoffs": ["FS_ticket_corner_callback"]
+  },
+  "prose_texture_target": "夜间车站窗口、潮湿票纸、热敏打印、红色印泥、对讲机催促。口吻要有基层窗口工作和年轻人临时求人的质感。",
+  "scene_question": "林桥会让系统把孟雨挡回雨里，还是在窗口日志里留下一个可追的口子？",
+  "scene_answer": "他用拒退章和待核备注分开风险，把票角留给后续追查，也把自己的名字留进异常日志。",
+  "professional_ritual": "核票号、查班次、验红章、盖退票失败章、登记异常票角、打印待核单。",
+  "character_lie_pressure": "林桥说自己只看系统，孟雨说只是替老板娘退票，赵伯说北门今晚照旧。",
+  "dramatic_turn": "旧票票角压着今天的红章，且票号少一位，说明票被剪过后又重新碰过章盒。",
+  "sequel_decision": "盖拒退章留下官方失败记录，或先留票角避免证据被系统收缴。",
+  "theme_pressure": "当手续会伤人时，写手续的人能不能把伤口写得可被继续追问？",
+  "choice_pressure": "拒退章能给孟雨官方痕迹但会污染原件；留票角能保住物证但让林桥承担异常留存风险。",
+  "variables_changed": ["trust_meng", "station_risk", "ticket_corner_kept", "refund_failed_stamp_used", "zhao_warning_unlocked"],
+  "state_delta_required": true,
+  "exit_image": "孟雨把待核单贴在手机壳内侧，窗口玻璃映出林桥留在异常备注下的签名。",
+  "usable_objects": [
+    {
+      "object_id": "OBJ_old_ticket",
+      "type": "evidence",
+      "description": "三个月前的城际车票，二维码被雨水糊住，票角缺一小块。",
+      "dramatic_use": "暴露票号缺口和孟舟姓名残字。"
+    },
+    {
+      "object_id": "OBJ_refund_stamp",
+      "type": "tool",
+      "description": "退票失败章，红泥偏湿，盖下去会让票面留痕。",
+      "dramatic_use": "给孟雨官方痕迹，也把林桥签名写进日志。"
+    },
+    {
+      "object_id": "OBJ_ticket_corner",
+      "type": "evidence",
+      "description": "被剪下的票角，边缘压着今天红章的一半。",
+      "dramatic_use": "连接三个月前旧票和今晚章盒。"
+    },
+    {
+      "object_id": "OBJ_window_log",
+      "type": "risk",
+      "description": "窗口日志，23:58 之后的每一笔异常都会被站务长复核。",
+      "dramatic_use": "让帮助附带签名代价。"
+    },
+    {
+      "object_id": "OBJ_radio",
+      "type": "pressure",
+      "description": "赵伯的对讲机，电流断续，声音会被广播混进去。",
+      "dramatic_use": "把北门、监控、红章风险推入窗口。"
+    },
+    {
+      "object_id": "OBJ_thermal_printer",
+      "type": "tool",
+      "description": "热敏小票打印机，走纸很慢，能制造几秒缓冲。",
+      "dramatic_use": "让林桥在被催促时拖出一句关键追问。"
+    }
+  ],
+  "operable_objects": [
+    "OBJ_old_ticket",
+    "OBJ_refund_stamp",
+    "OBJ_ticket_corner",
+    "OBJ_window_log",
+    "OBJ_radio",
+    "OBJ_thermal_printer"
+  ]
+}

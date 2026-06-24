@@ -1,0 +1,40 @@
+{
+  "arcs": [
+    {
+      "id": "ARC_wenzhou",
+      "character_id": "CHR_wenzhou",
+      "start_mask": "只按店规和机器状态处理顾客。",
+      "current_state": "被夏停和热敏单逼到必须选择洗法。",
+      "pressure": "保留痕迹会增加店铺风险，也会打开自己的旧洗衣事故。",
+      "target_shift": "把关心写成流程动作，愿意替人留下麻烦证据。",
+      "allowed_regression": "用机器不认来逃避自己的判断。",
+      "scene_beats": {
+        "S001": "从挡投币口到选择洗法。"
+      }
+    },
+    {
+      "id": "ARC_xiating",
+      "character_id": "CHR_xiating",
+      "start_mask": "把求助说成玩笑，把母亲开衫说成房东阿姨的。",
+      "current_state": "想洗掉医院味，又怕热敏单被看见。",
+      "pressure": "闻舟查口袋，罗姨认出开衫。",
+      "target_shift": "承认开衫属于母亲，并允许一部分痕迹留下。",
+      "allowed_regression": "用玩笑抢回话题，或者要求快洗毁掉单据。",
+      "scene_beats": {
+        "S001": "从七号大爷玩笑到说出夏青禾。"
+      }
+    },
+    {
+      "id": "ARC_luoyi",
+      "character_id": "CHR_luoyi",
+      "start_mask": "店主催关门、怕赔钱、说自己没看监控。",
+      "current_state": "通过电话发现夏停和开衫。",
+      "pressure": "她知道夏家旧事，也不能把话说穿。",
+      "target_shift": "把免单和夹子伪装成机器故障建议。",
+      "allowed_regression": "只谈赔偿和电闸。",
+      "scene_beats": {
+        "S001": "从催热烘禁令到提醒热敏纸别贴热机器边。"
+      }
+    }
+  ]
+}

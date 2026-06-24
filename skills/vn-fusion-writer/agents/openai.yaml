@@ -1,0 +1,4 @@
+interface:
+  display_name: "VN Fusion Writer"
+  short_description: "Write visual novels with fused gameplay."
+  default_prompt: "Use $vn-fusion-writer to outline and draft a gameplay-fused visual novel."

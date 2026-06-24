@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "VN Fusion Chapter Plan",
+  "type": "object",
+  "required": ["chapters"],
+  "properties": {
+    "chapters": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "title", "chapter_goal", "scene_order", "emotional_curve"],
+        "properties": {
+          "id": { "type": "string" },
+          "title": { "type": "string" },
+          "chapter_goal": { "type": "string" },
+          "scene_order": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "emotional_curve": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "word_budget": { "type": "integer" },
+          "gameplay_contract": { "type": "string" }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": true
+}

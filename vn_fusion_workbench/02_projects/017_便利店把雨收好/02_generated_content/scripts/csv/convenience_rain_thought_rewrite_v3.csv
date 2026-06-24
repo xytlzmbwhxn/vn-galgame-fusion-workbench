@@ -1,0 +1,554 @@
+﻿scene_id,beat_id,row_type,speaker,text,voice_target,expression,body_action,bg,bgm,sfx,choice_group,choice_text,choice_target,condition,effects,memory_refs,qa_notes
+S001,S001_0001,command,,label:S001_雨袋架旁边,,,,,,,,,,,,,runtime label
+S001,S001_0002,command,,@bg 便利店_夜_雨,,,background change,便利店_夜_雨,,,,,,,,,production cue
+S001,S001_0003,command,,@bgm 雨夜低频,,,music cue,,雨夜低频,,,,,,,,production cue
+S001,S001_0004,command,,@sfx 自动门叮咚,,,sound cue,,,自动门叮咚,,,,,,,production cue
+S001,S001_0005,narration,,雨从自动门底下贴进来，先湿了脚垫，再湿了“请勿滑倒”的黄色贴纸。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S001,S001_0006,narration,,我把雨伞套的纸牌扶正。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S001,S001_0007,narration,,纸牌歪回去，像夜班也有自己的脾气。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S001,S001_0008,dialogue,CHR_jiangchi,欢迎光——,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S001,S001_0009,dialogue,CHR_linyan,先别欢迎。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S001,S001_0010,dialogue,CHR_linyan,我现在听见“欢迎光临”四个字，会怀疑自己又要被推销第二件半价。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S001,S001_0011,dialogue,CHR_linyan,还有，你们这个雨袋架站得好端正喔，像班主任派来监督我淋雨。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S001,S001_0012,dialogue,CHR_linyan,所以我先问清楚，便利店有没有把雨收起来的服务？有的话我办会员，没有的话我投诉天气。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S001,S001_0013,narration,,她站在门口，没有看热饮柜，也没有看关东煮。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S001,S001_0014,narration,,她先看雨袋架下面的失物箱。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S001,S001_0015,thought,CHR_jiangchi,（她先找失物箱。柜台、热饮、我，全排在后面。）,private_inference,,private thought pocket,,,,,,,,,CHR_jiangchi,click_function=private_thought_pocket
+S001,S001_0016,thought,CHR_jiangchi,（要是箱子空着，她大概还得装作自己只是进来躲雨。）,private_inference,,private thought pocket,,,,,,,,,CHR_jiangchi,click_function=private_thought_pocket
+S001,S001_0017,dialogue,CHR_jiangchi,雨伞套免费。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S001,S001_0018,dialogue,CHR_jiangchi,雨不能收。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S001,S001_0019,dialogue,CHR_jiangchi,失物箱可以看，但先说清楚，拿错东西要登记。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S001,S001_0020,dialogue,CHR_linyan,哇，你这个人从“欢迎光临”到“拿错登记”，中间少了人类过渡欸。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S001,S001_0021,narration,,她把湿伞靠在架子旁。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S001,S001_0022,narration,,伞柄缠着透明胶，胶带边缘翘起一小截。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S001,S001_0023,dialogue,CHR_linyan,我要找一把蓝伞。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S001,S001_0024,dialogue,CHR_linyan,旧的，伞骨左偏，撑开会往人行道那边歪，像它也不想上晚自习。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S001,S001_0025,dialogue,CHR_linyan,手柄上有一圈透明胶，胶下面有一小块牙印。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S001,S001_0026,dialogue,CHR_linyan,先声明，是小时候的牙印。现在的我很成熟，最多咬笔盖，不咬伞。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S001,S001_0027,dialogue,CHR_linyan,你如果笑，我就把你们收银机命名成“铁算盘一号”，每天路过都骂它。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S001,S001_0028,command,,@sfx 收银机滴,,,sound cue,,,收银机滴,,,,,,,production cue
+S001,S001_0029,dialogue,CHR_jiangchi,它已经听见了。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S001,S001_0030,dialogue,CHR_linyan,那正好，叫它保密。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S001,S001_0031,narration,,我拉出失物本。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S001,S001_0032,narration,,纸页被便利店的空调吹得翻了一下，停在昨天的雨伞记录旁边。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S001,S001_0033,dialogue,CHR_jiangchi,找伞要写四项。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S001,S001_0034,dialogue,CHR_jiangchi,姓名，联系方式，物品特征，遗失时间。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S001,S001_0035,dialogue,CHR_jiangchi,特征越丢脸，找回来的概率越高。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S001,S001_0036,dialogue,CHR_linyan,你这个安慰方式，刚从冷柜里拿出来的吧？,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S001,S001_0037,dialogue,CHR_jiangchi,这是经验。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S001,S001_0038,dialogue,CHR_linyan,经验先生，你刚才说过“牙印越丢脸越有用”？,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S001,S001_0039,dialogue,CHR_jiangchi,差不多。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S001,S001_0040,dialogue,CHR_linyan,好，那你写。写大一点。写得让偷伞的人看一眼就心虚。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S001,S001_0041,narration,,她把笔拍到柜台上，拍完又悄悄把笔往我这边推了半厘米。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S001,S001_0042,dialogue,CHR_linyan,名字，林檐。树林的林，屋檐的檐。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S001,S001_0043,dialogue,CHR_linyan,别问哪个檐，就是雨落下来会先撞到的那个。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S001,S001_0044,dialogue,CHR_linyan,电话我也给。你不要露出那种“客户终于配合流程”的表情。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S001,S001_0045,dialogue,CHR_linyan,我配合流程的时候很珍贵的，建议你们店播报一下。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S001,S001_0046,narration,,我写下她的号码。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S001,S001_0047,narration,,林檐的“檐”写到一半，笔尖顿住。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S001,S001_0048,thought,CHR_jiangchi,（“檐”字停在笔尖上。再写错一次，她会不会笑得更大声？）,private_inference,,private thought pocket,,,,,,,,,CHR_jiangchi,click_function=private_thought_pocket
+S001,S001_0049,thought,CHR_jiangchi,（我不想让她把这个名字从头讲第二遍。）,private_inference,,private thought pocket,,,,,,,,,CHR_jiangchi,click_function=private_thought_pocket
+S001,S001_0050,command,,@choice CHOICE_01 蓝伞登记,,,choice opens,,,,CHOICE_01,,,,,,choice group
+S001,S001_0051,choice,,,,,menu option,,,,CHOICE_01,按失物流程登记,CHOICE_01_A,,umbrella_recorded=true; trust_style=procedure,THR_receipt_debt;THR_blue_umbrella,visible option
+S001,S001_0052,command,,label:CHOICE_01_A,,,branch label,,,,CHOICE_01,,,,,,generated target label
+S001,S001_0053,command,,label:LINE_043_A,,,,,,,,,,,,,branch line label from readable draft
+S001,S001_0054,dialogue,CHR_jiangchi,我会写“手柄有旧牙印”。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S001,S001_0055,command,,label:LINE_044_A,,,,,,,,,,,,,branch line label from readable draft
+S001,S001_0056,dialogue,CHR_jiangchi,不会写“成熟复读生曾经咬伞”。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S001,S001_0057,command,,label:LINE_045_A,,,,,,,,,,,,,branch line label from readable draft
+S001,S001_0058,dialogue,CHR_jiangchi,也不会写“疑似未知生物标记领地”。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S001,S001_0059,command,,label:LINE_046_A,,,,,,,,,,,,,branch line label from readable draft
+S001,S001_0060,dialogue,CHR_linyan,第三个你刚才想过吧？！,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S001,S001_0061,command,,label:LINE_047_A,,,,,,,,,,,,,branch line label from readable draft
+S001,S001_0062,dialogue,CHR_jiangchi,没有写，就不算。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S001,S001_0063,command,,label:LINE_048_A,,,,,,,,,,,,,branch line label from readable draft
+S001,S001_0064,dialogue,CHR_linyan,行吧。旧牙印可以。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S001,S001_0065,command,,label:LINE_049_A,,,,,,,,,,,,,branch line label from readable draft
+S001,S001_0066,dialogue,CHR_linyan,旧这个字很好，听起来它已经退休，不再代表我本人。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S001,S001_0067,command,,label:LINE_050_A,,,,,,,,,,,,,branch line label from readable draft
+S001,S001_0068,command,,@state umbrella_recorded=true,,,state write,,,,,,,,umbrella_recorded=true,,state effect
+S001,S001_0069,choice,,,,,menu option,,,,CHOICE_01,先把箱里的蓝伞拿给她确认,CHOICE_01_B,,early_trust=true; registration_delayed=true,THR_receipt_debt;THR_blue_umbrella,visible option
+S001,S001_0070,command,,label:CHOICE_01_B,,,branch label,,,,CHOICE_01,,,,,,generated target label
+S001,S001_0071,command,,label:LINE_052_B,,,,,,,,,,,,,branch line label from readable draft
+S001,S001_0072,narration,,我从失物箱里取出一把蓝伞。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S001,S001_0073,narration,,伞面褪色，手柄干净得过分。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S001,S001_0074,command,,label:LINE_053_B,,,,,,,,,,,,,branch line label from readable draft
+S001,S001_0075,dialogue,CHR_linyan,啊。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S001,S001_0076,command,,label:LINE_054_B,,,,,,,,,,,,,branch line label from readable draft
+S001,S001_0077,dialogue,CHR_linyan,不对。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S001,S001_0078,command,,label:LINE_055_B,,,,,,,,,,,,,branch line label from readable draft
+S001,S001_0079,dialogue,CHR_linyan,它太乖了。我的那把一撑开，先往左边偏一点，像看见数学老师就想绕路。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S001,S001_0080,command,,label:LINE_056_B,,,,,,,,,,,,,branch line label from readable draft
+S001,S001_0081,dialogue,CHR_linyan,而且这里没有牙印。你看，完全没有犯罪证据，清白得很可疑。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S001,S001_0082,command,,label:LINE_057_B,,,,,,,,,,,,,branch line label from readable draft
+S001,S001_0083,dialogue,CHR_jiangchi,那继续登记。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S001,S001_0084,command,,label:LINE_058_B,,,,,,,,,,,,,branch line label from readable draft
+S001,S001_0085,dialogue,CHR_linyan,你刚才可以直接走流程的。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S001,S001_0086,command,,label:LINE_059_B,,,,,,,,,,,,,branch line label from readable draft
+S001,S001_0087,dialogue,CHR_jiangchi,你先看过，比较不会把明天也赔进去。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S001,S001_0088,command,,label:LINE_060_B,,,,,,,,,,,,,branch line label from readable draft
+S001,S001_0089,narration,,她握着那把陌生蓝伞，又把它放回箱子里。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S001,S001_0090,command,,label:LINE_061_B,,,,,,,,,,,,,branch line label from readable draft
+S001,S001_0091,dialogue,CHR_linyan,谢谢。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S001,S001_0092,command,,label:LINE_062_B,,,,,,,,,,,,,branch line label from readable draft
+S001,S001_0093,dialogue,CHR_linyan,这句是正经的，不准用收银机语气接。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S001,S001_0094,command,,label:LINE_063_B,,,,,,,,,,,,,branch line label from readable draft
+S001,S001_0095,dialogue,CHR_jiangchi,收到。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S001,S001_0096,command,,label:LINE_064_B,,,,,,,,,,,,,branch line label from readable draft
+S001,S001_0097,command,,@state early_trust=true,,,state write,,,,,,,,early_trust=true,,state effect
+S001,S001_0098,command,,@merge CHOICE_01_REJOIN,,,branch rejoin,,,,,,,,,,branch rejoin
+S001,S001_0099,command,,label:CHOICE_01_REJOIN,,,rejoin label,,,,,,,,,,generated rejoin label
+S001,S001_0100,dialogue,CHR_jiangchi,遗失时间。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S001,S001_0101,dialogue,CHR_jiangchi,你说六点四十到七点，范围太宽。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S001,S001_0102,dialogue,CHR_jiangchi,公交站、门口、热饮柜、雨袋架，四个点都可能。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S001,S001_0103,dialogue,CHR_jiangchi,监控要店长权限。何姨十点半睡，现在十点四十八，电话打过去她会先骂我，再骂你，最后骂雨。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S001,S001_0104,dialogue,CHR_jiangchi,所以现在只能看收银台最近十五分钟，确认你有没有把手上的这把也弄丢。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S001,S001_0105,dialogue,CHR_linyan,你怀疑我连替身都保不住？,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S001,S001_0106,dialogue,CHR_jiangchi,我怀疑你刚才差点把笔盖吞了。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S001,S001_0107,dialogue,CHR_linyan,那叫焦虑式文具管理！,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S001,S001_0108,command,,@sfx 键盘轻响,,,sound cue,,,键盘轻响,,,,,,,production cue
+S001,S001_0109,narration,,监控画面弹出来。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S001,S001_0110,narration,,收银台上方的镜头把便利店拍成一个发白的盒子。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S001,S001_0111,narration,,林檐退到黄线外。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S001,S001_0112,narration,,她嘴上还在挑刺，脚尖却没有越过线。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S001,S001_0113,dialogue,CHR_linyan,黄线大人，我遵守了。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S001,S001_0114,dialogue,CHR_linyan,铁算盘一号，你也看见了。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S001,S001_0115,dialogue,CHR_linyan,如果我等会儿激动，请你们两位一起作证，我没有碰店员的神圣键盘。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S001,S001_0116,dialogue,CHR_linyan,当然，如果键盘自己向我求助，那另算。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S001,S001_0117,dialogue,CHR_jiangchi,键盘暂时没有求助。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S001,S001_0118,dialogue,CHR_linyan,好冷淡的键盘。和你很配。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S001,S001_0119,narration,,画面倒到十点三十六。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S001,S001_0120,narration,,林檐进门，站在热饮柜前，手里的坏伞被她靠在右侧雨袋架。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S001,S001_0121,narration,,她没有买东西。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S001,S001_0122,narration,,她只是盯着豆浆，看了十一秒。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S001,S001_0123,dialogue,CHR_jiangchi,你来过。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S001,S001_0124,dialogue,CHR_jiangchi,没买东西。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S001,S001_0125,dialogue,CHR_jiangchi,看了豆浆。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S001,S001_0126,dialogue,CHR_jiangchi,然后走的时候没拿伞。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S001,S001_0127,dialogue,CHR_linyan,……你能不能不要像播案情回顾。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S001,S001_0128,dialogue,CHR_jiangchi,那我换说法。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S001,S001_0129,dialogue,CHR_jiangchi,你当时很冷。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S001,S001_0130,dialogue,CHR_jiangchi,也很饿。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S001,S001_0131,dialogue,CHR_jiangchi,但你没有进来求助。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S001,S001_0132,narration,,林檐的视线从监控屏移到豆浆机。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S001,S001_0133,narration,,热饮柜里的灯把她睫毛照得很浅。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S001,S001_0134,thought,CHR_jiangchi,（这几句不该说。）,private_inference,,private thought pocket,,,,,,,,,CHR_jiangchi,click_function=private_thought_pocket
+S001,S001_0135,thought,CHR_jiangchi,（流程里没有“指出客人狼狈”这一栏。）,private_inference,,private thought pocket,,,,,,,,,CHR_jiangchi,click_function=private_thought_pocket
+S001,S001_0136,dialogue,CHR_linyan,我那时候考砸了。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S001,S001_0137,dialogue,CHR_linyan,数学卷子，红得很热闹。老师还说，林檐，你这个基础啊，像旧楼漏水，哪里都能滴。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S001,S001_0138,dialogue,CHR_linyan,我就想，旧楼漏水也没自己报名漏水嘛。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S001,S001_0139,dialogue,CHR_linyan,然后我跑到公交站，发现雨比老师还会点名。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S001,S001_0140,dialogue,CHR_linyan,伞找不到，车也走了。我站在站牌下面，忽然觉得我妈要是知道，一定会先笑我。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S001,S001_0141,narration,,她说到这里，用力捏了一下书包带。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S001,S001_0142,dialogue,CHR_linyan,她会说，林檐，你连一把咬过的伞都看不住，长大以后怎么管自己啊。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S001,S001_0143,dialogue,CHR_linyan,她还会把伞拿过去，骂我两句，再用透明胶给它缠一圈。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S001,S001_0144,dialogue,CHR_linyan,可是现在没人缠了。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S001,S001_0145,command,,@sfx 微波炉门打开,,,sound cue,,,微波炉门打开,,,,,,,production cue
+S001,S001_0146,narration,,我拿了两杯豆浆。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S001,S001_0147,narration,,杯套碰到柜台，声音很轻。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S001,S001_0148,dialogue,CHR_jiangchi,第二件半价。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S001,S001_0149,dialogue,CHR_linyan,你这个人……,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S001,S001_0150,dialogue,CHR_linyan,我刚才都快讲到伤心段落了，你突然插入促销？,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S001,S001_0151,dialogue,CHR_jiangchi,你看了十一秒。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S001,S001_0152,dialogue,CHR_linyan,监控先生，求你把嘴闭上。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S001,S001_0153,dialogue,CHR_jiangchi,烫。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S001,S001_0154,dialogue,CHR_linyan,这句提醒来得很及时，比昨晚那个版本进步巨大。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S001,S001_0155,narration,,她接过豆浆，两只手捧住。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S001,S001_0156,narration,,纸杯的热气让她肩膀慢慢降下来。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S001,S001_0157,command,,@sfx 监控快进,,,sound cue,,,监控快进,,,,,,,production cue
+S001,S001_0158,narration,,画面里，小学生买了水果糖。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S001,S001_0159,narration,,他低头穿雨衣，顺手拿走了林檐那把坏伞。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S001,S001_0160,dialogue,CHR_linyan,小孩拿了。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S001,S001_0161,dialogue,CHR_linyan,他看起来就是个普通小孩。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S001,S001_0162,dialogue,CHR_linyan,这更麻烦。坏人我可以骂，小孩我只能希望他明天不要被那把伞戳到脸。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S001,S001_0163,dialogue,CHR_linyan,而且他拿得好自然，好像那把伞本来就应该陪别人回家。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S001,S001_0164,dialogue,CHR_linyan,它也嫌我烦啊。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S001,S001_0165,dialogue,CHR_jiangchi,他买了水果糖。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S001,S001_0166,dialogue,CHR_jiangchi,小票有会员记录。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S001,S001_0167,dialogue,CHR_jiangchi,我不能把会员号给你，也不能私自查完整信息。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S001,S001_0168,dialogue,CHR_jiangchi,但我可以把时间、商品、伞的特征写进失物本，明天让何姨查。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S001,S001_0169,dialogue,CHR_jiangchi,如果你明天午休来，能拿到结果。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S001,S001_0170,dialogue,CHR_linyan,午休四十分钟。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S001,S001_0171,dialogue,CHR_jiangchi,走过来八分钟。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S001,S001_0172,dialogue,CHR_linyan,你怎么连这个都算。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S001,S001_0173,dialogue,CHR_jiangchi,夜班太闲。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S001,S001_0174,dialogue,CHR_linyan,闲到能替复读生规划午休逃亡路线？,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S001,S001_0175,dialogue,CHR_jiangchi,不逃课。午休。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S001,S001_0176,command,,@choice CHOICE_02 雨夜小票,,,choice opens,,,,CHOICE_02,,,,,,choice group
+S001,S001_0177,choice,,,,,menu option,,,,CHOICE_02,把小票夹进失物本,CHOICE_02_A,,receipt_kept=true; heyi_risk=true,THR_receipt_debt;THR_blue_umbrella,visible option
+S001,S001_0178,command,,label:CHOICE_02_A,,,branch label,,,,CHOICE_02,,,,,,generated target label
+S001,S001_0179,command,,label:LINE_136_A,,,,,,,,,,,,,branch line label from readable draft
+S001,S001_0180,narration,,我从回收盒里抽出小票，遮住会员号，只留时间和商品。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S001,S001_0181,command,,label:LINE_137_A,,,,,,,,,,,,,branch line label from readable draft
+S001,S001_0182,dialogue,CHR_jiangchi,这张不能给你。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S001,S001_0183,command,,label:LINE_138_A,,,,,,,,,,,,,branch line label from readable draft
+S001,S001_0184,dialogue,CHR_jiangchi,可以夹在本子里。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S001,S001_0185,command,,label:LINE_139_A,,,,,,,,,,,,,branch line label from readable draft
+S001,S001_0186,dialogue,CHR_jiangchi,明天何姨看到，会知道我半夜没编故事。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S001,S001_0187,command,,label:LINE_140_A,,,,,,,,,,,,,branch line label from readable draft
+S001,S001_0188,dialogue,CHR_linyan,那你呢？,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S001,S001_0189,command,,label:LINE_141_A,,,,,,,,,,,,,branch line label from readable draft
+S001,S001_0190,dialogue,CHR_jiangchi,我负责被骂。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S001,S001_0191,command,,label:LINE_142_A,,,,,,,,,,,,,branch line label from readable draft
+S001,S001_0192,dialogue,CHR_linyan,听起来很熟练。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S001,S001_0193,command,,label:LINE_143_A,,,,,,,,,,,,,branch line label from readable draft
+S001,S001_0194,command,,@state receipt_kept=true,,,state write,,,,,,,,receipt_kept=true,,state effect
+S001,S001_0195,choice,,,,,menu option,,,,CHOICE_02,不留小票，只记下线索,CHOICE_02_B,,receipt_hidden=true; memory_debt=true,THR_receipt_debt;THR_blue_umbrella,visible option
+S001,S001_0196,command,,label:CHOICE_02_B,,,branch label,,,,CHOICE_02,,,,,,generated target label
+S001,S001_0197,command,,label:LINE_145_B,,,,,,,,,,,,,branch line label from readable draft
+S001,S001_0198,narration,,我把小票折起来，丢进废纸袋。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S001,S001_0199,command,,label:LINE_146_B,,,,,,,,,,,,,branch line label from readable draft
+S001,S001_0200,dialogue,CHR_jiangchi,十点三十七。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S001,S001_0201,command,,label:LINE_147_B,,,,,,,,,,,,,branch line label from readable draft
+S001,S001_0202,dialogue,CHR_jiangchi,水果糖。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S001,S001_0203,command,,label:LINE_148_B,,,,,,,,,,,,,branch line label from readable draft
+S001,S001_0204,dialogue,CHR_jiangchi,黑色书包，小学生，拿错伞。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S001,S001_0205,command,,label:LINE_149_B,,,,,,,,,,,,,branch line label from readable draft
+S001,S001_0206,dialogue,CHR_jiangchi,我记。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S001,S001_0207,command,,label:LINE_150_B,,,,,,,,,,,,,branch line label from readable draft
+S001,S001_0208,dialogue,CHR_linyan,你的脑子保质期多久？,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S001,S001_0209,command,,label:LINE_151_B,,,,,,,,,,,,,branch line label from readable draft
+S001,S001_0210,dialogue,CHR_jiangchi,到明天午休。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S001,S001_0211,command,,label:LINE_152_B,,,,,,,,,,,,,branch line label from readable draft
+S001,S001_0212,dialogue,CHR_linyan,如果过期？,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S001,S001_0213,command,,label:LINE_153_B,,,,,,,,,,,,,branch line label from readable draft
+S001,S001_0214,dialogue,CHR_jiangchi,你可以骂。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S001,S001_0215,command,,label:LINE_154_B,,,,,,,,,,,,,branch line label from readable draft
+S001,S001_0216,dialogue,CHR_linyan,那我现在先预存两句。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S001,S001_0217,command,,label:LINE_155_B,,,,,,,,,,,,,branch line label from readable draft
+S001,S001_0218,command,,@state receipt_hidden=true,,,state write,,,,,,,,receipt_hidden=true,,state effect
+S001,S001_0219,command,,@merge CHOICE_02_REJOIN,,,branch rejoin,,,,,,,,,,branch rejoin
+S001,S001_0220,command,,label:CHOICE_02_REJOIN,,,rejoin label,,,,,,,,,,generated rejoin label
+S001,S001_0221,narration,,雨声又重了一层。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S001,S001_0222,narration,,最后一班公交的灯从门外经过，没有停很久。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S001,S001_0223,dialogue,CHR_linyan,我没车了。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S001,S001_0224,dialogue,CHR_linyan,家里那边要转一趟，站牌离小区门口还有一段。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S001,S001_0225,dialogue,CHR_linyan,我爸会问我怎么又淋成这样。我会说伞丢了，他会说再买。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S001,S001_0226,dialogue,CHR_linyan,然后我会很烦。因为他说得没错。再买最简单。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S001,S001_0227,dialogue,CHR_linyan,可简单的办法有时候特别讨厌。它像在说，你在意的东西，其实不用在意。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S001,S001_0228,narration,,她把豆浆放下。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S001,S001_0229,narration,,杯套被她捏出一道折痕。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S001,S001_0230,thought,CHR_jiangchi,（她把“没车了”讲得很轻，轻到流程表里找不到格子。）,private_inference,,private thought pocket,,,,,,,,,CHR_jiangchi,click_function=private_thought_pocket
+S001,S001_0231,thought,CHR_jiangchi,（我如果接不住，就只剩她自己把今天拿回雨里。）,private_inference,,private thought pocket,,,,,,,,,CHR_jiangchi,click_function=private_thought_pocket
+S001,S001_0232,narration,,我从柜台下面拿出自己的黑伞。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S001,S001_0233,narration,,挂绳断了一半，伞套边缘磨白。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S001,S001_0234,dialogue,CHR_jiangchi,拿这个。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S001,S001_0235,dialogue,CHR_jiangchi,我两点下班。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S001,S001_0236,dialogue,CHR_jiangchi,雨如果没停，我跑回去。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S001,S001_0237,dialogue,CHR_jiangchi,如果你明天不来，我会把它登记成失物。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S001,S001_0238,dialogue,CHR_jiangchi,物品特征：黑伞，旧，挂绳断，借给一个把收银机叫铁算盘的人。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S001,S001_0239,dialogue,CHR_linyan,你这算威胁还是售后？,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S001,S001_0240,dialogue,CHR_jiangchi,流程。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S001,S001_0241,dialogue,CHR_linyan,江迟。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S001,S001_0242,dialogue,CHR_jiangchi,嗯。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S001,S001_0243,dialogue,CHR_linyan,你别把好心讲得这么像罚单。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S001,S001_0244,dialogue,CHR_jiangchi,那你拿不拿。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S001,S001_0245,narration,,她伸手，又停住。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S001,S001_0246,narration,,手指离伞柄还有一点距离。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S001,S001_0247,dialogue,CHR_linyan,我拿了就欠你。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S001,S001_0248,dialogue,CHR_linyan,我现在欠得有点多。欠我妈一把伞，欠数学卷子一个解释，欠家里一次不发脾气。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S001,S001_0249,dialogue,CHR_linyan,再欠你，我明天过来会很没气势。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S001,S001_0250,dialogue,CHR_linyan,我这个人主要靠气势撑着，你不要轻易破坏生计。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S001,S001_0251,dialogue,CHR_jiangchi,那记账。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S001,S001_0252,dialogue,CHR_jiangchi,欠便利店一把黑伞。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S001,S001_0253,dialogue,CHR_jiangchi,欠店员三句骂。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S001,S001_0254,dialogue,CHR_jiangchi,欠豆浆一声谢谢。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S001,S001_0255,dialogue,CHR_jiangchi,分期还。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S001,S001_0256,narration,,林檐看了我一会儿。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S001,S001_0257,narration,,她忽然笑了一下，笑得很小，像怕把什么东西震掉。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S001,S001_0258,dialogue,CHR_linyan,铁算盘一号。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S001,S001_0259,dialogue,CHR_linyan,你家店员很会放贷。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S001,S001_0260,command,,@sfx 自动门叮咚,,,sound cue,,,自动门叮咚,,,,,,,production cue
+S001,S001_0261,narration,,她撑开黑伞。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S001,S001_0262,narration,,伞面太大，把她整个人压小了一圈。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S001,S001_0263,dialogue,CHR_linyan,江迟！,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S001,S001_0264,dialogue,CHR_jiangchi,什么。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S001,S001_0265,dialogue,CHR_linyan,明天别迟到。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S001,S001_0266,dialogue,CHR_jiangchi,我夜班。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S001,S001_0267,dialogue,CHR_linyan,那也别。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S001,S001_0268,command,,@fadeout,,,ending cue,,,,,,,,,,ending cue
+S002,S002_0269,command,,label:S002_午休四十分钟,,,,,,,,,,,,,runtime label
+S002,S002_0270,command,,@bg 便利店_中午_阴,,,background change,便利店_中午_阴,,,,,,,,,production cue
+S002,S002_0271,command,,@bgm 午后空调,,,music cue,,午后空调,,,,,,,,production cue
+S002,S002_0272,command,,@sfx 自动门叮咚,,,sound cue,,,自动门叮咚,,,,,,,production cue
+S002,S002_0273,narration,,第二天中午，雨停得不干净。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S002,S002_0274,narration,,玻璃门外的积水贴着路边，像没擦完的一行字。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S002,S002_0275,narration,,蓝伞找到了。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S002,S002_0276,narration,,伞柄上的旧牙印很浅，被透明胶压在下面。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S002,S002_0277,narration,,何姨在失物本旁边留了便签。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S002,S002_0278,dialogue,CHR_heyi,江迟，便利店没开托儿业务。豆浆钱从你工资扣。伞查到了，别摆臭脸。,CHR_heyi,,dialogue beat in readable source,,,,,,,,,CHR_heyi,click_function=dialogue_pressure
+S002,S002_0279,narration,,我把便签压进抽屉。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S002,S002_0280,narration,,门铃响的时候，林檐带着风跑进来。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S002,S002_0281,dialogue,CHR_linyan,我只待十九分钟。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S002,S002_0282,dialogue,CHR_linyan,其中三分钟用于归还黑伞，两分钟用于确认蓝伞，一分钟用于喝豆浆。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S002,S002_0283,dialogue,CHR_linyan,剩下十三分钟，我本来打算骂你。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S002,S002_0284,dialogue,CHR_linyan,但我刚才在路上想了一下，骂你太浪费午休了，所以改成赊账。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S002,S002_0285,dialogue,CHR_linyan,你们店支持赊骂吗？,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S002,S002_0286,dialogue,CHR_jiangchi,可以登记。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S002,S002_0287,dialogue,CHR_linyan,你这人真的什么都登记！,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S002,S002_0288,narration,,她把黑伞递回来。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S002,S002_0289,narration,,伞套上贴着一张小便利贴，画了个歪歪的笑脸。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S002,S002_0290,dialogue,CHR_linyan,还你。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S002,S002_0291,dialogue,CHR_linyan,没有摔，没有折，没有带它逃课。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S002,S002_0292,dialogue,CHR_linyan,它昨晚表现很好，就是伞面太大，回家路上差点把我伪装成蘑菇。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S002,S002_0293,dialogue,CHR_linyan,我爸还问我哪来的。我说便利店借的。他沉默了三秒，问现在便利店业务这么广？,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S002,S002_0294,dialogue,CHR_linyan,我说，是啊，还能收雨，收伞，收复读生的坏脾气。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S002,S002_0295,narration,,她说得很快。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S002,S002_0296,narration,,说完，才看向柜台里的蓝伞。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S002,S002_0297,dialogue,CHR_jiangchi,找到了。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S002,S002_0298,dialogue,CHR_jiangchi,小孩妈妈早上送来的。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S002,S002_0299,dialogue,CHR_jiangchi,伞骨左偏，手柄旧牙印，透明胶三圈。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S002,S002_0300,dialogue,CHR_jiangchi,确认一下。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S002,S002_0301,narration,,林檐没有马上接。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S002,S002_0302,narration,,她伸手摸了摸伞柄上的胶带，指腹停在牙印的位置。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S002,S002_0303,thought,CHR_jiangchi,（她的手先碰到牙印。那一下太轻，像怕把谁吵醒。）,private_inference,,private thought pocket,,,,,,,,,CHR_jiangchi,click_function=private_thought_pocket
+S002,S002_0304,thought,CHR_jiangchi,（我忽然不想催她签收。签收两个字太硬了。）,private_inference,,private thought pocket,,,,,,,,,CHR_jiangchi,click_function=private_thought_pocket
+S002,S002_0305,command,,@if receipt_kept,,,condition check,,,,,,,receipt_kept,,,conditional branch
+S002,S002_0306,command,,label:LINE_226_A,,,,,,,,,,,,,branch line label from readable draft
+S002,S002_0307,narration,,小票夹在失物本那页。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S002,S002_0308,narration,,林檐看见十点三十七分，嘴角先动了一下，又压住。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S002,S002_0309,command,,label:LINE_227_A,,,,,,,,,,,,,branch line label from readable draft
+S002,S002_0310,dialogue,CHR_linyan,你昨晚把小票留着。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S002,S002_0311,command,,label:LINE_228_A,,,,,,,,,,,,,branch line label from readable draft
+S002,S002_0312,dialogue,CHR_linyan,我还以为你只是随口说说。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S002,S002_0313,command,,label:LINE_229_A,,,,,,,,,,,,,branch line label from readable draft
+S002,S002_0314,dialogue,CHR_linyan,我说偏了，我知道你会办事。你看起来就很会把事情办到没人能挑刺。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S002,S002_0315,command,,label:LINE_230_A,,,,,,,,,,,,,branch line label from readable draft
+S002,S002_0316,dialogue,CHR_linyan,你把小票留着，我就少用一点力气怀疑你。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S002,S002_0317,command,,label:LINE_231_A,,,,,,,,,,,,,branch line label from readable draft
+S002,S002_0318,dialogue,CHR_linyan,这一点很贵的，便利店先生。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S002,S002_0319,command,,label:LINE_232_A,,,,,,,,,,,,,branch line label from readable draft
+S002,S002_0320,command,,@state trust_plus=1,,,state write,,,,,,,,trust_plus=1,,state effect
+S002,S002_0321,command,,@if receipt_hidden,,,condition check,,,,,,,receipt_hidden,,,conditional branch
+S002,S002_0322,command,,label:LINE_234_B,,,,,,,,,,,,,branch line label from readable draft
+S002,S002_0323,narration,,失物本上没有小票。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S002,S002_0324,narration,,林檐先看我，又看备注栏。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S002,S002_0325,command,,label:LINE_235_B,,,,,,,,,,,,,branch line label from readable draft
+S002,S002_0326,dialogue,CHR_linyan,你背一遍。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S002,S002_0327,command,,label:LINE_236_B,,,,,,,,,,,,,branch line label from readable draft
+S002,S002_0328,dialogue,CHR_jiangchi,十点三十七。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S002,S002_0329,command,,label:LINE_237_B,,,,,,,,,,,,,branch line label from readable draft
+S002,S002_0330,dialogue,CHR_jiangchi,水果糖。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S002,S002_0331,command,,label:LINE_238_B,,,,,,,,,,,,,branch line label from readable draft
+S002,S002_0332,dialogue,CHR_jiangchi,黑色书包，小学生。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S002,S002_0333,command,,label:LINE_239_B,,,,,,,,,,,,,branch line label from readable draft
+S002,S002_0334,dialogue,CHR_jiangchi,拿错伞，早上归还。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S002,S002_0335,command,,label:LINE_240_B,,,,,,,,,,,,,branch line label from readable draft
+S002,S002_0336,dialogue,CHR_linyan,还在缓存里啊。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S002,S002_0337,command,,label:LINE_241_B,,,,,,,,,,,,,branch line label from readable draft
+S002,S002_0338,dialogue,CHR_jiangchi,没过期。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S002,S002_0339,command,,label:LINE_242_B,,,,,,,,,,,,,branch line label from readable draft
+S002,S002_0340,dialogue,CHR_linyan,那我昨晚少信你一点，今天补回来一点。你们店收这种账吗？,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S002,S002_0341,command,,label:LINE_243_B,,,,,,,,,,,,,branch line label from readable draft
+S002,S002_0342,dialogue,CHR_jiangchi,可以登记。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S002,S002_0343,command,,label:LINE_244_B,,,,,,,,,,,,,branch line label from readable draft
+S002,S002_0344,dialogue,CHR_linyan,……又来！,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S002,S002_0345,command,,label:LINE_245_B,,,,,,,,,,,,,branch line label from readable draft
+S002,S002_0346,command,,@state trust_repaired=1,,,state write,,,,,,,,trust_repaired=1,,state effect
+S002,S002_0347,command,,@endif,,,condition end,,,,,,,,,,conditional end
+S002,S002_0348,narration,,我把豆浆放到柜台上。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S002,S002_0349,narration,,杯套写着“午休限定”，字迹被何姨圈了个问号。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S002,S002_0350,dialogue,CHR_linyan,这个字是你写的。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S002,S002_0351,dialogue,CHR_linyan,“限”字站得特别僵，一看就怕被人发现。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S002,S002_0352,dialogue,CHR_linyan,何姨如果写，应该会写“自费”。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S002,S002_0353,dialogue,CHR_linyan,所以，江迟同学，便利店豆浆事业今天也需要我吗？,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S002,S002_0354,dialogue,CHR_jiangchi,需要。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S002,S002_0355,dialogue,CHR_linyan,你答得太快了！,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S002,S002_0356,dialogue,CHR_jiangchi,午休只有十九分钟。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S002,S002_0357,narration,,林檐捧起豆浆，先吹了吹。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S002,S002_0358,narration,,热气挡住她半张脸。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S002,S002_0359,dialogue,CHR_linyan,我今天早上把新伞带出门了。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S002,S002_0360,dialogue,CHR_linyan,我爸买的那把，自动开合，防晒，伞面黑得像要去参加物理竞赛。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S002,S002_0361,dialogue,CHR_linyan,以前我讨厌它。一按按钮就啪地开了，特别积极，像急着证明旧东西该退休。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S002,S002_0362,dialogue,CHR_linyan,今天撑它到校门口，它啪一下打开，我才发现它也挺努力。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S002,S002_0363,dialogue,CHR_linyan,我爸也挺努力。他不会修伞，只会买新的。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S002,S002_0364,dialogue,CHR_linyan,我不能因为他不会透明胶，就判他不合格，对吧？,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S002,S002_0365,narration,,她说“对吧”的时候，眼睛没有看我。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S002,S002_0366,narration,,蓝伞放在柜台上，旧牙印朝着灯。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S002,S002_0367,thought,CHR_jiangchi,（这个问题绕过了我。）,private_inference,,private thought pocket,,,,,,,,,CHR_jiangchi,click_function=private_thought_pocket
+S002,S002_0368,thought,CHR_jiangchi,（她只是需要一个地方，把这句话先放下来。）,private_inference,,private thought pocket,,,,,,,,,CHR_jiangchi,click_function=private_thought_pocket
+S002,S002_0369,dialogue,CHR_jiangchi,那这把呢。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S002,S002_0370,dialogue,CHR_linyan,先放你这。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S002,S002_0371,dialogue,CHR_linyan,别写丢。写寄存。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S002,S002_0372,dialogue,CHR_linyan,我今天拿新伞回去，晚上跟我爸好好说话。说不好的话，明天再来取旧伞壮胆。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S002,S002_0373,dialogue,CHR_linyan,说得好的话，也来取。因为它是我的。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S002,S002_0374,dialogue,CHR_linyan,还有，我会顺便把赊的骂还一点。你不要露出期待的表情，欠骂没有会员福利。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S002,S002_0375,dialogue,CHR_jiangchi,本店没有寄存服务。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S002,S002_0376,dialogue,CHR_linyan,昨天也没有收雨服务。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S002,S002_0377,dialogue,CHR_jiangchi,那登记。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S002,S002_0378,dialogue,CHR_jiangchi,寄存人，林檐。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S002,S002_0379,dialogue,CHR_jiangchi,物品，蓝伞。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S002,S002_0380,dialogue,CHR_jiangchi,期限，她想拿走的时候。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S002,S002_0381,dialogue,CHR_jiangchi,备注，欠骂若干，豆浆不固定供应。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S002,S002_0382,dialogue,CHR_linyan,最后一句划掉！,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S002,S002_0383,dialogue,CHR_jiangchi,不划。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S002,S002_0384,dialogue,CHR_linyan,那我明天来检查。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S002,S002_0385,dialogue,CHR_jiangchi,嗯。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S002,S002_0386,dialogue,CHR_linyan,后天也可能来。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S002,S002_0387,dialogue,CHR_jiangchi,嗯。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S002,S002_0388,dialogue,CHR_linyan,你这个嗯听起来很得意。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S002,S002_0389,dialogue,CHR_jiangchi,登记吗。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S002,S002_0390,dialogue,CHR_linyan,登记！欠骂再加一句！,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S002,S002_0391,command,,@sfx 自动门叮咚,,,sound cue,,,自动门叮咚,,,,,,,production cue
+S002,S002_0392,narration,,她跑回街对面。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S002,S002_0393,narration,,书包晃得很厉害，豆浆被她护在怀里。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S002,S002_0394,narration,,蓝伞留在柜台边。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S002,S002_0395,narration,,便利店的灯落在透明胶上，像给旧牙印盖了一枚很小的章。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S002,S002_0396,narration,,我翻开失物本，在“失物”旁边空出一栏。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S002,S002_0397,narration,,新栏写：寄存。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S002,S002_0398,command,,@sfx 收银机滴,,,sound cue,,,收银机滴,,,,,,,production cue
+S002,S002_0399,narration,,铁算盘一号亮了一下。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S002,S002_0400,narration,,这次我没有等它同意。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S002,S002_0401,command,,@ending after_rain_rewrite_end,,,ending cue,,,,,,,,,,ending cue
+S002,S002_0402,command,,@fadeout,,,ending cue,,,,,,,,,,ending cue
+S003,S003_0403,command,,label:S003_晚自习前的寄存格,,,,,,,,,,,,,runtime label
+S003,S003_0404,command,,@bg 便利店_傍晚_雨后,,,background change,便利店_傍晚_雨后,,,,,,,,,production cue
+S003,S003_0405,command,,@bgm 傍晚空调,,,music cue,,傍晚空调,,,,,,,,production cue
+S003,S003_0406,command,,@sfx 自动门叮咚,,,sound cue,,,自动门叮咚,,,,,,,production cue
+S003,S003_0407,narration,,傍晚六点二十，雨后的天还灰着。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S003,S003_0408,narration,,玻璃门外，复读学校的学生成排走过去，书包带在肩上勒出同一种弧度。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S003,S003_0409,narration,,我把蓝伞从柜台边挪到失物箱上方。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S003,S003_0410,narration,,“寄存”那一栏还很空，空得像一条刚开通的业务。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S003,S003_0411,dialogue,CHR_heyi,江迟，你在本子上写的寄存是什么意思？,CHR_heyi,,dialogue beat in readable source,,,,,,,,,CHR_heyi,click_function=dialogue_pressure
+S003,S003_0412,dialogue,CHR_heyi,便利店没开车站行李房业务。,CHR_heyi,,dialogue beat in readable source,,,,,,,,,CHR_heyi,click_function=dialogue_pressure
+S003,S003_0413,dialogue,CHR_heyi,还有，谁欠你骂？欠骂也要写？,CHR_heyi,,dialogue beat in readable source,,,,,,,,,CHR_heyi,click_function=dialogue_pressure
+S003,S003_0414,dialogue,CHR_heyi,你别不说话，你一不说话我就知道你又拿规章当橡皮筋用。,CHR_heyi,,dialogue beat in readable source,,,,,,,,,CHR_heyi,click_function=dialogue_pressure
+S003,S003_0415,dialogue,CHR_jiangchi,何姨，橡皮筋是消耗品。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S003,S003_0416,dialogue,CHR_heyi,少贫。晚班结束前把新栏目的解释写给我。,CHR_heyi,,dialogue beat in readable source,,,,,,,,,CHR_heyi,click_function=dialogue_pressure
+S003,S003_0417,narration,,电话挂断。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S003,S003_0418,narration,,收银机屏幕暗下去，像也不想承担“寄存”的法律责任。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S003,S003_0419,thought,CHR_jiangchi,（解释。）,private_inference,,private thought pocket,,,,,,,,,CHR_jiangchi,click_function=private_thought_pocket
+S003,S003_0420,thought,CHR_jiangchi,（把“有人暂时拿不回去的东西”写成一句不挨骂的话。）,private_inference,,private thought pocket,,,,,,,,,CHR_jiangchi,click_function=private_thought_pocket
+S003,S003_0421,command,,@sfx 自动门叮咚,,,sound cue,,,自动门叮咚,,,,,,,production cue
+S003,S003_0422,narration,,林檐进门时，手里拿着两把伞。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S003,S003_0423,narration,,一把是新伞，黑得很认真；一把是我的黑伞，被她夹在胳膊下面。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S003,S003_0424,dialogue,CHR_linyan,先声明，我赶在晚自习前来办正事。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S003,S003_0425,dialogue,CHR_linyan,我只是在晚自习开始前，进行一项非常严肃的伞类外交。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S003,S003_0426,dialogue,CHR_linyan,外交对象包括：我爸的新伞、我妈的旧伞、你的黑伞、以及你们店疑似非法开设的寄存柜。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S003,S003_0427,dialogue,CHR_linyan,其中你的黑伞表现稳定，昨晚护送有功，今天午休后又陪我去了一趟办公室。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S003,S003_0428,dialogue,CHR_linyan,它现在有点像班里那个不说话但作业全对的同学。讨厌，很可靠。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S003,S003_0429,dialogue,CHR_jiangchi,你夸伞比夸人熟练。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S003,S003_0430,dialogue,CHR_linyan,人容易得意，伞不会。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S003,S003_0431,narration,,她把我的黑伞放在柜台上。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S003,S003_0432,narration,,伞套上的小笑脸被雨蹭掉一半，只剩一只眼睛。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S003,S003_0433,dialogue,CHR_jiangchi,晚自习几点。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S003,S003_0434,dialogue,CHR_jiangchi,从这里走回去八分钟。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S003,S003_0435,dialogue,CHR_jiangchi,你还有十四分钟。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S003,S003_0436,dialogue,CHR_jiangchi,其中买豆浆要一分钟，骂人视语速而定。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S003,S003_0437,dialogue,CHR_linyan,你现在连我的骂人效率都纳入排班了？,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S003,S003_0438,dialogue,CHR_jiangchi,寄存新业务需要数据。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S003,S003_0439,dialogue,CHR_linyan,铁算盘一号，听见没有，你们店员开始创业了。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S003,S003_0440,command,,@sfx 收银机滴,,,sound cue,,,收银机滴,,,,,,,production cue
+S003,S003_0441,dialogue,CHR_linyan,它同意了。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S003,S003_0442,dialogue,CHR_jiangchi,它只是扫码枪误触。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S003,S003_0443,dialogue,CHR_linyan,你们一家三口都很嘴硬。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S003,S003_0444,narration,,她把新伞立在柜台边。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S003,S003_0445,narration,,新伞伞柄光滑，连一道多余的划痕都没有。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S003,S003_0446,dialogue,CHR_linyan,我跟我爸说了。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S003,S003_0447,dialogue,CHR_linyan,说那把旧伞找回来了。说我昨晚没有故意躲消息，我在便利店查监控。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S003,S003_0448,dialogue,CHR_linyan,说有个夜班店员，讲话特别像商品说明书，但没有把我赶出去。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S003,S003_0449,dialogue,CHR_linyan,说他借我一把黑伞，还记了小票，或者记了脑子，具体版本取决于世界线。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S003,S003_0450,dialogue,CHR_linyan,我爸听完，第一句问，那个店员多大。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S003,S003_0451,dialogue,CHR_linyan,第二句问，店长知道吗。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S003,S003_0452,dialogue,CHR_linyan,第三句说，下次别给人添麻烦。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S003,S003_0453,narration,,她喝了一口空气，没喝到豆浆，只好把嘴闭上。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S003,S003_0454,dialogue,CHR_linyan,我当时差点又炸。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S003,S003_0455,dialogue,CHR_linyan,然后他把新伞递给我，说，旧的找回来就好，新的也不用你喜欢。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S003,S003_0456,dialogue,CHR_linyan,他说他不会修伞。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S003,S003_0457,dialogue,CHR_linyan,他说这句的时候，手一直捏着伞套。那把黑科技新伞，差点被他捏成咸菜。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S003,S003_0458,narration,,她低头看新伞。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S003,S003_0459,narration,,语气终于慢下来。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S003,S003_0460,dialogue,CHR_linyan,我以前觉得他买新伞，是想把旧伞从家里赶出去。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S003,S003_0461,dialogue,CHR_linyan,今天发现，他可能只是看见旧伞坏了，不知道怎么让它继续留在我手里。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S003,S003_0462,dialogue,CHR_linyan,这个发现很烦。因为我准备好的台词，全都用不上了。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S003,S003_0463,dialogue,CHR_linyan,我本来想讲得很帅，想让他愧疚，想让他知道我没有随便怀旧。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S003,S003_0464,dialogue,CHR_linyan,结果他先说不会。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S003,S003_0465,dialogue,CHR_linyan,他一说不会，我就没法赢了。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S003,S003_0466,narration,,便利店的空调吹过柜台。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S003,S003_0467,narration,,蓝伞的透明胶翘起一小片，在灯下轻轻动。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S003,S003_0468,thought,CHR_jiangchi,（她没有输给父亲。）,private_inference,,private thought pocket,,,,,,,,,CHR_jiangchi,click_function=private_thought_pocket
+S003,S003_0469,thought,CHR_jiangchi,（她忽然发现，有些人在意的方式，只剩下买新的。）,private_inference,,private thought pocket,,,,,,,,,CHR_jiangchi,click_function=private_thought_pocket
+S003,S003_0470,dialogue,CHR_jiangchi,那旧伞呢。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S003,S003_0471,dialogue,CHR_linyan,继续放你这。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S003,S003_0472,dialogue,CHR_linyan,我今天拿新伞回去。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S003,S003_0473,dialogue,CHR_linyan,旧伞如果一起带走，我会像打赢一场架。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S003,S003_0474,dialogue,CHR_linyan,可我今天没有打架。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S003,S003_0475,dialogue,CHR_linyan,我只是发现我爸不会透明胶。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S003,S003_0476,dialogue,CHR_linyan,这事需要一点时间消化。寄存在你这，比较像把题先空着，交卷还早。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S003,S003_0477,dialogue,CHR_jiangchi,寄存期。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S003,S003_0478,dialogue,CHR_linyan,到我会修伞为止。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S003,S003_0479,dialogue,CHR_jiangchi,太长。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S003,S003_0480,dialogue,CHR_linyan,你还嫌弃客户？,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S003,S003_0481,dialogue,CHR_jiangchi,店里空间有限。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S003,S003_0482,dialogue,CHR_linyan,那就到我敢拿回去为止。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S003,S003_0483,dialogue,CHR_jiangchi,可以。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S003,S003_0484,narration,,我在失物本新栏下面写字。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S003,S003_0485,narration,,笔尖停在“寄存期限”后面。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S003,S003_0486,dialogue,CHR_jiangchi,寄存期限：她敢拿回去为止。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S003,S003_0487,dialogue,CHR_jiangchi,寄存状态：雨后。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S003,S003_0488,dialogue,CHR_jiangchi,保管要求：不要让铁算盘一号发表意见。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S003,S003_0489,dialogue,CHR_jiangchi,备注：豆浆不固定供应，骂人额度可延期。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S003,S003_0490,dialogue,CHR_linyan,最后一句又乱写！,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S003,S003_0491,dialogue,CHR_jiangchi,业务说明。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S003,S003_0492,dialogue,CHR_linyan,你这个业务迟早被何姨取缔。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S003,S003_0493,dialogue,CHR_jiangchi,已经在解释了。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S003,S003_0494,narration,,我把何姨要求的解释纸拿出来。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S003,S003_0495,narration,,上面只写了一行：暂时放不回去的东西，先不要丢。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S003,S003_0496,narration,,林檐看见那行字，安静了两秒。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S003,S003_0497,dialogue,CHR_linyan,这句能给我吗？,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S003,S003_0498,dialogue,CHR_linyan,我想夹到错题本里。给我自己看。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S003,S003_0499,narration,,377.5,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S003,S003_0500,dialogue,CHR_linyan,以后我又想把话说绝的时候，先看一眼。提醒一下，雨伞和人都能晚点拿回去。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S003,S003_0501,dialogue,CHR_jiangchi,何姨要看。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S003,S003_0502,dialogue,CHR_linyan,那你再写一张。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S003,S003_0503,dialogue,CHR_jiangchi,纸要钱。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S003,S003_0504,dialogue,CHR_linyan,我买豆浆。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S003,S003_0505,dialogue,CHR_jiangchi,第二件半价。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S003,S003_0506,dialogue,CHR_linyan,江迟，你真的很会把感人场面拐进收银台。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S003,S003_0507,dialogue,CHR_jiangchi,这样比较安全。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S003,S003_0508,narration,,这句话说出口，我自己先停了一下。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S003,S003_0509,thought,CHR_jiangchi,（安全。）,private_inference,,private thought pocket,,,,,,,,,CHR_jiangchi,click_function=private_thought_pocket
+S003,S003_0510,thought,CHR_jiangchi,（我也一直把话放在收银台后面。扫码，找零，登记，提醒小心地滑。）,private_inference,,private thought pocket,,,,,,,,,CHR_jiangchi,click_function=private_thought_pocket
+S003,S003_0511,thought,CHR_jiangchi,（好像只要每句话都有用途，就不会有人问我为什么还没走出去。）,private_inference,,private thought pocket,,,,,,,,,CHR_jiangchi,click_function=private_thought_pocket
+S003,S003_0512,dialogue,CHR_linyan,你以前为什么离开对面学校？,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S003,S003_0513,narration,,她问得很轻。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S003,S003_0514,narration,,轻到不像审问，倒像把伞递过来时先把伞柄朝向我。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S003,S003_0515,dialogue,CHR_jiangchi,社团退了。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S003,S003_0516,dialogue,CHR_jiangchi,成绩掉了。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S003,S003_0517,dialogue,CHR_jiangchi,家里说，先工作一阵也行。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S003,S003_0518,dialogue,CHR_jiangchi,我说好。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S003,S003_0519,dialogue,CHR_jiangchi,后来发现“好”这个字很方便。别人给台阶，你说好；别人不问了，你也说好；排班表贴出来，你还是说好。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S003,S003_0520,dialogue,CHR_jiangchi,说多了，自己也懒得查到底哪里不好。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S003,S003_0521,narration,,林檐没有立刻接话。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S003,S003_0522,narration,,她把豆浆推到我这边，又推回来，像在试杯子烫不烫。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S003,S003_0523,dialogue,CHR_linyan,那你也寄存一下。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S003,S003_0524,dialogue,CHR_jiangchi,什么。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S003,S003_0525,dialogue,CHR_linyan,你那些说好。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S003,S003_0526,dialogue,CHR_linyan,暂时放不回去的东西，先不要丢。你自己写的，别装没看见。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S003,S003_0527,dialogue,CHR_linyan,可以寄存在本子里，也可以寄存在铁算盘一号那里。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S003,S003_0528,dialogue,CHR_linyan,它嘴严。最多滴一声。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S003,S003_0529,command,,@sfx 收银机滴,,,sound cue,,,收银机滴,,,,,,,production cue
+S003,S003_0530,dialogue,CHR_linyan,你看，它答应了。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S003,S003_0531,dialogue,CHR_jiangchi,扫码枪误触。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S003,S003_0532,dialogue,CHR_linyan,不，它今天是证人。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S003,S003_0533,narration,,晚自习铃从街对面响起来。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S003,S003_0534,narration,,林檐把新伞拿起，蓝伞留在柜台上。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S003,S003_0535,dialogue,CHR_linyan,我走了。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S003,S003_0536,dialogue,CHR_linyan,明天不一定来。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S003,S003_0537,dialogue,CHR_linyan,后天也不一定。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S003,S003_0538,dialogue,CHR_linyan,但这把伞在这里，我就不会忘得太干净。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S003,S003_0539,dialogue,CHR_linyan,你也别忘得太干净。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S003,S003_0540,dialogue,CHR_jiangchi,忘什么。,CHR_jiangchi,,dialogue beat in readable source,,,,,,,,,CHR_jiangchi,click_function=dialogue_pressure
+S003,S003_0541,dialogue,CHR_linyan,忘了自己还有东西没拿回去。,CHR_linyan,,dialogue beat in readable source,,,,,,,,,CHR_linyan,click_function=dialogue_pressure
+S003,S003_0542,command,,@sfx 自动门叮咚,,,sound cue,,,自动门叮咚,,,,,,,production cue
+S003,S003_0543,narration,,她跑进傍晚的人流。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S003,S003_0544,narration,,新伞没有撑开，被她夹在胳膊下面，像一项暂时讲和的证据。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S003,S003_0545,narration,,我低头看失物本。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S003,S003_0546,narration,,寄存栏下，林檐的蓝伞占了一行。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S003,S003_0547,narration,,我在下一行写：江迟。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S003,S003_0548,narration,,物品：说好的事。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S003,S003_0549,narration,,期限：想拿回去的时候。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S003,S003_0550,narration,,收银机又滴了一声。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S003,S003_0551,narration,,这次没有商品经过。,,,visible narration from readable source,,,,,,,,,,click_function=screen_state_or_action
+S003,S003_0552,command,,@ending true_after_rain_end,,,ending cue,,,,,,,,,,ending cue
+S003,S003_0553,command,,@fadeout,,,ending cue,,,,,,,,,,ending cue

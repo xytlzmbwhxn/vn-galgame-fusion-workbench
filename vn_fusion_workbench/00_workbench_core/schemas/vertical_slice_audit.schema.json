@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "VN Vertical Slice Audit",
+  "type": "object",
+  "required": [
+    "slice_promise",
+    "included_scene_ids",
+    "must_show",
+    "method_invocation",
+    "state_coverage",
+    "display_coverage",
+    "export_coverage",
+    "qa_gate"
+  ],
+  "properties": {
+    "slice_promise": { "type": "string" },
+    "included_scene_ids": { "type": "array", "items": { "type": "string" } },
+    "must_show": {
+      "type": "object",
+      "properties": {
+        "story": { "type": "string" },
+        "character": { "type": "string" },
+        "gameplay": { "type": "string" },
+        "visual": { "type": "string" },
+        "sound": { "type": "string" },
+        "export": { "type": "string" }
+      }
+    },
+    "method_invocation": {
+      "type": "object",
+      "properties": {
+        "draft_session": { "type": "string" },
+        "scene_brief": { "type": "string" },
+        "context_pack": { "type": "string" },
+        "method_ids": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "state_coverage": { "type": "array", "items": { "type": "string" } },
+    "display_coverage": { "type": "array", "items": { "type": "string" } },
+    "export_coverage": { "type": "array", "items": { "type": "string" } },
+    "qa_gate": {
+      "type": "object",
+      "required": ["validated", "errors", "warnings"],
+      "properties": {
+        "validated": { "type": "boolean" },
+        "errors": { "type": "integer" },
+        "warnings": { "type": "integer" },
+        "report_path": { "type": "string" },
+        "known_risks": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "post_slice_memory_updates": { "type": "array", "items": { "type": "string" } }
+  }
+}
+

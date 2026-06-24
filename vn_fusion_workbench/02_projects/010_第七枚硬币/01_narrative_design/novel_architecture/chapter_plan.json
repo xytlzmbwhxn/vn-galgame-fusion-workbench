@@ -1,0 +1,23 @@
+{
+  "chapters": [
+    {
+      "id": "CH01",
+      "title": "第七枚硬币",
+      "chapter_goal": "让玩家学会洗衣流程选择，并第一次决定是否保留会刺痛角色的痕迹。",
+      "scene_order": [
+        "S001"
+      ],
+      "emotional_curve": [
+        "关店疲劳",
+        "旧相识玩笑",
+        "口袋阻拦",
+        "热敏单暴露",
+        "洗法选择",
+        "母亲姓名露出",
+        "弯硬币回钩"
+      ],
+      "word_budget": 3500,
+      "gameplay_contract": "玩家通过温度和单据处理表达立场，后续以 trace_kept / receipt_saved / heat_damage 回调。"
+    }
+  ]
+}

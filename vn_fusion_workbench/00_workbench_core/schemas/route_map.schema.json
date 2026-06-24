@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "VN Route Map",
+  "type": "object",
+  "required": ["project_id", "common_route", "routes", "variables"],
+  "properties": {
+    "project_id": { "type": "string" },
+    "common_route": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "routes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "dramatic_question", "unlock_rule", "ending_logic"],
+        "properties": {
+          "id": { "type": "string" },
+          "dramatic_question": { "type": "string" },
+          "unlock_rule": { "type": "string" },
+          "key_scenes": { "type": "array", "items": { "type": "string" } },
+          "bad_ends": { "type": "array", "items": { "type": "string" } },
+          "ending_logic": { "type": "string" }
+        }
+      }
+    },
+    "variables": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "type", "purpose"],
+        "properties": {
+          "name": { "type": "string" },
+          "type": { "type": "string" },
+          "visible": { "type": "boolean" },
+          "purpose": { "type": "string" }
+        }
+      }
+    }
+  }
+}
+

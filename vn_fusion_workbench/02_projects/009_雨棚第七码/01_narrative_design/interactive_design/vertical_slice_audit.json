@@ -1,0 +1,37 @@
+{
+  "slice_promise": "玩家通过处理七号伞，第一次决定第三遍录音进入系统、留在自己手里，或暂缓归还。",
+  "included_scene_ids": ["S001"],
+  "must_show": {
+    "story": "鹿今要在取件码失效前拿伞，许栀的录音笔藏在伞柄里。",
+    "character": "程砚、鹿今、许栀三人声纹可区分。",
+    "gameplay": "扫码入账、拆伞柄、改待核验三种选择改变状态。",
+    "visual": "雨棚、登记簿、扫码枪、七号伞、录音笔、红色印章。",
+    "sound": "雨棚滴水、扫码延迟、伞柄卡扣、录音笔红点、备用灯电流声。",
+    "export": "CSV 可渲染 readable，可导出多格式。"
+  },
+  "method_invocation": {
+    "draft_session": "03_exports/context/S001_rain_shed_v1_draft_session.md",
+    "scene_brief": "03_exports/context/S001_rain_shed_v1_scene_brief.md",
+    "context_pack": "03_exports/context/S001_rain_shed_v1_context_pack.md",
+    "method_ids": [
+      "generation_context_assembly_order",
+      "corpus_metric_targeting",
+      "galgame_textbox_production",
+      "dialogue_display_interiority",
+      "character_liveliness_bias",
+      "choice_mental_model",
+      "two_pass_narrative_lint"
+    ]
+  },
+  "state_coverage": ["trust_lujin", "record_clean", "delay_clock", "rule_breach", "kept_recording"],
+  "display_coverage": ["dialogue blocks", "thought blocks", "stage cues", "choice menu"],
+  "export_coverage": [],
+  "qa_gate": {
+    "validated": false,
+    "errors": 0,
+    "warnings": 0,
+    "report_path": "",
+    "known_risks": ["鹿今不能只可爱，许栀不能只虚弱，程砚不能只当旁白机器。"]
+  },
+  "post_slice_memory_updates": []
+}

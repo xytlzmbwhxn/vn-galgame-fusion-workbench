@@ -1,0 +1,32 @@
+{
+  "project": "便利店把雨收好",
+  "structure": "single ending with branch debt",
+  "visible_option_count": 2,
+  "branch_state_count": 4,
+  "routes": [
+    {
+      "id": "common",
+      "scenes": ["S001", "S002", "S003"],
+      "theme_argument": "规章可以挡住麻烦，也可以给麻烦一个落点。"
+    }
+  ],
+  "choices": [
+    {
+      "id": "CHOICE_01",
+      "axis": "流程优先 vs 先确认情绪",
+      "options": ["按失物流程登记", "先拿蓝伞给她确认"],
+      "states": ["umbrella_recorded", "early_trust"],
+      "rejoin": "CHOICE_01_REJOIN",
+      "persistent_debt": "登记方式影响林檐是否愿意把号码和细节留下。"
+    },
+    {
+      "id": "CHOICE_02",
+      "axis": "留证承担骂 vs 只靠记忆承担关系",
+      "options": ["把小票夹进失物本", "不留小票只记线索"],
+      "states": ["receipt_kept", "receipt_hidden"],
+      "rejoin": "CHOICE_02_REJOIN",
+      "persistent_debt": "第二天林檐对江迟是否真的等到明天有不同理解。"
+    }
+  ],
+  "ending": "寄存栏建立，蓝伞暂时留在便利店。"
+}

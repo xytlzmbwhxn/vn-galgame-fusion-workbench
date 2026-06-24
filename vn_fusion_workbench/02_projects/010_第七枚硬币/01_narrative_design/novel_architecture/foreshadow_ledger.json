@@ -1,0 +1,36 @@
+{
+  "items": [
+    {
+      "id": "FS_bent_coin",
+      "object_or_phrase": "弯硬币",
+      "first_scene": "S001",
+      "role": "seed",
+      "payoff_plan": "后续揭示夏停一直留着这枚高中电玩城硬币，说明她从来没有真的断开旧关系。",
+      "current_status": "introduced"
+    },
+    {
+      "id": "FS_thermal_receipt",
+      "object_or_phrase": "23:41 热敏挂号单",
+      "first_scene": "S001",
+      "role": "seed",
+      "payoff_plan": "后续用字迹保存程度决定病房时间线是否完整。",
+      "current_status": "introduced"
+    },
+    {
+      "id": "FS_luoyi_monitor",
+      "object_or_phrase": "罗姨说自己没看监控",
+      "first_scene": "S001",
+      "role": "echo",
+      "payoff_plan": "后续她会拿出监控截图，证明自己从第一晚就认出了开衫。",
+      "current_status": "introduced"
+    },
+    {
+      "id": "FS_no7_heat",
+      "object_or_phrase": "七号机热烘偏高",
+      "first_scene": "S001",
+      "role": "mislead",
+      "payoff_plan": "先作为维修风险，后续成为热敏单受损程度的系统解释。",
+      "current_status": "introduced"
+    }
+  ]
+}

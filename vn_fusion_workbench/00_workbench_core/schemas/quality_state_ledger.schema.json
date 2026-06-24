@@ -1,0 +1,69 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "VN Quality State Ledger",
+  "type": "object",
+  "required": ["qualities", "storylets", "microinteractions", "callbacks"],
+  "properties": {
+    "qualities": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "visibility", "range_or_type", "dramatic_use"],
+        "properties": {
+          "id": { "type": "string" },
+          "visibility": { "type": "string", "enum": ["hidden", "visible", "mixed"] },
+          "range_or_type": { "type": "string" },
+          "dramatic_use": { "type": "string" },
+          "failure_state": { "type": "string" }
+        }
+      }
+    },
+    "storylets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "title", "prerequisites", "entry_pressure", "effects", "payoff_refs"],
+        "properties": {
+          "id": { "type": "string" },
+          "title": { "type": "string" },
+          "prerequisites": { "type": "array", "items": { "type": "string" } },
+          "entry_pressure": { "type": "string" },
+          "effects": { "type": "array", "items": { "type": "string" } },
+          "payoff_refs": { "type": "array", "items": { "type": "string" } }
+        }
+      }
+    },
+    "microinteractions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "type", "player_facing_copy", "immediate_feedback", "effects", "delayed_callback"],
+        "properties": {
+          "id": { "type": "string" },
+          "type": {
+            "type": "string",
+            "enum": ["inspect", "reveal", "cycle", "input", "service", "present", "wait"]
+          },
+          "player_facing_copy": { "type": "string" },
+          "immediate_feedback": { "type": "string" },
+          "effects": { "type": "array", "items": { "type": "string" } },
+          "delayed_callback": { "type": "string" },
+          "production_cue": { "type": "string" }
+        }
+      }
+    },
+    "callbacks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "listens_for", "changes"],
+        "properties": {
+          "id": { "type": "string" },
+          "listens_for": { "type": "string" },
+          "changes": { "type": "string" }
+        }
+      }
+    }
+  }
+}
+

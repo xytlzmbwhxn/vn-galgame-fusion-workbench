@@ -1,0 +1,7 @@
+{
+  "threads": [
+    {"id": "THR_rules_hold_care", "title": "规章承接温柔", "starts": "S001", "pays_off": "S003"},
+    {"id": "THR_blue_umbrella", "title": "旧蓝伞", "starts": "S001", "pays_off": "S003"},
+    {"id": "THR_receipt_debt", "title": "小票或记忆", "starts": "S001", "pays_off": "S002"}
+  ]
+}

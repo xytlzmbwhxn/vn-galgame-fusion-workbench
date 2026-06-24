@@ -1,0 +1,74 @@
+{
+  "scene_id": "S001",
+  "character_state_changes": [
+    {
+      "character_id": "CHR_wenzhou",
+      "change": "从只想关店，转为主动在洗法和账夹里替夏停留余地。"
+    },
+    {
+      "character_id": "CHR_xiating",
+      "change": "从把开衫伪装成房东阿姨的东西，到承认它和母亲有关。"
+    }
+  ],
+  "relationship_changes": [
+    {
+      "from": "CHR_xiating",
+      "to": "CHR_wenzhou",
+      "change": "弯硬币旧债被重新打开，信任根据玩家洗法变化。"
+    }
+  ],
+  "item_changes": [
+    {
+      "item_id": "OBJ_thermal_receipt",
+      "change": "可能被保存、部分受损或被热烘毁掉。"
+    },
+    {
+      "item_id": "OBJ_bent_coin",
+      "change": "被投入或被闻舟拦下，成为关系回钩。"
+    }
+  ],
+  "secret_changes": [
+    {
+      "secret_id": "SEC_cardigan_owner",
+      "change": "开衫属于夏停母亲的事实露出裂口。"
+    }
+  ],
+  "route_flags": [
+    {
+      "flag": "receipt_saved",
+      "set_by": "选择保存热敏单"
+    },
+    {
+      "flag": "quick_hot_selected",
+      "set_by": "选择高温快洗"
+    },
+    {
+      "flag": "cold_wash_selected",
+      "set_by": "选择冷水短漂"
+    }
+  ],
+  "promises": [
+    {
+      "speaker": "CHR_wenzhou",
+      "promise": "滚筒停之前可以不追问。"
+    }
+  ],
+  "foreshadow_payoff": [
+    {
+      "seed": "OBJ_bent_coin",
+      "payoff": "后续路线揭示夏停保存弯硬币多年。"
+    }
+  ],
+  "deadline_changes": [
+    {
+      "deadline": "00:30 automatic_lights_off",
+      "change": "根据洗法增加或减少剩余时间。"
+    }
+  ],
+  "memory_entries_to_write": [
+    {
+      "target": "CHR_xiating",
+      "entry": "夏停在七号机前承认自己害怕开衫上的医院味被妹妹闻见。"
+    }
+  ]
+}

@@ -1,0 +1,347 @@
+# VN Workbench QA Report
+
+## Stats
+- rows: 275
+- dialogue: 179
+- narration: 62
+- thought: 18
+- choice: 2
+- command: 14
+- comment: 0
+- errors: 0
+- warnings: 289
+- dialogue_blocks: 30
+- narration_blocks: 30
+- thought_blocks: 9
+- max_dialogue_block: 14
+- max_narration_block: 6
+- max_thought_block: 2
+- lonely_narration_bridges: 13
+- dialogue_energy_marks: 41
+- dialogue_energy_pct: 23
+- dialogue_question_lines: 32
+- dialogue_exclaim_lines: 5
+- dialogue_pause_or_cut_lines: 5
+- dialogue_casual_particle_lines: 5
+- dialogue_casual_particle_pct: 3
+- dialogue_full_stop_pct: 80
+- dialogue_unmarked_endings: 0
+- dialogue_short_fragments: 128
+- dialogue_short_fragment_pct: 72
+- dialogue_low_payload_lines: 107
+- dialogue_low_payload_pct: 60
+- dialogue_payload_avg_x10: 15
+- branch_labels: 4
+- choice_targets: 2
+- jump_targets: 0
+- unresolved_branch_targets: 0
+- stage_cue_rows: 0
+- stage_cue_pct: 0
+- dialogue_wrapped_quotes: 0
+- dialogue_double_quotes: 1
+- ellipsis_only_boxes: 0
+- first_person_narration_lines: 11
+- comma_fragment_lines: 1
+- multi_sentence_boxes: 2
+- textbox_overflow_risk: 1
+- character_state_files: 3
+- thought_rows: 18
+- thought_to_dialogue_pct: 10
+- scene_contract_fields: 6
+- novel_architecture_files: 4
+- narrative_threads: 3
+- character_arcs: 0
+- foreshadow_items: 3
+- chapter_plan_items: 3
+- novel_scene_layer_fields: 1
+
+## Issues
+- [WARNING] S001_v4_0013: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0014: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0015: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0016: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0017: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0018: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0019: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0020: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0021: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0022: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0023: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0024: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0025: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0026: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0027: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0028: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0029: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0030: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0031: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0032: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0033: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0034: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0035: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0036: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0037: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0038: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0039: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0040: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0041: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0042: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0043: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0044: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0045: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0046: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0047: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0048: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0049: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0050: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0051: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0052: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0053: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0054: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0054: abstract emotion word without body_action: 温柔
+- [WARNING] S001_v4_0055: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0056: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0057: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0058: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0059: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0060: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0061: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0062: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0063: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0064: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0065: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0066: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0067: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0068: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0069: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0070: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0071: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0072: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0073: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0074: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0075: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0076: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0077: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0078: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0079: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0080: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0081: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0082: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0083: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0084: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0085: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0086: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0087: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0088: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0089: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0090: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0091: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0092: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0093: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0094: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0095: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0096: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0097: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0098: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0099: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0100: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0101: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0102: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0103: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0104: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0105: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0106: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0107: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0108: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0109: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0110: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0111: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0112: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0113: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0114: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0115: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0116: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0117: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0118: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0119: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0120: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0121: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0122: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0123: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0124: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0125: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0126: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0127: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0128: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0129: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0130: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0131: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0132: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0133: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0134: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0135: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0136: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0137: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0138: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0139: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0140: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0141: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0142: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0143: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0144: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0145: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0146: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0147: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0148: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0149: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0150: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0151: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0152: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0153: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0154: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0155: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0156: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0157: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0158: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0159: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0160: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0161: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0162: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0163: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0164: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0165: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0166: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0167: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0168: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0169: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0170: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0171: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0172: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0173: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0174: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0175: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0176: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0177: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0178: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0179: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0180: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0181: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0182: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0183: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0184: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0185: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0186: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0187: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0188: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0189: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0190: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0191: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0192: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0193: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0194: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0195: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0196: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0197: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0198: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0199: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0200: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0201: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0202: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0203: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0204: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0205: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0206: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0207: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0208: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0209: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0210: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0211: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0212: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0213: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0214: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0215: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0216: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0217: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0218: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0219: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0220: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0221: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0222: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0223: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0224: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0225: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0226: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0227: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0228: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0229: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0230: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0231: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0232: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0233: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0234: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0235: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0236: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0237: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0238: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0239: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0240: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0241: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0242: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0243: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0244: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0245: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0246: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0247: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0248: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0249: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0250: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0251: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0252: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0253: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0254: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0255: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0256: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0257: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0258: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0259: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0260: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0261: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0262: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0263: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0264: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0265: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0266: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0267: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0268: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0269: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0270: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0271: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0272: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0273: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0274: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] S001_v4_0275: last 10 prose/dialogue rows lack body/object/environment action
+- [WARNING] scene: many single narration beats sit between dialogue lines; consider continuous dialogue blocks for immersion
+- [WARNING] dialogue: dialogue has little casual speech texture; add character-specific particles, nicknames, corrections, or playful pressure where appropriate
+- [WARNING] dialogue: too many low-information short textboxes; combine action, response, or implication into fuller playable beats
+- [WARNING] dialogue: too many low-payload clicks; each textbox should carry voice, object/action, implication, state, or tactical pressure
+- [WARNING] S001_v4_0032: dialogue textbox contains too many sentence beats; split only where the click changes leverage
+- [WARNING] S001_v4_0039: dialogue contains double quotes; use speaker/name box or display layer instead
+- [WARNING] S001_v4_0089: dialogue textbox contains too many sentence beats; split only where the click changes leverage
+- [WARNING] S001_v4_0201: dialogue is comma-fragmented; preserve textbox flow instead of chopping the line
+- [WARNING] scene: low production annotation density; add body_action, expression, bg, bgm, sfx, or commands so the script serves game production
+- [WARNING] narration: first-person narration is frequent; Galgame scripts should often soften the protagonist 'I' through name box, action, and screen state
+- [WARNING] S001_v4_0026: thought row lacks concrete pressure; tie it to object, body, clue, risk, or unsaid word
+- [WARNING] S001_v4_0027: thought row lacks concrete pressure; tie it to object, body, clue, risk, or unsaid word
+- [WARNING] S001_v4_0056: thought row lacks concrete pressure; tie it to object, body, clue, risk, or unsaid word
+- [WARNING] S001_v4_0096: thought row lacks concrete pressure; tie it to object, body, clue, risk, or unsaid word
+- [WARNING] S001_v4_0131: thought row lacks concrete pressure; tie it to object, body, clue, risk, or unsaid word
+- [WARNING] S001_v4_0151: thought row lacks concrete pressure; tie it to object, body, clue, risk, or unsaid word
+- [WARNING] S001_v4_0172: thought row lacks concrete pressure; tie it to object, body, clue, risk, or unsaid word
+- [WARNING] S001_v4_0249: thought row is too thin; inner monologue needs a clue, hesitation, contradiction, or choice pressure
+- [WARNING] S001_v4_0249: thought row lacks concrete pressure; tie it to object, body, clue, risk, or unsaid word
+- [WARNING] S001_v4_0250: thought row lacks concrete pressure; tie it to object, body, clue, risk, or unsaid word
+- [WARNING] S001_v4_0274: thought row is too thin; inner monologue needs a clue, hesitation, contradiction, or choice pressure
+- [WARNING] S001_v4_0274: thought row lacks concrete pressure; tie it to object, body, clue, risk, or unsaid word
+- [WARNING] S001_v4_0275: thought row lacks concrete pressure; tie it to object, body, clue, risk, or unsaid word
+- [WARNING] S001: script rows do not reference any foreshadow id in memory_refs
+- [WARNING] S001: scene card lacks novel-architecture fields: chapter_goal, scene_synopsis, narrative_threads, foreshadow_role, prose_texture_target

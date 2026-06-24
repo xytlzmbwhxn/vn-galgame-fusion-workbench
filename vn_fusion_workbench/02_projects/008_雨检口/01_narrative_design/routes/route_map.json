@@ -1,0 +1,72 @@
+{
+  "project_id": "rain_gate_demo",
+  "common_route": ["S001", "S002"],
+  "routes": [
+    {
+      "id": "route_register",
+      "dramatic_question": "纸质登记能否抵抗被改写的监控记录？",
+      "unlock_rule": "flag_checked_register_first == true and trust_cenyao >= 2",
+      "key_scenes": ["S001", "S002"],
+      "bad_ends": ["BE_alarm_too_early"],
+      "ending_logic": "玩家保住纸质证据，并让岑遥主动交出第二张票根。"
+    },
+    {
+      "id": "route_monitor",
+      "dramatic_question": "按流程查监控会不会把真正求助者送回危险里？",
+      "unlock_rule": "flag_checked_monitor_first == true",
+      "key_scenes": ["S001", "S002"],
+      "bad_ends": ["BE_missing_clip"],
+      "ending_logic": "玩家发现监控被剪，但失去岑遥的第一次信任。"
+    }
+  ],
+  "variables": [
+    {
+      "name": "trust_cenyao",
+      "type": "int",
+      "visible": false,
+      "purpose": "岑遥是否愿意说出旧记录相关线索"
+    },
+    {
+      "name": "flag_checked_register_first",
+      "type": "bool",
+      "visible": false,
+      "purpose": "玩家是否先查纸质登记"
+    },
+    {
+      "name": "flag_checked_monitor_first",
+      "type": "bool",
+      "visible": false,
+      "purpose": "玩家是否先查监控"
+    },
+    {
+      "name": "item_spare_umbrella",
+      "type": "owner_id",
+      "visible": false,
+      "purpose": "备用伞当前持有者，影响后续归还债"
+    },
+    {
+      "name": "evidence_ticket_photo",
+      "type": "bool",
+      "visible": false,
+      "purpose": "玩家是否拍下湿票根日期"
+    },
+    {
+      "name": "flag_cenyao_surname",
+      "type": "bool",
+      "visible": false,
+      "purpose": "岑遥是否说出姓氏"
+    },
+    {
+      "name": "flag_seen_partial_date",
+      "type": "bool",
+      "visible": false,
+      "purpose": "玩家是否看见票根上残留的半个日期数字"
+    },
+    {
+      "name": "deadline_station_lock",
+      "type": "int",
+      "visible": true,
+      "purpose": "备用门锁落下前的剩余秒数"
+    }
+  ]
+}

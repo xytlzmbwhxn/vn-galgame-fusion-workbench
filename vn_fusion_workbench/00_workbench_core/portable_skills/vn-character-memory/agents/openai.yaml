@@ -1,0 +1,7 @@
+interface:
+  display_name: "VN Character Memory"
+  short_description: "固定角色声纹、状态和记忆点"
+  default_prompt: "Use $vn-character-memory to create or stabilize visual novel character cards, runtime state, and memory blocks."
+policy:
+  allow_implicit_invocation: true
+

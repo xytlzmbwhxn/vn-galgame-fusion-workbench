@@ -1,0 +1,7 @@
+{
+  "arcs": [
+    {"character_id": "CHR_jiangchi", "start": "规章挡板", "turn": "借黑伞", "end": "建立寄存栏"},
+    {"character_id": "CHR_linyan", "start": "用玩笑找伞", "turn": "承认旧伞连着母亲", "end": "把蓝伞暂时寄存"},
+    {"character_id": "CHR_heyi", "start": "店规压力", "turn": "查到伞", "end": "允许寄存栏成为半公开事实"}
+  ]
+}

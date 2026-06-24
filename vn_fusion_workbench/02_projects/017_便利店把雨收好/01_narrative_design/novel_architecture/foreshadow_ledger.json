@@ -1,0 +1,7 @@
+{
+  "foreshadows": [
+    {"id": "FS_toothmark", "introduced": "S001", "payoff": "S002", "meaning": "旧牙印证明蓝伞是母亲留下的旧物。"},
+    {"id": "FS_receipt", "introduced": "S001", "payoff": "S002", "meaning": "留证或只靠记忆影响信任回调。"},
+    {"id": "FS_deposit_column", "introduced": "S002", "payoff": "S003", "meaning": "失物本多出寄存栏。"}
+  ]
+}

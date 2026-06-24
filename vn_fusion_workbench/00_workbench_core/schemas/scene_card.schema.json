@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "VN Scene Card",
+  "type": "object",
+  "required": ["scene_id", "title", "route", "location", "time", "entering_pressure", "player_want", "npc_wants", "withheld_truths", "usable_objects", "state_delta_required"],
+  "properties": {
+    "scene_id": { "type": "string" },
+    "title": { "type": "string" },
+    "route": { "type": "string" },
+    "chapter": { "type": "string" },
+    "location": { "type": "string" },
+    "time": { "type": "string" },
+    "background": { "type": "string" },
+    "bgm": { "type": "string" },
+    "entering_pressure": { "type": "string" },
+    "player_want": { "type": "string" },
+    "npc_wants": { "type": "object" },
+    "withheld_truths": { "type": "object" },
+    "usable_objects": {
+      "type": "array",
+      "minItems": 5,
+      "items": {
+        "type": "object",
+        "required": ["type", "description", "dramatic_use"],
+        "anyOf": [
+          { "required": ["id"] },
+          { "required": ["object_id"] }
+        ],
+        "properties": {
+          "id": { "type": "string" },
+          "object_id": { "type": "string" },
+          "type": { "type": "string" },
+          "description": { "type": "string" },
+          "dramatic_use": { "type": "string" }
+        }
+      }
+    },
+    "choice_pressure": { "type": "string" },
+    "scene_question": { "type": "string" },
+    "scene_answer": { "type": "string" },
+    "professional_ritual": { "type": "string" },
+    "character_lie_pressure": { "type": "string" },
+    "dramatic_turn": { "type": "string" },
+    "sequel_decision": { "type": "string" },
+    "theme_pressure": { "type": "string" },
+    "state_delta_required": {
+      "anyOf": [
+        { "type": "boolean" },
+        { "type": "array", "items": { "type": "string" } }
+      ]
+    },
+    "exit_image": { "type": "string" },
+    "qa_risks": { "type": "array", "items": { "type": "string" } }
+  }
+}

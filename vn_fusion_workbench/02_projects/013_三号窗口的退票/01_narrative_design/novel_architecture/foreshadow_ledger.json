@@ -1,0 +1,34 @@
+{
+  "items": [
+    {
+      "id": "FS_ticket_number_gap",
+      "seed": "票号少一位，票角被剪过。",
+      "scene": "S001",
+      "payoff": "缺口对应北门进站票根。"
+    },
+    {
+      "id": "FS_zhao_radio_static",
+      "seed": "赵伯对讲机在北门两个字前后有电流。",
+      "scene": "S001",
+      "payoff": "赵伯曾经删过北门巡更备注。"
+    },
+    {
+      "id": "FS_mengzhou_name",
+      "seed": "孟雨迟迟不说乘客姓名。",
+      "scene": "S001",
+      "payoff": "孟舟名字只剩舟字压在票角边。"
+    },
+    {
+      "id": "FS_old_refund_log",
+      "seed": "林桥对退票失败章过度谨慎。",
+      "scene": "S001",
+      "payoff": "三个月前错退记录牵出他的旧伤。"
+    },
+    {
+      "id": "FS_ticket_corner_callback",
+      "seed": "票角不能进废纸篓。",
+      "scene": "S001",
+      "payoff": "票角成为后续调查钥匙。"
+    }
+  ]
+}

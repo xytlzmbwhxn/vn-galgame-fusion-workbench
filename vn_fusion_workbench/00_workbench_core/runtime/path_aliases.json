@@ -1,0 +1,25 @@
+{
+  "version": "2026-06-24",
+  "aliases": {
+    "WORKBENCH_ROOT": ".",
+    "ROOT_START_HERE": "../START_HERE.md",
+    "PROJECT_OVERVIEW": "../项目结构总览.md",
+    "TOP_LEVEL_SKILLS": "../skills",
+    "HANDOFF_ROOT": "../AI_HANDOFF_PACKAGE",
+    "METHODS_ROOT": "00_workbench_core/methods",
+    "TOOLS_ROOT": "00_workbench_core/tools",
+    "DOCS_ROOT": "00_workbench_core/docs",
+    "PORTABLE_SKILLS_ROOT": "00_workbench_core/portable_skills",
+    "RUNTIME_ROOT": "00_workbench_core/runtime",
+    "PROJECTS_ROOT": "02_projects",
+    "LEARN_INPUT_ROOT": "06_学习输入",
+    "LEARN_TUTORIAL_PENDING": "06_学习输入/教程文本/待学习",
+    "LEARN_TUTORIAL_DONE": "06_学习输入/教程文本/已学习",
+    "LEARN_VN_PENDING": "06_学习输入/视觉小说剧本文本/待学习",
+    "LEARN_VN_DONE": "06_学习输入/视觉小说剧本文本/已学习",
+    "STYLE_ASSETS": "06_学习输入/_风格画像",
+    "STYLE_HANDPRINT_CURRENT": "06_学习输入/_风格画像/VN文风手印融合资产_20260623.md",
+    "STYLE_HANDPRINT_JSON_CURRENT": "06_学习输入/_风格画像/vn_style_handprint_fusion_20260623.json",
+    "REFERENCE_LOG": "01_reference_log"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "project": "天台自动售货机只收秘密",
+  "structure": "single ending with branch debt",
+  "visible_option_count": 2,
+  "branch_state_count": 4,
+  "routes": [
+    {
+      "id": "common",
+      "scenes": ["S001", "S002"],
+      "theme_argument": "把秘密当成设备异常处理，是逃避，也是一种温柔的保管。"
+    }
+  ],
+  "choices": [
+    {
+      "id": "CHOICE_01",
+      "axis": "保护秘密 vs 接近理由",
+      "options": ["直接封存，不读纸条", "询问退货理由"],
+      "states": ["seal_without_reading", "ask_refund_reason"],
+      "rejoin": "S001_REJOIN",
+      "persistent_debt": "沈岚是把心事继续藏进流程，还是更早承认自己已经看懂收件人。"
+    }
+  ],
+  "callbacks": [
+    {
+      "id": "lunch_recheck",
+      "trigger": "午休结束前",
+      "objects": ["secret_note", "warm_yuzu_soda"],
+      "promise": "许柚回来复核秘密纸条，沈岚必须决定继续观察还是退回。"
+    }
+  ],
+  "ending": "秘密纸条被封存，售货机进入观察，午休结束前复核。"
+}

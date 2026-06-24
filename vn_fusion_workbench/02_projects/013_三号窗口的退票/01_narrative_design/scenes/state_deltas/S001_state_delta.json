@@ -1,0 +1,44 @@
+{
+  "scene_id": "S001",
+  "entry": {
+    "trust_meng": 0,
+    "station_risk": 0,
+    "ticket_corner_kept": false,
+    "refund_failed_stamp_used": false,
+    "zhao_warning_unlocked": false
+  },
+  "choices": [
+    {
+      "choice_id": "TW_C1_STAMP",
+      "label": "先盖退票失败章，让旧票留下官方处理记录",
+      "effects": {
+        "refund_failed_stamp_used": true,
+        "station_risk": 1,
+        "trust_meng": 1
+      },
+      "immediate_feedback": "孟雨拿到可被查询的失败记录，但原件票面被红泥污染。",
+      "delayed_callback": "后续调查可凭失败记录查窗口日志。"
+    },
+    {
+      "choice_id": "TW_C1_CORNER",
+      "label": "先压住票角，登记异常，暂不盖废票",
+      "effects": {
+        "ticket_corner_kept": true,
+        "station_risk": 2,
+        "trust_meng": 2
+      },
+      "immediate_feedback": "物证保留更完整，林桥的异常留存风险上升。",
+      "delayed_callback": "后续可比对红章缺口和北门记录。"
+    }
+  ],
+  "exit": {
+    "trust_meng": ">=1",
+    "station_risk": ">=1",
+    "zhao_warning_unlocked": true,
+    "new_memory": [
+      "孟雨哥哥名为孟舟。",
+      "旧票票角对应北门进站记录。",
+      "赵伯知道票角不能进废纸篓。"
+    ]
+  }
+}

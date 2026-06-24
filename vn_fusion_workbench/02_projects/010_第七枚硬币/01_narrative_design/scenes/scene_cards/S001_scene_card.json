@@ -1,0 +1,95 @@
+{
+  "scene_id": "S001",
+  "title": "第七枚硬币",
+  "route": "common_route",
+  "chapter": "Chapter 1",
+  "location": "晚潮自助洗衣七号机前",
+  "time": "00:17，断灯前十三分钟",
+  "background": "bg_laundromat_midnight",
+  "bgm": "bgm_washer_low",
+  "entering_pressure": "闻舟正在关店和修七号机退币口，夏停拎着奶油色开衫进来，要求在断灯前完成快洗。",
+  "player_want": "准点关店，避免七号机漏水事故和顾客物品赔偿。",
+  "chapter_goal": "让玩家学会洗衣流程选择，并第一次承担保留痕迹的代价。",
+  "scene_synopsis": "夏停在断灯前带着奶油色开衫闯进晚潮自助洗衣，要求闻舟用七号机快洗。闻舟按店规查口袋，发现会被水和热毁掉的热敏挂号单。罗姨通过电话催促关机，也暗示自己认得开衫。玩家选择高温快洗、保存单据或冷水短漂，三条路径回到滚筒等待场景，夏停说出开衫属于母亲夏青禾。",
+  "pov_character": "CHR_wenzhou",
+  "narrative_threads": [
+    "THR_trace",
+    "THR_clean_route",
+    "THR_trace_route"
+  ],
+  "foreshadow_role": {
+    "seeds": [
+      "FS_bent_coin",
+      "FS_thermal_receipt"
+    ],
+    "echoes": [
+      "FS_luoyi_monitor"
+    ],
+    "payoffs": [
+      "FS_no7_heat"
+    ]
+  },
+  "prose_texture_target": "午夜洗衣店、退币口、滚筒水线、热敏纸、电话外放和老社区熟人关系。口吻要有生活噪音、机器流程和旧相识嘴硬。不要把主题写成旁白结论。",
+  "npc_wants": {
+    "CHR_xiating": "用最快洗法洗掉开衫上的医院味，不让闻舟查出口袋里的热敏挂号单。",
+    "CHR_luoyi": "让闻舟关掉七号机，别让店铺承担漏水赔偿，也别把夏家的旧事说开。"
+  },
+  "withheld_truths": {
+    "CHR_wenzhou": "闻舟认得夏停的弯硬币，也曾洗坏过一张藏在外套里的旧票。",
+    "CHR_xiating": "开衫属于她母亲夏青禾，热敏单记录了今晚病房的时间。",
+    "CHR_luoyi": "罗姨从监控里认出了开衫，知道它不是房东阿姨的。"
+  },
+  "usable_objects": [
+    {
+      "object_id": "OBJ_no7_washer",
+      "type": "machine",
+      "description": "七号洗衣机退币口卡住，热烘时门圈温度偏高。",
+      "dramatic_use": "决定能否快洗、冷漂或拖延时间。"
+    },
+    {
+      "object_id": "OBJ_bent_coin",
+      "type": "memory",
+      "description": "一枚弯掉的旧硬币，高中电玩城留下的旧债。",
+      "dramatic_use": "补足开机金额，也暴露夏停一直保留旧关系。"
+    },
+    {
+      "object_id": "OBJ_cardigan",
+      "type": "clothing",
+      "description": "奶油色开衫，袖口有消毒水味，口袋边缘发潮。",
+      "dramatic_use": "夏停想清洗的物件，也是母亲存在过的痕迹。"
+    },
+    {
+      "object_id": "OBJ_thermal_receipt",
+      "type": "evidence",
+      "description": "热敏挂号单，遇热会黑，遇水会起毛。",
+      "dramatic_use": "记录病房时间，逼迫玩家决定是否保留。"
+    },
+    {
+      "object_id": "OBJ_blue_ledger_clip",
+      "type": "tool",
+      "description": "闻舟的蓝色塑料账夹，夹着维修单和赔偿条款。",
+      "dramatic_use": "可以夹住热敏单，也会把私自处理写进店账。"
+    },
+    {
+      "object_id": "OBJ_luoyi_phone",
+      "type": "pressure",
+      "description": "罗姨的电话外放，能通过监控看见店里动作。",
+      "dramatic_use": "催关机、报赔偿、逼闻舟把帮忙伪装成机器故障。"
+    }
+  ],
+  "choice_pressure": "快洗能满足夏停的请求但可能毁掉热敏单；取出单据会刺痛她；冷水短漂能保留痕迹却增加店铺风险和等待时间。",
+  "scene_question": "闻舟会按顾客要求洗掉开衫上的医院味，还是先保留她不想面对的热敏单？",
+  "scene_answer": "他无论选择哪种洗法，都必须承认自己不是只在处理机器，而是在决定明天还能不能有人问起这件开衫。",
+  "professional_ritual": "查口袋、数硬币、确认温度、选择快洗/冷漂/热烘、登记机器故障、夹保存单据。",
+  "character_lie_pressure": "夏停说开衫是房东阿姨的；闻舟说自己只是按店规查口袋；罗姨说自己没看监控。",
+  "dramatic_turn": "第七枚硬币是夏停一直保留的弯硬币，开衫口袋里的热敏单会被高温毁掉。",
+  "sequel_decision": "启动快洗、保存单据、或改冷水短漂。",
+  "theme_pressure": "清洗一件衣服时，玩家同时在清洗或保留一个人留下的时间。",
+  "state_delta_required": true,
+  "exit_image": "七号机滚筒转起来，弯硬币从退币口吐出半截，热敏单被夹在蓝账夹里或在水汽里发灰。",
+  "qa_risks": [
+    "不要把主题写成旁白结论",
+    "夏停不能只卖惨，要保持嘴快和逃避",
+    "闻舟不能变成心理咨询师，他用流程帮人"
+  ]
+}

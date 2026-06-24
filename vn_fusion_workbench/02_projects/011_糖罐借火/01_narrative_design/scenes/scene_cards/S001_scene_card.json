@@ -1,0 +1,35 @@
+{
+  "scene_id": "S001",
+  "title": "糖罐借火",
+  "location": "台风夜的社区便利店",
+  "pov": "CHR_jiangluo",
+  "participants": ["CHR_jiangluo", "CHR_meitang"],
+  "playable_pressure": "关店倒计时、监控、停电、借火、是否留下押金。",
+  "operable_objects": ["OBJ_lighter", "OBJ_candle", "OBJ_receipt_printer", "OBJ_sugar_jar", "OBJ_store_bell", "OBJ_camera"],
+  "theme_question": "一个人不敢说想留下时，玩家能不能给她一个必须回来的理由？",
+  "scene_question": "姜洛会按规矩关店，还是给梅糖一个体面留下的借口？",
+  "scene_answer": "他没有直接挽留，而是把旧糖罐登记成押金，让她改天必须回来取。",
+  "professional_ritual": "便利店关店流程：收银结算、处理小票机、查看监控、登记押金、拉卷帘门。",
+  "dramatic_turn": "梅糖不是为了买火，而是为了用借火掩饰自己暂时无处可去。",
+  "sequel_decision": "下一场围绕“她是否回来取糖罐”展开，并追踪姜洛是否把押金记录留在账本上。",
+  "theme_pressure": "关心不能只停在善意上，它需要一个不伤人的形式。",
+  "chapter_goal": "用一场台风夜便利店借火，建立两人的旧关系、梅糖的隐藏困境，以及糖罐作为下一场回访钩子的意义。",
+  "scene_synopsis": "姜洛临时顶便利店夜班，关店前遇见三年未见的梅糖。她拿着弯掉的生日蜡烛借打火机，用玩笑避开地址和监控。姜洛发现她想留下却不想求助，于是用旧糖罐做押金，给她一个明早回来的理由。",
+  "pov_character": "CHR_jiangluo",
+  "narrative_threads": ["relationship_probe", "hidden_need", "return_hook"],
+  "foreshadow_role": {
+    "OBJ_sugar_jar": "旧糖罐证明两人过去有共享记忆，也成为下一场“回来取”的行动钩子。",
+    "OBJ_camera": "监控红点说明梅糖在躲避某个可追踪的视线。",
+    "OBJ_receipt_printer": "卡住的小票暗示她无法把今晚整理成正常手续。"
+  },
+  "prose_texture_target": "便利店物件要短而有用，心理只写姜洛的判断、犹豫和自我遮掩；对白连续推进，保留口语弹性和梅糖的轻快伪装。",
+  "required_methods": ["click_unit_textbox_rhythm", "interiority_not_narration", "non_preachy_dialogue_pressure", "character_liveliness_bias"],
+  "entry_state": {
+    "minutes_to_close": 7,
+    "storm_level": 5,
+    "power_warning": true
+  },
+  "exit_state": {
+    "choice_required": true
+  }
+}

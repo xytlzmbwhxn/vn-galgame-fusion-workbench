@@ -1,0 +1,58 @@
+{
+  "id": "CHR_chengyan",
+  "name": "程砚",
+  "role": "player_pov_lost_found_clerk",
+  "age": 20,
+  "public_want": "按时清空雨棚失物箱，保住临时值班资格。",
+  "private_want": "确认七号伞里那段录音到底该交给谁。",
+  "fear": "自己盖下的章会把还没说完的话直接处理掉。",
+  "social_mask": "干净、冷静、只认流程的值班员。",
+  "taboo_topic": "丢",
+  "route_question": "程砚会把归还当作手续，还是承认手续也会替人撒谎？",
+  "presentation": {
+    "first_screen_impression": "背对雨棚灯坐着，袖口夹着红印油，桌角每样东西都被他摆成直角。",
+    "memory_points": [
+      "给失物起行政外号。",
+      "紧张时先摸印章。",
+      "讨厌别人说物品丢了，会改成暂离本人。"
+    ],
+    "signature_objects": ["红色印章", "扫码枪", "登记簿"],
+    "signature_gestures": ["把印章转半圈", "用指节敲登记簿边", "把取件票压平"],
+    "charm_hook": "一本正经地给小物件判工伤。",
+    "liveliness_floor": "再严肃也要给物件一个小外号。",
+    "punctuation_play": "多用问号做反审讯，少用感叹；被逼急时用短横打断自己。",
+    "arc_promise": "从只替系统负责，走向替人保留说话机会。"
+  },
+  "embodiment": {
+    "hands": ["拇指沾印油", "习惯压平票根"],
+    "gaze": ["先看编号再看人", "被击中时盯着登记簿空格"],
+    "posture": ["坐得笔直", "给别人递物时只递到桌线"],
+    "idle_action": "把扫码枪放回底座再拿起。",
+    "pressure_action": "去摸红章，但不一定盖下去。"
+  },
+  "speech_fingerprint": {
+    "default_rhythm": "短到中句，流程词压住情绪。",
+    "pressure_rhythm": "更短，更像值班记录，偶尔冒出干冷外号。",
+    "vocabulary": ["取件码", "待核验", "归档", "红章", "七号伞"],
+    "fillers": ["行", "等等", "先别动"],
+    "dodge": "把问题改写成流程问题。",
+    "lie_style": "把私心写成风险控制。",
+    "request_style": "先给对方一个可执行动作。",
+    "tenderness_style": "把违规说成临时缓冲。",
+    "cruelty_style": "冷静地把东西推回制度。",
+    "punctuation": "句号、问号、短横。很少感叹。",
+    "sentence_kernel_profile": {
+      "base": "流程判断 + 物件名 + 低温反问",
+      "example_shapes": ["先核验。你急什么？", "七号伞不是身份证。", "这章盖下去，录音就归档。"]
+    },
+    "line_energy_profile": {
+      "default": ["control", "test", "stall"],
+      "pressure": ["cut_off", "procedure_refusal", "dry_jab"]
+    },
+    "social_texture_profile": {
+      "class_trace": "勤工助学值班员，熟悉校园行政边角。",
+      "ordinary_quirk": "给工具起小官职。",
+      "relationship_move": "改称全名表示警告，改称外号表示放软。"
+    }
+  }
+}

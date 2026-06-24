@@ -1,0 +1,31 @@
+{
+  "scene_id": "S001",
+  "title": "烟灰缸不接雨水",
+  "location": "凌晨三点，24小时自助银行的玻璃隔间。外面积水漫过路沿。",
+  "pov": "CHR_luchuan",
+  "participants": ["CHR_luchuan", "CHR_shiyao"],
+  "playable_pressure": "三点半前修好ATM，否则安保报警。摄像头每15分钟抓拍。施遥站在盲区。",
+  "operable_objects": ["OBJ_atm7", "OBJ_camera", "OBJ_toolbox", "OBJ_note", "OBJ_ashtray"],
+  "theme_question": "一个人不敢说想留下时，另一个人能不能不把关心包装成手续？",
+  "scene_question": "陆川会按流程清场，还是用工具箱帮她在盲区多站一会儿？",
+  "scene_answer": "他没有说'你留吧'，而是把工具箱推过去让她坐，然后把ATM检修灯调亮，照到门外路沿。",
+  "professional_ritual": "ATM维修流程：验卡状态、开面板、查吞卡槽、复位齿轮、测试吐卡、关面板、填巡查表。",
+  "dramatic_turn": "施遥不是来取钱也不是躲雨。她手里便签上的地址已经拆了，她等的人可能不会来——而她知道。",
+  "sequel_decision": "下一场围绕'那个人是否来了'和'陆川的巡查表上有没有写她的存在'展开。",
+  "theme_pressure": "帮人不一定要说我在帮你。有时候只是把灯调亮一点，照到门外那条路。",
+  "chapter_goal": "用凌晨ATM维修场景建立两人的陌生关系、施遥的隐藏处境，以及工具箱作为关系入口的意义。",
+  "scene_synopsis": "陆川凌晨三点巡查自助银行，七号ATM吞卡。修机器时发现角落里站着一个女孩——施遥。她不取钱、不等雨停，她等一个人。她站在摄像头盲区里，便签上的地址已经拆了。陆川必须在修完机器后决定：按流程清场，还是把工具留给盲区里的人。",
+  "pov_character": "CHR_luchuan",
+  "narrative_threads": ["stranger_trust", "hidden_wait", "unspoken_help"],
+  "foreshadow_role": {
+    "OBJ_atm7": "吞卡暗示有人来过；卡片上的银行号段陆川认得，后续揭示是谁。",
+    "OBJ_camera": "抓拍盲区是施遥知道的规则，说明她来过或被人教过。",
+    "OBJ_ashtray": "门口烟灰缸是满的。有人在这里抽完烟才进去——这个人不是施遥。",
+    "OBJ_note": "便签上的旧地址后文揭示是谁写给她的。",
+    "OBJ_toolbox": "工具箱从维修设备变成凳子，变成'我在这里留了东西'的信号。"
+  },
+  "prose_texture_target": "自助银行物件短而有用——吞卡的七号机、摄像头红点、门口烟灰缸、工具箱。心理只写陆川的判断和犹豫。对白连续推进，保留施遥的口语弹性和陆川的规程伪装。",
+  "required_methods": ["click_unit_textbox_rhythm", "interiority_not_narration", "non_preachy_dialogue_pressure", "character_liveliness_bias"],
+  "entry_state": { "minutes_to_alarm": 24, "rain_level": 5, "camera_interval": 15 },
+  "exit_state": { "choice_required": true }
+}

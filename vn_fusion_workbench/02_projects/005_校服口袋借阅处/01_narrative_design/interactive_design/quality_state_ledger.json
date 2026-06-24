@@ -1,0 +1,54 @@
+{
+  "qualities": [
+    {
+      "id": "trust_tangmi",
+      "visibility": "hidden",
+      "range_or_type": "0..5",
+      "dramatic_use": "唐米是否愿意承认 48 号外套真正属于谁。",
+      "failure_state": "她继续用玩笑挡住名字。"
+    },
+    {
+      "id": "rule_breach",
+      "visibility": "hidden",
+      "range_or_type": "0..3",
+      "dramatic_use": "林秋为了保留痕迹越线的程度。",
+      "failure_state": "陶笙收回回收处钥匙。"
+    },
+    {
+      "id": "kept_pocket_note",
+      "visibility": "flag",
+      "range_or_type": "boolean",
+      "dramatic_use": "纸星星是否保留下来，决定后续能否打开唐米路线。",
+      "failure_state": "纸星星被胶带和旧衣压坏。"
+    }
+  ],
+  "storylets": [
+    {
+      "id": "STL_label_choice",
+      "title": "48 号外套处理",
+      "prerequisites": ["found_48_jacket"],
+      "entry_pressure": "回收车 19:00 到，唐米要衣服，陶笙催封箱。",
+      "effects": ["trust_tangmi", "rule_breach", "kept_pocket_note"],
+      "payoff_refs": ["FS_paper_star", "FS_blue_card"]
+    }
+  ],
+  "microinteractions": [
+    {
+      "id": "MIC_inspect_pocket",
+      "type": "inspect",
+      "player_facing_copy": "摸一下内袋鼓起的角",
+      "immediate_feedback": "摸到硬纸边和一粒纽扣。",
+      "effects": ["found_paper_star"],
+      "delayed_callback": "唐米后续会盯着林秋的手。", 
+      "production_cue": "SFX: cloth_rub + paper_edge"
+    }
+  ],
+  "callbacks": [
+    {
+      "id": "CB_tag_memory",
+      "listens_for": "choice_label_48",
+      "changes": "后续唐米称呼林秋为小秋官、林同学或林值班。"
+    }
+  ]
+}
+

@@ -1,0 +1,36 @@
+{
+  "character_id": "CHR_wenmian",
+  "current_emotion": "表面平静，布丁债已登记",
+  "relationship_pressure": {
+    "CHR_shenlu": "把他当成会认真记录的人",
+    "CHR_fuyao": "知道她闯祸时会先热闹起来"
+  },
+  "known_facts": [
+    "焦糖布丁券在午休铃后不见",
+    "旧钟楼门缝里有浅黄色纸角",
+    "符遥的扩音器可能吓飞了券"
+  ],
+  "route_flags": {
+    "pudding_ticket_missing": true
+  },
+  "current_axes": {
+    "soft_pressure": 3,
+    "pudding_debt": 3,
+    "playful_patience": 2
+  },
+  "active_wants": [
+    "找回焦糖布丁券",
+    "让别人承认这不是小事",
+    "温柔地把赔偿条件说清楚"
+  ],
+  "voice_lock": {
+    "must_keep": ["柔软开场", "清楚条件", "甜点账本"],
+    "avoid": ["大声发火", "无条件原谅"]
+  },
+  "state_history": [
+    "S001_start: 焦糖布丁券在午休钟声后消失，她端着空杯等待解释。"
+  ],
+  "recent_embarrassment": "家政社同学以为她已经吃到布丁",
+  "current_lie": "说自己没有生气",
+  "physical_condition": "端着空布丁杯，杯底还有一圈焦糖痕"
+}

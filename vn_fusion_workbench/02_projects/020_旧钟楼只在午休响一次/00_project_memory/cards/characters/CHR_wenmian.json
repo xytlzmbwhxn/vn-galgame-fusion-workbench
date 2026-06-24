@@ -1,0 +1,31 @@
+{
+  "id": "CHR_wenmian",
+  "name": "温眠",
+  "role": "家政社点心负责人，焦糖布丁券失主",
+  "first_screen_impression": "端着空布丁杯站在旧钟楼门口，声音软得像已经写好赔偿单。",
+  "public_want": "找回被钟声事件弄丢的焦糖布丁券。",
+  "private_want": "证明自己不是好欺负的人，同时把午休变成和朋友们一起胡闹的理由。",
+  "fear": "大家只记得她温柔，不记得她也会生气。",
+  "taboo_topic": "被人擅自决定“温眠不会介意”。",
+  "cornered_behavior": "笑得更甜，然后把条件说得非常清楚。",
+  "charm_hook": "软声线配合准确的追责清单。",
+  "ordinary_quirk": "会用甜点保存期限来衡量事情严重性。",
+  "sentence_kernel": "先温柔同意，再补一个不容逃的条件。",
+  "punctuation_habit": "句尾平稳，偶尔轻轻反问；不用大声也有压迫感。",
+  "body_signature": "双手托空杯，像托着证据。",
+  "relationship_hooks": {
+    "CHR_shenlu": "认为沈律很会假装不负责，但他会认真听完。",
+    "CHR_fuyao": "和符遥互相拆台，知道她越热闹越心虚。"
+  },
+  "speech_fingerprint": {
+    "sentence_kernel_profile": "柔软开场 + 精准条件 + 轻微威胁。",
+    "line_energy_profile": "低声反问，甜点比喻，安静施压。",
+    "social_texture_profile": "把追责说得像邀请。"
+  },
+  "example_lines": [
+    "可以哦，不过布丁券先回来。",
+    "我没有生气。只是焦糖的保存期限很短。",
+    "你们继续推理，我负责记账。甜点账。"
+  ],
+  "arc_promise": "从被动等待别人发现，到温柔地主动把规则摆上桌。"
+}

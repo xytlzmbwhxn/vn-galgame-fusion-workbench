@@ -1,0 +1,77 @@
+{
+  "scene_id": "S001",
+  "title": "闭店前的错页",
+  "route": "common_route",
+  "location": "大学城二楼复印店",
+  "time": "21:48 闭店前十二分钟",
+  "entering_pressure": "许承正在清点硬币和关机，唐栗抱着节目册终版文件冲进店里。",
+  "player_want": "准时闭店并保证合同单成品和批准文件一致。",
+  "npc_wants": {
+    "CHR_tangli": "赶印三十份节目册，同时让一份旧署名样张留下。"
+  },
+  "withheld_truths": {
+    "CHR_xucheng": "他曾因一份错装文件被投诉，押金差点被扣光。",
+    "CHR_tangli": "旧页不是单纯事故，她想保留阮舟的名字。"
+  },
+  "visual_state": "复印店半卷帘门，热胶机还亮着，复印机显示卡纸，纸刀红线下压着合同单。",
+  "sound_state": "复印机风扇、楼下排练鼓点、热胶机提示音、卷帘门链条声。",
+  "chapter_goal": "让玩家通过复印店工艺第一次选择合同干净和错页留存之间的处理方式。",
+  "scene_synopsis": "唐栗赶来印节目册，许承按流程验文件。复印机卡出第七页旧版，露出被删掉的阮舟署名。唐栗先用玩笑遮掩，随后承认只要留一份样张。玩家选择重印干净版或保留错页样张。",
+  "pov_character": "CHR_xucheng",
+  "narrative_threads": ["THR_wrong_page", "THR_contract_order", "THR_removed_credit"],
+  "foreshadow_role": {
+    "seeds": ["FS_page_seven_timestamp", "FS_ruanzhou_light_cue"],
+    "echoes": ["FS_unuploaded_sample"],
+    "payoffs": []
+  },
+  "prose_texture_target": "荧光灯、热纸、碳粉、纸刀、卷帘门、楼下排练声。语气要有夜间小店、校园熟人和赶工荒唐感。",
+  "scene_question": "许承会按批准文件重印干净版，还是留一份带旧署名的错页样张？",
+  "scene_answer": "玩家必须通过复印和装订策略承担不同代价。",
+  "professional_ritual": "验文件、查页码、清卡纸、打样张、重印、骑马钉、留取件码",
+  "character_lie_pressure": "许承说自己只问工艺，唐栗说自己只是赶印终版。",
+  "dramatic_turn": "卡纸露出旧版第七页，阮舟名字和灯 cue 17 出现在批准文件外。",
+  "sequel_decision": "重印官方第七页，或保留一份错页样张不上传。",
+  "theme_pressure": "一份文件被修得干净时，手工留下的错处还能不能算证据。",
+  "choice_pressure": "干净版保护店铺合同但伤害信任，错页样张提高风险但保留被删署名。",
+  "variables_changed": ["clean_reprint", "wrong_page_kept", "trust_tangli", "shop_risk", "minutes_left"],
+  "state_delta_required": true,
+  "usable_objects": [
+    {
+      "object_id": "OBJ_usb_drive",
+      "type": "evidence",
+      "description": "贴着小栗终终版标签的 U 盘。",
+      "dramatic_use": "暴露多版本文件和时间戳。"
+    },
+    {
+      "object_id": "OBJ_jammed_page",
+      "type": "evidence",
+      "description": "复印机卡出的第七页旧版，碳粉没完全定住。",
+      "dramatic_use": "露出被删署名。"
+    },
+    {
+      "object_id": "OBJ_binding_stapler",
+      "type": "tool",
+      "description": "骑马钉机，能把样张和正式版分开处理。",
+      "dramatic_use": "把选择变成装订策略。"
+    },
+    {
+      "object_id": "OBJ_contract_order",
+      "type": "risk",
+      "description": "校团委合同单，要求成品匹配批准文件。",
+      "dramatic_use": "给帮助附上店铺风险。"
+    },
+    {
+      "object_id": "OBJ_paper_cutter",
+      "type": "limit",
+      "description": "红色安全线下的纸刀，闭店前仍未归位。",
+      "dramatic_use": "制造时间和手部动作压力。"
+    }
+  ],
+  "operable_objects": [
+    "OBJ_usb_drive",
+    "OBJ_jammed_page",
+    "OBJ_binding_stapler",
+    "OBJ_contract_order",
+    "OBJ_paper_cutter"
+  ]
+}

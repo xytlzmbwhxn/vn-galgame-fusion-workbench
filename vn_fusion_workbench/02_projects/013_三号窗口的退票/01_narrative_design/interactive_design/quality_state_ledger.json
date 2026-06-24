@@ -1,0 +1,70 @@
+{
+  "qualities": [
+    {
+      "id": "trust_meng",
+      "type": "int",
+      "initial": 0,
+      "range": [0, 3],
+      "meaning": "孟雨愿意交出的真相层级。"
+    },
+    {
+      "id": "station_risk",
+      "type": "int",
+      "initial": 0,
+      "range": [0, 3],
+      "meaning": "林桥被窗口日志追责的程度。"
+    },
+    {
+      "id": "ticket_corner_kept",
+      "type": "bool",
+      "initial": false,
+      "meaning": "票角是否保留为后续调查物证。"
+    },
+    {
+      "id": "refund_failed_stamp_used",
+      "type": "bool",
+      "initial": false,
+      "meaning": "是否留下官方拒退痕迹。"
+    }
+  ],
+  "storylets": [
+    {
+      "id": "ST_check_old_ticket",
+      "condition": "scene_start",
+      "player_action": "核票号与班次",
+      "immediate_feedback": "发现班次停运三个月。",
+      "state_change": "doubt_ticket=true",
+      "production_cue": "打印机空转，窗口玻璃映出票面。"
+    },
+    {
+      "id": "ST_red_stamp",
+      "condition": "doubt_ticket=true",
+      "player_action": "验红章与票角",
+      "immediate_feedback": "红章日期属于今天。",
+      "state_change": "red_stamp_seen=true",
+      "production_cue": "镜头推到票角半枚红印。"
+    },
+    {
+      "id": "ST_refund_choice",
+      "condition": "red_stamp_seen=true",
+      "player_action": "选择盖章或留票角",
+      "immediate_feedback": "信任与风险分化。",
+      "state_change": "branch variables update",
+      "production_cue": "选择框出现在章盒和票角之间。"
+    }
+  ],
+  "delayed_callbacks": [
+    {
+      "id": "CB_zhao_warning",
+      "trigger": "station_risk>=1",
+      "callback": "赵伯提醒票角别进废纸篓。",
+      "scene": "S001"
+    },
+    {
+      "id": "CB_meng_name",
+      "trigger": "trust_meng>=1",
+      "callback": "孟雨交出孟舟姓名。",
+      "scene": "S001"
+    }
+  ]
+}

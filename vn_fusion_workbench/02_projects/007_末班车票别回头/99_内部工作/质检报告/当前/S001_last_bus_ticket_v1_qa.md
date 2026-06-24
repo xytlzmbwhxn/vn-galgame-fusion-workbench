@@ -1,0 +1,65 @@
+# VN Workbench QA Report
+
+## Stats
+- rows: 89
+- dialogue: 57
+- narration: 3
+- thought: 11
+- choice: 3
+- command: 15
+- comment: 0
+- errors: 0
+- warnings: 7
+- dialogue_blocks: 6
+- narration_blocks: 3
+- thought_blocks: 5
+- max_dialogue_block: 24
+- max_narration_block: 1
+- max_thought_block: 3
+- lonely_narration_bridges: 1
+- dialogue_energy_marks: 20
+- dialogue_energy_pct: 35
+- dialogue_question_lines: 15
+- dialogue_exclaim_lines: 2
+- dialogue_pause_or_cut_lines: 6
+- dialogue_casual_particle_lines: 10
+- dialogue_casual_particle_pct: 18
+- dialogue_full_stop_pct: 56
+- dialogue_unmarked_endings: 12
+- dialogue_short_fragments: 2
+- dialogue_short_fragment_pct: 4
+- dialogue_low_payload_lines: 0
+- dialogue_low_payload_pct: 0
+- dialogue_payload_avg_x10: 43
+- branch_labels: 6
+- choice_targets: 3
+- jump_targets: 3
+- unresolved_branch_targets: 0
+- stage_cue_rows: 71
+- stage_cue_pct: 100
+- dialogue_wrapped_quotes: 0
+- dialogue_double_quotes: 0
+- ellipsis_only_boxes: 0
+- first_person_narration_lines: 0
+- comma_fragment_lines: 0
+- multi_sentence_boxes: 7
+- textbox_overflow_risk: 0
+- character_state_files: 3
+- thought_rows: 11
+- thought_to_dialogue_pct: 19
+- scene_contract_fields: 6
+- novel_architecture_files: 4
+- narrative_threads: 3
+- character_arcs: 3
+- foreshadow_items: 4
+- chapter_plan_items: 1
+- novel_scene_layer_fields: 6
+
+## Issues
+- [WARNING] BP029: dialogue textbox contains too many sentence beats; split only where the click changes leverage
+- [WARNING] BP035: dialogue textbox contains too many sentence beats; split only where the click changes leverage
+- [WARNING] BP057: dialogue textbox contains too many sentence beats; split only where the click changes leverage
+- [WARNING] BP065: dialogue textbox contains too many sentence beats; split only where the click changes leverage
+- [WARNING] BP067: dialogue textbox contains too many sentence beats; split only where the click changes leverage
+- [WARNING] BP076: dialogue textbox contains too many sentence beats; split only where the click changes leverage
+- [WARNING] BP085: dialogue textbox contains too many sentence beats; split only where the click changes leverage

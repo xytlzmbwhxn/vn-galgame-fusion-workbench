@@ -1,0 +1,15 @@
+{
+  "character_id": "CHR_shen_lan",
+  "emotion_axes": {"composure": 4, "curiosity": 3, "embarrassment": 2, "procedural_mask": 5, "care": 3},
+  "current_axes": {"composure": 3, "curiosity": 4, "embarrassment": 3, "procedural_mask": 5, "care": 4},
+  "active_wants": ["查明自动售货机异常", "保管许柚的秘密纸条", "维持自己只是处理售后的表面"],
+  "voice_lock": {
+    "preferred": ["短句", "设备词", "登记", "退币", "封存", "保修", "嗯……", "大概"],
+    "forbidden": ["直接说喜欢", "全知解释许柚", "把心动写成主题总结"]
+  },
+  "state_history": ["S001前：被学生会临时派去检查天台自动售货机。", "S001后：封存一张写着自己名字边角的秘密纸条，约定午休结束前复核。"],
+  "current_goal": "把纸条暂存到登记夹里，并等许柚午休结束前回来确认。",
+  "current_lie": "他只是做设备异常记录。",
+  "known_facts": ["许柚投进了秘密纸条。", "纸条边角露出“沈”字。", "售货机吐出一瓶温柚子汽水。"],
+  "relationship_pressure": "许柚把真心装成售后投诉，沈岚用流程接住，但流程开始偏向她。"
+}

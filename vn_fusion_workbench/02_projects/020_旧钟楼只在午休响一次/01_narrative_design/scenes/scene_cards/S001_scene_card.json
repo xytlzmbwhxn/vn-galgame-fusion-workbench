@@ -1,0 +1,22 @@
+{
+  "scene_id": "S001",
+  "title": "午休多响的一声",
+  "location": "旧钟楼门口与二楼走廊",
+  "time": "午休 12:17",
+  "pov_character": "CHR_shenlu",
+  "scene_question": "旧钟楼为什么在午休铃结束后又多响了一下？",
+  "scene_answer": "它不是灾难，只是把三个人的午休借口敲到了一起；门缝里的布丁券纸角证明有人来过。",
+  "professional_ritual": "钥匙保管、失物登记、广播站确认、门缝检查。",
+  "dramatic_turn": "温眠把布丁券追责加入调查，沈律无法继续说自己只是路过。",
+  "sequel_decision": "沈律决定开门检查，保留对符遥或温眠的关系倾向。",
+  "theme_pressure": "被需要是麻烦，也是午休里最像朋友的声音。",
+  "chapter_goal": "让三名角色以行动和物件自然出现，并建立旧钟楼小异常。",
+  "scene_synopsis": "旧钟楼在午休后多响一下，沈律被符遥拉住，又被温眠的布丁券债堵住。玩家选择先安抚钟楼、先处理布丁或尝试逃跑，最终都合流到开门检查。",
+  "narrative_threads": ["THR_lunch_bell"],
+  "foreshadow_role": ["FS_bell_1217"],
+  "prose_texture_target": "轻松、可爱、短 textbox；心理是吐槽后的私人判断，语气词和反问按角色压力出现。",
+  "cast": ["CHR_shenlu", "CHR_fuyao", "CHR_wenmian"],
+  "choice_group": "C001_lunch_bell",
+  "entry_image": "失物箱、钥匙串、午休后多响的一声钟。",
+  "exit_image": "旧钟楼门缝里的浅黄色纸角被三个人同时看见。"
+}

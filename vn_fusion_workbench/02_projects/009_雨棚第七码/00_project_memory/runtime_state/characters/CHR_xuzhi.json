@@ -1,0 +1,30 @@
+{
+  "character_id": "CHR_xuzhi",
+  "scene_id": "S001",
+  "current_axes": {
+    "trust": 1,
+    "anger": 0,
+    "fear": 5,
+    "curiosity": 1,
+    "fatigue": 3,
+    "shame": 5
+  },
+  "active_wants": [
+    "拿回录音笔",
+    "阻止录音外放",
+    "确认鹿今有没有听完第三遍"
+  ],
+  "withheld_truths": [
+    "第三遍录音是对鹿今的道歉。",
+    "许栀删掉前两遍，是因为里面都太像通知。"
+  ],
+  "voice_lock": {
+    "allowed": ["礼貌请求", "自我修正", "广播术语", "短句"],
+    "forbidden": ["突然热烈表白", "大段心理剖白", "口语化过头"]
+  },
+  "state_history": [
+    "许栀在广播室录下三遍练习。",
+    "她把录音笔落进七号伞柄暗格。",
+    "她给鹿今发了取件码，随后又后悔。"
+  ]
+}

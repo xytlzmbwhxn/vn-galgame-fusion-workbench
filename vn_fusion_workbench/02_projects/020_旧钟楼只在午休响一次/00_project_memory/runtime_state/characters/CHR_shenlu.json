@@ -1,0 +1,37 @@
+{
+  "character_id": "CHR_shenlu",
+  "current_emotion": "想逃但已经开始认真",
+  "relationship_pressure": {
+    "CHR_fuyao": "被她拉进临时小队，嘴上抗议",
+    "CHR_wenmian": "担心布丁账落到自己头上"
+  },
+  "known_facts": [
+    "旧钟楼平时午休不会响第二次",
+    "旧钟楼钥匙现在在自己手里",
+    "符遥负责午休广播，温眠丢了焦糖布丁券"
+  ],
+  "route_flags": {
+    "bell_1217_seen": true,
+    "temporary_key_holder": true
+  },
+  "current_axes": {
+    "responsibility_pressure": 3,
+    "escape_impulse": 2,
+    "curiosity": 2
+  },
+  "active_wants": [
+    "保住午休",
+    "别被默认负责",
+    "确认旧钟楼不是广播站锅"
+  ],
+  "voice_lock": {
+    "must_keep": ["干燥反问", "流程化吐槽", "先抗议后执行"],
+    "avoid": ["热血宣言", "长篇自我解释"]
+  },
+  "state_history": [
+    "S001_start: 持有旧钟楼钥匙和失物箱，被多余钟声牵入事件。"
+  ],
+  "recent_embarrassment": "被符遥公开叫作钥匙保管员同学",
+  "current_lie": "声称自己只是路过",
+  "physical_condition": "午饭还没吃，手里有失物箱和钥匙串"
+}

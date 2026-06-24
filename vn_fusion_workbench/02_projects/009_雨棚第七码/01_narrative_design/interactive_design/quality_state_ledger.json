@@ -1,0 +1,76 @@
+{
+  "qualities": [
+    {
+      "id": "trust_lujin",
+      "visibility": "hidden",
+      "range_or_type": "0..5",
+      "dramatic_use": "鹿今是否愿意说出许栀的名字。",
+      "failure_state": "她继续用跑腿身份挡住真实关系。"
+    },
+    {
+      "id": "record_clean",
+      "visibility": "hidden",
+      "range_or_type": "0..3",
+      "dramatic_use": "登记簿是否保持无违规痕迹。",
+      "failure_state": "程砚保住流程，却失去录音线索。"
+    },
+    {
+      "id": "delay_clock",
+      "visibility": "hidden",
+      "range_or_type": "0..3",
+      "dramatic_use": "取件码失效前剩余时间。",
+      "failure_state": "失效后只能待核验，鹿今不能直接拿走伞。"
+    },
+    {
+      "id": "rule_breach",
+      "visibility": "hidden",
+      "range_or_type": "0..3",
+      "dramatic_use": "程砚越流程处理的程度。",
+      "failure_state": "后续被学生办追问值班权限。"
+    },
+    {
+      "id": "kept_recording",
+      "visibility": "flag",
+      "range_or_type": "boolean",
+      "dramatic_use": "第三遍录音是否保留在玩家手里。",
+      "failure_state": "许栀路线缺少关键声音。"
+    }
+  ],
+  "storylets": [
+    {
+      "id": "STL_rain_claim",
+      "title": "七号伞归还流程",
+      "prerequisites": ["FS_ticket_7"],
+      "entry_pressure": "取件码即将失效，鹿今想拿伞，许栀来电要求不要外放录音。",
+      "effects": ["trust_lujin", "record_clean", "delay_clock", "rule_breach", "kept_recording"],
+      "payoff_refs": ["FS_ticket_7", "FS_recorder", "FS_rain_alarm"]
+    }
+  ],
+  "microinteractions": [
+    {
+      "id": "MIC_scan_ticket",
+      "type": "scan",
+      "player_facing_copy": "扫湿掉的取件码",
+      "immediate_feedback": "扫码枪红光停在数字 7 上。",
+      "effects": ["record_clean"],
+      "delayed_callback": "系统记住程砚按流程入账。", 
+      "production_cue": "SFX: scanner_delay"
+    },
+    {
+      "id": "MIC_open_handle",
+      "type": "inspect",
+      "player_facing_copy": "拧开七号伞柄",
+      "immediate_feedback": "录音笔红点亮了一下。",
+      "effects": ["kept_recording", "rule_breach"],
+      "delayed_callback": "许栀后续知道程砚听见第三遍。", 
+      "production_cue": "SFX: plastic_click"
+    }
+  ],
+  "callbacks": [
+    {
+      "id": "CB_lujin_address",
+      "listens_for": "choice_label_48",
+      "changes": "鹿今后续称呼程砚为程值班、程砚或红章哥。"
+    }
+  ]
+}

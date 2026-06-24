@@ -1,0 +1,15 @@
+{
+  "character_id": "CHR_xu_you",
+  "emotion_axes": {"playfulness": 5, "embarrassment": 3, "boldness": 3, "retreat_ready": 4, "trust": 3},
+  "current_axes": {"playfulness": 5, "embarrassment": 4, "boldness": 3, "retreat_ready": 4, "trust": 4},
+  "active_wants": ["让沈岚保管秘密纸条", "确认沈岚有没有看到边角的名字", "把认真话继续藏在售后投诉里"],
+  "voice_lock": {
+    "preferred": ["问句", "轻快连发", "广播词", "天气梗", "售后同学", "嗯嗯", "那……"],
+    "forbidden": ["正面告白", "成熟解释情绪", "离开物件代理的长篇心理"]
+  },
+  "state_history": ["S001前：把秘密纸条投进天台自动售货机。", "S001后：允许沈岚暂存纸条，并收下机器吐出的温柚子汽水。"],
+  "current_goal": "午休结束前回来复核秘密纸条是否需要退货。",
+  "current_lie": "她只是来投诉机器售后。",
+  "known_facts": ["沈岚注意到了纸条边角。", "沈岚愿意封存纸条，不公开收件人。", "自动售货机被临时贴上观察中。"],
+  "relationship_pressure": "她把秘密递到沈岚手边，但仍保留自动售货机、广播事故和汽水作为撤退路线。"
+}

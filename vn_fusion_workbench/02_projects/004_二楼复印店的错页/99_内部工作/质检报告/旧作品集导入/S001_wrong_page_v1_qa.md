@@ -1,0 +1,59 @@
+# VN Workbench QA Report
+
+## Stats
+- rows: 70
+- dialogue: 44
+- narration: 2
+- thought: 10
+- choice: 2
+- command: 12
+- comment: 0
+- errors: 0
+- warnings: 0
+- dialogue_blocks: 10
+- narration_blocks: 1
+- thought_blocks: 10
+- max_dialogue_block: 8
+- max_narration_block: 2
+- max_thought_block: 1
+- lonely_narration_bridges: 0
+- dialogue_energy_marks: 21
+- dialogue_energy_pct: 48
+- dialogue_question_lines: 13
+- dialogue_exclaim_lines: 6
+- dialogue_pause_or_cut_lines: 5
+- dialogue_casual_particle_lines: 13
+- dialogue_casual_particle_pct: 30
+- dialogue_full_stop_pct: 23
+- dialogue_unmarked_endings: 19
+- dialogue_short_fragments: 6
+- dialogue_short_fragment_pct: 14
+- dialogue_low_payload_lines: 0
+- dialogue_low_payload_pct: 0
+- dialogue_payload_avg_x10: 43
+- branch_labels: 3
+- choice_targets: 2
+- jump_targets: 2
+- unresolved_branch_targets: 0
+- stage_cue_rows: 56
+- stage_cue_pct: 100
+- dialogue_wrapped_quotes: 0
+- dialogue_double_quotes: 0
+- ellipsis_only_boxes: 0
+- first_person_narration_lines: 0
+- comma_fragment_lines: 0
+- multi_sentence_boxes: 0
+- textbox_overflow_risk: 0
+- character_state_files: 2
+- thought_rows: 10
+- thought_to_dialogue_pct: 23
+- scene_contract_fields: 6
+- novel_architecture_files: 4
+- narrative_threads: 3
+- character_arcs: 2
+- foreshadow_items: 3
+- chapter_plan_items: 1
+- novel_scene_layer_fields: 6
+
+## Issues
+- PASS: no issues found.

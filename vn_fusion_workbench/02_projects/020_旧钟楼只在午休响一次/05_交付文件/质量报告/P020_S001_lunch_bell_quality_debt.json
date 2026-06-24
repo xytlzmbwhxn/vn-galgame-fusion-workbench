@@ -1,0 +1,12 @@
+{
+  "script": "02_projects\\020_旧钟楼只在午休响一次\\02_generated_content\\scripts\\csv\\P020_S001_lunch_bell.csv",
+  "project_id": "020_旧钟楼只在午休响一次",
+  "generated_at": "2026-06-24T16:39:06+08:00",
+  "row_count": 56,
+  "dialogue_count": 32,
+  "thought_count": 5,
+  "choice_count": 3,
+  "debt_counts": {},
+  "blocking": [],
+  "debts": {}
+}

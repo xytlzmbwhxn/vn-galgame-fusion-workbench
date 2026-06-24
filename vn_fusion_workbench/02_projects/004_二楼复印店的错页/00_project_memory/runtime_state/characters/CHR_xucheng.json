@@ -1,0 +1,31 @@
+{
+  "character_id": "CHR_xucheng",
+  "current_axes": {
+    "trust_tangli": 1,
+    "shop_risk": 2,
+    "curiosity": 2,
+    "fatigue": 3,
+    "shame": 2
+  },
+  "active_wants": [
+    "close shop before 22:00",
+    "keep the school office contract clean",
+    "avoid repeating the old complaint mistake"
+  ],
+  "withheld_truths": [
+    "he has kept a wrong copy for someone before",
+    "he reads file timestamps when people lie"
+  ],
+  "voice_lock": {
+    "must_use": ["页码", "样张", "卡纸", "合同单"],
+    "avoid": ["我理解你", "这很重要", "真正的意义"],
+    "pressure_shift": "shorter lines, fewer particles, more exact risk language"
+  },
+  "state_history": [
+    {
+      "scene": "S001",
+      "state": "before scene",
+      "note": "closing the shop, guarding procedure"
+    }
+  ]
+}

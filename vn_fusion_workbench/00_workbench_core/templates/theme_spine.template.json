@@ -1,0 +1,20 @@
+{
+  "thesis_question": "",
+  "player_role": "",
+  "repeated_player_behavior": "",
+  "cost_of_playing_well": "",
+  "false_comfort": "",
+  "material_object": "",
+  "route_arguments": [
+    {
+      "route_id": "common",
+      "argument": "",
+      "cost": "",
+      "payoff": ""
+    }
+  ],
+  "final_payoff": "",
+  "bad_end_shadow_answers": [],
+  "object_reinterpretations": []
+}
+

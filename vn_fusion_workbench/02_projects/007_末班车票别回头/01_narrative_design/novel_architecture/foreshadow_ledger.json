@@ -1,0 +1,36 @@
+{
+  "items": [
+    {
+      "id": "FS_wet_ticket",
+      "object_or_phrase": "湿旧车票",
+      "first_scene": "S001",
+      "role": "seed",
+      "payoff_plan": "票面水痕遮住临站一笔，后续用旧站牌拓片补完整。",
+      "current_status": "seeded"
+    },
+    {
+      "id": "FS_orange_charm",
+      "object_or_phrase": "橘色小伞坠",
+      "first_scene": "S001",
+      "role": "seed",
+      "payoff_plan": "伞坠颜色对应临站旧站牌上的橘线。",
+      "current_status": "seeded"
+    },
+    {
+      "id": "FS_old_manual",
+      "object_or_phrase": "旧线路手册",
+      "first_scene": "S001",
+      "role": "seed",
+      "payoff_plan": "手册夹页里有临站撤销前最后一周排班。",
+      "current_status": "seeded"
+    },
+    {
+      "id": "FS_duanbo_key",
+      "object_or_phrase": "段伯钥匙串",
+      "first_scene": "S001",
+      "role": "seed",
+      "payoff_plan": "钥匙可打开档案柜和旧失物夹。",
+      "current_status": "seeded"
+    }
+  ]
+}

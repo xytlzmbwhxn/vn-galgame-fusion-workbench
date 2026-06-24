@@ -1,0 +1,7 @@
+interface:
+  display_name: "VN Presence Revision"
+  short_description: "修订 Gal 台词的人声、代价和手迹"
+  default_prompt: "Use $vn-presence-revision to clean changed VN lines while preserving character voice, cost, and playable pressure."
+policy:
+  allow_implicit_invocation: true
+

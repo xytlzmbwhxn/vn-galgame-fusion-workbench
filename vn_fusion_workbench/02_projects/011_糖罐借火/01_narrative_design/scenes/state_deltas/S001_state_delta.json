@@ -1,0 +1,11 @@
+{
+  "scene_id": "S001",
+  "possible_effects": [
+    "lighter_sold=true",
+    "sugar_jar_deposit=true",
+    "meitang_return_hook=true",
+    "store_closed=false",
+    "trust_meitang+=1",
+    "trust_jiangluo+=1"
+  ]
+}

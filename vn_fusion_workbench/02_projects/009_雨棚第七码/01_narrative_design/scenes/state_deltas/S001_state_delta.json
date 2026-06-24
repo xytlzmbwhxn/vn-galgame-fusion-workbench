@@ -1,0 +1,49 @@
+{
+  "scene_id": "S001",
+  "choices": [
+    {
+      "choice_id": "rain_log",
+      "label": "扫入系统，给七号伞盖章",
+      "effects": {
+        "trust_lujin": -1,
+        "record_clean": 1,
+        "delay_clock": 0,
+        "rule_breach": 0,
+        "kept_recording": false
+      },
+      "visible_feedback": "鹿今笑着收回手，许栀在电话那头轻声说请删掉上一句。",
+      "future_callback": "记录干净，鹿今后续叫程砚红章哥。"
+    },
+    {
+      "choice_id": "rain_open",
+      "label": "拧开伞柄，先看录音笔",
+      "effects": {
+        "trust_lujin": 1,
+        "record_clean": 0,
+        "delay_clock": 1,
+        "rule_breach": 1,
+        "kept_recording": true
+      },
+      "visible_feedback": "鹿今第一次叫程砚全名，许栀没有挂断电话。",
+      "future_callback": "保留第三遍录音，打开许栀路线线索。"
+    },
+    {
+      "choice_id": "rain_hold",
+      "label": "改成待核验，拖过失效点",
+      "effects": {
+        "trust_lujin": 2,
+        "record_clean": -1,
+        "delay_clock": 2,
+        "rule_breach": 1,
+        "kept_recording": true
+      },
+      "visible_feedback": "扫码枪红光熄掉，鹿今把跑腿包放下，许栀走进雨棚。",
+      "future_callback": "程砚违规风险升高，鹿今愿意承认取件码不是她的。"
+    }
+  ],
+  "post_scene_memory": [
+    "程砚知道七号伞柄里有录音笔。",
+    "鹿今知道程砚有能力决定录音去向。",
+    "许栀知道电话没有被挂断。"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "threads": [
+    {
+      "id": "THR_wrong_page",
+      "name": "错页是否该被保留",
+      "question": "被批准的终版删掉旧署名后，卡纸露出的旧页还能不能留下？",
+      "pressure": "保留错页会提高店铺合同风险，但也让唐栗停止把请求装成事故。",
+      "scene_roles": {
+        "S001": "seed"
+      },
+      "notes": "用文件版本、卡纸、样张、胶装动作承载。"
+    },
+    {
+      "id": "THR_contract_order",
+      "name": "校团委合同单",
+      "question": "许承能不能在合同单之外给唐栗留一个余地？",
+      "pressure": "合同单要求成品和批准文件一致。",
+      "scene_roles": {
+        "S001": "complication"
+      },
+      "notes": "合同风险不要变成口号，体现在上传、留样、装订和取件码。"
+    },
+    {
+      "id": "THR_removed_credit",
+      "name": "被删掉的灯光署名",
+      "question": "阮舟的名字为什么从节目册里消失？",
+      "pressure": "越接近这个名字，唐栗越礼貌，许承越想把文件退回。",
+      "scene_roles": {
+        "S001": "seed"
+      },
+      "notes": "只露名字、灯 cue 和唐栗反应，不解释全貌。"
+    }
+  ]
+}

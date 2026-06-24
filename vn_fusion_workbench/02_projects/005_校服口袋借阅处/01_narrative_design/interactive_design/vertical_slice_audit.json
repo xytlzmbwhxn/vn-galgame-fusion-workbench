@@ -1,0 +1,30 @@
+{
+  "slice_promise": "玩家在旧校服回收处通过处理 48 号外套，第一次改变唐米是否愿意说真话。",
+  "included_scene_ids": ["S001"],
+  "must_show": {
+    "story": "外套内袋藏有纸星星，唐米想拿走但不敢说原因。",
+    "character": "三名角色口吻可区分，且都有活泼钩子。",
+    "gameplay": "贴标签、拆内袋、改借出牌三种选择改变状态。",
+    "visual": "回收处、封箱胶带、黄标签、蓝借出牌、旧校服箱。",
+    "sound": "胶带、衣架、手机外放、回收车倒车提示。",
+    "export": "CSV 可渲染 readable，可导出多格式。"
+  },
+  "method_invocation": {
+    "draft_session": "03_exports/context/S001_draft_session.md",
+    "scene_brief": "03_exports/context/S001_scene_brief.md",
+    "context_pack": "03_exports/context/S001_context_pack.md",
+    "method_ids": ["galgame_textbox_production", "dialogue_display_interiority", "character_liveliness_bias", "choice_mental_model"]
+  },
+  "state_coverage": ["trust_tangmi", "rule_breach", "kept_pocket_note"],
+  "display_coverage": ["dialogue blocks", "thought blocks", "stage cues", "choice menu"],
+  "export_coverage": [],
+  "qa_gate": {
+    "validated": false,
+    "errors": 0,
+    "warnings": 0,
+    "report_path": "",
+    "known_risks": ["唐米不能只撒娇，需要有真正的回避压力。"]
+  },
+  "post_slice_memory_updates": []
+}
+

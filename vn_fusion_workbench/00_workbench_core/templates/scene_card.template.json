@@ -1,0 +1,57 @@
+{
+  "scene_id": "S000",
+  "title": "",
+  "route": "common",
+  "chapter": "",
+  "location": "",
+  "time": "",
+  "background": "",
+  "bgm": "",
+  "entering_pressure": "",
+  "player_want": "",
+  "npc_wants": {},
+  "withheld_truths": {},
+  "usable_objects": [
+    {
+      "id": "OBJ_sound",
+      "type": "sound",
+      "description": "",
+      "dramatic_use": ""
+    },
+    {
+      "id": "OBJ_trace",
+      "type": "trace",
+      "description": "",
+      "dramatic_use": ""
+    },
+    {
+      "id": "OBJ_obstruction",
+      "type": "obstruction",
+      "description": "",
+      "dramatic_use": ""
+    },
+    {
+      "id": "OBJ_cost",
+      "type": "cost",
+      "description": "",
+      "dramatic_use": ""
+    },
+    {
+      "id": "OBJ_character_specific",
+      "type": "character_specific",
+      "description": "",
+      "dramatic_use": ""
+    }
+  ],
+  "choice_pressure": "",
+  "scene_question": "",
+  "scene_answer": "",
+  "professional_ritual": "",
+  "character_lie_pressure": "",
+  "dramatic_turn": "",
+  "sequel_decision": "",
+  "theme_pressure": "",
+  "state_delta_required": [],
+  "exit_image": "",
+  "qa_risks": []
+}

@@ -1,0 +1,53 @@
+{
+  "id": "CHR_mengyu",
+  "scene_entry_state": {
+    "mood": "笑得快，急得更快",
+    "body": "袖口湿透，票夹在手机壳后面，左手一直护着票角",
+    "current_goal": "让窗口给旧票留下今天的官方痕迹",
+    "active_lie": "她只是替理发店老板娘跑腿退票",
+    "unsafe_word": "孟舟"
+  },
+  "relationship_state": {
+    "CHR_linqiao": {
+      "trust": 0,
+      "read": "年轻 clerk，嘴硬，手上流程熟",
+      "risk": "他可能当场盖废票章"
+    },
+    "CHR_zhaobo": {
+      "trust": -2,
+      "read": "保安声音在对讲里出现过，她认得",
+      "risk": "他可能知道北门那晚"
+    }
+  },
+  "voice_state": {
+    "default": "轻快试探，给人起临时外号",
+    "under_pressure": "语气词下降，直接护票角",
+    "softening_signal": "叫全名，把哥哥姓名交出来"
+  },
+  "state_flags": {
+    "ticket_corner_hidden": true,
+    "knows_blind_spot": true,
+    "will_not_surrender_original": true
+  },
+  "current_axes": {
+    "cute_vs_hard": "用轻快口吻抢节奏，关键处会突然变硬",
+    "lie_vs_entrust": "先编老板娘，确认安全后交出孟舟姓名",
+    "evidence_vs_composure": "越护票角，越难维持玩笑"
+  },
+  "active_wants": [
+    "保住旧票原件",
+    "拿到窗口处理痕迹",
+    "试出林桥是否会直接收票"
+  ],
+  "voice_lock": {
+    "must_keep": ["称呼变化", "轻快遮急", "压力下少语气词"],
+    "avoid": ["全程卖萌", "过早讲完真相", "把主题说白"],
+    "pressure_cues": ["票角", "孟舟", "北门", "别收走"]
+  },
+  "state_history": [
+    {
+      "scene": "before_S001",
+      "change": "带着三个月前旧票来到三号窗，准备用玩笑拖住流程"
+    }
+  ]
+}

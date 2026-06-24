@@ -1,0 +1,760 @@
+﻿{
+  "version": "2026-06-17",
+  "methods": [
+    {
+      "id": "scene_question_answer",
+      "title": "Scene Question / Answer",
+      "file": "scene_question_answer.md",
+      "default_enabled": true,
+      "source_refs": [
+        "https://www.helpingwritersbecomeauthors.com/scene-structure/"
+      ],
+      "invocation": "Load for every scene card and scene brief.",
+      "output_contract": "The scene must begin with a concrete question and end with a costly answer."
+    },
+    {
+      "id": "professional_ritual",
+      "title": "Professional Ritual As Gameplay",
+      "file": "professional_ritual.md",
+      "default_enabled": true,
+      "source_refs": [
+        "public pattern: service ritual as gameplay",
+        "public pattern: repeated work action as narrative control"
+      ],
+      "invocation": "Load when the VN has a job, service role, investigation procedure, or repeated work action.",
+      "output_contract": "The scene must contain a concrete repeatable work action that changes dialogue or state."
+    },
+    {
+      "id": "subtext_want_need",
+      "title": "Subtext From Want / Need Mismatch",
+      "file": "subtext_want_need.md",
+      "default_enabled": true,
+      "source_refs": [
+        "https://www.helpingwritersbecomeauthors.com/subtext-in-dialogue/",
+        "https://www.writingclasses.com/toolbox/ask-writer/in-dialogue-what-is-subtext"
+      ],
+      "invocation": "Load for dialogue-heavy scenes.",
+      "output_contract": "Every major exchange must track surface topic, hidden want, and unsafe word."
+    },
+    {
+      "id": "choice_mental_model",
+      "title": "Choice Mental Model",
+      "file": "choice_mental_model.md",
+      "default_enabled": true,
+      "source_refs": [
+        "https://frictionalgames.com/2017-06-choices-consequences-and-the-ability-to-plan/",
+        "https://neotegoelgames.wordpress.com/2021/02/15/how-to-use-choices-when-writing-visual-novels/"
+      ],
+      "invocation": "Load before writing choices or consequences.",
+      "output_contract": "The player must be able to infer what kind of consequence the choice is listening for."
+    },
+    {
+      "id": "branch_bottleneck_state",
+      "title": "Branch And Bottleneck With State",
+      "file": "branch_bottleneck_state.md",
+      "default_enabled": true,
+      "source_refs": [
+        "https://heterogenoustasks.wordpress.com/2015/01/26/standard-patterns-in-choice-based-games/"
+      ],
+      "invocation": "Load for limited-scope branching scenes.",
+      "output_contract": "Branches may reconverge only if state changes remain visible later."
+    },
+    {
+      "id": "four_layer_narrative",
+      "title": "Four-Layer Narrative Integration",
+      "file": "four_layer_narrative.md",
+      "default_enabled": true,
+      "source_refs": [
+        "https://frictionalgames.com/2014-04-4-layers-a-narrative-design-approach/"
+      ],
+      "invocation": "Load when checking whether mechanics, story, character, and theme are actually connected.",
+      "output_contract": "Each key scene must state gameplay action, character action, plot event, and theme pressure."
+    },
+    {
+      "id": "voice_state_memory",
+      "title": "Voice State Memory",
+      "file": "voice_state_memory.md",
+      "default_enabled": true,
+      "source_refs": [
+        "https://github.com/gratajik/book-memory-bank",
+        "https://github.com/malfoyslastname/character-card-spec-v2",
+        "https://arxiv.org/abs/2304.03442"
+      ],
+      "invocation": "Load whenever characters speak or a scene changes relationship state.",
+      "output_contract": "Drafting must read character cards and runtime state before producing dialogue."
+    },
+    {
+      "id": "line_energy_punctuation",
+      "title": "Line Energy And Punctuation",
+      "file": "line_energy_punctuation.md",
+      "default_enabled": true,
+      "source_refs": [
+        "https://www.renpy.org/doc/html/dialogue.html",
+        "https://lemmasoft.renai.us/forums/viewtopic.php?t=30717",
+        "https://centerforfiction.org/writing-tools/tips-for-writing-dialogue/"
+      ],
+      "invocation": "Load before drafting or revising dialogue when voice, punctuation, and line energy matter.",
+      "output_contract": "Every dialogue block must show character-specific sentence shape, punctuation intent, and actable pressure."
+    },
+    {
+      "id": "character_liveliness_bias",
+      "title": "Character Liveliness Bias",
+      "file": "character_liveliness_bias.md",
+      "default_enabled": true,
+      "source_refs": [
+        "user critique",
+        "VN Fusion Writer performance-layer-and-ai-character-control",
+        "local character brief practice"
+      ],
+      "invocation": "Load whenever creating, revising, or drafting characters, especially if roles feel too flat, hard, or only functional.",
+      "output_contract": "Every major character must receive liveliness +1: a charm hook, a lively memory point, character-owned punctuation play, and at least one actable ordinary quirk."
+    },
+    {
+      "id": "domestic_gal_social_texture",
+      "title": "Domestic Gal Social Texture",
+      "file": "domestic_gal_social_texture.md",
+      "default_enabled": true,
+      "source_refs": [
+        "https://www.cngal.org/articles/index/3594",
+        "https://steamcommunity.com/app/2593370/allnews/?l=schinese",
+        "https://www.cngal.org/articles/index/70",
+        "https://www.hl-avg.com/"
+      ],
+      "invocation": "Load before writing Chinese VN scenes that need local social pressure, occupational texture, and non-floating character voice.",
+      "output_contract": "Every important scene must name a social machine, a mundane tool, a name consequence, and a relation cost."
+    },
+    {
+      "id": "sentence_kernel_display_voice",
+      "title": "Sentence Kernel And Display Voice",
+      "file": "sentence_kernel_display_voice.md",
+      "default_enabled": true,
+      "source_refs": [
+        "https://www.cngal.org/articles/index/70",
+        "https://www.hl-avg.com/",
+        "local voice-card practice"
+      ],
+      "invocation": "Load before drafting dialogue, narration, thoughts, document text, or readable previews.",
+      "output_contract": "Each major speaker must have sentence-engine rules, display-layer rules, and allowed unclosed line endings."
+    },
+    {
+      "id": "galgame_textbox_production",
+      "title": "Galgame Textbox And Production Script",
+      "file": "galgame_textbox_production.md",
+      "default_enabled": true,
+      "source_refs": [
+        "https://www.cngal.org/articles/index/70",
+        "user-provided critique and article excerpt"
+      ],
+      "invocation": "Load before drafting or validating Chinese Galgame/AVG scripts that must feel playable rather than novelistic.",
+      "output_contract": "Every scene must treat each row as a restricted-view textbox plus production cue, with clean display syntax and no prose-only drift."
+    },
+    {
+      "id": "click_unit_textbox_rhythm",
+      "title": "Click Unit Textbox Rhythm",
+      "file": "click_unit_textbox_rhythm.md",
+      "default_enabled": true,
+      "source_refs": [
+        "https://www.cngal.org/articles/index/70",
+        "https://ykagaya.com/howto/sinario/how-to-write/",
+        "https://freegame-contest.com/?p=5287",
+        "https://note.com/ryodist/n/nf6c706fde243",
+        "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q10146705250",
+        "user critique 2026-06-21"
+      ],
+      "invocation": "Load before drafting or revising click-to-advance VN/ADV rows.",
+      "output_contract": "Every serious row must have an inferable click function; split and merge decisions must follow screen-state, pressure, inference, choice, and payload rather than one-speaker-one-row habit."
+    },
+    {
+      "id": "interiority_not_narration",
+      "title": "Interiority Is Not Narration",
+      "file": "interiority_not_narration.md",
+      "default_enabled": true,
+      "source_refs": [
+        "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q10146705250",
+        "https://note.com/donut_siga/n/n9316fdf87a07",
+        "https://www.cngal.org/articles/index/70",
+        "https://lingchat.wiki/develop/story_guide.html",
+        "user critique 2026-06-21"
+      ],
+      "invocation": "Load before writing or revising thought rows, first-person passages, or psychological texture.",
+      "output_contract": "Thought rows must carry private inference, unsaid motive, choice pressure, or contradiction; camera-visible action and decorative object prose must be narration/stage instead."
+    },
+    {
+      "id": "non_preachy_dialogue_pressure",
+      "title": "Non-Preachy Dialogue Pressure",
+      "file": "non_preachy_dialogue_pressure.md",
+      "default_enabled": true,
+      "source_refs": [
+        "https://www.vantan-game.com/column/howto-gamescenario-so/",
+        "https://note.com/donut_siga/n/n9316fdf87a07",
+        "https://www.gameres.com/854094.html",
+        "user critique 2026-06-21"
+      ],
+      "invocation": "Load before drafting or revising dialogue that risks sounding like advice, craft theory, theme explanation, or AI-polished talk.",
+      "output_contract": "Dialogue must create actable pressure through request, refusal, bargain, mistake, object operation, relation cost, or choice state instead of explaining the thesis."
+    },
+    {
+      "id": "open_source_format_fusion",
+      "title": "Open Source Format Fusion",
+      "file": "open_source_format_fusion.md",
+      "default_enabled": true,
+      "source_refs": [
+        "https://github.com/inkle/ink",
+        "https://github.com/YarnSpinnerTool/YarnSpinner",
+        "https://github.com/nathanhoad/godot_dialogue_manager",
+        "https://github.com/malfoyslastname/character-card-spec-v2",
+        "https://github.com/FaceDeer/pyqt_tavernai_character_editor"
+      ],
+      "invocation": "Load before drafting, validating, or exporting scenes that need portable branch structure and character memory packages.",
+      "output_contract": "CSV remains the source of truth and must export to WebGAL, Ren'Py, Ink, Yarn, Godot Dialogue Manager, and Character Card V2 without losing branch/state intent."
+    },
+    {
+      "id": "novel_architecture_fusion",
+      "title": "Novel Architecture Fusion",
+      "file": "novel_architecture_fusion.md",
+      "default_enabled": true,
+      "source_refs": [
+        "https://github.com/olivierkes/manuskript",
+        "https://github.com/andreafeccomandi/bibisco",
+        "https://github.com/garybentley/quollwriter",
+        "https://github.com/jacquetc/skribisto",
+        "https://github.com/story-apps/starc",
+        "https://github.com/pixeldude84/novelstar"
+      ],
+      "invocation": "Load before drafting or validating scenes that must belong to a larger novel/game structure.",
+      "output_contract": "Each scene must expose chapter goal, synopsis, POV pressure, narrative strands, character arcs, and foreshadow refs."
+    },
+    {
+      "id": "dialogue_display_interiority",
+      "title": "Dialogue Display And Interiority",
+      "file": "dialogue_display_interiority.md",
+      "default_enabled": true,
+      "source_refs": [
+        "user critique",
+        "local Galgame display rules",
+        "VN Fusion Writer performance-layer-and-ai-character-control"
+      ],
+      "invocation": "Load before drafting or rendering scenes that need Gal-style dialogue marks, casual speech, and inner monologue.",
+      "output_contract": "Readable previews must render dialogue with `【角色】『台词』`, thought rows with `（内心文本）`, and dialogue must allow character-specific casual particles and pressure punctuation."
+    },
+    {
+      "id": "theme_spine_playable_thesis",
+      "title": "Theme Spine And Playable Thesis",
+      "file": "theme_spine_playable_thesis.md",
+      "default_enabled": true,
+      "source_refs": [
+        "https://www.cngal.org/articles/index/79",
+        "https://www.cngal.org/articles/index/3594",
+        "https://www.renpy.org/doc/html/dialogue.html",
+        "https://docs.openwebgal.com/webgal-script/dialogue.html",
+        "https://www.choiceofgames.com/make-your-own-games/choicescript-intro/",
+        "https://github.com/inkle/ink/blob/master/Documentation/WritingWithInk.md",
+        "https://docs.yarnspinner.dev/components/dialogue-runner",
+        "https://www.failbettergames.com/news/new-narrative-structures",
+        "https://emshort.blog/2016/04/12/beyond-branching-quality-based-and-salience-based-narrative-structures/",
+        "https://github.com/ttsmallHot/AI4VisualNovel"
+      ],
+      "invocation": "Load before planning a project, route, chapter, or scene that must express a central theme through play.",
+      "output_contract": "The project must define a thesis question, repeated player behavior, cost, concrete object, route arguments, and final payoff."
+    },
+    {
+      "id": "storylet_quality_state",
+      "title": "Storylet Quality And Stateful Microinteraction",
+      "file": "storylet_quality_state.md",
+      "default_enabled": true,
+      "source_refs": [
+        "https://twinery.org/cookbook/storylets/harlowe/harlowe_storylets.html",
+        "https://www.failbettergames.com/news/new-narrative-structures",
+        "https://emshort.blog/2016/04/12/beyond-branching-quality-based-and-salience-based-narrative-structures/",
+        "https://www.choiceofgames.com/make-your-own-games/choicescript-intro/",
+        "https://klembot.github.io/chapbook/",
+        "https://github.com/tacoen/reramen"
+      ],
+      "invocation": "Load before writing choices, conditional scenes, investigation nodes, optional interactions, or repeated location loops.",
+      "output_contract": "Every quality, storylet, and microinteraction must declare condition, immediate feedback, state change, delayed callback, and production cue."
+    },
+    {
+      "id": "vertical_slice_production_pipeline",
+      "title": "Vertical Slice Production Pipeline",
+      "file": "vertical_slice_production_pipeline.md",
+      "default_enabled": true,
+      "source_refs": [
+        "https://www.renpy.org/doc/html/thequestion.html",
+        "https://github.com/renpy/renpy/tree/master/the_question",
+        "https://docs.openwebgal.com/webgal-script/dialogue.html",
+        "https://www.choiceofgames.com/make-your-own-games/choicescript-intro/",
+        "https://github.com/inkle/ink/blob/master/Documentation/WritingWithInk.md",
+        "https://docs.yarnspinner.dev/components/dialogue-runner",
+        "https://github.com/ttsmallHot/AI4VisualNovel",
+        "https://github.com/tacoen/reramen"
+      ],
+      "invocation": "Load before expanding a project beyond a test scene, and before delivering any new sample script.",
+      "output_contract": "A project must prove a small slice with draft-session, CSV, readable preview, QA, exports, state coverage, and memory updates."
+    },
+    {
+      "id": "full_script_corpus_study",
+      "title": "Full Script Corpus Study",
+      "file": "full_script_corpus_study.md",
+      "default_enabled": true,
+      "source_refs": [
+        "https://github.com/salty-salty-studios/first-snow",
+        "https://github.com/salty-salty-studios/twofold",
+        "https://github.com/freeCodeCamp/LearnToCodeRPG",
+        "https://github.com/renpy/renpy/tree/master/the_question",
+        "https://github.com/renpy/renpy/tree/master/tutorial"
+      ],
+      "invocation": "Load whenever a script claims to reference actual complete VN/Ren'Py works, or before writing a serious sample that needs corpus-grounded pacing.",
+      "output_contract": "The workbench must identify legal complete scripts analyzed, report aggregate metrics, state the structural lesson reused, and avoid copying source text."
+    },
+    {
+      "id": "corpus_metric_targeting",
+      "title": "Corpus Metric Targeting",
+      "file": "corpus_metric_targeting.md",
+      "default_enabled": true,
+      "source_refs": [
+        "https://github.com/salty-salty-studios/first-snow",
+        "https://github.com/salty-salty-studios/twofold",
+        "https://github.com/freeCodeCamp/LearnToCodeRPG",
+        "https://github.com/renpy/renpy/tree/master/the_question",
+        "https://github.com/danjdewhurst/story-skills"
+      ],
+      "invocation": "Load before serious drafting that uses complete-script references, especially after a new corpus analysis round.",
+      "output_contract": "The draft must declare target textbox, dialogue/narration, choice/state, staging, and QA metrics before prose, then compare after validation."
+    },
+    {
+      "id": "external_project_ingestion_protocol",
+      "title": "External Project Ingestion Protocol",
+      "file": "external_project_ingestion_protocol.md",
+      "default_enabled": true,
+      "source_refs": [
+        "https://github.com/dialogic-godot/dialogic",
+        "https://github.com/agnaistic/agnai",
+        "https://github.com/danjdewhurst/story-skills",
+        "local open-source reference library"
+      ],
+      "invocation": "Load whenever the user asks the workbench to keep learning from external projects, mature tools, engine files, or open-source writing systems.",
+      "output_contract": "Every learning round must produce a source-log entry, a local reusable improvement, and a verification result."
+    },
+    {
+      "id": "source_adaptation_protocol",
+      "title": "Source Adaptation Protocol",
+      "file": "source_adaptation_protocol.md",
+      "default_enabled": true,
+      "source_refs": [
+        "local workbench source boundary",
+        "user instruction: do not use other people's original files directly"
+      ],
+      "invocation": "Load whenever external projects, methods, or skills are studied before they enter the active workbench.",
+      "output_contract": "Outside material must be rewritten into workbench-owned methods or skills before it can affect generation."
+    },
+    {
+      "id": "generation_context_assembly_order",
+      "title": "Generation Context Assembly Order",
+      "file": "generation_context_assembly_order.md",
+      "default_enabled": true,
+      "source_refs": [
+        "https://github.com/forsonny/book-os",
+        "https://github.com/RhythmicWave/NovelForge",
+        "https://github.com/agnaistic/agnai",
+        "https://github.com/SillyTavern/SillyTavern-Docs",
+        "https://github.com/danjdewhurst/story-skills",
+        "https://github.com/malfoyslastname/character-card-spec-v2"
+      ],
+      "invocation": "Load before any draft-session or generated prose so standards, project memory, scene task, character control, retrieval, and QA are assembled in a stable order.",
+      "output_contract": "The workbench must prove which local context surfaces were loaded and keep reusable methods separate from project-only generated memory."
+    },
+    {
+      "id": "user_prompt_response_protocol",
+      "title": "User Prompt Response Protocol",
+      "file": "user_prompt_response_protocol.md",
+      "default_enabled": true,
+      "source_refs": [
+        "user critique history",
+        "https://github.com/danjdewhurst/story-skills",
+        "local workbench draft-session workflow"
+      ],
+      "invocation": "Load before interpreting user instructions that ask for learning, writing, rewriting, continuing, expanding, or character setup.",
+      "output_contract": "The assistant must classify the newest prompt and route it to method updates, project memory, generated content, exports, or user-visible character briefs."
+    },
+    {
+      "id": "character_setting_presentation",
+      "title": "Character Setting Presentation And Memory Points",
+      "file": "character_setting_presentation.md",
+      "default_enabled": true,
+      "source_refs": [
+        "https://github.com/danjdewhurst/story-skills",
+        "https://github.com/dialogic-godot/dialogic",
+        "https://github.com/agnaistic/agnai",
+        "https://github.com/malfoyslastname/character-card-spec-v2"
+      ],
+      "invocation": "Load whenever creating, revising, or presenting characters, especially when the user needs visible memory points.",
+      "output_contract": "New or materially changed characters must have both machine cards and user-visible briefs with stable memory points, voice signatures, body signatures, and example lines."
+    },
+    {
+      "id": "storage_boundary_protocol",
+      "title": "Storage Boundary Protocol",
+      "file": "storage_boundary_protocol.md",
+      "default_enabled": true,
+      "source_refs": [
+        "local workbench architecture"
+      ],
+      "invocation": "Load before adding methods, project memory, generated scripts, exports, or QA artifacts.",
+      "output_contract": "Every new file must be placed in reusable core, project memory, generated content, exports, or QA."
+    },
+    {
+      "id": "rewrite_pipeline",
+      "title": "Rewrite Pipeline",
+      "file": "rewrite_pipeline.md",
+      "default_enabled": true,
+      "source_refs": [
+        "local workbench architecture",
+        "VN revision pass practice"
+      ],
+      "invocation": "Load before creating a revised draft from an earlier script.",
+      "output_contract": "The rewrite must produce a new generated draft file and only update project memory after validation."
+    },
+    {
+      "id": "character_presence_revision",
+      "title": "Character Presence Revision",
+      "file": "character_presence_revision.md",
+      "default_enabled": true,
+      "source_refs": [
+        "vn_fusion_workbench/00_workbench_core/portable_skills/vn-presence-revision/SKILL.md",
+        "vn_fusion_workbench/00_workbench_core/portable_skills/vn-presence-revision/references/changed-line-voice-check.md",
+        "user critique history internalized into workbench"
+      ],
+      "invocation": "Load before revising a script for AI flavor, flat voice, over-polish, or weak character presence.",
+      "output_contract": "The revision must list changed row ids, reason for change, and whether character card/runtime state updates are required."
+    },
+    {
+      "id": "changed_line_voice_integrity_check",
+      "title": "Changed-Line Voice Integrity Check",
+      "file": "changed_line_voice_integrity_check.md",
+      "default_enabled": true,
+      "source_refs": [
+        "vn_fusion_workbench/00_workbench_core/portable_skills/vn-presence-revision/references/changed-line-voice-check.md",
+        "vn_fusion_workbench/00_workbench_core/methods/line_energy_punctuation.md",
+        "vn_fusion_workbench/00_workbench_core/methods/dialogue_display_interiority.md"
+      ],
+      "invocation": "Load after drafting or rewriting, but apply the checklist only to lines changed by the assistant.",
+      "output_contract": "Changed rows must be checked for AI-tell risk, handprint preservation, and any required fix."
+    },
+    {
+      "id": "portable_skill_handoff_protocol",
+      "title": "Portable Skill Handoff Protocol",
+      "file": "portable_skill_handoff_protocol.md",
+      "default_enabled": true,
+      "source_refs": [
+        "vn_fusion_workbench/00_workbench_core/portable_skills/portable_skill_manifest.json",
+        "AI_HANDOFF_PACKAGE/portable_skills/"
+      ],
+      "invocation": "Load when adding reusable capabilities or preparing the workbench for another AI.",
+      "output_contract": "A handoff-ready update must state new skill ids, new method ids, canonical path, handoff copy path, and validation result."
+    },
+    {
+      "id": "runtime_dialogue_pipeline",
+      "title": "Runtime Dialogue Pipeline",
+      "file": "runtime_dialogue_pipeline.md",
+      "default_enabled": true,
+      "source_refs": [
+        "https://github.com/YarnSpinnerTool/YarnSpinner",
+        "https://github.com/inkle/ink",
+        "https://github.com/renpy/renpy",
+        "https://github.com/klembot/twinejs"
+      ],
+      "invocation": "Load before drafting, validating, or exporting any scene with dialogue, commands, choices, labels, jumps, or variables.",
+      "output_contract": "Every CSV row must map to a runtime unit, every choice must have a target and state effect, and exports must remain generated artifacts."
+    },
+    {
+      "id": "retrievable_character_memory_blocks",
+      "title": "Retrievable Character Memory Blocks",
+      "file": "retrievable_character_memory_blocks.md",
+      "default_enabled": true,
+      "source_refs": [
+        "https://github.com/malfoyslastname/character-card-spec-v2",
+        "https://github.com/bal-spec/sillytavern-character-memory"
+      ],
+      "invocation": "Load before writing character dialogue, updating relationship state, creating character cards, or handing a project to another AI.",
+      "output_contract": "Drafting must separate stable card, runtime state, and episodic memory blocks, then update only canon-changing memories after validation."
+    },
+    {
+      "id": "plain_text_project_granularity",
+      "title": "Plain Text Project Granularity",
+      "file": "plain_text_project_granularity.md",
+      "default_enabled": true,
+      "source_refs": [
+        "https://github.com/vkbo/novelWriter",
+        "https://github.com/olivierkes/manuskript"
+      ],
+      "invocation": "Load when organizing a long story, creating project folders, preparing handoff files, or expanding a test scene.",
+      "output_contract": "Every project must remain readable as small stable files with summaries, status, tags, dependencies, changes, and callbacks."
+    },
+    {
+      "id": "passage_tag_route_map",
+      "title": "Passage Tag Route Map",
+      "file": "passage_tag_route_map.md",
+      "default_enabled": true,
+      "source_refs": [
+        "https://github.com/klembot/twinejs",
+        "https://github.com/YarnSpinnerTool/YarnSpinner",
+        "https://github.com/inkle/ink"
+      ],
+      "invocation": "Load before planning branching routes, optional scenes, storylets, investigation nodes, or Twine/Yarn/Ink-style exports.",
+      "output_contract": "Scenes and branches must expose passage ids, route tags, centered characters, required state, created state, callback hooks, and export mapping."
+    },
+    {
+      "id": "two_pass_narrative_lint",
+      "title": "Two-Pass Narrative Lint",
+      "file": "two_pass_narrative_lint.md",
+      "default_enabled": true,
+      "source_refs": [
+        "https://github.com/YarnSpinnerTool/YarnSpinner",
+        "https://github.com/inkle/ink",
+        "https://github.com/renpy/renpy",
+        "https://github.com/klembot/twinejs",
+        "https://github.com/bal-spec/sillytavern-character-memory"
+      ],
+      "invocation": "Load before trusting a serious draft, expanding a route, handing a project to another AI, or claiming character voice/state is fixed.",
+      "output_contract": "Run deep-audit so graph, refs, state effects, and character-control layers align before final delivery."
+    },
+    {
+      "id": "ai_native_workbench_entrypoint",
+      "title": "AI Native Workbench Entrypoint",
+      "file": "ai_native_workbench_entrypoint.md",
+      "default_enabled": true,
+      "source_refs": [
+        "external AI writing assistant pattern",
+        "vn_fusion_workbench/01_reference_log/local_ingest/ai_novel_assistant_deep_absorption_2026_06_22.md"
+      ],
+      "invocation": "Load when using or extending the local web/AI entrypoint for the VN workbench.",
+      "output_contract": "AI calls must assemble local context and save raw responses under generated content; canon still requires CSV and QA."
+    },
+    {
+      "id": "workflow_runtime_status",
+      "title": "Workflow Runtime Status",
+      "file": "workflow_runtime_status.md",
+      "default_enabled": true,
+      "source_refs": [
+        "vn_fusion_workbench/01_reference_log/local_ingest/ai_novel_assistant_deep_absorption_2026_06_22.md"
+      ],
+      "invocation": "Load when showing project state, automating multiple steps, or recommending the next workbench action.",
+      "output_contract": "Every workflow step must expose input artifact, output artifact, status, command, and next recommended action."
+    },
+    {
+      "id": "style_asset_prompt_compiler",
+      "title": "Style Asset Prompt Compiler",
+      "file": "style_asset_prompt_compiler.md",
+      "default_enabled": true,
+      "source_refs": [
+        "external AI writing assistant pattern",
+        "vn_fusion_workbench/01_reference_log/local_ingest/ai_novel_assistant_deep_absorption_2026_06_22.md"
+      ],
+      "invocation": "Load before turning method cards, anti-AI rules, style notes, and character controls into an AI generation prompt.",
+      "output_contract": "Compile rules into context, style, character, anti_ai, output, and self_check blocks instead of passing raw notes."
+    },
+    {
+      "id": "vn_quality_debt_attribution",
+      "title": "VN Quality Debt Attribution",
+      "file": "vn_quality_debt_attribution.md",
+      "default_enabled": true,
+      "source_refs": [
+        "vn_fusion_workbench/01_reference_log/local_ingest/ai_novel_assistant_deep_absorption_2026_06_22.md",
+        "user critique history"
+      ],
+      "invocation": "Load after drafting, rewriting, validating, or diagnosing a VN scene that mechanically passes but feels weak.",
+      "output_contract": "Classify remaining issues as VN-specific quality debt and route each debt type to a concrete repair pass."
+    },
+    {
+      "id": "codex_chat_creation_protocol",
+      "title": "Codex Chat Creation Protocol",
+      "file": "codex_chat_creation_protocol.md",
+      "default_enabled": true,
+      "source_refs": [
+        "vn_fusion_workbench/00_workbench_core/docs/CODEX_CHAT_CREATION_WORKFLOW.md",
+        "user critique 2026-06-22"
+      ],
+      "invocation": "Load whenever the user asks through chat to create, rewrite, expand, or test a VN/Galgame work.",
+      "output_contract": "Chat output must become project memory, scene design, script artifacts, and QA results before final delivery."
+    },
+    {
+      "id": "style_corpus_intake_protocol",
+      "title": "Style Corpus Intake Protocol",
+      "file": "style_corpus_intake_protocol.md",
+      "default_enabled": true,
+      "source_refs": [
+        "https://github.com/Hassaan-Elahi/Writing-Styles-Classification-Using-Stylometric-Analysis",
+        "https://github.com/houtini-ai/voice-analyser-mcp",
+        "private local style assessment"
+      ],
+      "invocation": "Load whenever the user adds tutorials, VN scripts, style references, or large learning corpora to the workbench.",
+      "output_contract": "Raw pending files must be normalized into learned Markdown, logged, then distilled into methods, style profiles, or project memory."
+    },
+    {
+      "id": "style_reference_profile_compiler",
+      "title": "Style Reference Profile Compiler",
+      "file": "style_reference_profile_compiler.md",
+      "default_enabled": true,
+      "source_refs": [
+        "https://github.com/TaoZhen1110/CAT-LLM",
+        "https://github.com/houtini-ai/voice-analyser-mcp",
+        "https://github.com/forsonny/book-os",
+        "https://github.com/RhythmicWave/NovelForge"
+      ],
+      "invocation": "Load after a batch of tutorials or VN scripts has been normalized and needs to become a compact style asset.",
+      "output_contract": "Produce a compact profile with metrics, sentence engine, display rules, emotional delivery, examples, repair moves, and QA checklist."
+    },
+    {
+      "id": "sillytavern_anythingllm_fusion",
+      "title": "SillyTavern + AnythingLLM Fusion",
+      "file": "sillytavern_anythingllm_fusion.md",
+      "default_enabled": true,
+      "source_refs": [
+        "https://github.com/SillyTavern/SillyTavern",
+        "https://github.com/Mintplex-Labs/anything-llm",
+        "https://github.com/bal-spec/sillytavern-character-memory",
+        "https://github.com/aikohanasaki/SillyTavern-MemoryBooks"
+      ],
+      "invocation": "Load when using large learned corpora together with stable VN character memory and dialogue generation.",
+      "output_contract": "Use AnythingLLM-style corpus ingestion/retrieval first, then SillyTavern-style character card/lorebook/runtime memory injection for drafting."
+    },
+    {
+      "id": "chinese_vn_generation_hard_gates",
+      "title": "Chinese VN Generation Hard Gates",
+      "file": "chinese_vn_generation_hard_gates.md",
+      "default_enabled": true,
+      "source_refs": [
+        "normalized_cn_gal_tutorial_batch_20260623",
+        "style_profile_cn_gal_tutorial_lessons_20260623.md",
+        "user critique history 2026-06-23"
+      ],
+      "invocation": "Load before every Chinese Galgame/AVG draft or rewrite, especially when checking language, emotion, branch state, click splitting, and thought rows.",
+      "output_contract": "Drafts must pass click-unit, dialogue-block, private-thought, Chinese display rhythm, character voice, branch-debt, and playable-theme gates before delivery."
+    },
+    {
+      "id": "tutorial_absorption_to_generation_contract",
+      "title": "Tutorial Absorption To Generation Contract",
+      "file": "tutorial_absorption_to_generation_contract.md",
+      "default_enabled": true,
+      "source_refs": [
+        "normalized_cn_gal_tutorial_batch_20260623",
+        "style_profile_cn_gal_tutorial_lessons_20260623.md",
+        "chinese_vn_generation_hard_gates.md",
+        "user critique history 2026-06-23"
+      ],
+      "invocation": "Load after tutorial intake and before Chinese Galgame/AVG drafting to prove the learned lessons are visible in generated rows.",
+      "output_contract": "Draft-session or project audit must map tutorial lessons to concrete evidence: click rhythm, dialogue blocks, private thoughts, character punctuation, local-life pressure, choice debt, and banned-pattern scan."
+    },
+    {
+      "id": "deep_vn_corpus_application",
+      "title": "Deep VN Corpus Application",
+      "file": "deep_vn_corpus_application.md",
+      "default_enabled": true,
+      "source_refs": [
+        "private_vn_corpus_calibration",
+        "private_deep_vn_corpus_analysis.json",
+        "chinese_vn_generation_hard_gates.md",
+        "tutorial_absorption_to_generation_contract.md"
+      ],
+      "invocation": "Load after complete-script corpus analysis and before serious Chinese Galgame/AVG drafting, especially when calibrating style, punctuation, click splitting, thought rows, options, branches, and route debt.",
+      "output_contract": "A draft must declare corpus rhythm target, dialogue block plan, narration placement, private thought pockets, speaker punctuation fingerprints, visible option count, branch state count, rejoin point, persistent debt, and tutorial cross-check."
+    },
+    {
+      "id": "vn_style_handprint_fusion",
+      "title": "VN Style Handprint Fusion",
+      "file": "vn_style_handprint_fusion.md",
+      "default_enabled": true,
+      "source_refs": [
+        "VN_style_handprint_fusion_asset_20260623.md",
+        "vn_style_handprint_fusion_20260623.json",
+        "private_deep_vn_corpus_analysis.json",
+        "deep_vn_corpus_application.md",
+        "user critique 2026-06-23"
+      ],
+      "invocation": "Load before serious Chinese Galgame/AVG drafting after any learned corpus intake. Use it to shape sentence movement, emotional transitions, character handprints, punctuation energy, and click-level prose feel.",
+      "output_contract": "The draft must show original sentence moves, character-specific breath, playable emotional turns, private thought pockets, and lively but non-copied VN dialogue rather than only passing hard rules."
+    },
+    {
+      "id": "private_thought_pocket_texture",
+      "title": "Private Thought Pocket Texture",
+      "file": "private_thought_pocket_texture.md",
+      "default_enabled": true,
+      "source_refs": [
+        "private_deep_vn_corpus_analysis.md",
+        "normalized_cn_gal_tutorial_batch_20260623",
+        "interiority_not_narration.md",
+        "user critique 2026-06-23"
+      ],
+      "invocation": "Load before writing or revising Chinese VN thought rows, especially when psychological texture feels mechanical, camera-visible, or AI-like.",
+      "output_contract": "Thought rows must expose private inference, hidden cost, branch debt, or choice pressure, and use 1-2 row thought pockets unless a longer pocket has irreversible function."
+    },
+    {
+      "id": "dialogue_block_ownership",
+      "title": "Dialogue Block Ownership",
+      "file": "dialogue_block_ownership.md",
+      "default_enabled": true,
+      "source_refs": [
+        "private_dialogue_block_dynamics.md",
+        "private_dialogue_block_dynamics.json",
+        "private_vn_corpus_calibration",
+        "user critique 2026-06-23"
+      ],
+      "invocation": "Load before every dialogue-heavy Chinese Galgame/AVG draft or rewrite, especially when preventing one-line ping-pong dialogue.",
+      "output_contract": "The draft must declare dialogue ownership plan, same-speaker run owner, run length target, interruption point, narration/thought hinge, and anti-ping-pong move."
+    },
+    {
+      "id": "literary_depth_liveliness_control",
+      "title": "Literary Depth And Liveliness Control",
+      "file": "literary_depth_liveliness_control.md",
+      "default_enabled": true,
+      "source_refs": [
+        "user critique 2026-06-23",
+        "style_profile_cn_gal_tutorial_lessons_20260623.md",
+        "private_deep_vn_corpus_analysis.md",
+        "https://www.gutenberg.org/files/1974/1974-h/1974-h.htm",
+        "https://plato.stanford.edu/entries/identity-personal/",
+        "dialogic voice / heteroglossia theory craft note"
+      ],
+      "invocation": "Load before serious Chinese Galgame/AVG drafting or revision when characters feel flat, psychology feels mechanical, prose lacks spirit, or dialogue lacks cute/casual human timing.",
+      "output_contract": "The draft must declare literary pressure, reversal, recognition point, character self-story under threat, live hook + half step, thought-pocket chain, cute/casual timing, and branch debt before prose."
+    },
+    {
+      "id": "soft_opening_problem_first",
+      "title": "Soft Opening: Problem First, Identity Later",
+      "file": "soft_opening_problem_first.md",
+      "default_enabled": true,
+      "source_refs": [
+        "public VN opening structure analysis",
+        "user critique 2026-06-24"
+      ],
+      "invocation": "Load before drafting or revising VN openings, especially when a scene starts with direct identity exposition.",
+      "output_contract": "The opening must begin with a problem-bearing object, place, sound, contradiction, or rule failure, then reveal identity through action, address, and relationship pressure."
+    },
+    {
+      "id": "interior_breath_relaxation",
+      "title": "Interior Breath Relaxation",
+      "file": "interior_breath_relaxation.md",
+      "default_enabled": true,
+      "source_refs": [
+        "user critique 2026-06-24",
+        "spoken_private_thought_texture.md",
+        "private_thought_pocket_texture.md",
+        "line_energy_punctuation.md"
+      ],
+      "invocation": "Load before drafting or revising Chinese VN/Gal inner monologue when psychology feels stiff, too formal, too judge-like, or over-repaired into rhetorical questions.",
+      "output_contract": "Thought rows must include character-owned breath where appropriate: filler, relaxation, self-correction, particle, half joke, practical mask, and next-click effect rather than only clean declarative verdicts or repeated questions."
+    },
+    {
+      "id": "complete_delivery_package_contract",
+      "title": "Complete Delivery Package Contract",
+      "file": "complete_delivery_package_contract.md",
+      "default_enabled": true,
+      "source_refs": [
+        "P017 delivery baseline",
+        "P018 delivery incident 2026-06-24",
+        "vn-scene-drafting output contract"
+      ],
+      "invocation": "Load before any user-facing delivery, handoff, or claim that a VN/Gal project is complete.",
+      "output_contract": "Delivery must include readable draft, source CSV, public CSV/Excel, engine exports, character exports, QA evidence, runtime state, memory logs, state delta, and route map, or explicitly be labeled as a quick preview only."
+    }
+  ]
+}

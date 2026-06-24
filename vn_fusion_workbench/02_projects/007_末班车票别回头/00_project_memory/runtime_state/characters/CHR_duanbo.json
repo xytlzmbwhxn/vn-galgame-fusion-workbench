@@ -1,0 +1,34 @@
+{
+  "character_id": "CHR_duanbo",
+  "updated_after_scene": "PRE_S001",
+  "current_axes": {
+    "trust": 1,
+    "anger": 2,
+    "fear": 3,
+    "curiosity": 1,
+    "fatigue": 4,
+    "shame": 4
+  },
+  "active_wants": ["守住旧12路档案", "别让林屿替旧账盖章", "让乔萌安全离开总站"],
+  "active_fears": ["遗失布包被翻出", "当年撤站签字被年轻人重新问起"],
+  "unspoken_truths": ["档案柜里有临站旧站牌拓片", "他认出乔萌和当年的乘客家属有关"],
+  "memory_retrieval_priorities": ["before_S001", "S001_entry", "S001_soften", "voice", "FS_duanbo_key"],
+  "voice_lock": {
+    "sentence_shapes": ["命令短句", "先骂再给办法", "把关心说成规章"],
+    "dodge_moves": ["喊线路号", "拍钥匙串", "看排班板"],
+    "allowed_words": ["小孩儿", "别添乱", "旧12路", "末班", "排班", "钥匙"],
+    "forbidden_drift": ["温柔长谈", "宏大忏悔", "解释过细"],
+    "sample_lines": ["旧12路别乱盖。听见没？", "热水在杯里，自己拿。别让我说第二遍。"]
+  },
+  "relationship_pressure": {
+    "CHR_linyu": "想挡他，也想把钥匙交给他。",
+    "CHR_qiaomeng": "想赶她走，实际在给她留雨停的时间。"
+  },
+  "promises_and_debts": [],
+  "state_history": [
+    {
+      "scene": "PRE_S001",
+      "note": "段伯巡夜，知道临站旧档仍在。"
+    }
+  ]
+}

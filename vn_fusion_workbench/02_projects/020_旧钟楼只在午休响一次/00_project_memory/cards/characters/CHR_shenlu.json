@@ -1,0 +1,31 @@
+{
+  "id": "CHR_shenlu",
+  "name": "沈律",
+  "role": "玩家 POV；高二，学生会杂务与旧钟楼钥匙临时保管员",
+  "first_screen_impression": "午休时抱着失物箱和钥匙串，被多响的一声钟推到麻烦中心。",
+  "public_want": "把钥匙还回去，然后在午休结束前吃完饭。",
+  "private_want": "别再被大家当成自动接锅的人，但又很难放着明显不对劲的事不管。",
+  "fear": "自己一旦认真，别人就会默认他永远有空、永远可靠。",
+  "taboo_topic": "被说成“你反正会帮忙”。",
+  "cornered_behavior": "先吐槽，再把任务拆成可操作的小步骤。",
+  "charm_hook": "嘴上冷淡，手已经把钥匙按编号排好。",
+  "ordinary_quirk": "会把麻烦物件临时贴纸编号，编号越整齐越说明他在心虚。",
+  "sentence_kernel": "短句起手；干燥反问；把压力塞进物件或流程。",
+  "punctuation_habit": "问号、半截停顿、少量省略号；不爱大喊。",
+  "body_signature": "手指拨钥匙环，听金属声判断自己还有几秒能逃。",
+  "relationship_hooks": {
+    "CHR_fuyao": "她会把请求说成广播站流程，沈律听得出这是撒娇包装。",
+    "CHR_wenmian": "她越温柔，沈律越怀疑布丁债会变成正式赔偿。"
+  },
+  "speech_fingerprint": {
+    "sentence_kernel_profile": "先给一个实际判断，再补半句自我保护。",
+    "line_energy_profile": "轻反问、低声吐槽、被迫承认。",
+    "social_texture_profile": "会用“同学”“功能”“流程”把暧昧或麻烦降温。"
+  },
+  "example_lines": [
+    "嗯……当然？它应该没有抗议功能。",
+    "钥匙在我这，不代表责任也在我这。理论上。",
+    "你先别给钟楼配人格，我已经快被它录用了。"
+  ],
+  "arc_promise": "从躲开麻烦，到承认自己也享受被需要的一点点热闹。"
+}

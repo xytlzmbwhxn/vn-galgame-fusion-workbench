@@ -1,0 +1,18 @@
+{
+  "char_id": "CHR_linzhishi",
+  "scene_id": "S001",
+  "emotional_state": {
+    "trust": 3,
+    "anger": 0,
+    "fear": 2,
+    "curiosity": 3,
+    "fatigue": 3,
+    "shame": 3
+  },
+  "current_target": "清点教室。把第十页谱留在她能看到的地方",
+  "hiding_info": "他把许声远的铅笔用了两年。唐叙可能没注意到——但铅笔上有许声远咬过的牙印",
+  "relation_chips": {
+    "CHR_tangxu": "手里有她毕业演出的谱。背面有她写的一句话。她不知道他有"
+  },
+  "hand_object": "短到握不住的铅笔头。许声远留下的"
+}

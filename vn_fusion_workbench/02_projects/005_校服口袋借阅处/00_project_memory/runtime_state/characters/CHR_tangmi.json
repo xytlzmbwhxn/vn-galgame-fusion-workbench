@@ -1,0 +1,41 @@
+{
+  "character_id": "CHR_tangmi",
+  "current_scene": "S001",
+  "current_axes": {
+    "trust": 2,
+    "anger": 1,
+    "fear": 4,
+    "curiosity": 3,
+    "fatigue": 2,
+    "shame": 4
+  },
+  "active_wants": [
+    "拿走 48 号外套",
+    "不让林秋拆开内袋",
+    "别让陶笙在电话里叫出旧名字"
+  ],
+  "withheld_info": [
+    "48 号外套原主已经离校",
+    "内袋纸星星是迟到的道歉",
+    "唐米当年借走外套后没有归还"
+  ],
+  "voice_lock": {
+    "sample_lines": [
+      "『小秋官，给 48 号开个友情通道嘛？我拿明信片贿赂！』",
+      "『别拆那个……欸，标签大人也要有隐私吧？』",
+      "『好嘛，我说。你先别把它贴死，好不好』"
+    ],
+    "punctuation": "问号、省略号、语气词多；真话靠近时突然短掉"
+  },
+  "state_history": [
+    {
+      "scene": "pre_S001",
+      "change": "默认活泼度 +1：唐米越怕越给箱子、标签、规则取外号；破防前必须嘴快回弹。"
+    }
+  ],
+  "relationship_state": {
+    "CHR_linqiu": "知道林秋会用流程保护人，故意叫她小秋官。",
+    "CHR_taosheng": "怕老师叫出 48 号旧事，听见外放会变乖。"
+  }
+}
+

@@ -1,0 +1,13 @@
+{
+  "description": "Copy this file to corpus_manifest.json and fill it with local, license-safe corpus entries.",
+  "reference_root": "<local path, optional>",
+  "entries": [
+    {
+      "id": "example_public_domain_or_owned_text",
+      "path": "<relative or absolute local path>",
+      "kind": "vn_script",
+      "license_note": "Only analyze material you have rights to process.",
+      "include": false
+    }
+  ]
+}

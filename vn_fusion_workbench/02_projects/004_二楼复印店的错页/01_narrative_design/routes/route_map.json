@@ -1,0 +1,16 @@
+{
+  "project": "copy_shop_demo",
+  "structure": "branch-and-bottleneck",
+  "core_loop": ["inspect file", "clear paper jam", "choose print policy", "record state", "bind sample", "handoff"],
+  "variables": {
+    "clean_reprint": "official page seven is reprinted and bound",
+    "wrong_page_kept": "one sample keeps the older page seven",
+    "trust_tangli": "Tang Li's trust in Xu Cheng",
+    "shop_risk": "risk to the copy shop contract",
+    "minutes_left": "minutes before closing and collection"
+  },
+  "endings_seeded": [
+    "clean contract route",
+    "kept wrong-page route"
+  ]
+}

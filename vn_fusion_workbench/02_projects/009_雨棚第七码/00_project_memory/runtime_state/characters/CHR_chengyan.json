@@ -1,0 +1,30 @@
+{
+  "character_id": "CHR_chengyan",
+  "scene_id": "S001",
+  "current_axes": {
+    "trust": 2,
+    "anger": 1,
+    "fear": 3,
+    "curiosity": 4,
+    "fatigue": 2,
+    "shame": 3
+  },
+  "active_wants": [
+    "守住取件流程",
+    "弄清七号伞里的录音归属",
+    "不让鹿今把值班桌变成跑腿群后台"
+  ],
+  "withheld_truths": [
+    "程砚曾经把一封无人认领的信按废纸处理。",
+    "他怕自己这次又盖错章。"
+  ],
+  "voice_lock": {
+    "allowed": ["流程判断", "干冷反问", "物件外号", "短横截断"],
+    "forbidden": ["直接讲主题", "温柔长篇安慰", "连续感叹"]
+  },
+  "state_history": [
+    "18:20 到雨棚值班。",
+    "18:38 扫码枪提示七号伞取件码十分钟后失效。",
+    "18:41 鹿今冲进雨棚。"
+  ]
+}

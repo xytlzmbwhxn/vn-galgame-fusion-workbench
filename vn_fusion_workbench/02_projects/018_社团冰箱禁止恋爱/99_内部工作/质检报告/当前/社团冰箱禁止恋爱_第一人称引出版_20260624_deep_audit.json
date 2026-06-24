@@ -1,0 +1,175 @@
+{
+  "project": "018_社团冰箱禁止恋爱",
+  "script": "02_generated_content\\scripts\\csv\\社团冰箱禁止恋爱_第一人称引出版_20260624.csv",
+  "scene_id": "S001",
+  "graph": {
+    "__START__": {
+      "rows": 0,
+      "row_types": {},
+      "speakers": {},
+      "memory_refs": [],
+      "effects": [],
+      "choices": [],
+      "jumps": []
+    },
+    "S001_冰箱先生今天也不收情书": {
+      "rows": 130,
+      "row_types": {
+        "narration": 49,
+        "thought": 10,
+        "dialogue": 68,
+        "comment": 1,
+        "choice": 2
+      },
+      "speakers": {
+        "CHR_xia_li": 44,
+        "CHR_gu_huai": 24
+      },
+      "memory_refs": [
+        "CHR_gu_huai",
+        "CHR_xia_li"
+      ],
+      "effects": [
+        {
+          "beat_id": "S001_delivery_0130",
+          "effects": "note_as_receipt=true"
+        },
+        {
+          "beat_id": "S001_delivery_0131",
+          "effects": "direct_question=true"
+        }
+      ],
+      "choices": [
+        {
+          "beat_id": "S001_delivery_0130",
+          "group": "CHOICE_01",
+          "text": "按流程登记为冷藏凭证",
+          "target": "S001_A",
+          "effects": "note_as_receipt=true"
+        },
+        {
+          "beat_id": "S001_delivery_0131",
+          "group": "CHOICE_01",
+          "text": "直接问“这张是给我的吗”",
+          "target": "S001_B",
+          "effects": "direct_question=true"
+        }
+      ],
+      "jumps": []
+    },
+    "S001_A": {
+      "rows": 24,
+      "row_types": {
+        "dialogue": 20,
+        "narration": 4
+      },
+      "speakers": {
+        "CHR_gu_huai": 9,
+        "CHR_xia_li": 11
+      },
+      "memory_refs": [
+        "CHR_gu_huai",
+        "CHR_xia_li"
+      ],
+      "effects": [],
+      "choices": [],
+      "jumps": []
+    },
+    "S001_REJOIN": {
+      "rows": 15,
+      "row_types": {
+        "narration": 5,
+        "dialogue": 7,
+        "thought": 2,
+        "command": 1
+      },
+      "speakers": {
+        "CHR_xia_li": 5,
+        "CHR_gu_huai": 2
+      },
+      "memory_refs": [
+        "CHR_gu_huai",
+        "CHR_xia_li"
+      ],
+      "effects": [
+        {
+          "beat_id": "S001_delivery_0172",
+          "effects": "lunch_break_temporarily_saved"
+        }
+      ],
+      "choices": [],
+      "jumps": []
+    },
+    "S001_B": {
+      "rows": 36,
+      "row_types": {
+        "dialogue": 27,
+        "narration": 8,
+        "command": 1
+      },
+      "speakers": {
+        "CHR_gu_huai": 12,
+        "CHR_xia_li": 15
+      },
+      "memory_refs": [
+        "CHR_gu_huai",
+        "CHR_xia_li"
+      ],
+      "effects": [],
+      "choices": [],
+      "jumps": [
+        {
+          "beat_id": "S001_delivery_0209",
+          "target": "S001_REJOIN"
+        }
+      ]
+    }
+  },
+  "known_refs_count": 7,
+  "used_memory_refs": [
+    "CHR_gu_huai",
+    "CHR_xia_li"
+  ],
+  "unknown_memory_refs": [],
+  "effect_variables": [
+    "direct_question",
+    "note_as_receipt"
+  ],
+  "state_delta_mismatches": [],
+  "character_control": [
+    {
+      "character_id": "CHR_gu_huai",
+      "name": "顾淮",
+      "card": true,
+      "state": true,
+      "memory_log": true,
+      "retrieval_blocks": 5,
+      "dialogue_rows": 47,
+      "voice_targets": [],
+      "has_sentence_kernel": false,
+      "has_line_energy": false,
+      "has_social_texture": false
+    },
+    {
+      "character_id": "CHR_xia_li",
+      "name": "夏梨",
+      "card": true,
+      "state": true,
+      "memory_log": true,
+      "retrieval_blocks": 5,
+      "dialogue_rows": 75,
+      "voice_targets": [],
+      "has_sentence_kernel": false,
+      "has_line_energy": false,
+      "has_social_texture": false
+    }
+  ],
+  "issues": [],
+  "source_lessons": [
+    "Yarn Spinner: analyse dialogue as nodes, blocks, destinations, and options.",
+    "ink: parse authored flow, then resolve references into runtime containers.",
+    "Ren'Py: lint jump/menu/label and expression boundaries before trusting script output.",
+    "TwineJS: keep passage ids, tags, and story metadata searchable.",
+    "Character memory systems: separate stable cards, runtime state, and retrievable episodic blocks."
+  ]
+}

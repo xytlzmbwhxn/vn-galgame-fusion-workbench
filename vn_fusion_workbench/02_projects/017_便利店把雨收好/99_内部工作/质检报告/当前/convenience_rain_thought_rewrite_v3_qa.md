@@ -1,0 +1,97 @@
+# VN Workbench QA Report
+
+## Stats
+- rows: 553
+- dialogue: 308
+- narration: 116
+- thought: 19
+- choice: 4
+- command: 106
+- comment: 0
+- errors: 0
+- warnings: 39
+- dialogue_blocks: 44
+- narration_blocks: 48
+- thought_blocks: 9
+- max_dialogue_block: 22
+- max_narration_block: 12
+- max_thought_block: 3
+- lonely_narration_bridges: 7
+- dialogue_energy_marks: 33
+- dialogue_energy_pct: 11
+- dialogue_question_lines: 22
+- dialogue_exclaim_lines: 9
+- dialogue_pause_or_cut_lines: 4
+- dialogue_casual_particle_lines: 6
+- dialogue_casual_particle_pct: 2
+- dialogue_full_stop_pct: 90
+- dialogue_unmarked_endings: 0
+- dialogue_short_fragments: 163
+- dialogue_short_fragment_pct: 53
+- dialogue_low_payload_lines: 0
+- dialogue_low_payload_pct: 0
+- dialogue_payload_avg_x10: 35
+- branch_labels: 68
+- choice_targets: 4
+- jump_targets: 0
+- unresolved_branch_targets: 0
+- stage_cue_rows: 443
+- stage_cue_pct: 100
+- dialogue_wrapped_quotes: 0
+- dialogue_double_quotes: 11
+- ellipsis_only_boxes: 0
+- first_person_narration_lines: 17
+- comma_fragment_lines: 3
+- multi_sentence_boxes: 4
+- textbox_overflow_risk: 2
+- character_state_files: 3
+- thought_rows: 19
+- thought_to_dialogue_pct: 6
+- scene_contract_fields: 6
+- novel_architecture_files: 4
+- narrative_threads: 3
+- character_arcs: 0
+- foreshadow_items: 3
+- chapter_plan_items: 3
+- novel_scene_layer_fields: 1
+
+## Issues
+- [WARNING] scene: many single narration beats sit between dialogue lines; consider continuous dialogue blocks for immersion
+- [WARNING] dialogue: dialogue has low line energy; add character-specific questions, cutoffs, pauses, or mask-breaking punctuation
+- [WARNING] dialogue: dialogue has little casual speech texture; add character-specific particles, nicknames, corrections, or playful pressure where appropriate
+- [WARNING] dialogue: too many low-information short textboxes; combine action, response, or implication into fuller playable beats
+- [WARNING] CHR_jiangchi: speaker has one-note line endings; update voice card or rewrite the block for actable variation
+- [WARNING] S001_0010: dialogue contains double quotes; use speaker/name box or display layer instead
+- [WARNING] S001_0020: dialogue contains double quotes; use speaker/name box or display layer instead
+- [WARNING] S001_0027: dialogue contains double quotes; use speaker/name box or display layer instead
+- [WARNING] S001_0038: dialogue contains double quotes; use speaker/name box or display layer instead
+- [WARNING] S001_0040: dialogue textbox contains too many sentence beats; split only where the click changes leverage
+- [WARNING] S001_0044: dialogue contains double quotes; use speaker/name box or display layer instead
+- [WARNING] S001_0054: dialogue contains double quotes; use speaker/name box or display layer instead
+- [WARNING] S001_0056: dialogue contains double quotes; use speaker/name box or display layer instead
+- [WARNING] S001_0058: dialogue contains double quotes; use speaker/name box or display layer instead
+- [WARNING] S001_0103: dialogue is comma-fragmented; preserve textbox flow instead of chopping the line
+- [WARNING] S001_0137: dialogue is comma-fragmented; preserve textbox flow instead of chopping the line
+- [WARNING] S001_0226: dialogue textbox contains too many sentence beats; split only where the click changes leverage
+- [WARNING] S002_0278: dialogue textbox contains too many sentence beats; split only where the click changes leverage
+- [WARNING] S002_0293: dialogue textbox contains too many sentence beats; split only where the click changes leverage
+- [WARNING] S002_0294: dialogue is comma-fragmented; preserve textbox flow instead of chopping the line
+- [WARNING] S002_0351: dialogue contains double quotes; use speaker/name box or display layer instead
+- [WARNING] S002_0352: dialogue contains double quotes; use speaker/name box or display layer instead
+- [WARNING] S003_0519: dialogue contains double quotes; use speaker/name box or display layer instead
+- [WARNING] narration: first-person narration is frequent; Galgame scripts should often soften the protagonist 'I' through name box, action, and screen state
+- [WARNING] S001_0015: thought row lacks concrete pressure; tie it to object, body, clue, risk, or unsaid word
+- [WARNING] S001_0134: thought row lacks concrete pressure; tie it to object, body, clue, risk, or unsaid word
+- [WARNING] S001_0135: thought row lacks concrete pressure; tie it to object, body, clue, risk, or unsaid word
+- [WARNING] S002_0367: thought row lacks concrete pressure; tie it to object, body, clue, risk, or unsaid word
+- [WARNING] S002_0368: thought row lacks concrete pressure; tie it to object, body, clue, risk, or unsaid word
+- [WARNING] S003_0419: thought row is too thin; inner monologue needs a clue, hesitation, contradiction, or choice pressure
+- [WARNING] S003_0419: thought row lacks concrete pressure; tie it to object, body, clue, risk, or unsaid word
+- [WARNING] S003_0420: thought row lacks concrete pressure; tie it to object, body, clue, risk, or unsaid word
+- [WARNING] S003_0468: thought row lacks concrete pressure; tie it to object, body, clue, risk, or unsaid word
+- [WARNING] S003_0469: thought row lacks concrete pressure; tie it to object, body, clue, risk, or unsaid word
+- [WARNING] S003_0509: thought row is too thin; inner monologue needs a clue, hesitation, contradiction, or choice pressure
+- [WARNING] S003_0509: thought row lacks concrete pressure; tie it to object, body, clue, risk, or unsaid word
+- [WARNING] S003_0510: thought row lacks concrete pressure; tie it to object, body, clue, risk, or unsaid word
+- [WARNING] S001: script rows do not reference any foreshadow id in memory_refs
+- [WARNING] S001: scene card lacks novel-architecture fields: chapter_goal, scene_synopsis, narrative_threads, foreshadow_role, prose_texture_target

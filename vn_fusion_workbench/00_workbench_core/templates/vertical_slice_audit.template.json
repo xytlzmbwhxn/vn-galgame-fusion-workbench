@@ -1,0 +1,30 @@
+{
+  "slice_promise": "",
+  "included_scene_ids": [],
+  "must_show": {
+    "story": "",
+    "character": "",
+    "gameplay": "",
+    "visual": "",
+    "sound": "",
+    "export": ""
+  },
+  "method_invocation": {
+    "draft_session": "",
+    "scene_brief": "",
+    "context_pack": "",
+    "method_ids": []
+  },
+  "state_coverage": [],
+  "display_coverage": [],
+  "export_coverage": [],
+  "qa_gate": {
+    "validated": false,
+    "errors": 0,
+    "warnings": 0,
+    "report_path": "",
+    "known_risks": []
+  },
+  "post_slice_memory_updates": []
+}
+

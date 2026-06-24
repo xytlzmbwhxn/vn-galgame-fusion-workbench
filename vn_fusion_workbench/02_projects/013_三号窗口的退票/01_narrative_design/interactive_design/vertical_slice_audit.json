@@ -1,0 +1,50 @@
+{
+  "project": "ticket_window_demo",
+  "slice": "S001",
+  "status": "passed",
+  "required_artifacts": {
+    "scene_card": "01_narrative_design/scenes/scene_cards/S001_scene_card.json",
+    "state_delta": "01_narrative_design/scenes/state_deltas/S001_state_delta.json",
+    "script_csv": "02_generated_content/scripts/csv/S001_refund_ticket_v1.csv",
+    "readable_preview": "02_generated_content/drafts/readable/S001_refund_ticket_v1.md",
+    "qa_report": "04_quality/reports/S001_refund_ticket_v1_qa.md",
+    "excel": "02_generated_content/scripts/excel/VN_Workbench_Template.xlsx"
+  },
+  "acceptance_gates": [
+    "No validation errors.",
+    "Dialogue has distinct speaker rhythm and casual particles.",
+    "Thought rows carry clue, hesitation, risk, or unsaid pressure.",
+    "Choices update state and branch labels resolve.",
+    "Readable preview renders Gal-style display.",
+    "Excel workbook includes script, character cards, scene card, state delta, and QA gates."
+  ],
+  "result": {
+    "qa": {
+      "errors": 0,
+      "warnings": 0,
+      "rows": 87,
+      "dialogue_rows": 59,
+      "thought_rows": 10,
+      "choice_rows": 2
+    },
+    "generated": [
+      "02_generated_content/scripts/csv/S001_refund_ticket_v1.csv",
+      "02_generated_content/drafts/readable/S001_refund_ticket_v1.md",
+      "04_quality/reports/S001_refund_ticket_v1_qa.md",
+      "03_exports/webgal/S001_refund_ticket_v1.txt",
+      "03_exports/renpy/S001_refund_ticket_v1.rpy",
+      "03_exports/ink/S001_refund_ticket_v1.ink",
+      "03_exports/yarn/S001_refund_ticket_v1.yarn",
+      "03_exports/godot_dialogue/S001_refund_ticket_v1.dialogue",
+      "03_exports/character_card_v2",
+      "02_generated_content/scripts/excel/VN_Workbench_Template.xlsx"
+    ],
+    "post_slice_memory_updates": [
+      "00_project_memory/memory_logs/global_memory.md",
+      "00_project_memory/memory_logs/character_memory/CHR_linqiao.md",
+      "00_project_memory/memory_logs/character_memory/CHR_mengyu.md",
+      "00_project_memory/memory_logs/character_memory/CHR_zhaobo.md"
+    ],
+    "core_fix": "00_workbench_core/tools/build_excel_template.mjs now includes thought in row_type validation."
+  }
+}

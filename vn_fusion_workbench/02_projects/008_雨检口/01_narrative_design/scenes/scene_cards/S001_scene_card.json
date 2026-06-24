@@ -1,0 +1,62 @@
+{
+  "scene_id": "S001",
+  "title": "雨夜登记",
+  "route": "common",
+  "chapter": "C01",
+  "location": "柳川路站值班室",
+  "time": "23:58，末班后",
+  "background": "bg_station_night_rain.png",
+  "bgm": "rain_shift.ogg",
+  "entering_pressure": "闸机显示末班后有一条进站记录，但站门已经落锁。",
+  "player_want": "确认岑遥身份，决定先查监控还是纸质登记。",
+  "npc_wants": {
+    "CHR_cenyao": "看一眼纸质登记簿，不被叫出全名"
+  },
+  "withheld_truths": {
+    "CHR_shaoning": "两年前的事故让他害怕绕流程帮人",
+    "CHR_cenyao": "她曾参与改写一条旧记录"
+  },
+  "usable_objects": [
+    {
+      "id": "OBJ_turnstile_screen",
+      "type": "sound",
+      "description": "闸机屏间歇发出低电量提示音",
+      "dramatic_use": "打断对话，提醒还有一条异常进站记录"
+    },
+    {
+      "id": "OBJ_wet_ticket",
+      "type": "trace",
+      "description": "湿票根，边角印着两年前的日期",
+      "dramatic_use": "岑遥攥紧时会露出日期"
+    },
+    {
+      "id": "OBJ_door_glass",
+      "type": "obstruction",
+      "description": "值班室门玻璃反光，能看到站厅但看不清脸",
+      "dramatic_use": "让角色误认门外动静"
+    },
+    {
+      "id": "OBJ_kettle",
+      "type": "cost",
+      "description": "热水壶快烧开，水声盖住半句低语",
+      "dramatic_use": "玩家错过或捕捉岑遥吞掉的名字"
+    },
+    {
+      "id": "OBJ_register",
+      "type": "character_specific",
+      "description": "纸质登记簿，最后几页被雨水洇开",
+      "dramatic_use": "邵宁相信流程，岑遥相信纸不会改口"
+    }
+  ],
+  "choice_pressure": "查监控会走流程并降低岑遥信任；先翻登记会让邵宁违反站内规定。",
+  "scene_question": "末班后出现异常进站记录时，邵宁会先相信监控还是纸质登记？",
+  "scene_answer": "他可以先看纸质登记或监控，但无论哪边都会让岑遥对他重新估价。",
+  "professional_ritual": "夜班异常进站登记与报警流程。",
+  "character_lie_pressure": "邵宁相信流程能替他避免第二次犯错；岑遥相信被完整登记就会被带回去。",
+  "dramatic_turn": "湿票根日期与纸质登记出现两年前的重合。",
+  "sequel_decision": "玩家在查登记和调监控之间选择第一步，决定信任和证据顺序。",
+  "theme_pressure": "系统记录能保住证据，也能把求助者暴露给危险的人。",
+  "state_delta_required": ["relationship_changes", "item_changes", "route_flags", "promises"],
+  "exit_image": "岑遥把湿票根压在登记簿边上，邵宁的工牌倒映在水印里。",
+  "qa_risks": ["邵宁说教", "岑遥解释太清楚", "雨夜环境沦为背景"]
+}

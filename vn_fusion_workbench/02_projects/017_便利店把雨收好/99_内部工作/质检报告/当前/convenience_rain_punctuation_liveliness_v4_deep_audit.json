@@ -1,0 +1,169 @@
+{
+  "project": "017_便利店把雨收好",
+  "script": "02_generated_content\\scripts\\csv\\convenience_rain_punctuation_liveliness_v4.csv",
+  "scene_id": "S001",
+  "graph": {
+    "__START__": {
+      "rows": 0,
+      "row_types": {},
+      "speakers": {},
+      "memory_refs": [],
+      "effects": [],
+      "choices": [],
+      "jumps": []
+    },
+    "S001_START": {
+      "rows": 134,
+      "row_types": {
+        "command": 4,
+        "narration": 30,
+        "dialogue": 90,
+        "thought": 8,
+        "choice": 2
+      },
+      "speakers": {
+        "CHR_jiangchi": 34,
+        "CHR_linyan": 56
+      },
+      "memory_refs": [],
+      "effects": [
+        {
+          "beat_id": "S001_v4_0134",
+          "effects": "branch_state=receipt_proof"
+        },
+        {
+          "beat_id": "S001_v4_0135",
+          "effects": "branch_state=memory_trust"
+        }
+      ],
+      "choices": [
+        {
+          "beat_id": "S001_v4_0134",
+          "group": "CHOICE_BORROW_RECORD",
+          "text": "打印小票。明天凭这个来还伞。",
+          "target": "S001_BRANCH_A",
+          "effects": "branch_state=receipt_proof"
+        },
+        {
+          "beat_id": "S001_v4_0135",
+          "group": "CHOICE_BORROW_RECORD",
+          "text": "只写失物本。我记得你。",
+          "target": "S001_BRANCH_B",
+          "effects": "branch_state=memory_trust"
+        }
+      ],
+      "jumps": []
+    },
+    "S001_BRANCH_A": {
+      "rows": 18,
+      "row_types": {
+        "narration": 4,
+        "dialogue": 10,
+        "thought": 2,
+        "command": 2
+      },
+      "speakers": {
+        "CHR_jiangchi": 4,
+        "CHR_linyan": 6
+      },
+      "memory_refs": [],
+      "effects": [],
+      "choices": [],
+      "jumps": []
+    },
+    "S001_BRANCH_B": {
+      "rows": 20,
+      "row_types": {
+        "narration": 3,
+        "dialogue": 14,
+        "thought": 2,
+        "command": 1
+      },
+      "speakers": {
+        "CHR_jiangchi": 6,
+        "CHR_linyan": 8
+      },
+      "memory_refs": [],
+      "effects": [],
+      "choices": [],
+      "jumps": []
+    },
+    "S001_REJOIN": {
+      "rows": 99,
+      "row_types": {
+        "narration": 25,
+        "dialogue": 65,
+        "thought": 6,
+        "command": 3
+      },
+      "speakers": {
+        "CHR_linyan": 40,
+        "CHR_jiangchi": 25
+      },
+      "memory_refs": [],
+      "effects": [],
+      "choices": [],
+      "jumps": []
+    }
+  },
+  "known_refs_count": 15,
+  "used_memory_refs": [],
+  "unknown_memory_refs": [],
+  "effect_variables": [
+    "branch_state"
+  ],
+  "state_delta_mismatches": [],
+  "character_control": [
+    {
+      "character_id": "CHR_heyi",
+      "name": "何姨",
+      "card": true,
+      "state": true,
+      "memory_log": true,
+      "retrieval_blocks": 1,
+      "dialogue_rows": 0,
+      "voice_targets": [],
+      "has_sentence_kernel": false,
+      "has_line_energy": false,
+      "has_social_texture": false
+    },
+    {
+      "character_id": "CHR_jiangchi",
+      "name": "江迟",
+      "card": true,
+      "state": true,
+      "memory_log": true,
+      "retrieval_blocks": 2,
+      "dialogue_rows": 69,
+      "voice_targets": [
+        "CHR_jiangchi"
+      ],
+      "has_sentence_kernel": false,
+      "has_line_energy": false,
+      "has_social_texture": false
+    },
+    {
+      "character_id": "CHR_linyan",
+      "name": "林檐",
+      "card": true,
+      "state": true,
+      "memory_log": true,
+      "retrieval_blocks": 2,
+      "dialogue_rows": 110,
+      "voice_targets": [
+        "CHR_linyan"
+      ],
+      "has_sentence_kernel": false,
+      "has_line_energy": false,
+      "has_social_texture": false
+    }
+  ],
+  "issues": [],
+  "source_lessons": [
+    "Yarn Spinner: analyse dialogue as nodes, blocks, destinations, and options.",
+    "ink: parse authored flow, then resolve references into runtime containers.",
+    "Ren'Py: lint jump/menu/label and expression boundaries before trusting script output.",
+    "TwineJS: keep passage ids, tags, and story metadata searchable.",
+    "Character memory systems: separate stable cards, runtime state, and retrievable episodic blocks."
+  ]
+}

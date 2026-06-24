@@ -1,0 +1,57 @@
+scene_id,beat_id,row_type,speaker,text,voice_target,expression,body_action,bg,bgm,sfx,choice_group,choice_text,choice_target,condition,effects,memory_refs,qa_notes
+S001,S001_0001,command,,label:start,,,,old_clocktower,noon_light,bell_soft,,,,,,THR_lunch_bell FS_bell_1217,click_function=label
+S001,S001_0002,narration,,午休铃停下以后，旧钟楼又响了一下。,,,,old_clocktower,noon_light,bell_extra,,,,,,THR_lunch_bell FS_bell_1217,click_function=soft_opening_environment_problem
+S001,S001_0003,narration,,只有一下。像有人在操场尽头轻轻敲了个错别字。,,,,old_clocktower,noon_light,,,,,,,FS_bell_1217,click_function=screen_state_unusual_object
+S001,S001_0004,thought,CHR_shenlu,我把失物箱往怀里收了收，怕那串钥匙下一秒也开始点我的名。箱沿碰出很轻的一声，听起来比钟楼还心虚。,,neutral,key_ring_touches_box,old_clocktower,noon_light,key_jingle,,,,,,CHR_shenlu MEM_shenlu_key_ring,click_function=private_pressure_role_by_object
+S001,S001_0005,dialogue,CHR_shenlu,如果这是钟楼在点名，它点得有点迟。,CHR_shenlu,dry,holds_lost_and_found_box,old_clocktower,noon_light,,,,,,,CHR_shenlu ARC_shenlu_visible,click_function=voice_intro_dry_reaction
+S001,S001_0006,dialogue,CHR_fuyao,钥匙保管员同学——请保持原地呼吸！,CHR_fuyao,bright,peeks_from_corner,school_hall,noon_light,footsteps,,,,,,CHR_fuyao MEM_fuyao_broadcast_cover,click_function=character_entry_calling_role
+S001,S001_0007,narration,,符遥从二楼拐角探出半个身子，小扩音器贴在胸前，音量旋钮被她拧到“非常心虚”。,,,,school_hall,noon_light,,,,,,,CHR_fuyao MEM_fuyao_volume_knob,click_function=visible_character_introduction
+S001,S001_0008,dialogue,CHR_shenlu,这个称呼听起来像我已经签过责任书了？,CHR_shenlu,dry,looks_at_key_ring,school_hall,noon_light,,,,,,,CHR_shenlu ARC_shenlu_visible,click_function=relationship_pressure
+S001,S001_0009,dialogue,CHR_fuyao,还没有嘛。所以现在签也来得及。,CHR_fuyao,teasing,raises_amplifier,school_hall,noon_light,,,,,,,CHR_fuyao MEM_fuyao_broadcast_cover,click_function=tease_request
+S001,S001_0010,dialogue,CHR_fuyao,广播站刚宣布午休一切正常，它就多响了一下。你看，这很针对我吧？,CHR_fuyao,nervous_smile,turns_volume_knob,school_hall,noon_light,,,,,,,CHR_fuyao THR_lunch_bell,click_function=problem_statement_with_voice
+S001,S001_0011,dialogue,CHR_shenlu,也可能针对午饭。我的饭还没打开,CHR_shenlu,flat,raises_lunch_bag,school_hall,noon_light,,,,,,,CHR_shenlu MEM_shenlu_lunch_delay,click_function=personal_cost
+S001,S001_0012,dialogue,CHR_fuyao,那它更坏了！午饭是神圣的。,CHR_fuyao,earnest,clasps_amplifier,school_hall,noon_light,,,,,,,CHR_fuyao,click_function=cute_agreement
+S001,S001_0013,narration,,旧钟楼门口的阴影里，温眠端着一个空布丁杯，安静得像已经等完一场审判。,,,,old_clocktower,noon_light,,,,,,,CHR_wenmian MEM_wenmian_empty_cup,click_function=third_character_entry_visible_object
+S001,S001_0014,dialogue,CHR_wenmian,你们继续吧。我的焦糖布丁券也在刚才消失了，顺序上很礼貌吧？,CHR_wenmian,soft,holds_empty_cup,old_clocktower,noon_light,,,,,,,CHR_wenmian MEM_wenmian_pudding_debt,click_function=soft_pressure_enters
+S001,S001_0015,dialogue,CHR_fuyao,温眠同学，你这个也字听起来好危险。,CHR_fuyao,small_panic,lowers_amplifier,old_clocktower,noon_light,,,,,,,CHR_fuyao CHR_wenmian,click_function=relationship_cost
+S001,S001_0016,dialogue,CHR_wenmian,没有危险哦。只是焦糖的保存期限很短。,CHR_wenmian,smiling,tilts_empty_cup,old_clocktower,noon_light,,,,,,,CHR_wenmian MEM_wenmian_soft_pressure,click_function=soft_threat
+S001,S001_0017,thought,CHR_shenlu,她说没有的时候，空杯底那圈焦糖像在替她记账。怪声还排不上最可怕，温柔的人拿出凭证时才麻烦。,,thinking,watches_caramel_ring,old_clocktower,noon_light,,,,,,,CHR_shenlu CHR_wenmian ARC_wenmian_soft_threat,click_function=private_inference_from_object
+S001,S001_0018,dialogue,CHR_fuyao,总之，旧钟楼可能在抗议。你负责钥匙，它负责响，我们负责不要被老师发现。,CHR_fuyao,declaring,points_to_tower,old_clocktower,noon_light,,,,,,,CHR_fuyao THR_lunch_bell,click_function=task_pitch
+S001,S001_0019,dialogue,CHR_shenlu,嗯……当然？它应该没有抗议功能。,CHR_shenlu,dry_pause,checks_key_tag,old_clocktower,noon_light,,,,,,,CHR_shenlu MEM_shenlu_key_ring,click_function=relaxed_question_particle
+S001,S001_0020,dialogue,CHR_wenmian,那就是有人帮它加装了。可以先找人，也可以先赔布丁？,CHR_wenmian,soft_logic,raises_empty_cup,old_clocktower,noon_light,,,,,,,CHR_wenmian MEM_wenmian_pudding_debt,click_function=choice_pressure
+S001,S001_0021,thought,CHR_shenlu,钥匙在掌心硌了一下。只要我现在说路过，麻烦会短暂离开午休，然后在放学时连本带息回来。,,thinking,turns_key_in_palm,old_clocktower,noon_light,key_jingle,,,,,,CHR_shenlu ARC_shenlu_visible,click_function=choice_cost_private
+S001,S001_0022,choice,,,,,,,,,C001_lunch_bell,先让钟楼冷静下来,branch_calm,,choice_label_48=branch_calm; trust_fuyao += 1; bell_clue += 1,THR_lunch_bell ARC_fuyao_request,click_function=choice_relationship_fuyao
+S001,S001_0023,choice,,,,,,,,,C001_lunch_bell,先处理布丁赔偿问题,branch_snack,,choice_label_48=branch_snack; trust_wenmian += 1; bell_clue += 1,THR_lunch_bell ARC_wenmian_soft_threat,click_function=choice_relationship_wenmian
+S001,S001_0024,choice,,,,,,,,,C001_lunch_bell,声明自己只是路过,branch_escape,,choice_label_48=branch_escape; shenlu_escape_debt += 1; bell_clue += 1,ARC_shenlu_visible,click_function=choice_self_defense
+S001,S001_0025,command,,label:branch_calm,,,,old_clocktower,noon_light,,,,,,,THR_lunch_bell,click_function=branch_label
+S001,S001_0026,dialogue,CHR_shenlu,先确认钟楼。它要是真会抗议，至少得给它一个发言顺序。,CHR_shenlu,practical,raises_key,old_clocktower,noon_light,,,,,,,CHR_shenlu THR_lunch_bell,click_function=branch_calm_action
+S001,S001_0027,dialogue,CHR_fuyao,好耶，钟楼和平交涉小组成立！,CHR_fuyao,bright,amplifier_up,old_clocktower,noon_light,,,,,,,CHR_fuyao MEM_fuyao_broadcast_cover ARC_fuyao_request,click_function=branch_reward_voice
+S001,S001_0028,dialogue,CHR_wenmian,那我担任赔偿观察员。听起来比较专业吧,CHR_wenmian,soft,holds_cup_like_badge,old_clocktower,noon_light,,,,,,,CHR_wenmian ARC_wenmian_soft_threat,click_function=keeps_pudding_debt_alive
+S001,S001_0029,command,,jumpLabel:merge_after_choice,,,,old_clocktower,noon_light,,,,,,,THR_lunch_bell,click_function=branch_merge
+S001,S001_0030,command,,label:branch_snack,,,,old_clocktower,noon_light,,,,,,,THR_lunch_bell,click_function=branch_label
+S001,S001_0031,dialogue,CHR_shenlu,先登记布丁券。怪声可以等三十秒，焦糖看起来不能。,CHR_shenlu,practical,opens_lost_form,old_clocktower,noon_light,paper_flip,,,,,,CHR_shenlu CHR_wenmian MEM_wenmian_pudding_debt,click_function=branch_snack_action
+S001,S001_0032,dialogue,CHR_wenmian,嗯，很合理。我开始觉得你是可靠的人了,CHR_wenmian,pleased,smiles_with_empty_cup,old_clocktower,noon_light,,,,,,,CHR_wenmian ARC_wenmian_soft_threat,click_function=relationship_gain
+S001,S001_0033,dialogue,CHR_fuyao,等一下，可靠的人不能被布丁独占！广播站也需要可靠！,CHR_fuyao,protesting,leans_in,old_clocktower,noon_light,,,,,,,CHR_fuyao ARC_fuyao_request,click_function=comic_pull
+S001,S001_0034,command,,jumpLabel:merge_after_choice,,,,old_clocktower,noon_light,,,,,,,THR_lunch_bell,click_function=branch_merge
+S001,S001_0035,command,,label:branch_escape,,,,old_clocktower,noon_light,,,,,,,ARC_shenlu_visible,click_function=branch_label
+S001,S001_0036,dialogue,CHR_shenlu,我先声明，我只是路过。钥匙也是暂时路过我手里。,CHR_shenlu,dry_defense,hides_key_halfway,old_clocktower,noon_light,,,,,,,CHR_shenlu MEM_shenlu_key_ring,click_function=branch_escape_attempt
+S001,S001_0037,dialogue,CHR_fuyao,嗯嗯，路过的钥匙保管员同学，请路过到门口三步以内。,CHR_fuyao,smiling_push,counts_steps,old_clocktower,noon_light,,,,,,,CHR_fuyao MEM_fuyao_needs_shenlu,click_function=turns_escape_into_task
+S001,S001_0038,dialogue,CHR_wenmian,我也路过。带着一张消失的布丁券路过。,CHR_wenmian,soft,shows_empty_cup,old_clocktower,noon_light,,,,,,,CHR_wenmian MEM_wenmian_soft_pressure,click_function=soft_blocks_escape
+S001,S001_0039,thought,CHR_shenlu,逃跑路线被两个人用不同甜度封死了。一个像广播通知，一个像焦糖收据，不能签收也不能退回。,,thinking,looks_between_them,old_clocktower,noon_light,,,,,,,CHR_shenlu CHR_fuyao CHR_wenmian,click_function=private_comic_inference
+S001,S001_0040,command,,jumpLabel:merge_after_choice,,,,old_clocktower,noon_light,,,,,,,THR_lunch_bell,click_function=branch_merge
+S001,S001_0041,command,,label:merge_after_choice,,,,old_clocktower,noon_light,,,,,,,THR_lunch_bell,click_function=merge_label
+S001,S001_0042,narration,,门缝下面露出一小片浅黄色纸角，被钟楼阴影压得只剩半枚月牙。,,,,old_clocktower,noon_light,paper_rustle,,,,,,FS_bell_1217 MEM_wenmian_empty_cup,click_function=visible_clue
+S001,S001_0043,dialogue,CHR_fuyao,看！它吐证据了！,CHR_fuyao,excited,points_at_gap,old_clocktower,noon_light,,,,,,,CHR_fuyao THR_lunch_bell,click_function=clue_reaction
+S001,S001_0044,dialogue,CHR_shenlu,先别给钟楼安排消化系统,CHR_shenlu,dry,kneels_to_look,old_clocktower,noon_light,,,,,,,CHR_shenlu,click_function=keeps_tone_grounded
+S001,S001_0045,dialogue,CHR_wenmian,如果那是我的券，它至少有焦糖味的消化系统。,CHR_wenmian,soft_joke,crouches_beside,old_clocktower,noon_light,,,,,,,CHR_wenmian MEM_wenmian_pudding_debt,click_function=soft_joke_keeps_debt
+S001,S001_0046,thought,CHR_shenlu,纸角刚好卡在门内侧。风吹不出这个角度，除非有人从里面塞过，或者旧钟楼真的开始学会递纸条。,,thinking,studies_gap,old_clocktower,noon_light,,,,,,,CHR_shenlu THR_lunch_bell FS_bell_1217,click_function=private_deduction
+S001,S001_0047,dialogue,CHR_fuyao,沈律，钥匙。你现在不递，我就只能广播寻钥匙了。,CHR_fuyao,quiet,holds_out_hand,old_clocktower,noon_light,,,,,,,CHR_fuyao MEM_fuyao_needs_shenlu,click_function=same_speaker_pressure_short
+S001,S001_0048,dialogue,CHR_fuyao,拜托啦。就开一道缝，不算正式闯入，算……午休通风？,CHR_fuyao,soft_request,lowers_voice,old_clocktower,noon_light,,,,,,,CHR_fuyao ARC_fuyao_request,click_function=request_with_casual_particle
+S001,S001_0049,dialogue,CHR_wenmian,我同意通风。顺便通一下布丁券的下落。,CHR_wenmian,soft,steps_closer,old_clocktower,noon_light,,,,,,,CHR_wenmian ARC_wenmian_soft_threat,click_function=aligns_with_request
+S001,S001_0050,dialogue,CHR_shenlu,三分钟。门开三分钟，钟楼不许再加班。,CHR_shenlu,resigned,puts_key_in_lock,old_clocktower,noon_light,key_insert,,,,,,CHR_shenlu ARC_shenlu_visible,click_function=accepts_task_with_boundary
+S001,S001_0051,narration,,钥匙转动时，旧钟楼里传来很轻的齿轮声。那声音偏轻，像谁在屏住笑。,,,,old_clocktower,noon_light,gear_soft,,,,,,THR_lunch_bell FS_bell_1217,click_function=exit_image_hook
+S001,S001_0052,dialogue,CHR_fuyao,它听懂了吧？它刚才真的听懂了吧？,CHR_fuyao,half_whisper,leans_forward,old_clocktower,noon_light,,,,,,,CHR_fuyao THR_lunch_bell,click_function=ending_energy
+S001,S001_0053,dialogue,CHR_shenlu,我现在拒绝给旧钟楼增加语言功能,CHR_shenlu,dry,opens_door_gap,old_clocktower,noon_light,door_creak,,,,,,CHR_shenlu,click_function=ending_joke
+S001,S001_0054,dialogue,CHR_wenmian,可以。那先增加赔偿功能？,CHR_wenmian,smiling,raises_empty_cup,old_clocktower,noon_light,,,,,,,CHR_wenmian MEM_wenmian_pudding_debt,click_function=callback_cost
+S001,S001_0055,narration,,门缝拉开的一瞬间，浅黄色纸角轻轻翻面，露出半个焦糖印章。,,,,old_clocktower,noon_light,paper_flip,,,,,,FS_bell_1217 MEM_wenmian_empty_cup,click_function=final_visible_hook
+S001,S001_0056,command,,jumpLabel:END,,,,old_clocktower,noon_light,,,,,,,THR_lunch_bell,click_function=end

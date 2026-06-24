@@ -1,0 +1,62 @@
+{
+  "qualities": [
+    {
+      "id": "QS_old_station_mark",
+      "visibility": "hidden",
+      "range_or_type": "enum:none/stamp/stub/bell",
+      "dramatic_use": "记录临站被承认的方式，决定后续证据线与关系线。",
+      "failure_state": "none"
+    },
+    {
+      "id": "QS_trust_qiaomeng",
+      "visibility": "hidden",
+      "range_or_type": "0..5",
+      "dramatic_use": "影响乔萌是否说出外婆电话。",
+      "failure_state": "她继续用玩笑遮住真实原因。"
+    },
+    {
+      "id": "QS_duanbo_warning",
+      "visibility": "hidden",
+      "range_or_type": "0..5",
+      "dramatic_use": "影响段伯是否提前锁档案柜。",
+      "failure_state": "段伯关闭旧档入口。"
+    }
+  ],
+  "storylets": [
+    {
+      "id": "STY_ticket_read",
+      "title": "湿票读码",
+      "prerequisites": ["S001_START"],
+      "entry_pressure": "票面站名存在，系统无记录。",
+      "effects": ["QS_old_station_mark可被选择改变"],
+      "payoff_refs": ["FS_wet_ticket", "THR_station_exists"]
+    }
+  ],
+  "microinteractions": [
+    {
+      "id": "MI_inspect_ticket",
+      "type": "inspect",
+      "player_facing_copy": "查看湿旧车票",
+      "immediate_feedback": "临站两个字在水痕里断开一笔。",
+      "effects": ["discover=old_station_name"],
+      "delayed_callback": "乔萌发现林屿没有立刻判无效。",
+      "production_cue": "票面特写，热敏纸水痕轻闪。"
+    },
+    {
+      "id": "MI_stamp_or_bell",
+      "type": "service",
+      "player_facing_copy": "处理异常票",
+      "immediate_feedback": "盖章、留票根、按铃产生不同声效。",
+      "effects": ["set=QS_old_station_mark"],
+      "delayed_callback": "段伯根据声音进入售票口。",
+      "production_cue": "三选项，带盖章声、撕纸声、铃声。"
+    }
+  ],
+  "callbacks": [
+    {
+      "id": "CB_duanbo_enters",
+      "listens_for": "QS_old_station_mark != none",
+      "changes": "段伯进入并警告旧12路不能乱盖。"
+    }
+  ]
+}

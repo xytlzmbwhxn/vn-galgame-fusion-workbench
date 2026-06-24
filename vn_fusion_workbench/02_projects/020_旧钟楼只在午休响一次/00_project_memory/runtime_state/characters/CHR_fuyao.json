@@ -1,0 +1,36 @@
+{
+  "character_id": "CHR_fuyao",
+  "current_emotion": "兴奋里混着心虚",
+  "relationship_pressure": {
+    "CHR_shenlu": "希望他留下帮忙，不想显得自己在撒娇",
+    "CHR_wenmian": "担心布丁券事件被温柔追责"
+  },
+  "known_facts": [
+    "广播站没有安排 12:17 的铃声",
+    "旧钟楼钥匙不在广播站",
+    "温眠的布丁券可能被风吹进旧钟楼门缝"
+  ],
+  "route_flags": {
+    "broadcast_station_at_risk": true
+  },
+  "current_axes": {
+    "public_confidence": 2,
+    "private_panic": 3,
+    "need_for_shenlu": 3
+  },
+  "active_wants": [
+    "让沈律留下",
+    "证明广播站没有乱来",
+    "把求助说成可爱的正式流程"
+  ],
+  "voice_lock": {
+    "must_keep": ["通知腔", "拜托啦", "兴奋里露心虚"],
+    "avoid": ["冷静全知", "命令式压迫"]
+  },
+  "state_history": [
+    "S001_start: 午休广播刚说一切正常，旧钟楼立刻多响一声。"
+  ],
+  "recent_embarrassment": "午休广播刚说完“今天一切正常”",
+  "current_lie": "把求助说成正式流程",
+  "physical_condition": "抱着小扩音器，音量旋钮有点松"
+}

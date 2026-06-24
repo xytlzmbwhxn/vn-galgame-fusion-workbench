@@ -1,0 +1,34 @@
+{
+  "character_id": "CHR_qiaomeng",
+  "updated_after_scene": "PRE_S001",
+  "current_axes": {
+    "trust": 2,
+    "anger": 1,
+    "fear": 3,
+    "curiosity": 4,
+    "fatigue": 2,
+    "shame": 4
+  },
+  "active_wants": ["让临站被盖章承认", "试探林屿是否也记得旧站", "不直接说外婆的事"],
+  "active_fears": ["旧票被没收", "林屿把她当成编故事的人", "她承认自己错过外婆电话"],
+  "unspoken_truths": ["旧票是外婆留在饭卡套里的", "她今晚来过一次又绕回总站", "她画的站牌贴纸写着临站"],
+  "memory_retrieval_priorities": ["before_S001", "S001_system_denial", "S001_bell", "voice", "OBJ_wet_ticket"],
+  "voice_lock": {
+    "sentence_shapes": ["玩笑开头，认真落尾", "把物件拟人化", "被逼问时突然少字"],
+    "dodge_moves": ["转伞坠", "替旧票说话", "用拜托和保证拖延"],
+    "allowed_words": ["欸", "嘛", "拜托", "小票同志", "很乖", "盖个章"],
+    "forbidden_drift": ["文学宣言", "抽象自白", "过度成熟冷静"],
+    "sample_lines": ["小票同志淋了雨，你别一上来就判它无效嘛。", "我没有闹。好啦，有一点点，但它先闹的。"]
+  },
+  "relationship_pressure": {
+    "CHR_linyu": "觉得他难说话，但他看票的手势不像完全不信。",
+    "CHR_duanbo": "隐约记得这个老人的哨子声。"
+  },
+  "promises_and_debts": [],
+  "state_history": [
+    {
+      "scene": "PRE_S001",
+      "note": "乔萌带着湿旧票回到总站售票口。"
+    }
+  ]
+}

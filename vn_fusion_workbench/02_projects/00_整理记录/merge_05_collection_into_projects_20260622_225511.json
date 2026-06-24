@@ -1,0 +1,830 @@
+﻿[
+    {
+        "project":  "archive_room_demo",
+        "bucket":  "readable",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\01_借春账_档案室\\可读稿\\S001_archive_room.md",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\archive_room_demo\\05_交付文件\\可读稿\\S001_archive_room.md"
+    },
+    {
+        "project":  "archive_room_demo",
+        "bucket":  "readable",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\01_借春账_档案室\\可读稿\\S001_archive_room_v2.md",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\archive_room_demo\\05_交付文件\\可读稿\\S001_archive_room_v2.md"
+    },
+    {
+        "project":  "archive_room_demo",
+        "bucket":  "csv",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\01_借春账_档案室\\剧本表\\CSV\\S001_archive_room.csv",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\archive_room_demo\\05_交付文件\\剧本表\\CSV\\S001_archive_room.csv"
+    },
+    {
+        "project":  "archive_room_demo",
+        "bucket":  "csv",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\01_借春账_档案室\\剧本表\\CSV\\S001_archive_room_v2.csv",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\archive_room_demo\\05_交付文件\\剧本表\\CSV\\S001_archive_room_v2.csv"
+    },
+    {
+        "project":  "archive_room_demo",
+        "bucket":  "csv",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\01_借春账_档案室\\剧本表\\CSV\\S001_archive_room_v3.csv",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\archive_room_demo\\05_交付文件\\剧本表\\CSV\\S001_archive_room_v3.csv"
+    },
+    {
+        "project":  "archive_room_demo",
+        "bucket":  "excel",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\01_借春账_档案室\\剧本表\\Excel\\VN_Workbench_Template.xlsx",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\archive_room_demo\\05_交付文件\\剧本表\\Excel\\VN_Workbench_Template.xlsx"
+    },
+    {
+        "project":  "archive_room_demo",
+        "bucket":  "qa_internal",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\01_借春账_档案室\\质量报告\\S001_archive_room_qa.md",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\archive_room_demo\\99_内部工作\\质检报告\\旧作品集导入\\S001_archive_room_qa.md"
+    },
+    {
+        "project":  "archive_room_demo",
+        "bucket":  "qa_internal",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\01_借春账_档案室\\质量报告\\S001_archive_room_v2_qa.md",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\archive_room_demo\\99_内部工作\\质检报告\\旧作品集导入\\S001_archive_room_v2_qa.md"
+    },
+    {
+        "project":  "archive_room_demo",
+        "bucket":  "qa_internal",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\01_借春账_档案室\\质量报告\\S001_archive_room_v3_qa.md",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\archive_room_demo\\99_内部工作\\质检报告\\旧作品集导入\\S001_archive_room_v3_qa.md"
+    },
+    {
+        "project":  "archive_room_demo",
+        "bucket":  "project_public_note",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\01_借春账_档案室\\项目说明\\core_theme.md",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\archive_room_demo\\05_交付文件\\创作说明\\core_theme.md"
+    },
+    {
+        "project":  "archive_room_demo",
+        "bucket":  "project_public_note",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\01_借春账_档案室\\项目说明\\display_voice_rules.md",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\archive_room_demo\\05_交付文件\\创作说明\\display_voice_rules.md"
+    },
+    {
+        "project":  "archive_room_demo",
+        "bucket":  "project_public_note",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\01_借春账_档案室\\项目说明\\premise.md",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\archive_room_demo\\05_交付文件\\创作说明\\premise.md"
+    },
+    {
+        "project":  "archive_room_demo",
+        "bucket":  "project_public_note",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\01_借春账_档案室\\项目说明\\style_rules.md",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\archive_room_demo\\05_交付文件\\创作说明\\style_rules.md"
+    },
+    {
+        "project":  "archive_room_demo",
+        "bucket":  "deleted_obsolete_preview_png",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\01_借春账_档案室\\预览图",
+        "to":  "deleted 6 preview image file(s)"
+    },
+    {
+        "project":  "copy_shop_demo",
+        "bucket":  "readable",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\02_二楼复印店的错页\\可读稿\\S001_wrong_page_v1.md",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\copy_shop_demo\\05_交付文件\\可读稿\\S001_wrong_page_v1.md"
+    },
+    {
+        "project":  "copy_shop_demo",
+        "bucket":  "csv",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\02_二楼复印店的错页\\剧本表\\CSV\\S001_wrong_page_v1.csv",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\copy_shop_demo\\05_交付文件\\剧本表\\CSV\\S001_wrong_page_v1.csv"
+    },
+    {
+        "project":  "copy_shop_demo",
+        "bucket":  "excel",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\02_二楼复印店的错页\\剧本表\\Excel\\VN_Workbench_Template.xlsx",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\copy_shop_demo\\05_交付文件\\剧本表\\Excel\\VN_Workbench_Template.xlsx"
+    },
+    {
+        "project":  "copy_shop_demo",
+        "bucket":  "qa_internal",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\02_二楼复印店的错页\\质量报告\\S001_wrong_page_v1_qa.md",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\copy_shop_demo\\99_内部工作\\质检报告\\旧作品集导入\\S001_wrong_page_v1_qa.md"
+    },
+    {
+        "project":  "copy_shop_demo",
+        "bucket":  "project_public_note",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\02_二楼复印店的错页\\项目说明\\core_theme.md",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\copy_shop_demo\\05_交付文件\\创作说明\\core_theme.md"
+    },
+    {
+        "project":  "copy_shop_demo",
+        "bucket":  "project_public_note",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\02_二楼复印店的错页\\项目说明\\display_voice_rules.md",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\copy_shop_demo\\05_交付文件\\创作说明\\display_voice_rules.md"
+    },
+    {
+        "project":  "copy_shop_demo",
+        "bucket":  "project_public_note",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\02_二楼复印店的错页\\项目说明\\premise.md",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\copy_shop_demo\\05_交付文件\\创作说明\\premise.md"
+    },
+    {
+        "project":  "copy_shop_demo",
+        "bucket":  "project_public_note",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\02_二楼复印店的错页\\项目说明\\style_rules.md",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\copy_shop_demo\\05_交付文件\\创作说明\\style_rules.md"
+    },
+    {
+        "project":  "copy_shop_demo",
+        "bucket":  "deleted_obsolete_preview_png",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\02_二楼复印店的错页\\预览图",
+        "to":  "deleted 6 preview image file(s)"
+    },
+    {
+        "project":  "label_room_demo",
+        "bucket":  "readable",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\03_校服口袋借阅处\\可读稿\\S001_label_room_v1.md",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\label_room_demo\\05_交付文件\\可读稿\\S001_label_room_v1.md"
+    },
+    {
+        "project":  "label_room_demo",
+        "bucket":  "csv",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\03_校服口袋借阅处\\剧本表\\CSV\\S001_label_room_v1.csv",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\label_room_demo\\05_交付文件\\剧本表\\CSV\\S001_label_room_v1.csv"
+    },
+    {
+        "project":  "label_room_demo",
+        "bucket":  "excel",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\03_校服口袋借阅处\\剧本表\\Excel\\S001_label_room_v1.xlsx",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\label_room_demo\\05_交付文件\\剧本表\\Excel\\S001_label_room_v1.xlsx"
+    },
+    {
+        "project":  "label_room_demo",
+        "bucket":  "character_public",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\03_校服口袋借阅处\\角色设定\\S001_label_room_v1_character_brief.md",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\label_room_demo\\05_交付文件\\角色设定\\S001_label_room_v1_character_brief.md"
+    },
+    {
+        "project":  "label_room_demo",
+        "bucket":  "qa_internal",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\03_校服口袋借阅处\\质量报告\\S001_label_room_v1_deep_audit.json",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\label_room_demo\\99_内部工作\\质检报告\\旧作品集导入\\S001_label_room_v1_deep_audit.json"
+    },
+    {
+        "project":  "label_room_demo",
+        "bucket":  "qa_internal",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\03_校服口袋借阅处\\质量报告\\S001_label_room_v1_deep_audit.md",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\label_room_demo\\99_内部工作\\质检报告\\旧作品集导入\\S001_label_room_v1_deep_audit.md"
+    },
+    {
+        "project":  "label_room_demo",
+        "bucket":  "qa_internal",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\03_校服口袋借阅处\\质量报告\\S001_label_room_v1_qa.md",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\label_room_demo\\99_内部工作\\质检报告\\旧作品集导入\\S001_label_room_v1_qa.md"
+    },
+    {
+        "project":  "label_room_demo",
+        "bucket":  "project_public_note",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\03_校服口袋借阅处\\项目说明\\core_theme.md",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\label_room_demo\\05_交付文件\\创作说明\\core_theme.md"
+    },
+    {
+        "project":  "label_room_demo",
+        "bucket":  "project_public_note",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\03_校服口袋借阅处\\项目说明\\display_voice_rules.md",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\label_room_demo\\05_交付文件\\创作说明\\display_voice_rules.md"
+    },
+    {
+        "project":  "label_room_demo",
+        "bucket":  "project_public_note",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\03_校服口袋借阅处\\项目说明\\premise.md",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\label_room_demo\\05_交付文件\\创作说明\\premise.md"
+    },
+    {
+        "project":  "label_room_demo",
+        "bucket":  "project_public_note",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\03_校服口袋借阅处\\项目说明\\style_rules.md",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\label_room_demo\\05_交付文件\\创作说明\\style_rules.md"
+    },
+    {
+        "project":  "label_room_demo",
+        "bucket":  "deleted_obsolete_preview_png",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\03_校服口袋借阅处\\预览图",
+        "to":  "deleted 6 preview image file(s)"
+    },
+    {
+        "project":  "last_bus_demo",
+        "bucket":  "readable",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\04_末班车补票\\可读稿\\S001_last_bus_novel_v2.md",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\last_bus_demo\\05_交付文件\\可读稿\\S001_last_bus_novel_v2.md"
+    },
+    {
+        "project":  "last_bus_demo",
+        "bucket":  "readable",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\04_末班车补票\\可读稿\\S001_last_bus_novel_v3.md",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\last_bus_demo\\05_交付文件\\可读稿\\S001_last_bus_novel_v3.md"
+    },
+    {
+        "project":  "last_bus_demo",
+        "bucket":  "readable",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\04_末班车补票\\可读稿\\S001_last_bus_test.md",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\last_bus_demo\\05_交付文件\\可读稿\\S001_last_bus_test.md"
+    },
+    {
+        "project":  "last_bus_demo",
+        "bucket":  "csv",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\04_末班车补票\\剧本表\\CSV\\S001_last_bus_novel_v2.csv",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\last_bus_demo\\05_交付文件\\剧本表\\CSV\\S001_last_bus_novel_v2.csv"
+    },
+    {
+        "project":  "last_bus_demo",
+        "bucket":  "csv",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\04_末班车补票\\剧本表\\CSV\\S001_last_bus_novel_v3.csv",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\last_bus_demo\\05_交付文件\\剧本表\\CSV\\S001_last_bus_novel_v3.csv"
+    },
+    {
+        "project":  "last_bus_demo",
+        "bucket":  "csv",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\04_末班车补票\\剧本表\\CSV\\S001_last_bus_test.csv",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\last_bus_demo\\05_交付文件\\剧本表\\CSV\\S001_last_bus_test.csv"
+    },
+    {
+        "project":  "last_bus_demo",
+        "bucket":  "excel",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\04_末班车补票\\剧本表\\Excel\\VN_Workbench_Template.xlsx",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\last_bus_demo\\05_交付文件\\剧本表\\Excel\\VN_Workbench_Template.xlsx"
+    },
+    {
+        "project":  "last_bus_demo",
+        "bucket":  "qa_internal",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\04_末班车补票\\质量报告\\S001_last_bus_novel_v2_qa.md",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\last_bus_demo\\99_内部工作\\质检报告\\旧作品集导入\\S001_last_bus_novel_v2_qa.md"
+    },
+    {
+        "project":  "last_bus_demo",
+        "bucket":  "qa_internal",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\04_末班车补票\\质量报告\\S001_last_bus_novel_v3_qa.md",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\last_bus_demo\\99_内部工作\\质检报告\\旧作品集导入\\S001_last_bus_novel_v3_qa.md"
+    },
+    {
+        "project":  "last_bus_demo",
+        "bucket":  "qa_internal",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\04_末班车补票\\质量报告\\S001_last_bus_test_qa.md",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\last_bus_demo\\99_内部工作\\质检报告\\旧作品集导入\\S001_last_bus_test_qa.md"
+    },
+    {
+        "project":  "last_bus_demo",
+        "bucket":  "project_public_note",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\04_末班车补票\\项目说明\\core_theme.md",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\last_bus_demo\\05_交付文件\\创作说明\\core_theme.md"
+    },
+    {
+        "project":  "last_bus_demo",
+        "bucket":  "project_public_note",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\04_末班车补票\\项目说明\\display_voice_rules.md",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\last_bus_demo\\05_交付文件\\创作说明\\display_voice_rules.md"
+    },
+    {
+        "project":  "last_bus_demo",
+        "bucket":  "project_public_note",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\04_末班车补票\\项目说明\\premise.md",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\last_bus_demo\\05_交付文件\\创作说明\\premise.md"
+    },
+    {
+        "project":  "last_bus_demo",
+        "bucket":  "project_public_note",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\04_末班车补票\\项目说明\\style_rules.md",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\last_bus_demo\\05_交付文件\\创作说明\\style_rules.md"
+    },
+    {
+        "project":  "last_bus_demo",
+        "bucket":  "deleted_obsolete_preview_png",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\04_末班车补票\\预览图",
+        "to":  "deleted 6 preview image file(s)"
+    },
+    {
+        "project":  "rain_gate_demo",
+        "bucket":  "readable",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\05_雨检口\\可读稿\\S001_rewrite_v2.md",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\rain_gate_demo\\05_交付文件\\可读稿\\S001_rewrite_v2.md"
+    },
+    {
+        "project":  "rain_gate_demo",
+        "bucket":  "readable",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\05_雨检口\\可读稿\\S001_rewrite_v3.md",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\rain_gate_demo\\05_交付文件\\可读稿\\S001_rewrite_v3.md"
+    },
+    {
+        "project":  "rain_gate_demo",
+        "bucket":  "csv",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\05_雨检口\\剧本表\\CSV\\S001_rewrite_v2.csv",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\rain_gate_demo\\05_交付文件\\剧本表\\CSV\\S001_rewrite_v2.csv"
+    },
+    {
+        "project":  "rain_gate_demo",
+        "bucket":  "csv",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\05_雨检口\\剧本表\\CSV\\S001_rewrite_v3.csv",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\rain_gate_demo\\05_交付文件\\剧本表\\CSV\\S001_rewrite_v3.csv"
+    },
+    {
+        "project":  "rain_gate_demo",
+        "bucket":  "csv",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\05_雨检口\\剧本表\\CSV\\S001_rewrite_v4.csv",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\rain_gate_demo\\05_交付文件\\剧本表\\CSV\\S001_rewrite_v4.csv"
+    },
+    {
+        "project":  "rain_gate_demo",
+        "bucket":  "csv",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\05_雨检口\\剧本表\\CSV\\S001_script.csv",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\rain_gate_demo\\05_交付文件\\剧本表\\CSV\\S001_script.csv"
+    },
+    {
+        "project":  "rain_gate_demo",
+        "bucket":  "csv",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\05_雨检口\\剧本表\\CSV\\S002_script.csv",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\rain_gate_demo\\05_交付文件\\剧本表\\CSV\\S002_script.csv"
+    },
+    {
+        "project":  "rain_gate_demo",
+        "bucket":  "excel",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\05_雨检口\\剧本表\\Excel\\VN_Workbench_Template.xlsx",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\rain_gate_demo\\05_交付文件\\剧本表\\Excel\\VN_Workbench_Template.xlsx"
+    },
+    {
+        "project":  "rain_gate_demo",
+        "bucket":  "qa_internal",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\05_雨检口\\质量报告\\S001_rewrite_v2_qa.md",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\rain_gate_demo\\99_内部工作\\质检报告\\旧作品集导入\\S001_rewrite_v2_qa.md"
+    },
+    {
+        "project":  "rain_gate_demo",
+        "bucket":  "qa_internal",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\05_雨检口\\质量报告\\S001_rewrite_v3_qa.md",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\rain_gate_demo\\99_内部工作\\质检报告\\旧作品集导入\\S001_rewrite_v3_qa.md"
+    },
+    {
+        "project":  "rain_gate_demo",
+        "bucket":  "qa_internal",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\05_雨检口\\质量报告\\S001_rewrite_v4_qa.md",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\rain_gate_demo\\99_内部工作\\质检报告\\旧作品集导入\\S001_rewrite_v4_qa.md"
+    },
+    {
+        "project":  "rain_gate_demo",
+        "bucket":  "qa_internal",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\05_雨检口\\质量报告\\S001_script_qa.md",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\rain_gate_demo\\99_内部工作\\质检报告\\旧作品集导入\\S001_script_qa.md"
+    },
+    {
+        "project":  "rain_gate_demo",
+        "bucket":  "qa_internal",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\05_雨检口\\质量报告\\S002_script_qa.md",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\rain_gate_demo\\99_内部工作\\质检报告\\旧作品集导入\\S002_script_qa.md"
+    },
+    {
+        "project":  "rain_gate_demo",
+        "bucket":  "project_public_note",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\05_雨检口\\项目说明\\core_theme.md",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\rain_gate_demo\\05_交付文件\\创作说明\\core_theme.md"
+    },
+    {
+        "project":  "rain_gate_demo",
+        "bucket":  "project_public_note",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\05_雨检口\\项目说明\\display_voice_rules.md",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\rain_gate_demo\\05_交付文件\\创作说明\\display_voice_rules.md"
+    },
+    {
+        "project":  "rain_gate_demo",
+        "bucket":  "project_public_note",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\05_雨检口\\项目说明\\premise.md",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\rain_gate_demo\\05_交付文件\\创作说明\\premise.md"
+    },
+    {
+        "project":  "rain_gate_demo",
+        "bucket":  "project_public_note",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\05_雨检口\\项目说明\\style_rules.md",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\rain_gate_demo\\05_交付文件\\创作说明\\style_rules.md"
+    },
+    {
+        "project":  "rain_gate_demo",
+        "bucket":  "deleted_obsolete_preview_png",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\05_雨检口\\预览图",
+        "to":  "deleted 6 preview image file(s)"
+    },
+    {
+        "project":  "rain_shed_code_demo",
+        "bucket":  "readable",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\06_雨棚第七码\\可读稿\\S001_rain_shed_v1_readable.md",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\rain_shed_code_demo\\05_交付文件\\可读稿\\S001_rain_shed_v1_readable.md"
+    },
+    {
+        "project":  "rain_shed_code_demo",
+        "bucket":  "csv",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\06_雨棚第七码\\剧本表\\CSV\\S001_rain_shed_v1.csv",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\rain_shed_code_demo\\05_交付文件\\剧本表\\CSV\\S001_rain_shed_v1.csv"
+    },
+    {
+        "project":  "rain_shed_code_demo",
+        "bucket":  "excel",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\06_雨棚第七码\\剧本表\\Excel\\S001_rain_shed_v1.xlsx",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\rain_shed_code_demo\\05_交付文件\\剧本表\\Excel\\S001_rain_shed_v1.xlsx"
+    },
+    {
+        "project":  "rain_shed_code_demo",
+        "bucket":  "character_public",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\06_雨棚第七码\\角色设定\\S001_rain_shed_v1_character_brief.md",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\rain_shed_code_demo\\05_交付文件\\角色设定\\S001_rain_shed_v1_character_brief.md"
+    },
+    {
+        "project":  "rain_shed_code_demo",
+        "bucket":  "qa_internal",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\06_雨棚第七码\\质量报告\\S001_rain_shed_v1_deep_audit.json",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\rain_shed_code_demo\\99_内部工作\\质检报告\\旧作品集导入\\S001_rain_shed_v1_deep_audit.json"
+    },
+    {
+        "project":  "rain_shed_code_demo",
+        "bucket":  "qa_internal",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\06_雨棚第七码\\质量报告\\S001_rain_shed_v1_deep_audit.md",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\rain_shed_code_demo\\99_内部工作\\质检报告\\旧作品集导入\\S001_rain_shed_v1_deep_audit.md"
+    },
+    {
+        "project":  "rain_shed_code_demo",
+        "bucket":  "qa_internal",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\06_雨棚第七码\\质量报告\\S001_rain_shed_v1_qa.md",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\rain_shed_code_demo\\99_内部工作\\质检报告\\旧作品集导入\\S001_rain_shed_v1_qa.md"
+    },
+    {
+        "project":  "rain_shed_code_demo",
+        "bucket":  "project_public_note",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\06_雨棚第七码\\项目说明\\core_theme.md",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\rain_shed_code_demo\\05_交付文件\\创作说明\\core_theme.md"
+    },
+    {
+        "project":  "rain_shed_code_demo",
+        "bucket":  "project_public_note",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\06_雨棚第七码\\项目说明\\display_voice_rules.md",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\rain_shed_code_demo\\05_交付文件\\创作说明\\display_voice_rules.md"
+    },
+    {
+        "project":  "rain_shed_code_demo",
+        "bucket":  "project_public_note",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\06_雨棚第七码\\项目说明\\style_rules.md",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\rain_shed_code_demo\\05_交付文件\\创作说明\\style_rules.md"
+    },
+    {
+        "project":  "rain_shed_code_demo",
+        "bucket":  "deleted_obsolete_preview_png",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\06_雨棚第七码\\预览图",
+        "to":  "deleted 6 preview image file(s)"
+    },
+    {
+        "project":  "seventh_coin_demo",
+        "bucket":  "readable",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\07_第七枚硬币\\可读稿\\S001_seventh_coin_v1.md",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\seventh_coin_demo\\05_交付文件\\可读稿\\S001_seventh_coin_v1.md"
+    },
+    {
+        "project":  "seventh_coin_demo",
+        "bucket":  "csv",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\07_第七枚硬币\\剧本表\\CSV\\S001_seventh_coin_v1.csv",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\seventh_coin_demo\\05_交付文件\\剧本表\\CSV\\S001_seventh_coin_v1.csv"
+    },
+    {
+        "project":  "seventh_coin_demo",
+        "bucket":  "excel",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\07_第七枚硬币\\剧本表\\Excel\\VN_Workbench_Template.xlsx",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\seventh_coin_demo\\05_交付文件\\剧本表\\Excel\\VN_Workbench_Template.xlsx"
+    },
+    {
+        "project":  "seventh_coin_demo",
+        "bucket":  "character_public",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\07_第七枚硬币\\角色设定\\S001_seventh_coin_v1_character_brief.md",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\seventh_coin_demo\\05_交付文件\\角色设定\\S001_seventh_coin_v1_character_brief.md"
+    },
+    {
+        "project":  "seventh_coin_demo",
+        "bucket":  "qa_internal",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\07_第七枚硬币\\质量报告\\S001_seventh_coin_v1_qa.md",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\seventh_coin_demo\\99_内部工作\\质检报告\\旧作品集导入\\S001_seventh_coin_v1_qa.md"
+    },
+    {
+        "project":  "seventh_coin_demo",
+        "bucket":  "project_public_note",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\07_第七枚硬币\\项目说明\\core_theme.md",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\seventh_coin_demo\\05_交付文件\\创作说明\\core_theme.md"
+    },
+    {
+        "project":  "seventh_coin_demo",
+        "bucket":  "project_public_note",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\07_第七枚硬币\\项目说明\\display_voice_rules.md",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\seventh_coin_demo\\05_交付文件\\创作说明\\display_voice_rules.md"
+    },
+    {
+        "project":  "seventh_coin_demo",
+        "bucket":  "project_public_note",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\07_第七枚硬币\\项目说明\\premise.md",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\seventh_coin_demo\\05_交付文件\\创作说明\\premise.md"
+    },
+    {
+        "project":  "seventh_coin_demo",
+        "bucket":  "project_public_note",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\07_第七枚硬币\\项目说明\\style_rules.md",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\seventh_coin_demo\\05_交付文件\\创作说明\\style_rules.md"
+    },
+    {
+        "project":  "seventh_coin_demo",
+        "bucket":  "deleted_obsolete_preview_png",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\07_第七枚硬币\\预览图",
+        "to":  "deleted 6 preview image file(s)"
+    },
+    {
+        "project":  "ticket_window_demo",
+        "bucket":  "readable",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\08_三号窗口的退票\\可读稿\\S001_refund_ticket_v1.md",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\ticket_window_demo\\05_交付文件\\可读稿\\S001_refund_ticket_v1.md"
+    },
+    {
+        "project":  "ticket_window_demo",
+        "bucket":  "csv",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\08_三号窗口的退票\\剧本表\\CSV\\S001_refund_ticket_v1.csv",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\ticket_window_demo\\05_交付文件\\剧本表\\CSV\\S001_refund_ticket_v1.csv"
+    },
+    {
+        "project":  "ticket_window_demo",
+        "bucket":  "excel",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\08_三号窗口的退票\\剧本表\\Excel\\VN_Workbench_Template.xlsx",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\ticket_window_demo\\05_交付文件\\剧本表\\Excel\\VN_Workbench_Template.xlsx"
+    },
+    {
+        "project":  "ticket_window_demo",
+        "bucket":  "character_public",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\08_三号窗口的退票\\角色设定\\S001_refund_ticket_v1_character_brief.md",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\ticket_window_demo\\05_交付文件\\角色设定\\S001_refund_ticket_v1_character_brief.md"
+    },
+    {
+        "project":  "ticket_window_demo",
+        "bucket":  "qa_internal",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\08_三号窗口的退票\\质量报告\\S001_refund_ticket_v1_qa.md",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\ticket_window_demo\\99_内部工作\\质检报告\\旧作品集导入\\S001_refund_ticket_v1_qa.md"
+    },
+    {
+        "project":  "ticket_window_demo",
+        "bucket":  "project_public_note",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\08_三号窗口的退票\\项目说明\\core_theme.md",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\ticket_window_demo\\05_交付文件\\创作说明\\core_theme.md"
+    },
+    {
+        "project":  "ticket_window_demo",
+        "bucket":  "project_public_note",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\08_三号窗口的退票\\项目说明\\display_voice_rules.md",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\ticket_window_demo\\05_交付文件\\创作说明\\display_voice_rules.md"
+    },
+    {
+        "project":  "ticket_window_demo",
+        "bucket":  "project_public_note",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\08_三号窗口的退票\\项目说明\\premise.md",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\ticket_window_demo\\05_交付文件\\创作说明\\premise.md"
+    },
+    {
+        "project":  "ticket_window_demo",
+        "bucket":  "project_public_note",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\08_三号窗口的退票\\项目说明\\style_rules.md",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\ticket_window_demo\\05_交付文件\\创作说明\\style_rules.md"
+    },
+    {
+        "project":  "ticket_window_demo",
+        "bucket":  "deleted_obsolete_preview_png",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\08_三号窗口的退票\\预览图",
+        "to":  "deleted 6 preview image file(s)"
+    },
+    {
+        "project":  "blue_photo_booth_demo",
+        "bucket":  "readable",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\09_蓝底照片不准笑\\可读稿\\S001_blue_photo_v1.md",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\blue_photo_booth_demo\\05_交付文件\\可读稿\\S001_blue_photo_v1.md"
+    },
+    {
+        "project":  "blue_photo_booth_demo",
+        "bucket":  "readable",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\09_蓝底照片不准笑\\可读稿\\S001_blue_photo_v2.md",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\blue_photo_booth_demo\\05_交付文件\\可读稿\\S001_blue_photo_v2.md"
+    },
+    {
+        "project":  "blue_photo_booth_demo",
+        "bucket":  "csv",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\09_蓝底照片不准笑\\剧本表\\CSV\\S001_blue_photo_v1.csv",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\blue_photo_booth_demo\\05_交付文件\\剧本表\\CSV\\S001_blue_photo_v1.csv"
+    },
+    {
+        "project":  "blue_photo_booth_demo",
+        "bucket":  "csv",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\09_蓝底照片不准笑\\CSV源文件\\S001_blue_photo_v2.csv",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\blue_photo_booth_demo\\05_交付文件\\剧本表\\CSV\\S001_blue_photo_v2.csv"
+    },
+    {
+        "project":  "blue_photo_booth_demo",
+        "bucket":  "excel",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\09_蓝底照片不准笑\\剧本表\\Excel\\S001_blue_photo_v1.xlsx",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\blue_photo_booth_demo\\05_交付文件\\剧本表\\Excel\\S001_blue_photo_v1.xlsx"
+    },
+    {
+        "project":  "blue_photo_booth_demo",
+        "bucket":  "excel",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\09_蓝底照片不准笑\\Excel剧本\\S001_blue_photo_v2.xlsx",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\blue_photo_booth_demo\\05_交付文件\\剧本表\\Excel\\S001_blue_photo_v2.xlsx"
+    },
+    {
+        "project":  "blue_photo_booth_demo",
+        "bucket":  "character_public",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\09_蓝底照片不准笑\\角色设定\\S001_blue_photo_v1_character_brief.md",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\blue_photo_booth_demo\\05_交付文件\\角色设定\\S001_blue_photo_v1_character_brief.md"
+    },
+    {
+        "project":  "blue_photo_booth_demo",
+        "bucket":  "revision_notes",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\09_蓝底照片不准笑\\修订说明\\S001_blue_photo_v2_notes.md",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\blue_photo_booth_demo\\05_交付文件\\修订说明\\S001_blue_photo_v2_notes.md"
+    },
+    {
+        "project":  "blue_photo_booth_demo",
+        "bucket":  "qa_internal",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\09_蓝底照片不准笑\\质量报告\\S001_blue_photo_v1_deep_audit.json",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\blue_photo_booth_demo\\99_内部工作\\质检报告\\旧作品集导入\\S001_blue_photo_v1_deep_audit.json"
+    },
+    {
+        "project":  "blue_photo_booth_demo",
+        "bucket":  "qa_internal",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\09_蓝底照片不准笑\\质量报告\\S001_blue_photo_v1_deep_audit.md",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\blue_photo_booth_demo\\99_内部工作\\质检报告\\旧作品集导入\\S001_blue_photo_v1_deep_audit.md"
+    },
+    {
+        "project":  "blue_photo_booth_demo",
+        "bucket":  "qa_internal",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\09_蓝底照片不准笑\\质量报告\\S001_blue_photo_v1_qa.md",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\blue_photo_booth_demo\\99_内部工作\\质检报告\\旧作品集导入\\S001_blue_photo_v1_qa.md"
+    },
+    {
+        "project":  "blue_photo_booth_demo",
+        "bucket":  "qa_internal",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\09_蓝底照片不准笑\\质量报告\\S001_blue_photo_v2_deep_audit.json",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\blue_photo_booth_demo\\99_内部工作\\质检报告\\旧作品集导入\\S001_blue_photo_v2_deep_audit.json"
+    },
+    {
+        "project":  "blue_photo_booth_demo",
+        "bucket":  "qa_internal",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\09_蓝底照片不准笑\\质量报告\\S001_blue_photo_v2_deep_audit.md",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\blue_photo_booth_demo\\99_内部工作\\质检报告\\旧作品集导入\\S001_blue_photo_v2_deep_audit.md"
+    },
+    {
+        "project":  "blue_photo_booth_demo",
+        "bucket":  "qa_internal",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\09_蓝底照片不准笑\\质量报告\\S001_blue_photo_v2_qa.md",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\blue_photo_booth_demo\\99_内部工作\\质检报告\\旧作品集导入\\S001_blue_photo_v2_qa.md"
+    },
+    {
+        "project":  "blue_photo_booth_demo",
+        "bucket":  "project_public_note",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\09_蓝底照片不准笑\\项目说明\\core_theme.md",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\blue_photo_booth_demo\\05_交付文件\\创作说明\\core_theme.md"
+    },
+    {
+        "project":  "blue_photo_booth_demo",
+        "bucket":  "project_public_note",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\09_蓝底照片不准笑\\项目说明\\display_voice_rules.md",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\blue_photo_booth_demo\\05_交付文件\\创作说明\\display_voice_rules.md"
+    },
+    {
+        "project":  "blue_photo_booth_demo",
+        "bucket":  "project_public_note",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\09_蓝底照片不准笑\\项目说明\\premise.md",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\blue_photo_booth_demo\\05_交付文件\\创作说明\\premise.md"
+    },
+    {
+        "project":  "blue_photo_booth_demo",
+        "bucket":  "project_public_note",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\09_蓝底照片不准笑\\项目说明\\style_rules.md",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\blue_photo_booth_demo\\05_交付文件\\创作说明\\style_rules.md"
+    },
+    {
+        "project":  "blue_photo_booth_demo",
+        "bucket":  "deleted_obsolete_preview_png",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\09_蓝底照片不准笑\\预览图",
+        "to":  "deleted 6 preview image file(s)"
+    },
+    {
+        "project":  "summer_echo_demo",
+        "bucket":  "readable",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\10_夏声\\可读稿\\S001_summer_echo_v1.md",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\summer_echo_demo\\05_交付文件\\可读稿\\S001_summer_echo_v1.md"
+    },
+    {
+        "project":  "summer_echo_demo",
+        "bucket":  "csv",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\10_夏声\\剧本表\\CSV\\S001_summer_echo_v1.csv",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\summer_echo_demo\\05_交付文件\\剧本表\\CSV\\S001_summer_echo_v1.csv"
+    },
+    {
+        "project":  "summer_echo_demo",
+        "bucket":  "engine_export",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\10_夏声\\剧本表\\引擎导出\\S001_summer_echo_v1.dialogue",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\summer_echo_demo\\05_交付文件\\引擎导出\\S001_summer_echo_v1.dialogue"
+    },
+    {
+        "project":  "summer_echo_demo",
+        "bucket":  "engine_export",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\10_夏声\\剧本表\\引擎导出\\S001_summer_echo_v1.ink",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\summer_echo_demo\\05_交付文件\\引擎导出\\S001_summer_echo_v1.ink"
+    },
+    {
+        "project":  "summer_echo_demo",
+        "bucket":  "engine_export",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\10_夏声\\剧本表\\引擎导出\\S001_summer_echo_v1.rpy",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\summer_echo_demo\\05_交付文件\\引擎导出\\S001_summer_echo_v1.rpy"
+    },
+    {
+        "project":  "summer_echo_demo",
+        "bucket":  "engine_export",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\10_夏声\\剧本表\\引擎导出\\S001_summer_echo_v1.txt",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\summer_echo_demo\\05_交付文件\\引擎导出\\S001_summer_echo_v1.txt"
+    },
+    {
+        "project":  "summer_echo_demo",
+        "bucket":  "engine_export",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\10_夏声\\剧本表\\引擎导出\\S001_summer_echo_v1.yarn",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\summer_echo_demo\\05_交付文件\\引擎导出\\S001_summer_echo_v1.yarn"
+    },
+    {
+        "project":  "summer_echo_demo",
+        "bucket":  "character_public",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\10_夏声\\角色设定\\CHR_linzhishi.card_v2.json",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\summer_echo_demo\\05_交付文件\\角色设定\\CHR_linzhishi.card_v2.json"
+    },
+    {
+        "project":  "summer_echo_demo",
+        "bucket":  "character_public",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\10_夏声\\角色设定\\CHR_tangxu.card_v2.json",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\summer_echo_demo\\05_交付文件\\角色设定\\CHR_tangxu.card_v2.json"
+    },
+    {
+        "project":  "summer_echo_demo",
+        "bucket":  "character_public",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\10_夏声\\角色设定\\S001_character_brief.md",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\summer_echo_demo\\05_交付文件\\角色设定\\S001_character_brief.md"
+    },
+    {
+        "project":  "summer_echo_demo",
+        "bucket":  "qa_internal",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\10_夏声\\质量报告\\S001_summer_echo_v1_deep_audit.json",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\summer_echo_demo\\99_内部工作\\质检报告\\旧作品集导入\\S001_summer_echo_v1_deep_audit.json"
+    },
+    {
+        "project":  "summer_echo_demo",
+        "bucket":  "qa_internal",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\10_夏声\\质量报告\\S001_summer_echo_v1_deep_audit.md",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\summer_echo_demo\\99_内部工作\\质检报告\\旧作品集导入\\S001_summer_echo_v1_deep_audit.md"
+    },
+    {
+        "project":  "summer_echo_demo",
+        "bucket":  "project_public_note",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\10_夏声\\项目说明\\core_theme.md",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\summer_echo_demo\\05_交付文件\\创作说明\\core_theme.md"
+    },
+    {
+        "project":  "summer_echo_demo",
+        "bucket":  "project_public_note",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\10_夏声\\项目说明\\premise.md",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\summer_echo_demo\\05_交付文件\\创作说明\\premise.md"
+    },
+    {
+        "project":  "summer_echo_demo",
+        "bucket":  "context_internal",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\10_夏声\\项目说明\\S001_context_pack.md",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\summer_echo_demo\\99_内部工作\\上下文包\\旧作品集导入\\S001_context_pack.md"
+    },
+    {
+        "project":  "summer_echo_demo",
+        "bucket":  "context_internal",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\10_夏声\\项目说明\\S001_scene_brief.md",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\summer_echo_demo\\99_内部工作\\上下文包\\旧作品集导入\\S001_scene_brief.md"
+    },
+    {
+        "project":  "summer_echo_demo",
+        "bucket":  "project_public_note",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\10_夏声\\项目说明\\style_rules.md",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\summer_echo_demo\\05_交付文件\\创作说明\\style_rules.md"
+    },
+    {
+        "project":  "borrowed_summer_demo",
+        "bucket":  "local_public_display",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\borrowed_summer_demo\\05_作品展示\\《借夏天》可读稿.md",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\borrowed_summer_demo\\05_交付文件\\中文展示\\《借夏天》可读稿.md"
+    },
+    {
+        "project":  "last_bus_ticket_demo",
+        "bucket":  "local_public_display",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\last_bus_ticket_demo\\05_作品展示\\短篇测试\\《末班车票别回头》可读稿.md",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\last_bus_ticket_demo\\05_交付文件\\中文展示\\《末班车票别回头》可读稿.md"
+    },
+    {
+        "project":  "_all",
+        "bucket":  "old_collection_readme",
+        "from":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\05_作品集\\作品集说明.md",
+        "to":  "D:\\Users\\Admin\\Downloads\\VN_Workbench_Project\\vn_fusion_workbench\\02_projects\\旧作品集说明_已合并.md"
+    }
+]

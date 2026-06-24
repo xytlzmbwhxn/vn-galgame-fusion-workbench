@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "VN Theme Spine",
+  "type": "object",
+  "required": [
+    "thesis_question",
+    "player_role",
+    "repeated_player_behavior",
+    "cost_of_playing_well",
+    "false_comfort",
+    "material_object",
+    "route_arguments",
+    "final_payoff"
+  ],
+  "properties": {
+    "thesis_question": { "type": "string" },
+    "player_role": { "type": "string" },
+    "repeated_player_behavior": { "type": "string" },
+    "cost_of_playing_well": { "type": "string" },
+    "false_comfort": { "type": "string" },
+    "material_object": { "type": "string" },
+    "route_arguments": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["route_id", "argument", "cost", "payoff"],
+        "properties": {
+          "route_id": { "type": "string" },
+          "argument": { "type": "string" },
+          "cost": { "type": "string" },
+          "payoff": { "type": "string" }
+        }
+      }
+    },
+    "final_payoff": { "type": "string" },
+    "bad_end_shadow_answers": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "object_reinterpretations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["object_id", "first_reading", "later_reading"],
+        "properties": {
+          "object_id": { "type": "string" },
+          "first_reading": { "type": "string" },
+          "later_reading": { "type": "string" }
+        }
+      }
+    }
+  }
+}
+

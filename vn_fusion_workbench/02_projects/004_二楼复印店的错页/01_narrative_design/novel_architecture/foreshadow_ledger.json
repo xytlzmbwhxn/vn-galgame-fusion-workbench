@@ -1,0 +1,28 @@
+{
+  "items": [
+    {
+      "id": "FS_page_seven_timestamp",
+      "object_or_phrase": "第七页文件时间戳早了二十三分钟",
+      "first_scene": "S001",
+      "role": "seed",
+      "payoff_plan": "后续证明删名发生在老师催收终版前。",
+      "current_status": "在许承验文件时露出。"
+    },
+    {
+      "id": "FS_ruanzhou_light_cue",
+      "object_or_phrase": "阮舟署名旁的灯 cue 17",
+      "first_scene": "S001",
+      "role": "seed",
+      "payoff_plan": "后续成为寻找旧灯光台本的线索。",
+      "current_status": "卡纸旧页露出。"
+    },
+    {
+      "id": "FS_unuploaded_sample",
+      "object_or_phrase": "未上传的样张",
+      "first_scene": "S001",
+      "role": "echo",
+      "payoff_plan": "后续可成为安全证据，也可能成为投诉风险。",
+      "current_status": "由样张处理选择决定。"
+    }
+  ]
+}

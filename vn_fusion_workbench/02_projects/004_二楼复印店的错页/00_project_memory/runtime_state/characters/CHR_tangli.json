@@ -1,0 +1,31 @@
+{
+  "character_id": "CHR_tangli",
+  "current_axes": {
+    "trust_xucheng": 1,
+    "panic": 3,
+    "playfulness": 4,
+    "shame": 3,
+    "resolve": 2
+  },
+  "active_wants": [
+    "print thirty program booklets before collection",
+    "keep one copy with Ruan Zhou's credit",
+    "avoid saying the teacher deleted the name"
+  ],
+  "withheld_truths": [
+    "Ruan Zhou designed the final lighting cues",
+    "the old page is not an accident"
+  ],
+  "voice_lock": {
+    "must_use": ["小许钉", "终版", "救命", "欸", "嘛"],
+    "avoid": ["我很悲伤", "我无法接受", "命运"],
+    "pressure_shift": "starts cute, becomes too polite, then calls Xu Cheng by name"
+  },
+  "state_history": [
+    {
+      "scene": "S001",
+      "state": "before scene",
+      "note": "arrives late with the file and a hidden old page"
+    }
+  ]
+}

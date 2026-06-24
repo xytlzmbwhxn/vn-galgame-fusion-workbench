@@ -1,0 +1,58 @@
+{
+  "id": "CHR_xuzhi",
+  "name": "许栀",
+  "role": "broadcast_room_owner",
+  "age": 20,
+  "public_want": "取回录音笔，不让广播室留存私人练习。",
+  "private_want": "让鹿今听见第三遍录音，又不想亲口承认。",
+  "fear": "自己的声音被别人判定为表演。",
+  "social_mask": "广播室里礼貌、轻声、句句修正的主持人。",
+  "taboo_topic": "告白",
+  "route_question": "许栀能不能把反复剪掉的话交给本人，而不是交给录音笔？",
+  "presentation": {
+    "first_screen_impression": "声音先到，人后到。备用灯亮起时，她站在雨棚边缘，伞没完全撑开。",
+    "memory_points": [
+      "会说请删掉上一句。",
+      "紧张时像念通知。",
+      "第三遍才会接近真话。"
+    ],
+    "signature_objects": ["旧录音笔", "广播室钥匙绳", "透明伞"],
+    "signature_gestures": ["数红灯闪烁", "把钥匙绳绕到食指", "把一句话退回重来"],
+    "charm_hook": "很乖地请求别人不要听话。",
+    "liveliness_floor": "轻声角色也要有小小的自我剪辑笑点。",
+    "punctuation_play": "省略和短句多，感叹几乎不用；礼貌句里藏锋。",
+    "arc_promise": "从反复录制，走向当场说给人听。"
+  },
+  "embodiment": {
+    "hands": ["绕钥匙绳", "拇指按住录音笔红点"],
+    "gaze": ["看红点不看人", "听见鹿今时抬眼很慢"],
+    "posture": ["站在雨棚边线", "不坐下，只把伞收半截"],
+    "idle_action": "无声地数红灯闪烁。",
+    "pressure_action": "把一句话退回上一句。"
+  },
+  "speech_fingerprint": {
+    "default_rhythm": "轻、短、带修正，像广播稿低声版。",
+    "pressure_rhythm": "更礼貌，更慢，反复重来。",
+    "vocabulary": ["请删掉上一句", "重来", "第三遍", "监听", "备用灯"],
+    "fillers": ["嗯", "抱歉", "等一下"],
+    "dodge": "用技术词和修正句避开私人含义。",
+    "lie_style": "把想被听见说成误录。",
+    "request_style": "先道歉，再提出极小的要求。",
+    "tenderness_style": "替对方留一个退出通道。",
+    "cruelty_style": "礼貌地否认对方听懂了。",
+    "punctuation": "省略、短句、句号。少量问号。",
+    "sentence_kernel_profile": {
+      "base": "礼貌请求 + 自我修正 + 低声真话",
+      "example_shapes": ["请删掉上一句。", "重来……我没有准备好。", "第三遍，请不要外放。"]
+    },
+    "line_energy_profile": {
+      "default": ["self_edit", "request", "soft_refusal"],
+      "pressure": ["repeat", "withdraw", "small_confession"]
+    },
+    "social_texture_profile": {
+      "class_trace": "广播室学生主持，习惯把私人话改成通知。",
+      "ordinary_quirk": "用录音术语解释心虚。",
+      "relationship_move": "只有真正害怕时才直呼鹿今。"
+    }
+  }
+}

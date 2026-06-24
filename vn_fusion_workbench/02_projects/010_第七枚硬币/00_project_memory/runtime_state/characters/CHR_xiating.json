@@ -1,0 +1,58 @@
+{
+  "character_id": "CHR_xiating",
+  "updated_after_scene": "before_S001",
+  "current_axes": {
+    "trust": 2,
+    "anger": 1,
+    "fear": 4,
+    "curiosity": 2,
+    "fatigue": 5,
+    "shame": 4
+  },
+  "active_wants": [
+    "洗掉开衫上的医院味",
+    "不让闻舟翻开衫口袋",
+    "在天亮前回家"
+  ],
+  "active_fears": [
+    "热敏单被看见",
+    "承认开衫属于母亲",
+    "妹妹闻到医院味后追问"
+  ],
+  "unspoken_truths": [
+    "开衫是她母亲夏青禾的",
+    "她今晚去过医院最后一趟",
+    "她一直留着闻舟那枚弯硬币"
+  ],
+  "voice_lock": {
+    "sentence_shapes": ["玩笑开场 + 求助", "小刺 + 立刻收回", "话尾上扬后断掉"],
+    "dodge_moves": ["给机器取外号", "假装算账", "把重要人说成房东阿姨"],
+    "allowed_words": ["欸", "好嘛", "小闻师傅", "七号大爷", "拜托啦"],
+    "forbidden_drift": ["直接说母亲离世", "完整剖白", "过度文艺"],
+    "sample_lines": [
+      "七号大爷还活着吗？我带了六枚硬币和一颗真心。",
+      "拜托啦，我今天已经被雨洗过一轮了，衣服能不能走员工通道？",
+      "别翻那个口袋，拜托。就当纸巾，好不好？"
+    ]
+  },
+  "relationship_pressure": {
+    "CHR_wenzhou": "她知道闻舟会看口袋，也知道他不会轻易赶人。",
+    "CHR_luoyi": "她怕罗姨认出开衫和她母亲。"
+  },
+  "promises_and_debts": [
+    {
+      "to": "CHR_wenzhou",
+      "debt": "欠一枚弯硬币，欠一次没说出口的谢谢"
+    }
+  ],
+  "state_history": [
+    {
+      "scene": "before_S001",
+      "change": "带着奶油色开衫和六枚硬币赶到洗衣店"
+    },
+    {
+      "scene": "style_memory",
+      "change": "默认活泼度 +1：夏停越怕越会给机器、规矩和尴尬取外号；痛处掉出来前必须有嘴快回弹。"
+    }
+  ]
+}

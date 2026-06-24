@@ -1,0 +1,22 @@
+{
+  "project": "rain_shed_code_demo",
+  "structure": "branch_and_bottleneck",
+  "routes": [
+    {
+      "id": "common_route",
+      "title": "取件码失效前四分钟",
+      "dramatic_question": "程砚会按取件码归还七号伞，还是承认伞柄里的声音需要另一个处理方式？",
+      "entry_conditions": [],
+      "spine_scenes": ["S001"],
+      "choice_logic": {
+        "S001_RAIN": {
+          "rain_log": ["record_clean +1", "trust_lujin -1", "kept_recording false"],
+          "rain_open": ["rule_breach +1", "trust_lujin +1", "kept_recording true"],
+          "rain_hold": ["delay_clock +2", "rule_breach +1", "kept_recording true"]
+        }
+      },
+      "bottleneck": "备用灯闪烁，取件码进入失效倒计时，三种处理都回到七号伞放在桌线中央。",
+      "ending_logic": "短篇只写第一场，后续可扩为鹿今线、许栀线、制度线。"
+    }
+  ]
+}

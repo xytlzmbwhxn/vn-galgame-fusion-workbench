@@ -1,0 +1,947 @@
+{
+  "script": "02_projects\\017_便利店把雨收好\\02_generated_content\\scripts\\csv\\便利店把雨收好_心理质感重写版.csv",
+  "project_id": "017_便利店把雨收好",
+  "generated_at": "2026-06-23T18:05:58+08:00",
+  "row_count": 553,
+  "dialogue_count": 308,
+  "thought_count": 19,
+  "choice_count": 4,
+  "debt_counts": {
+    "click_unit_low_payload": 111,
+    "click_unit_overfragmented": 42,
+    "thought_misclassified_narration": 1
+  },
+  "blocking": [],
+  "debts": {
+    "click_unit_low_payload": [
+      {
+        "beat_id": "S001_0008",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "欢迎光——",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_0009",
+        "speaker": "CHR_linyan",
+        "excerpt": "先别欢迎。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_0017",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "雨伞套免费。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_0018",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "雨不能收。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_0029",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "它已经听见了。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_0033",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "找伞要写四项。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_0037",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "这是经验。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_0039",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "差不多。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_0075",
+        "speaker": "CHR_linyan",
+        "excerpt": "啊。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_0077",
+        "speaker": "CHR_linyan",
+        "excerpt": "不对。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_0083",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "那继续登记。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_0091",
+        "speaker": "CHR_linyan",
+        "excerpt": "谢谢。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_0095",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "收到。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_0100",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "遗失时间。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_0123",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "你来过。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_0124",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "没买东西。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_0125",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "看了豆浆。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_0128",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "那我换说法。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_0129",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "你当时很冷。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_0130",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "也很饿。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_0148",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "第二件半价。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_0149",
+        "speaker": "CHR_linyan",
+        "excerpt": "你这个人……",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_0151",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "你看了十一秒。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_0153",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "烫。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_0160",
+        "speaker": "CHR_linyan",
+        "excerpt": "小孩拿了。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_0164",
+        "speaker": "CHR_linyan",
+        "excerpt": "它也嫌我烦啊。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_0165",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "他买了水果糖。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_0170",
+        "speaker": "CHR_linyan",
+        "excerpt": "午休四十分钟。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_0171",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "走过来八分钟。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_0173",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "夜班太闲。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_0175",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "不逃课。午休。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_0182",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "这张不能给你。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_0188",
+        "speaker": "CHR_linyan",
+        "excerpt": "那你呢？",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_0190",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "我负责被骂。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_0192",
+        "speaker": "CHR_linyan",
+        "excerpt": "听起来很熟练。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_0200",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "十点三十七。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_0202",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "水果糖。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_0206",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "我记。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_0210",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "到明天午休。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_0212",
+        "speaker": "CHR_linyan",
+        "excerpt": "如果过期？",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_0214",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "你可以骂。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_0223",
+        "speaker": "CHR_linyan",
+        "excerpt": "我没车了。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_0234",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "拿这个。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_0235",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "我两点下班。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_0240",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "流程。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_0241",
+        "speaker": "CHR_linyan",
+        "excerpt": "江迟。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_0242",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "嗯。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_0244",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "那你拿不拿。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_0247",
+        "speaker": "CHR_linyan",
+        "excerpt": "我拿了就欠你。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_0251",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "那记账。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_0253",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "欠店员三句骂。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_0255",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "分期还。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_0258",
+        "speaker": "CHR_linyan",
+        "excerpt": "铁算盘一号。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_0263",
+        "speaker": "CHR_linyan",
+        "excerpt": "江迟！",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_0264",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "什么。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_0265",
+        "speaker": "CHR_linyan",
+        "excerpt": "明天别迟到。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_0266",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "我夜班。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_0267",
+        "speaker": "CHR_linyan",
+        "excerpt": "那也别。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S002_0286",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "可以登记。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S002_0290",
+        "speaker": "CHR_linyan",
+        "excerpt": "还你。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S002_0297",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "找到了。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S002_0300",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "确认一下。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S002_0326",
+        "speaker": "CHR_linyan",
+        "excerpt": "你背一遍。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S002_0328",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "十点三十七。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S002_0330",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "水果糖。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S002_0336",
+        "speaker": "CHR_linyan",
+        "excerpt": "还在缓存里啊。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S002_0338",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "没过期。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S002_0342",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "可以登记。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S002_0344",
+        "speaker": "CHR_linyan",
+        "excerpt": "……又来！",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S002_0354",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "需要。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S002_0355",
+        "speaker": "CHR_linyan",
+        "excerpt": "你答得太快了！",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S002_0369",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "那这把呢。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S002_0370",
+        "speaker": "CHR_linyan",
+        "excerpt": "先放你这。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S002_0377",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "那登记。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S002_0378",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "寄存人，林檐。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S002_0379",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "物品，蓝伞。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S002_0382",
+        "speaker": "CHR_linyan",
+        "excerpt": "最后一句划掉！",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S002_0383",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "不划。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S002_0385",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "嗯。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S002_0386",
+        "speaker": "CHR_linyan",
+        "excerpt": "后天也可能来。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S002_0387",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "嗯。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S002_0389",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "登记吗。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S003_0433",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "晚自习几点。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S003_0441",
+        "speaker": "CHR_linyan",
+        "excerpt": "它同意了。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S003_0446",
+        "speaker": "CHR_linyan",
+        "excerpt": "我跟我爸说了。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S003_0470",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "那旧伞呢。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S003_0471",
+        "speaker": "CHR_linyan",
+        "excerpt": "继续放你这。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S003_0477",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "寄存期。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S003_0479",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "太长。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S003_0480",
+        "speaker": "CHR_linyan",
+        "excerpt": "你还嫌弃客户？",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S003_0481",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "店里空间有限。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S003_0483",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "可以。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S003_0491",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "业务说明。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S003_0493",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "已经在解释了。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S003_0497",
+        "speaker": "CHR_linyan",
+        "excerpt": "这句能给我吗？",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S003_0501",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "何姨要看。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S003_0502",
+        "speaker": "CHR_linyan",
+        "excerpt": "那你再写一张。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S003_0503",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "纸要钱。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S003_0504",
+        "speaker": "CHR_linyan",
+        "excerpt": "我买豆浆。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S003_0505",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "第二件半价。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S003_0507",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "这样比较安全。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S003_0515",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "社团退了。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S003_0516",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "成绩掉了。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S003_0518",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "我说好。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S003_0524",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "什么。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S003_0525",
+        "speaker": "CHR_linyan",
+        "excerpt": "你那些说好。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S003_0531",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "扫码枪误触。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S003_0535",
+        "speaker": "CHR_linyan",
+        "excerpt": "我走了。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S003_0536",
+        "speaker": "CHR_linyan",
+        "excerpt": "明天不一定来。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S003_0537",
+        "speaker": "CHR_linyan",
+        "excerpt": "后天也不一定。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S003_0540",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "忘什么。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      }
+    ],
+    "click_unit_overfragmented": [
+      {
+        "beat_id": "S001_0018",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "雨不能收。",
+        "reason": "同一角色连续短句可能应合并为一个更有负载的点击单位。"
+      },
+      {
+        "beat_id": "S001_0077",
+        "speaker": "CHR_linyan",
+        "excerpt": "不对。",
+        "reason": "同一角色连续短句可能应合并为一个更有负载的点击单位。"
+      },
+      {
+        "beat_id": "S001_0100",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "遗失时间。",
+        "reason": "同一角色连续短句可能应合并为一个更有负载的点击单位。"
+      },
+      {
+        "beat_id": "S001_0113",
+        "speaker": "CHR_linyan",
+        "excerpt": "黄线大人，我遵守了。",
+        "reason": "同一角色连续短句可能应合并为一个更有负载的点击单位。"
+      },
+      {
+        "beat_id": "S001_0124",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "没买东西。",
+        "reason": "同一角色连续短句可能应合并为一个更有负载的点击单位。"
+      },
+      {
+        "beat_id": "S001_0125",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "看了豆浆。",
+        "reason": "同一角色连续短句可能应合并为一个更有负载的点击单位。"
+      },
+      {
+        "beat_id": "S001_0126",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "然后走的时候没拿伞。",
+        "reason": "同一角色连续短句可能应合并为一个更有负载的点击单位。"
+      },
+      {
+        "beat_id": "S001_0129",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "你当时很冷。",
+        "reason": "同一角色连续短句可能应合并为一个更有负载的点击单位。"
+      },
+      {
+        "beat_id": "S001_0130",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "也很饿。",
+        "reason": "同一角色连续短句可能应合并为一个更有负载的点击单位。"
+      },
+      {
+        "beat_id": "S001_0131",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "但你没有进来求助。",
+        "reason": "同一角色连续短句可能应合并为一个更有负载的点击单位。"
+      },
+      {
+        "beat_id": "S001_0166",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "小票有会员记录。",
+        "reason": "同一角色连续短句可能应合并为一个更有负载的点击单位。"
+      },
+      {
+        "beat_id": "S001_0182",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "这张不能给你。",
+        "reason": "同一角色连续短句可能应合并为一个更有负载的点击单位。"
+      },
+      {
+        "beat_id": "S001_0184",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "可以夹在本子里。",
+        "reason": "同一角色连续短句可能应合并为一个更有负载的点击单位。"
+      },
+      {
+        "beat_id": "S001_0202",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "水果糖。",
+        "reason": "同一角色连续短句可能应合并为一个更有负载的点击单位。"
+      },
+      {
+        "beat_id": "S001_0223",
+        "speaker": "CHR_linyan",
+        "excerpt": "我没车了。",
+        "reason": "同一角色连续短句可能应合并为一个更有负载的点击单位。"
+      },
+      {
+        "beat_id": "S001_0235",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "我两点下班。",
+        "reason": "同一角色连续短句可能应合并为一个更有负载的点击单位。"
+      },
+      {
+        "beat_id": "S001_0236",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "雨如果没停，我跑回去。",
+        "reason": "同一角色连续短句可能应合并为一个更有负载的点击单位。"
+      },
+      {
+        "beat_id": "S001_0252",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "欠便利店一把黑伞。",
+        "reason": "同一角色连续短句可能应合并为一个更有负载的点击单位。"
+      },
+      {
+        "beat_id": "S001_0253",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "欠店员三句骂。",
+        "reason": "同一角色连续短句可能应合并为一个更有负载的点击单位。"
+      },
+      {
+        "beat_id": "S001_0254",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "欠豆浆一声谢谢。",
+        "reason": "同一角色连续短句可能应合并为一个更有负载的点击单位。"
+      },
+      {
+        "beat_id": "S001_0255",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "分期还。",
+        "reason": "同一角色连续短句可能应合并为一个更有负载的点击单位。"
+      },
+      {
+        "beat_id": "S001_0259",
+        "speaker": "CHR_linyan",
+        "excerpt": "你家店员很会放贷。",
+        "reason": "同一角色连续短句可能应合并为一个更有负载的点击单位。"
+      },
+      {
+        "beat_id": "S001_0263",
+        "speaker": "CHR_linyan",
+        "excerpt": "江迟！",
+        "reason": "同一角色连续短句可能应合并为一个更有负载的点击单位。"
+      },
+      {
+        "beat_id": "S002_0290",
+        "speaker": "CHR_linyan",
+        "excerpt": "还你。",
+        "reason": "同一角色连续短句可能应合并为一个更有负载的点击单位。"
+      },
+      {
+        "beat_id": "S002_0298",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "小孩妈妈早上送来的。",
+        "reason": "同一角色连续短句可能应合并为一个更有负载的点击单位。"
+      },
+      {
+        "beat_id": "S002_0330",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "水果糖。",
+        "reason": "同一角色连续短句可能应合并为一个更有负载的点击单位。"
+      },
+      {
+        "beat_id": "S002_0332",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "黑色书包，小学生。",
+        "reason": "同一角色连续短句可能应合并为一个更有负载的点击单位。"
+      },
+      {
+        "beat_id": "S002_0334",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "拿错伞，早上归还。",
+        "reason": "同一角色连续短句可能应合并为一个更有负载的点击单位。"
+      },
+      {
+        "beat_id": "S002_0350",
+        "speaker": "CHR_linyan",
+        "excerpt": "这个字是你写的。",
+        "reason": "同一角色连续短句可能应合并为一个更有负载的点击单位。"
+      },
+      {
+        "beat_id": "S002_0371",
+        "speaker": "CHR_linyan",
+        "excerpt": "别写丢。写寄存。",
+        "reason": "同一角色连续短句可能应合并为一个更有负载的点击单位。"
+      },
+      {
+        "beat_id": "S002_0378",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "寄存人，林檐。",
+        "reason": "同一角色连续短句可能应合并为一个更有负载的点击单位。"
+      },
+      {
+        "beat_id": "S002_0379",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "物品，蓝伞。",
+        "reason": "同一角色连续短句可能应合并为一个更有负载的点击单位。"
+      },
+      {
+        "beat_id": "S002_0380",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "期限，她想拿走的时候。",
+        "reason": "同一角色连续短句可能应合并为一个更有负载的点击单位。"
+      },
+      {
+        "beat_id": "S003_0434",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "从这里走回去八分钟。",
+        "reason": "同一角色连续短句可能应合并为一个更有负载的点击单位。"
+      },
+      {
+        "beat_id": "S003_0435",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "你还有十四分钟。",
+        "reason": "同一角色连续短句可能应合并为一个更有负载的点击单位。"
+      },
+      {
+        "beat_id": "S003_0446",
+        "speaker": "CHR_linyan",
+        "excerpt": "我跟我爸说了。",
+        "reason": "同一角色连续短句可能应合并为一个更有负载的点击单位。"
+      },
+      {
+        "beat_id": "S003_0472",
+        "speaker": "CHR_linyan",
+        "excerpt": "我今天拿新伞回去。",
+        "reason": "同一角色连续短句可能应合并为一个更有负载的点击单位。"
+      },
+      {
+        "beat_id": "S003_0516",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "成绩掉了。",
+        "reason": "同一角色连续短句可能应合并为一个更有负载的点击单位。"
+      },
+      {
+        "beat_id": "S003_0530",
+        "speaker": "CHR_linyan",
+        "excerpt": "你看，它答应了。",
+        "reason": "同一角色连续短句可能应合并为一个更有负载的点击单位。"
+      },
+      {
+        "beat_id": "S003_0535",
+        "speaker": "CHR_linyan",
+        "excerpt": "我走了。",
+        "reason": "同一角色连续短句可能应合并为一个更有负载的点击单位。"
+      },
+      {
+        "beat_id": "S003_0536",
+        "speaker": "CHR_linyan",
+        "excerpt": "明天不一定来。",
+        "reason": "同一角色连续短句可能应合并为一个更有负载的点击单位。"
+      },
+      {
+        "beat_id": "S003_0537",
+        "speaker": "CHR_linyan",
+        "excerpt": "后天也不一定。",
+        "reason": "同一角色连续短句可能应合并为一个更有负载的点击单位。"
+      }
+    ],
+    "thought_misclassified_narration": [
+      {
+        "beat_id": "S002_0368",
+        "speaker": "CHR_jiangchi",
+        "excerpt": "（她只是需要一个地方，把这句话先放下来。）",
+        "reason": "这行更像摄像机可见动作或物件叙述，不像私密心理。"
+      }
+    ]
+  }
+}

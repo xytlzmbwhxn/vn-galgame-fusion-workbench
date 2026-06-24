@@ -1,0 +1,53 @@
+{
+  "id": "CHR_zhaobo",
+  "scene_entry_state": {
+    "mood": "烦躁，想把最后巡更糊过去",
+    "body": "对讲机电量低，雨衣挂在北门门轴上",
+    "current_goal": "催三号窗交章锁门",
+    "active_lie": "北门今晚没有异常",
+    "unsafe_word": "红章"
+  },
+  "relationship_state": {
+    "CHR_linqiao": {
+      "trust": -1,
+      "read": "小 clerk 会较真，容易写多余备注",
+      "risk": "林桥会把异常写进日志"
+    },
+    "CHR_mengyu": {
+      "trust": -2,
+      "read": "她的声音像三个月前来问北门的家属",
+      "risk": "她知道旧巡更漏洞"
+    }
+  },
+  "voice_state": {
+    "default": "对讲机命令口吻",
+    "under_pressure": "压低声音，命令里夹提醒",
+    "softening_signal": "骂完给出避险动作"
+  },
+  "state_flags": {
+    "knows_old_night": true,
+    "will_deny_on_radio": true,
+    "can_turn_off_fill_light": true
+  },
+  "current_axes": {
+    "deny_vs_leak": "嘴上催关窗，细节里泄露自己知道旧事",
+    "duty_vs_fear": "按规定巡更，同时怕旧巡更表被翻",
+    "rough_vs_care": "骂人催流程，真正提醒会藏在命令里"
+  },
+  "active_wants": [
+    "让三号窗交章",
+    "避免北门被对讲机公开提起",
+    "不让票角进废纸篓"
+  ],
+  "voice_lock": {
+    "must_keep": ["对讲机短命令", "先骂后提醒", "用车站流程词遮掩"],
+    "avoid": ["长篇回忆", "直接承认责任", "温情告白"],
+    "pressure_cues": ["三号窗", "交章", "北门", "别留坑"]
+  },
+  "state_history": [
+    {
+      "scene": "before_S001",
+      "change": "夜班巡更将结束，北门旧事仍在他的回避里"
+    }
+  ]
+}

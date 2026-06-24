@@ -1,0 +1,257 @@
+{
+  "project": "017_便利店把雨收好",
+  "script": "02_generated_content\\scripts\\csv\\便利店把雨收好_正史密度重写_20260624.csv",
+  "scene_id": "S001",
+  "graph": {
+    "__START__": {
+      "rows": 0,
+      "row_types": {},
+      "speakers": {},
+      "memory_refs": [],
+      "effects": [],
+      "choices": [],
+      "jumps": []
+    },
+    "S001_雨袋架旁边": {
+      "rows": 36,
+      "row_types": {
+        "narration": 5,
+        "dialogue": 23,
+        "thought": 4,
+        "command": 2,
+        "choice": 2
+      },
+      "speakers": {
+        "CHR_jiangchi": 8,
+        "CHR_linyan": 15
+      },
+      "memory_refs": [],
+      "effects": [
+        {
+          "beat_id": "S001_035A",
+          "effects": "umbrella_recorded=true"
+        },
+        {
+          "beat_id": "S001_035B",
+          "effects": "early_trust=true"
+        }
+      ],
+      "choices": [
+        {
+          "beat_id": "S001_035A",
+          "group": "CHOICE_01",
+          "text": "按失物流程登记",
+          "target": "S001_036A",
+          "effects": "umbrella_recorded=true"
+        },
+        {
+          "beat_id": "S001_035B",
+          "group": "CHOICE_01",
+          "text": "先拿箱里的蓝伞给她确认",
+          "target": "S001_036B",
+          "effects": "early_trust=true"
+        }
+      ],
+      "jumps": []
+    },
+    "S001_036A": {
+      "rows": 5,
+      "row_types": {
+        "dialogue": 5
+      },
+      "speakers": {
+        "CHR_jiangchi": 3,
+        "CHR_linyan": 2
+      },
+      "memory_refs": [],
+      "effects": [],
+      "choices": [],
+      "jumps": []
+    },
+    "S001_036B": {
+      "rows": 58,
+      "row_types": {
+        "narration": 6,
+        "dialogue": 45,
+        "command": 4,
+        "thought": 1,
+        "choice": 2
+      },
+      "speakers": {
+        "CHR_linyan": 25,
+        "CHR_jiangchi": 20
+      },
+      "memory_refs": [],
+      "effects": [
+        {
+          "beat_id": "S001_092A",
+          "effects": "receipt_kept=true"
+        },
+        {
+          "beat_id": "S001_092B",
+          "effects": "receipt_hidden=true"
+        }
+      ],
+      "choices": [
+        {
+          "beat_id": "S001_092A",
+          "group": "CHOICE_02",
+          "text": "把小票夹进失物本",
+          "target": "S001_093A",
+          "effects": "receipt_kept=true"
+        },
+        {
+          "beat_id": "S001_092B",
+          "group": "CHOICE_02",
+          "text": "不留小票，只记线索",
+          "target": "S001_093B",
+          "effects": "receipt_hidden=true"
+        }
+      ],
+      "jumps": []
+    },
+    "S001_093A": {
+      "rows": 5,
+      "row_types": {
+        "narration": 1,
+        "dialogue": 4
+      },
+      "speakers": {
+        "CHR_jiangchi": 3,
+        "CHR_linyan": 1
+      },
+      "memory_refs": [],
+      "effects": [],
+      "choices": [],
+      "jumps": []
+    },
+    "S001_093B": {
+      "rows": 32,
+      "row_types": {
+        "narration": 4,
+        "dialogue": 24,
+        "command": 3,
+        "thought": 1
+      },
+      "speakers": {
+        "CHR_jiangchi": 10,
+        "CHR_linyan": 14
+      },
+      "memory_refs": [],
+      "effects": [],
+      "choices": [],
+      "jumps": []
+    },
+    "S002_午休四十分钟": {
+      "rows": 51,
+      "row_types": {
+        "narration": 11,
+        "dialogue": 37,
+        "thought": 2,
+        "command": 1
+      },
+      "speakers": {
+        "CHR_linyan": 26,
+        "CHR_jiangchi": 11
+      },
+      "memory_refs": [],
+      "effects": [
+        {
+          "beat_id": "S002_019A",
+          "effects": "trust_plus=1"
+        },
+        {
+          "beat_id": "S002_019B",
+          "effects": "trust_repaired=1"
+        }
+      ],
+      "choices": [],
+      "jumps": []
+    },
+    "S003_晚自习前的寄存格": {
+      "rows": 78,
+      "row_types": {
+        "narration": 13,
+        "dialogue": 55,
+        "thought": 4,
+        "command": 6
+      },
+      "speakers": {
+        "CHR_heyi": 3,
+        "CHR_jiangchi": 21,
+        "CHR_linyan": 31
+      },
+      "memory_refs": [],
+      "effects": [],
+      "choices": [],
+      "jumps": []
+    }
+  },
+  "known_refs_count": 15,
+  "used_memory_refs": [],
+  "unknown_memory_refs": [],
+  "effect_variables": [
+    "early_trust",
+    "receipt_hidden",
+    "receipt_kept",
+    "trust_plus",
+    "trust_repaired",
+    "umbrella_recorded"
+  ],
+  "state_delta_mismatches": [],
+  "character_control": [
+    {
+      "character_id": "CHR_heyi",
+      "name": "何姨",
+      "card": true,
+      "state": true,
+      "memory_log": true,
+      "retrieval_blocks": 2,
+      "dialogue_rows": 3,
+      "voice_targets": [
+        "CHR_heyi"
+      ],
+      "has_sentence_kernel": false,
+      "has_line_energy": false,
+      "has_social_texture": false
+    },
+    {
+      "character_id": "CHR_jiangchi",
+      "name": "江迟",
+      "card": true,
+      "state": true,
+      "memory_log": true,
+      "retrieval_blocks": 4,
+      "dialogue_rows": 76,
+      "voice_targets": [
+        "CHR_jiangchi"
+      ],
+      "has_sentence_kernel": false,
+      "has_line_energy": false,
+      "has_social_texture": false
+    },
+    {
+      "character_id": "CHR_linyan",
+      "name": "林檐",
+      "card": true,
+      "state": true,
+      "memory_log": true,
+      "retrieval_blocks": 4,
+      "dialogue_rows": 114,
+      "voice_targets": [
+        "CHR_linyan"
+      ],
+      "has_sentence_kernel": false,
+      "has_line_energy": false,
+      "has_social_texture": false
+    }
+  ],
+  "issues": [],
+  "source_lessons": [
+    "Yarn Spinner: analyse dialogue as nodes, blocks, destinations, and options.",
+    "ink: parse authored flow, then resolve references into runtime containers.",
+    "Ren'Py: lint jump/menu/label and expression boundaries before trusting script output.",
+    "TwineJS: keep passage ids, tags, and story metadata searchable.",
+    "Character memory systems: separate stable cards, runtime state, and retrievable episodic blocks."
+  ]
+}

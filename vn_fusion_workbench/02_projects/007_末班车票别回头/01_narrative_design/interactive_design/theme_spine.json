@@ -1,0 +1,45 @@
+{
+  "thesis_question": "一条被撤销的线路，还能不能通过人的选择继续留下回声？",
+  "player_role": "雨夜总站临时售票员",
+  "repeated_player_behavior": "验票、盖章、撕票根、备注异常、交出确认铃。",
+  "cost_of_playing_well": "系统风险、段伯警告、明早报表、林屿的旧伤都会上升。",
+  "false_comfort": "只要按系统无效处理，夜班就能干净结束。",
+  "material_object": "湿旧车票与绿色验票章",
+  "route_arguments": [
+    {
+      "route_id": "ROUTE_stamp",
+      "argument": "公开承认会制造麻烦，也会让被抹掉的人重新有位置。",
+      "cost": "异常章进入报表，段伯警惕上升。",
+      "payoff": "临站在系统里留下可追踪痕迹。"
+    },
+    {
+      "route_id": "ROUTE_stub",
+      "argument": "证据可以很小，小到只剩票根，也能让人少一点孤单。",
+      "cost": "乔萌得到的承认较弱，林屿继续躲在手续后面。",
+      "payoff": "票根可触发失物夹与档案柜线索。"
+    },
+    {
+      "route_id": "ROUTE_bell",
+      "argument": "有些确认必须由当事人按下，旁人帮忙会夺走她的最后一步。",
+      "cost": "林屿失去控制，旧站名被更多人听见。",
+      "payoff": "确认铃成为公共见证。"
+    }
+  ],
+  "final_payoff": "末班车开走前，玩家留下的标记决定临站是报表异常、票根证据，还是铃声里的公开承认。",
+  "bad_end_shadow_answers": [
+    "系统无效，故事也无效。",
+    "替她按下确认，等于又一次把她推出站台。"
+  ],
+  "object_reinterpretations": [
+    {
+      "object_id": "OBJ_wet_ticket",
+      "first_reading": "难办的旧票。",
+      "later_reading": "外婆留给乔萌的最后一张回程。"
+    },
+    {
+      "object_id": "OBJ_green_stamp",
+      "first_reading": "售票口工具。",
+      "later_reading": "林屿愿不愿承担见证风险。"
+    }
+  ]
+}

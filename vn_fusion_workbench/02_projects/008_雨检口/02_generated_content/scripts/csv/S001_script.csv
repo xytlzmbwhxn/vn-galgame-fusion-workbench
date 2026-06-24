@@ -1,0 +1,26 @@
+scene_id,beat_id,row_type,speaker,text,voice_target,expression,body_action,bg,bgm,sfx,choice_group,choice_text,choice_target,condition,effects,memory_refs,qa_notes
+S001,S001-001,command,,changeBg:bg_station_night_rain.png,,,,bg_station_night_rain.png,rain_shift.ogg,,,,,,,,开场背景与雨声
+S001,S001-002,narration,,闸机屏又亮了一下。红字卡在“23:58”，像没咽下去的鱼刺。,,,邵宁把工牌拨正，手指停在对讲机侧键上,,rain_shift.ogg,beep_low,,,,,,global_memory,环境先压人
+S001,S001-003,dialogue,CHR_shaoning,站外已经封了。你从哪儿进来的？,短句/流程/压迫,neutral,他站在门侧，挡住进站口半步,,,,,,,,,voice_shaoning,邵宁先问流程
+S001,S001-004,dialogue,CHR_cenyao,我不进站。就看一眼。,碎句/回避名词,wet,岑遥把袖口往掌心里卷，湿票根露出一角,,,,,,,,,voice_cenyao,岑遥不说看什么
+S001,S001-005,dialogue,CHR_shaoning,看什么。,短句/追问,neutral,邵宁没有看她，先看闸机屏,,,,,,,,,voice_shaoning,省问号
+S001,S001-006,dialogue,CHR_cenyao,纸的。你们这儿还有纸的吧？,碎句/物件优先,wet,她的鞋尖把一滴水碾开,,,,,,,,,voice_cenyao,纸质登记
+S001,S001-007,narration,,热水壶响起来，白汽顶着壶盖抖。邵宁听见她后半句变轻。,,,热水壶水声盖过半个名字,,,kettle_hiss,,,,,,OBJ_kettle,环境遮挡
+S001,S001-008,dialogue,CHR_shaoning,登记簿？,短句/确认,alert,他终于看她手里的票根,,,,,,,,,voice_shaoning,对象浮出
+S001,S001-009,dialogue,CHR_cenyao,嗯。别开监控。,碎句/回避,wet,岑遥把票根攥回掌心，纸角皱掉,,,,,,,,,voice_cenyao,提出禁区
+S001,S001-010,dialogue,CHR_shaoning,这句话不归你管。,流程压人,hard,邵宁翻开值班抽屉，钥匙碰到铁盒,,,,,,,,,voice_shaoning,硬
+S001,S001-011,dialogue,CHR_cenyao,那你报警。,被逼时礼貌,blank,她退到门框边，背碰到玻璃,,,,,,,,,voice_cenyao,反推
+S001,S001-012,narration,,门玻璃里映出站厅。雨水在外面爬，里面空得太干净。,,,邵宁的手停在报警流程卡上,,,,,,,,,OBJ_door_glass,空站厅
+S001,S001-013,choice,,,,,,,,,C001,先查纸质登记,S001_REGISTER,,flag_checked_register_first=true;trust_cenyao+=1,,选择改变路线
+S001,S001-014,choice,,,,,,,,,C001,先调监控,S001_MONITOR,,flag_checked_monitor_first=true;trust_cenyao-=1,,选择改变路线
+S001,S001-015,comment,,选择后分支：S001_REGISTER 或 S001_MONITOR。,,,,,,,,,,,,,导出 WebGAL 时会生成 choose
+S001,S001-016,command,,label:S001_REGISTER;,,,,,,,,,,,,,WebGAL 标签
+S001,S001-017,dialogue,CHR_shaoning,三分钟。只看登记簿。到点我按流程走。,安排工作式温柔,hard,他把报警流程卡扣在桌面下，没让她看见,,,,,,,,trust_cenyao+=1,PROM_no_police_yet,承诺
+S001,S001-018,dialogue,CHR_cenyao,你别写我全名。,请求绕开,wet,岑遥把湿票根放到登记簿边上，只递到一半,,,,,,,,,voice_cenyao,亲近但防备
+S001,S001-019,command,,jumpLabel:S001_END;,,,,,,,,,,,,,分支结束
+S001,S001-020,command,,label:S001_MONITOR;,,,,,,,,,,,,,WebGAL 标签
+S001,S001-021,dialogue,CHR_shaoning,监控先走。你站在镜头里，别贴门。,流程压人,hard,他按下对讲机，声音比刚才低,,,,,,,,trust_cenyao-=1,,走流程
+S001,S001-022,dialogue,CHR_cenyao,行。你会后悔的。,短句/刺人,blank,岑遥松开票根，纸掉在地上的水里,,,,,,,,,voice_cenyao,后悔但刺人
+S001,S001-023,command,,jumpLabel:S001_END;,,,,,,,,,,,,,分支结束
+S001,S001-024,command,,label:S001_END;,,,,,,,,,,,,,结尾标签
+S001,S001-025,narration,,登记簿的最后一页洇开了。邵宁看见两年前的日期，墨水边缘像被人用指腹抹过。,,,他没有马上翻下一页,,,,,,,,,SEC_old_record_changed,结尾钩子

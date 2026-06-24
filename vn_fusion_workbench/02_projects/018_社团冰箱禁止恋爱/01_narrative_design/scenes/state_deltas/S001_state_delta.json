@@ -1,0 +1,30 @@
+{
+  "scene_id": "S001",
+  "sets": [
+    "fridge_rule_love_note=false",
+    "pink_note_temporarily_saved=true",
+    "recovery_deadline=after_first_afternoon_class"
+  ],
+  "branch_states": [
+    "note_as_receipt",
+    "direct_question",
+    "recipient_temporarily_private",
+    "little_peace_milk_debt"
+  ],
+  "relationship_changes": [
+    "gu_huai_bias_visible_through_process",
+    "xia_li_trusts_gu_huai_with_note",
+    "mutual_teasing_moves_from_object_proxy_to_named_recipient"
+  ],
+  "object_state": {
+    "pink_note": "folded and stored in Gu Huai's account book last page",
+    "little_peace_milk": "left with Gu Huai as afternoon callback",
+    "fridge_rule": "public wording changed from love-note ban to non-cold-storage note ban"
+  },
+  "memory_updates_after_acceptance": [
+    "顾淮把粉色便签暂存为冷藏凭证",
+    "夏梨通过物件拟人化试探顾淮",
+    "下午第一节课后存在回收约定",
+    "小平安草莓牛奶成为关系回调"
+  ]
+}

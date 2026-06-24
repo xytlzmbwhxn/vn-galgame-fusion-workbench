@@ -1,0 +1,40 @@
+{
+  "arcs": [
+    {
+      "id": "ARC_linyu_procedure_to_witness",
+      "character_id": "CHR_linyu",
+      "start_mask": "只按系统办事的夜班临时工。",
+      "current_state": "用手续保护自己，也用手续给别人留缝。",
+      "pressure": "乔萌的旧票让他想起临站和父亲。",
+      "target_shift": "愿意承担一次见证风险。",
+      "allowed_regression": "被段伯警告后仍会退回程序口吻。",
+      "scene_beats": {
+        "S001": "从判无效到给出三种处理方式。"
+      }
+    },
+    {
+      "id": "ARC_qiaomeng_joke_to_bell",
+      "character_id": "CHR_qiaomeng",
+      "start_mask": "把旧站请求包装成可爱麻烦的女孩。",
+      "current_state": "怕被笑话，仍要替旧票争一格。",
+      "pressure": "林屿和系统都可能让票无效。",
+      "target_shift": "亲手按下确认铃，承认自己在求一个回程。",
+      "allowed_regression": "被拒绝时会把话说成玩笑。",
+      "scene_beats": {
+        "S001": "从撒娇改签到说出票在饭卡套住了三年。"
+      }
+    },
+    {
+      "id": "ARC_duanbo_silence_to_key",
+      "character_id": "CHR_duanbo",
+      "start_mask": "压住旧账的老调度。",
+      "current_state": "嘴上阻止，行动上留下钥匙。",
+      "pressure": "年轻人和旧票同时逼近档案柜。",
+      "target_shift": "承认自己当年也欠一份登记。",
+      "allowed_regression": "用规章和夜班安全压人。",
+      "scene_beats": {
+        "S001": "听见处理声音后入场，警告旧12路不能乱盖。"
+      }
+    }
+  ]
+}

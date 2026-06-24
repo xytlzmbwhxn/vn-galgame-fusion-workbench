@@ -1,0 +1,9 @@
+{
+  "id": "QSL_P020",
+  "targets": {
+    "soft_opening": "用钟声和失物箱引出 POV，不硬自我介绍。",
+    "dialogue_blocks": "三人对白允许连续 run，有动作和心理口袋打断。",
+    "interiority": "心理行承担推理和选择压力，不写镜头可见事实。",
+    "casual_texture": "自然出现反问、放松和语气词。"
+  }
+}

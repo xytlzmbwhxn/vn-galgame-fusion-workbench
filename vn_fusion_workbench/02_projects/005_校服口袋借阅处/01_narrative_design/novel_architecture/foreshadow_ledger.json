@@ -1,0 +1,23 @@
+{
+  "items": [
+    {
+      "id": "FS_paper_star",
+      "first_use": "林秋摸到内袋里硬纸角。",
+      "second_reading": "纸星星是唐米替 48 号留下的道歉方式。",
+      "payoff": "选择拆内袋或改借出牌时保留。"
+    },
+    {
+      "id": "FS_blue_card",
+      "first_use": "蓝色借出牌上写着 48 号，但没有归还签名。",
+      "second_reading": "借出牌缺的不是手续，是一个不敢写的名字。",
+      "payoff": "玩家可以把借出牌翻到唐米名下。"
+    },
+    {
+      "id": "FS_tape_sound",
+      "first_use": "封箱胶带每拉一次都很响。",
+      "second_reading": "陶笙用响声打断不想听见的话。",
+      "payoff": "回收车来前，陶笙主动让林秋别急着封。"
+    }
+  ]
+}
+

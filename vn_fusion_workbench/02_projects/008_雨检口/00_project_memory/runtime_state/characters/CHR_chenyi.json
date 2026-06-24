@@ -1,0 +1,71 @@
+{
+  "character_id": "CHR_chenyi",
+  "updated_after_scene": "S003",
+  "current_axes": {
+    "trust": 3,
+    "anger": 2,
+    "fear": 3,
+    "curiosity": 4,
+    "fatigue": 4,
+    "shame": 3
+  },
+  "active_wants": [
+    "finish the lost-property handover without letting Shao Ning lose his job",
+    "keep Cen Yao away from the person who came asking earlier",
+    "avoid admitting she mishandled an old lost item"
+  ],
+  "active_fears": [
+    "a proper signature may expose the girl",
+    "Shao Ning will choose the form over the person because of old guilt",
+    "her own old mistake has returned"
+  ],
+  "unspoken_truths": [
+    "someone came earlier asking about a girl with the surname Cen",
+    "the blue card sleeve from the lost-property box is older than tonight",
+    "she remembers a similar wet ticket from two years ago"
+  ],
+  "voice_lock": {
+    "sentence_shapes": [
+      "domestic object first, warning second",
+      "scolding used as care",
+      "practical lie phrased as housekeeping",
+      "short line when old shame is touched"
+    ],
+    "dodge_moves": [
+      "talk about food, cleaning, or signatures instead of danger",
+      "claim bad eyesight",
+      "put an object over the incriminating paper"
+    ],
+    "allowed_words": ["小邵", "小姑娘", "饭凉了", "失物箱", "签字", "别犯轴", "拖把"],
+    "forbidden_drift": [
+      "grand moral lecture",
+      "detective-style deduction speech",
+      "clean confession of the old incident",
+      "literary metaphor"
+    ],
+    "sample_lines": [
+      "你别犯轴。表是表，人是人。",
+      "我眼花了，只看见拖把倒了。",
+      "签我的。你们两个手都别伸。"
+    ]
+  },
+  "relationship_pressure": {
+    "CHR_shaoning": {
+      "current_leverage": "she can cover an informal handover; he can make her sign an official form",
+      "debt": "food, small cover-ups, old station favors",
+      "dangerous_line": "That form did not save anyone last time."
+    },
+    "CHR_cenyao": {
+      "current_leverage": "she recognizes the lost item; Cen Yao can identify the old mistake",
+      "debt": "unspoken old lost-property error",
+      "dangerous_line": "I handed that thing to the wrong person."
+    }
+  },
+  "promises_and_debts": [],
+  "state_history": [
+    {
+      "scene_id": "S003",
+      "change": "becomes part of the cover-up or the official record depending on player choice"
+    }
+  ]
+}

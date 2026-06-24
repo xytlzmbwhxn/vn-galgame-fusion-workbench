@@ -1,0 +1,40 @@
+{
+  "qualities": [
+    {
+      "id": "trust_main",
+      "visibility": "hidden",
+      "range_or_type": "0..5",
+      "dramatic_use": "",
+      "failure_state": ""
+    }
+  ],
+  "storylets": [
+    {
+      "id": "STL_001",
+      "title": "",
+      "prerequisites": [],
+      "entry_pressure": "",
+      "effects": [],
+      "payoff_refs": []
+    }
+  ],
+  "microinteractions": [
+    {
+      "id": "MIC_001",
+      "type": "inspect",
+      "player_facing_copy": "",
+      "immediate_feedback": "",
+      "effects": [],
+      "delayed_callback": "",
+      "production_cue": ""
+    }
+  ],
+  "callbacks": [
+    {
+      "id": "CB_001",
+      "listens_for": "",
+      "changes": ""
+    }
+  ]
+}
+

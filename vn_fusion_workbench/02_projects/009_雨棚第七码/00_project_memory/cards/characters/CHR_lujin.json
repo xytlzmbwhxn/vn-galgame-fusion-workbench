@@ -1,0 +1,58 @@
+{
+  "id": "CHR_lujin",
+  "name": "鹿今",
+  "role": "runner_claimant",
+  "age": 19,
+  "public_want": "在取件码失效前拿走七号伞。",
+  "private_want": "阻止程砚立刻把伞柄里的录音笔扫入系统。",
+  "fear": "许栀练了三遍的道歉被值班系统当作失物附件公开。",
+  "social_mask": "跑腿很熟、嘴很甜、什么事都能用玩笑糊过去。",
+  "taboo_topic": "偷",
+  "route_question": "鹿今能不能停止替别人热闹，把真正害怕的名字说出来？",
+  "presentation": {
+    "first_screen_impression": "雨衣拉链只拉到一半，手里攥着皱掉的取件票，笑比脚步先冲进雨棚。",
+    "memory_points": [
+      "叫程砚程值班。",
+      "怕被检查时会先夸对方。",
+      "撒娇之后常补一刀真话。"
+    ],
+    "signature_objects": ["皱取件票", "荧光发夹", "防水跑腿包"],
+    "signature_gestures": ["甩袖口雨水", "用手心压住伞柄", "把票根折成小船"],
+    "charm_hook": "明明心虚，还能给自己的心虚编排队号。",
+    "liveliness_floor": "再慌也要多一个可爱的岔题。",
+    "punctuation_play": "问号和感叹多，省略用来吞掉名字。",
+    "arc_promise": "从替人抢回物件，走向替人承认声音。"
+  },
+  "embodiment": {
+    "hands": ["把取件票折来折去", "按住伞柄的力度比笑声重"],
+    "gaze": ["先看程砚手里的章", "说到许栀时看雨棚外"],
+    "posture": ["半个身子探过桌线", "被逼问时脚尖往出口偏"],
+    "idle_action": "用发夹敲票根边。",
+    "pressure_action": "把笑声抬高半拍。"
+  },
+  "speech_fingerprint": {
+    "default_rhythm": "轻快跳跃，先撒娇再补条件。",
+    "pressure_rhythm": "句子更绕，问号变多，名字咬掉。",
+    "vocabulary": ["程值班", "拜托嘛", "跑腿单", "七号小伞", "先别扫"],
+    "fillers": ["欸", "好嘛", "拜托", "真的真的"],
+    "dodge": "把危险问题变成玩笑或夸奖。",
+    "lie_style": "说得太热闹，细节补得过满。",
+    "request_style": "先撒娇，再给一个看似无害的小忙。",
+    "tenderness_style": "替别人挡一下难堪，嘴上说自己顺路。",
+    "cruelty_style": "笑着把责任塞给流程。",
+    "punctuation": "问号、感叹、省略，偶尔没收尾。",
+    "sentence_kernel_profile": {
+      "base": "撒娇称呼 + 轻快理由 + 突然正经补丁",
+      "example_shapes": ["程值班，给我十秒嘛？", "我只是跑腿，跑到心虚那种。", "先别扫……真的先别。"]
+    },
+    "line_energy_profile": {
+      "default": ["cover", "flatter", "bargain"],
+      "pressure": ["deflect", "plead", "slip_truth"]
+    },
+    "social_texture_profile": {
+      "class_trace": "熟悉校园跑腿群和学生办流程。",
+      "ordinary_quirk": "给自己的慌张编号。",
+      "relationship_move": "把程砚从程值班改成程砚，是求他认真听。"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "arcs": [
+    {"id": "ARC_shenlu_visible", "character_id": "CHR_shenlu", "promise": "从躲开临时责任到承认自己愿意留下。"},
+    {"id": "ARC_fuyao_request", "character_id": "CHR_fuyao", "promise": "从玩笑包装求助到说出真实需要。"},
+    {"id": "ARC_wenmian_soft_threat", "character_id": "CHR_wenmian", "promise": "从温柔等待到温柔追责。"}
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "scene_id": "S001",
+  "sets": [
+    "rooftop_machine_observation=true",
+    "secret_note_sealed=true",
+    "recheck_deadline=before_lunch_break_ends"
+  ],
+  "branch_states": [
+    "seal_without_reading",
+    "ask_refund_reason",
+    "recipient_temporarily_private",
+    "warm_yuzu_soda_debt"
+  ],
+  "relationship_changes": [
+    "shen_lan_bias_visible_through_device_process",
+    "xu_you_trusts_shen_lan_with_secret",
+    "machine_complaint_becomes_recipient_problem"
+  ],
+  "object_state": {
+    "secret_note": "sealed inside Shen Lan's device registration folder",
+    "yuzu_soda": "warm bottle used as callback object",
+    "vending_machine": "tagged as observing after accepting a secret"
+  },
+  "memory_updates_after_acceptance": [
+    "沈岚封存浅黄色秘密纸条",
+    "许柚通过售后投诉试探沈岚",
+    "午休结束前存在复核约定",
+    "温柚子汽水成为关系回调"
+  ]
+}

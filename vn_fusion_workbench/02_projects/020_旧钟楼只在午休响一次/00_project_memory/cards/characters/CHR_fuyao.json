@@ -1,0 +1,31 @@
+{
+  "id": "CHR_fuyao",
+  "name": "符遥",
+  "role": "广播站临时站长，负责午休铃声和失物广播",
+  "first_screen_impression": "抱着小扩音器从走廊拐角探头，像把麻烦说成活动通知的人。",
+  "public_want": "找出旧钟楼多响一下的原因，避免广播站被老师抓。",
+  "private_want": "让沈律一起处理，因为他会把混乱变成步骤，也因为午休和他一起跑腿比较有趣。",
+  "fear": "自己认真求助时被当成闹着玩。",
+  "taboo_topic": "广播站其实没有她表现得那么有把握。",
+  "cornered_behavior": "把请求包装成可爱通知，语速变快，用笑声拖住对方。",
+  "charm_hook": "活泼到像在主持午休灾害演练。",
+  "ordinary_quirk": "给临时行动起很正式的名字，比如“钟楼和平交涉小组”。",
+  "sentence_kernel": "先抛结论，再补一个拜托；会突然降低声音说真话。",
+  "punctuation_habit": "问号和感叹号多；撒娇时用“啦”“嘛”“拜托”。",
+  "body_signature": "小扩音器贴在胸前，紧张时会把音量旋钮拧来拧去。",
+  "relationship_hooks": {
+    "CHR_shenlu": "知道沈律嘴硬但手快，故意叫他“钥匙保管员同学”。",
+    "CHR_wenmian": "怕温眠温柔地追究布丁损失。"
+  },
+  "speech_fingerprint": {
+    "sentence_kernel_profile": "通知腔 + 可爱请求 + 半句真心。",
+    "line_energy_profile": "跳跃、轻快、会用正式词制造喜剧差。",
+    "social_texture_profile": "把人拉进小队，而不是直接命令。"
+  },
+  "example_lines": [
+    "钥匙保管员同学，午休的和平需要你。",
+    "我没有闯祸啦，我只是被一口钟点名了！",
+    "拜托嘛，三分钟，就三分钟。广播站以后给你留晴天音效。"
+  ],
+  "arc_promise": "从用玩笑遮住不安，到敢承认自己需要同伴。"
+}

@@ -1,0 +1,7 @@
+{
+  "scene_id": "S001",
+  "sets": ["umbrella_case_open=true"],
+  "branch_states": ["umbrella_recorded", "early_trust", "receipt_kept", "receipt_hidden"],
+  "relationship_changes": ["linyan_trust_varies_by_evidence", "jiangchi_rule_bending_visible"],
+  "memory_updates_after_acceptance": ["blue_umbrella寄存", "black_umbrella借出又归还", "寄存栏建立"]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "CHR_linyu",
+  "name": "林屿",
+  "role": "player_pov",
+  "identity": {
+    "age": "20",
+    "job": "夜班临时售票员，兼做失物登记",
+    "region": "江南小城",
+    "education_trace": "交通学院休学一年",
+    "class_trace": "家里开过小修车铺，对票据、螺丝和便宜机器都有耐心"
+  },
+  "desire": "把夜班平稳做完，不让撤线旧账被自己经手留下破口。",
+  "fear": "他怕承认旧线路仍有意义，因为父亲当年就是从那条线末站离开的。",
+  "shame_source": "明明记得那一站，却在旧事故调查里签过一份沉默确认。",
+  "presentation": {
+    "first_screen_impression": "说话像在校准机器，手上动作很稳，偶尔会把旧设备叫成同事。",
+    "memory_points": ["把验票机叫老许", "记得每条线路的末班铃声", "紧张时会把票根折成直角"],
+    "signature_objects": ["绿色验票章", "磨白边的票夹", "旧线路手册"],
+    "signature_gestures": ["说话前先看票面日期", "把印章盖在废纸上试力道", "回避问题时整理抽屉"],
+    "relationship_hooks": ["会用办理手续的方式照顾人", "越想帮忙越像在念规定"],
+    "arc_promise": "从只想结清账目，到愿意给无人承认的站名留证据。",
+    "charm_hook": "把老旧设备当值班同伴，嘴硬但会偷偷给机器贴便签。",
+    "liveliness_floor": "再疲惫也保留一点干巴巴的幽默，不让台词变成说明书。",
+    "punctuation_play": "句子偏短，少用叹号；被乔萌带跑时会出现停顿和反问。"
+  },
+  "taboo_topics": ["父亲离开", "旧12路事故", "临站撤销记录"],
+  "speech_fingerprint": {
+    "default_rhythm": "短句、确认项、操作词，像在把局面压回桌面。",
+    "pressure_rhythm": "先报事实，再补一句很轻的私心，尾音收住。",
+    "vocabulary": ["票根", "备注", "盖章", "系统", "末班", "确认"],
+    "fillers": ["嗯", "等一下", "我看票面"],
+    "forbidden_words": ["命运", "灵魂", "救赎", "真正的意义"],
+    "dodge": "把问题转成手续要求。",
+    "lie_style": "只说可核对的半句，留下关键原因。",
+    "request_style": "用平静命令伪装请求。",
+    "tenderness_style": "提醒对方怎么拿票、避开湿边、少走夜路。",
+    "cruelty_style": "把人的愿望压成无法受理。",
+    "punctuation": "逗号少，问号少；紧张时用短停顿。"
+  },
+  "embodiment": {
+    "hands": ["拇指压票角", "印章悬在半空", "票夹边缘敲桌面"],
+    "gaze": ["先看票再看人", "被问到旧站名时看窗外站牌倒影"],
+    "posture": ["坐直，肩膀微紧", "听见旧12路会把抽屉推回去"],
+    "idle_action": "用废票试盖章深浅。",
+    "pressure_action": "把票根折成过分规整的直角。",
+    "environment_first_touch": "检查售票窗的小锁，再摸验票机外壳温度。"
+  },
+  "emotion_axes": {
+    "trust": 2,
+    "anger": 1,
+    "fear": 3,
+    "curiosity": 3,
+    "fatigue": 4,
+    "shame": 3
+  },
+  "relationships": {
+    "CHR_qiaomeng": "陌生乘客，她的轻快让林屿烦躁，也让他无法把她当普通异常票处理。",
+    "CHR_duanbo": "老调度员，像长辈也像旧账的守门人。"
+  },
+  "example_dialogue": {
+    "relaxed": ["票面没烂，系统还能读。你运气比这台验票机好一点。"],
+    "pressured": ["临站已经撤销。系统里没有，就不能按原站改。"],
+    "lying": ["我没听过这个站名。至少今晚的值班记录里没有。"],
+    "apologizing": ["刚才语气重了。票给我，我只看一次，不盖章。"],
+    "intimate": ["别捏湿边，会掉字。你想留的东西已经够少了。"]
+  }
+}

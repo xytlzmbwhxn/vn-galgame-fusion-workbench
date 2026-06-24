@@ -1,0 +1,34 @@
+{
+  "id": "ROUTE_P020",
+  "title": "旧钟楼只在午休响一次",
+  "structure": "single-scene vertical slice with branch-and-merge",
+  "common_route": ["S001"],
+  "routes": [
+    {
+      "id": "route_bell",
+      "name": "午休旧钟线",
+      "scenes": ["S001"],
+      "unlock": "start"
+    }
+  ],
+  "choice_groups": [
+    {
+      "id": "C001_lunch_bell",
+      "scene_id": "S001",
+      "options": [
+        {"choice_id": "branch_calm", "label": "先让钟楼冷静下来", "target": "branch_calm"},
+        {"choice_id": "branch_snack", "label": "先处理布丁赔偿问题", "target": "branch_snack"},
+        {"choice_id": "branch_escape", "label": "声明自己只是路过", "target": "branch_escape"}
+      ],
+      "merge": "merge_after_choice"
+    }
+  ],
+  "state_variables": [
+    "choice_label_48",
+    "trust_fuyao",
+    "trust_wenmian",
+    "shenlu_escape_debt",
+    "bell_clue"
+  ],
+  "ending_logic": "S001 合流后保留一个门缝纸角和午休第二响的后续钩子。"
+}

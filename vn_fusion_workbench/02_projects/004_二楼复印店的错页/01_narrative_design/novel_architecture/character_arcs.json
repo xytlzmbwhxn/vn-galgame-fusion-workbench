@@ -1,0 +1,28 @@
+{
+  "arcs": [
+    {
+      "id": "ARC_xucheng_clean_to_keep",
+      "character_id": "CHR_xucheng",
+      "start_mask": "只认工艺单和合同流程的晚班店员。",
+      "current_state": "闭店前疲惫，押金和合同风险压在手边。",
+      "pressure": "唐栗把一个旧署名变成他能否留样的选择。",
+      "target_shift": "从只追求干净成品，转向区分合同单和私人样张。",
+      "allowed_regression": "提到投诉或合同风险时，他会立刻变硬。",
+      "scene_beats": {
+        "S001": "从退回文件，到让玩家决定样张版本。"
+      }
+    },
+    {
+      "id": "ARC_tangli_joke_to_plain_request",
+      "character_id": "CHR_tangli",
+      "start_mask": "可爱、话多、把求助演成文件事故。",
+      "current_state": "拿着终版文件赶来，心里想保留旧署名。",
+      "pressure": "卡纸把她藏住的旧页推出来。",
+      "target_shift": "从叫小许钉撒娇，到叫许承本名并承认只要一份。",
+      "allowed_regression": "被指出旧页非事故时，她会立刻玩笑化。",
+      "scene_beats": {
+        "S001": "从轻松求助，到把样张请求说清。"
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "CHR_heyi",
+  "name": "何姨",
+  "role": "便利店白班店长，通过便签和电话出场",
+  "first_screen_impression": "嘴硬，管账，骂人像盘点库存。",
+  "public_want": "店里别添奇怪业务。",
+  "private_want": "夜班小孩别被麻烦拖垮。",
+  "fear": "善意没有边界，最后全变成亏账。",
+  "taboo_topic": "承认自己也心软。",
+  "cornered_action": "先骂，再把事情办好。",
+  "charm_hook": "便签像判决书，内容却把伞查好了。",
+  "ordinary_quirk": "把人情账写成工资和库存问题。",
+  "sentence_kernel": "短促，有生活压力，带店长口吻。",
+  "punctuation_habit": "感叹少，句号硬，电话里连续命令。",
+  "body_signature": "不在场，通过便签、电话和规章压住场面。",
+  "relationship_hooks": ["骂江迟豆浆钱从工资扣。", "默认把查伞这件事做完。"],
+  "example_lines": ["便利店没开托儿业务。", "豆浆钱从你工资扣。", "别摆臭脸。"],
+  "arc_promise": "作为规章压力存在，同时证明规章也能替温柔落地。"
+}

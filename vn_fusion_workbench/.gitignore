@@ -1,0 +1,22 @@
+# Kept for people who run Git from inside vn_fusion_workbench.
+
+**/_local/
+node_modules/
+**/node_modules/
+
+00_workbench_core/runtime/*
+!00_workbench_core/runtime/README.md
+!00_workbench_core/runtime/path_aliases.json
+
+*.inspect.ndjson
+*.tmp
+*.temp
+*.bak
+*.log
+__pycache__/
+*.pyc
+
+02_projects/*/99_内部工作/**/node_modules/
+02_projects/*/99_内部工作/**/表格构建/
+02_projects/*/99_内部工作/**/上下文包/
+02_projects/*/99_内部工作/**/*.{png,jpg,jpeg,webp,gif,ndjson,tmp,temp,bak,log}

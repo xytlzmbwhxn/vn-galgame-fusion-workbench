@@ -1,0 +1,16 @@
+{
+  "project": "011_糖罐借火",
+  "start": "S001_START",
+  "routes": [
+    {
+      "id": "R_KEEP_RULE",
+      "choice": "按规定关店，把打火机卖给她",
+      "state_effects": ["store_closed=true", "meitang_return_hook=false"]
+    },
+    {
+      "id": "R_LEAVE_DEPOSIT",
+      "choice": "把旧糖罐当押金，留在柜台",
+      "state_effects": ["store_closed=false", "sugar_jar_deposit=true", "meitang_return_hook=true"]
+    }
+  ]
+}

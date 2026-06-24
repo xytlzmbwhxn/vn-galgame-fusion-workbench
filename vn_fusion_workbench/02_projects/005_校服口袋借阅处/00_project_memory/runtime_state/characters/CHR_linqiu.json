@@ -1,0 +1,40 @@
+{
+  "character_id": "CHR_linqiu",
+  "current_scene": "S001",
+  "current_axes": {
+    "trust": 2,
+    "anger": 1,
+    "fear": 3,
+    "curiosity": 3,
+    "fatigue": 3,
+    "shame": 4
+  },
+  "active_wants": [
+    "19:00 前封箱",
+    "避免 48 号外套被公开追问",
+    "让唐米别把玩笑说得太像求救"
+  ],
+  "withheld_info": [
+    "林秋曾私自保留过退学室友的旧校服",
+    "林秋知道 48 号借出牌缺签名"
+  ],
+  "voice_lock": {
+    "sample_lines": [
+      "『这张黄牌不吃撒娇。它只吃签名和编号』",
+      "『先别撕。胶带今天已经听了三次告别，很累』",
+      "『48 号没有归还签名。手放开，我看内袋』"
+    ],
+    "punctuation": "短问、干吐槽、流程词硬收，少感叹"
+  },
+  "state_history": [
+    {
+      "scene": "pre_S001",
+      "change": "默认活泼度 +1：林秋再紧张也要保留标签小绰号和干巴巴的流程吐槽。"
+    }
+  ],
+  "relationship_state": {
+    "CHR_tangmi": "旧相识；唐米知道林秋有心软违规史。",
+    "CHR_taosheng": "被信任的学生志愿者；怕老师收回钥匙。"
+  }
+}
+

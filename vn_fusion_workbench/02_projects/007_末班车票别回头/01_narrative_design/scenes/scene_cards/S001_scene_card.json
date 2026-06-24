@@ -1,0 +1,80 @@
+{
+  "scene_id": "S001",
+  "title": "湿票与末班铃",
+  "route": "common",
+  "chapter": "CH001",
+  "location": "北桥公交总站夜班售票口",
+  "time": "23:38，雨夜，末班车发车前十七分钟",
+  "background": "bg_ticket_window_rain",
+  "bgm": "bgm_last_bus_low",
+  "entering_pressure": "林屿独自守夜班，系统即将结算。乔萌带来一张湿旧票，要求改签到早已撤销的临站。",
+  "player_want": "处理异常票并避免夜班报表出问题。",
+  "npc_wants": {
+    "CHR_qiaomeng": "让临站被承认，不让旧票被没收。",
+    "CHR_duanbo": "阻止旧12路重新进入记录，同时保护两个年轻人别踩旧账。"
+  },
+  "withheld_truths": {
+    "CHR_linyu": "他记得临站，并且知道旧线路手册在抽屉底。",
+    "CHR_qiaomeng": "旧票和外婆最后一次回程有关。",
+    "CHR_duanbo": "档案柜里有临站撤销材料和遗失布包。"
+  },
+  "usable_objects": [
+    {
+      "id": "OBJ_wet_ticket",
+      "type": "ticket",
+      "description": "湿透的旧车票，临站两个字断开一笔。",
+      "dramatic_use": "证明系统外仍有物证。"
+    },
+    {
+      "id": "OBJ_green_stamp",
+      "type": "tool",
+      "description": "绿色异常章，盖下去会进入报表。",
+      "dramatic_use": "公开承认与风险绑定。"
+    },
+    {
+      "id": "OBJ_bell",
+      "type": "station_device",
+      "description": "售票口确认铃，声音会传到调度室。",
+      "dramatic_use": "把私人请求变成公共声响。"
+    },
+    {
+      "id": "OBJ_ticket_stub",
+      "type": "evidence",
+      "description": "可撕下的票根，边缘已有水痕。",
+      "dramatic_use": "在无法全票承认时留下证据。"
+    },
+    {
+      "id": "OBJ_old_manual",
+      "type": "book",
+      "description": "抽屉底的旧线路手册，封面磨掉半个12。",
+      "dramatic_use": "林屿与旧12路记忆的实物入口。"
+    },
+    {
+      "id": "OBJ_duanbo_key",
+      "type": "key",
+      "description": "段伯腰间的档案柜钥匙。",
+      "dramatic_use": "后续打开旧档案。"
+    }
+  ],
+  "choice_pressure": "三种处理都会承认临站，但承认的声音、风险和亲密度不同。",
+  "chapter_goal": "在一个可制作的夜班售票场景里，同时建立旧12路谜团、乔萌的请求、林屿的回避和段伯的旧账。",
+  "scene_synopsis": "乔萌带湿旧票来改签临站，林屿发现系统无记录却认得站名。玩家在盖章、留票根、按铃之间选择一种承认方式，段伯随后入场压住旧12路。",
+  "pov_character": "CHR_linyu",
+  "narrative_threads": ["THR_station_exists", "THR_linyu_father", "THR_qiaomeng_grandma"],
+  "foreshadow_role": "种下湿票、橘色伞坠、旧线路手册和段伯钥匙四个后续入口。",
+  "prose_texture_target": "短而有操作感的窗口文本，对话连续推进，心理集中在票面、报表、钥匙和旧铃声造成的压力上。",
+  "scene_question": "玩家愿意用什么方式让一张系统无效的票被看见？",
+  "scene_answer": "无论选哪条路，临站都会留下痕迹；区别在于是谁承担声音和记录。",
+  "professional_ritual": "验票读码、试盖章、异常备注、撕票根、按确认铃。",
+  "character_lie_pressure": "乔萌把外婆藏在玩笑里，林屿把记忆藏在手续里，段伯把愧疚藏在规章里。",
+  "dramatic_turn": "林屿发现旧票不是伪造，段伯听见处理声后进入售票口。",
+  "sequel_decision": "下一场根据处理方式进入档案柜、失物夹或调度室铃声记录。",
+  "theme_pressure": "系统说无效时，人还要不要为旧站留一格。",
+  "state_delta_required": ["old_station_mark", "trust_qiaomeng", "duanbo_warning"],
+  "exit_image": "乔萌握着盖章票或票根，确认铃余音停在雨里；段伯的钥匙串在桌边没有收回。",
+  "qa_risks": [
+    "避免角色讲道理解释主题。",
+    "心理描写要写林屿的判断和记忆，不能用环境句冒充。",
+    "乔萌必须保持活泼可爱，不把悲伤写成平铺直叙。"
+  ]
+}

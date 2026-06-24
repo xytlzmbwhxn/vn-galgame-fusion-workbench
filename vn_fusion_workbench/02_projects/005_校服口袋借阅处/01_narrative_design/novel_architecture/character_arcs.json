@@ -1,0 +1,26 @@
+{
+  "arcs": [
+    {
+      "id": "ARC_linqiu",
+      "character": "CHR_linqiu",
+      "start": "相信按标签做事就不会出错。",
+      "turn": "看见内袋纸星星后，第一次把规则和归还分开处理。",
+      "end_hint": "愿意承认自己也在替别人保管一件旧物。"
+    },
+    {
+      "id": "ARC_tangmi",
+      "character": "CHR_tangmi",
+      "start": "用撒娇和昵称把请求包装成小事。",
+      "turn": "发现林秋真的摸到纸星星，玩笑开始断线。",
+      "end_hint": "愿意说出 48 号名字。"
+    },
+    {
+      "id": "ARC_taosheng",
+      "character": "CHR_taosheng",
+      "start": "电话里用手续和截止时间压人。",
+      "turn": "听见 48 号外套后，催促变成绕开的保护。",
+      "end_hint": "承认有些东西不能直接进回收袋。"
+    }
+  ]
+}
+

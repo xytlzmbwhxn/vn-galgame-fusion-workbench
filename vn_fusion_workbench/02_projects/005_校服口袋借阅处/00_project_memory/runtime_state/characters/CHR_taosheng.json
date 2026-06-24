@@ -1,0 +1,40 @@
+{
+  "character_id": "CHR_taosheng",
+  "current_scene": "S001",
+  "current_axes": {
+    "trust": 3,
+    "anger": 2,
+    "fear": 3,
+    "curiosity": 2,
+    "fatigue": 4,
+    "shame": 3
+  },
+  "active_wants": [
+    "让林秋封箱",
+    "别让 48 号旧事在电话外放里摊开",
+    "帮学生留一点不算违规的时间"
+  ],
+  "withheld_info": [
+    "陶笙认得 48 号外套原主",
+    "她当年替唐米压过一条冲突记录"
+  ],
+  "voice_lock": {
+    "sample_lines": [
+      "『小林，封箱胶带别省，省出三厘米也买不了奶茶！』",
+      "『48 号先别动。听见没？别给我把旧账卷进回收车』",
+      "『行，留一角。司机那边我挡两分钟，就两分钟！』"
+    ],
+    "punctuation": "电话外放式逗号和感叹号；关键名字前短停"
+  },
+  "state_history": [
+    {
+      "scene": "pre_S001",
+      "change": "默认活泼度 +1：陶笙严肃也要带行政生活感，骂完必须给一个实际补救步骤。"
+    }
+  ],
+  "relationship_state": {
+    "CHR_linqiu": "信她稳，也担心她偷偷心软。",
+    "CHR_tangmi": "认得唐米嘴甜背后的旧账。"
+  }
+}
+

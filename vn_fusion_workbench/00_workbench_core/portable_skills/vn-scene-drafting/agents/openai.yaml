@@ -1,0 +1,7 @@
+interface:
+  display_name: "VN Scene Drafting"
+  short_description: "编写 Galgame/AVG 场景与分支剧本"
+  default_prompt: "Use $vn-scene-drafting to draft a Chinese visual novel scene with dialogue, choices, state, and QA."
+policy:
+  allow_implicit_invocation: true
+

@@ -1,0 +1,12 @@
+{
+  "script": "02_projects\\last_bus_ticket_demo\\02_generated_content\\scripts\\csv\\S001_last_bus_ticket_v1.csv",
+  "project_id": "last_bus_ticket_demo",
+  "generated_at": "2026-06-22T19:59:34+08:00",
+  "row_count": 89,
+  "dialogue_count": 57,
+  "thought_count": 11,
+  "choice_count": 3,
+  "debt_counts": {},
+  "blocking": [],
+  "debts": {}
+}

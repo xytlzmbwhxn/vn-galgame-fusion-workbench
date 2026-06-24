@@ -1,0 +1,44 @@
+{
+  "project": "社团冰箱禁止恋爱",
+  "structure": "single ending with branch debt",
+  "visible_option_count": 2,
+  "branch_state_count": 4,
+  "routes": [
+    {
+      "id": "common",
+      "scenes": [
+        "S001",
+        "S002"
+      ],
+      "theme_argument": "流程可以遮住偏心，也可以给偏心一个不会烫手的落点。"
+    }
+  ],
+  "choices": [
+    {
+      "id": "CHOICE_01",
+      "axis": "流程保护 vs 直接确认",
+      "options": [
+        "按流程登记为冷藏凭证",
+        "直接问“这张是给我的吗”"
+      ],
+      "states": [
+        "note_as_receipt",
+        "direct_question"
+      ],
+      "rejoin": "S001_REJOIN",
+      "persistent_debt": "顾淮是把真心继续藏进流程，还是更早暴露他已经看懂便签。"
+    }
+  ],
+  "callbacks": [
+    {
+      "id": "afternoon_recovery",
+      "trigger": "下午第一节课后",
+      "objects": [
+        "pink_note",
+        "little_peace_milk"
+      ],
+      "promise": "夏梨会回来回收便签，顾淮必须决定继续暂不公开，还是承认保管人评价。"
+    }
+  ],
+  "ending": "粉色便签被暂存，下午第一节课后回收。"
+}

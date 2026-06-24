@@ -1,0 +1,7 @@
+interface:
+  display_name: "Galgame Workbench Loader"
+  short_description: "加载视觉小说工作台与交接上下文"
+  default_prompt: "Use $galgame-workbench-loader to load the VN workbench, active project, methods, and handoff files."
+policy:
+  allow_implicit_invocation: true
+

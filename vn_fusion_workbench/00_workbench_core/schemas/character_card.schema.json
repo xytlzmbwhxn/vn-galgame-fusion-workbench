@@ -1,0 +1,90 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "VN Character Control Card",
+  "type": "object",
+  "required": ["id", "name", "role", "identity", "desire", "fear", "taboo_topics", "speech_fingerprint", "embodiment", "emotion_axes", "example_dialogue"],
+  "properties": {
+    "id": { "type": "string" },
+    "name": { "type": "string" },
+    "role": { "type": "string" },
+    "identity": {
+      "type": "object",
+      "properties": {
+        "age": { "type": "string" },
+        "job": { "type": "string" },
+        "region": { "type": "string" },
+        "education_trace": { "type": "string" },
+        "class_trace": { "type": "string" }
+      }
+    },
+    "desire": { "type": "string" },
+    "fear": { "type": "string" },
+    "shame_source": { "type": "string" },
+    "presentation": {
+      "type": "object",
+      "properties": {
+        "first_screen_impression": { "type": "string" },
+        "memory_points": { "type": "array", "items": { "type": "string" } },
+        "signature_objects": { "type": "array", "items": { "type": "string" } },
+        "signature_gestures": { "type": "array", "items": { "type": "string" } },
+        "relationship_hooks": { "type": "array", "items": { "type": "string" } },
+        "arc_promise": { "type": "string" },
+        "charm_hook": { "type": "string" },
+        "liveliness_floor": { "type": "string" },
+        "punctuation_play": { "type": "string" }
+      }
+    },
+    "taboo_topics": { "type": "array", "items": { "type": "string" } },
+    "speech_fingerprint": {
+      "type": "object",
+      "required": ["default_rhythm", "pressure_rhythm", "vocabulary", "fillers", "forbidden_words", "dodge", "lie_style", "request_style"],
+      "properties": {
+        "default_rhythm": { "type": "string" },
+        "pressure_rhythm": { "type": "string" },
+        "vocabulary": { "type": "array", "items": { "type": "string" } },
+        "fillers": { "type": "array", "items": { "type": "string" } },
+        "forbidden_words": { "type": "array", "items": { "type": "string" } },
+        "dodge": { "type": "string" },
+        "lie_style": { "type": "string" },
+        "request_style": { "type": "string" },
+        "tenderness_style": { "type": "string" },
+        "cruelty_style": { "type": "string" },
+        "punctuation": { "type": "string" }
+      }
+    },
+    "embodiment": {
+      "type": "object",
+      "properties": {
+        "hands": { "type": "array", "items": { "type": "string" } },
+        "gaze": { "type": "array", "items": { "type": "string" } },
+        "posture": { "type": "array", "items": { "type": "string" } },
+        "idle_action": { "type": "string" },
+        "pressure_action": { "type": "string" },
+        "environment_first_touch": { "type": "string" }
+      }
+    },
+    "emotion_axes": {
+      "type": "object",
+      "properties": {
+        "trust": { "type": "integer", "minimum": 0, "maximum": 5 },
+        "anger": { "type": "integer", "minimum": 0, "maximum": 5 },
+        "fear": { "type": "integer", "minimum": 0, "maximum": 5 },
+        "curiosity": { "type": "integer", "minimum": 0, "maximum": 5 },
+        "fatigue": { "type": "integer", "minimum": 0, "maximum": 5 },
+        "shame": { "type": "integer", "minimum": 0, "maximum": 5 }
+      }
+    },
+    "relationships": { "type": "object" },
+    "example_dialogue": {
+      "type": "object",
+      "properties": {
+        "relaxed": { "type": "array", "items": { "type": "string" } },
+        "pressured": { "type": "array", "items": { "type": "string" } },
+        "lying": { "type": "array", "items": { "type": "string" } },
+        "apologizing": { "type": "array", "items": { "type": "string" } },
+        "intimate": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "character_card_v2_export": { "type": "object" }
+  }
+}

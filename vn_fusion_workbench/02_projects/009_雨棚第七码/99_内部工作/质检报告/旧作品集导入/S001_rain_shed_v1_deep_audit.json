@@ -1,0 +1,332 @@
+{
+  "project": "rain_shed_code_demo",
+  "script": "02_generated_content\\scripts\\csv\\S001_rain_shed_v1.csv",
+  "scene_id": "S001",
+  "graph": {
+    "__START__": {
+      "rows": 0,
+      "row_types": {},
+      "speakers": {},
+      "memory_refs": [],
+      "effects": [],
+      "choices": [],
+      "jumps": []
+    },
+    "START": {
+      "rows": 64,
+      "row_types": {
+        "command": 7,
+        "narration": 3,
+        "thought": 6,
+        "dialogue": 48
+      },
+      "speakers": {
+        "CHR_lujin": 21,
+        "CHR_chengyan": 20,
+        "CHR_xuzhi": 7
+      },
+      "memory_refs": [
+        "ARC_chengyan",
+        "ARC_lujin",
+        "ARC_xuzhi",
+        "CHR_chengyan",
+        "CHR_lujin",
+        "CHR_xuzhi",
+        "FS_rain_alarm",
+        "FS_recorder",
+        "FS_ticket_7",
+        "OBJ_logbook",
+        "OBJ_phone",
+        "OBJ_recorder",
+        "OBJ_stamp",
+        "OBJ_ticket_scanner",
+        "OBJ_ticket_slip",
+        "OBJ_umbrella_7",
+        "THR_rain_shed",
+        "THR_recorder",
+        "THR_ticket"
+      ],
+      "effects": [],
+      "choices": [],
+      "jumps": []
+    },
+    "CHOICE": {
+      "rows": 3,
+      "row_types": {
+        "choice": 3
+      },
+      "speakers": {},
+      "memory_refs": [
+        "FS_rain_alarm",
+        "FS_recorder",
+        "FS_ticket_7",
+        "OBJ_logbook",
+        "OBJ_recorder",
+        "OBJ_stamp",
+        "THR_recorder",
+        "THR_ticket"
+      ],
+      "effects": [
+        {
+          "beat_id": "B068",
+          "effects": "choice_label_48=rain_log; trust_lujin-=1; record_clean+=1; delay_clock+=0; rule_breach+=0; kept_recording=false"
+        },
+        {
+          "beat_id": "B069",
+          "effects": "choice_label_48=rain_open; trust_lujin+=1; record_clean+=0; delay_clock+=1; rule_breach+=1; kept_recording=true"
+        },
+        {
+          "beat_id": "B070",
+          "effects": "choice_label_48=rain_hold; trust_lujin+=2; record_clean-=1; delay_clock+=2; rule_breach+=1; kept_recording=true"
+        }
+      ],
+      "choices": [
+        {
+          "beat_id": "B068",
+          "group": "CG_RAIN_7",
+          "text": "扫入系统，给七号伞盖章",
+          "target": "LOG",
+          "effects": "choice_label_48=rain_log; trust_lujin-=1; record_clean+=1; delay_clock+=0; rule_breach+=0; kept_recording=false"
+        },
+        {
+          "beat_id": "B069",
+          "group": "CG_RAIN_7",
+          "text": "拧开伞柄，先看录音笔",
+          "target": "OPEN",
+          "effects": "choice_label_48=rain_open; trust_lujin+=1; record_clean+=0; delay_clock+=1; rule_breach+=1; kept_recording=true"
+        },
+        {
+          "beat_id": "B070",
+          "group": "CG_RAIN_7",
+          "text": "改成待核验，拖过失效点",
+          "target": "HOLD",
+          "effects": "choice_label_48=rain_hold; trust_lujin+=2; record_clean-=1; delay_clock+=2; rule_breach+=1; kept_recording=true"
+        }
+      ],
+      "jumps": []
+    },
+    "LOG": {
+      "rows": 6,
+      "row_types": {
+        "narration": 1,
+        "dialogue": 3,
+        "thought": 1,
+        "command": 1
+      },
+      "speakers": {
+        "CHR_chengyan": 1,
+        "CHR_lujin": 1,
+        "CHR_xuzhi": 1
+      },
+      "memory_refs": [
+        "CHR_chengyan",
+        "CHR_xuzhi",
+        "FS_recorder",
+        "OBJ_logbook",
+        "OBJ_recorder",
+        "OBJ_stamp",
+        "OBJ_ticket_slip",
+        "THR_rain_shed"
+      ],
+      "effects": [],
+      "choices": [],
+      "jumps": [
+        {
+          "beat_id": "B077",
+          "target": "REJOIN"
+        }
+      ]
+    },
+    "OPEN": {
+      "rows": 8,
+      "row_types": {
+        "narration": 1,
+        "dialogue": 5,
+        "thought": 1,
+        "command": 1
+      },
+      "speakers": {
+        "CHR_lujin": 2,
+        "CHR_chengyan": 2,
+        "CHR_xuzhi": 1
+      },
+      "memory_refs": [
+        "ARC_chengyan",
+        "ARC_lujin",
+        "CHR_chengyan",
+        "CHR_lujin",
+        "CHR_xuzhi",
+        "FS_recorder",
+        "OBJ_recorder",
+        "OBJ_stamp",
+        "OBJ_umbrella_7",
+        "THR_rain_shed",
+        "THR_recorder"
+      ],
+      "effects": [],
+      "choices": [],
+      "jumps": [
+        {
+          "beat_id": "B086",
+          "target": "REJOIN"
+        }
+      ]
+    },
+    "HOLD": {
+      "rows": 9,
+      "row_types": {
+        "narration": 1,
+        "dialogue": 6,
+        "thought": 1,
+        "command": 1
+      },
+      "speakers": {
+        "CHR_chengyan": 2,
+        "CHR_lujin": 2,
+        "CHR_xuzhi": 2
+      },
+      "memory_refs": [
+        "ARC_chengyan",
+        "CHR_lujin",
+        "CHR_xuzhi",
+        "FS_rain_alarm",
+        "OBJ_logbook",
+        "OBJ_stamp",
+        "OBJ_umbrella_7",
+        "THR_rain_shed",
+        "THR_recorder",
+        "THR_ticket"
+      ],
+      "effects": [],
+      "choices": [],
+      "jumps": [
+        {
+          "beat_id": "B096",
+          "target": "REJOIN"
+        }
+      ]
+    },
+    "REJOIN": {
+      "rows": 9,
+      "row_types": {
+        "narration": 1,
+        "dialogue": 7,
+        "thought": 1
+      },
+      "speakers": {
+        "CHR_lujin": 3,
+        "CHR_chengyan": 2,
+        "CHR_xuzhi": 2
+      },
+      "memory_refs": [
+        "ARC_chengyan",
+        "ARC_lujin",
+        "ARC_xuzhi",
+        "CHR_chengyan",
+        "CHR_xuzhi",
+        "FS_rain_alarm",
+        "FS_recorder",
+        "OBJ_logbook",
+        "OBJ_recorder",
+        "OBJ_stamp",
+        "OBJ_ticket_scanner",
+        "OBJ_ticket_slip",
+        "OBJ_umbrella_7",
+        "THR_recorder",
+        "THR_ticket"
+      ],
+      "effects": [],
+      "choices": [],
+      "jumps": []
+    }
+  },
+  "known_refs_count": 38,
+  "used_memory_refs": [
+    "ARC_chengyan",
+    "ARC_lujin",
+    "ARC_xuzhi",
+    "CHR_chengyan",
+    "CHR_lujin",
+    "CHR_xuzhi",
+    "FS_rain_alarm",
+    "FS_recorder",
+    "FS_ticket_7",
+    "OBJ_logbook",
+    "OBJ_phone",
+    "OBJ_recorder",
+    "OBJ_stamp",
+    "OBJ_ticket_scanner",
+    "OBJ_ticket_slip",
+    "OBJ_umbrella_7",
+    "STL_rain_claim",
+    "THR_rain_shed",
+    "THR_recorder",
+    "THR_ticket"
+  ],
+  "unknown_memory_refs": [],
+  "effect_variables": [
+    "choice_label_48",
+    "delay_clock",
+    "kept_recording",
+    "record_clean",
+    "rule_breach",
+    "trust_lujin"
+  ],
+  "state_delta_mismatches": [],
+  "character_control": [
+    {
+      "character_id": "CHR_chengyan",
+      "name": "程砚",
+      "card": true,
+      "state": true,
+      "memory_log": true,
+      "retrieval_blocks": 3,
+      "dialogue_rows": 27,
+      "voice_targets": [
+        "流程冷幽默"
+      ],
+      "has_sentence_kernel": true,
+      "has_line_energy": true,
+      "has_social_texture": true
+    },
+    {
+      "character_id": "CHR_lujin",
+      "name": "鹿今",
+      "card": true,
+      "state": true,
+      "memory_log": true,
+      "retrieval_blocks": 3,
+      "dialogue_rows": 29,
+      "voice_targets": [
+        "lively_plead",
+        "撒娇岔题"
+      ],
+      "has_sentence_kernel": true,
+      "has_line_energy": true,
+      "has_social_texture": true
+    },
+    {
+      "character_id": "CHR_xuzhi",
+      "name": "许栀",
+      "card": true,
+      "state": true,
+      "memory_log": true,
+      "retrieval_blocks": 3,
+      "dialogue_rows": 13,
+      "voice_targets": [
+        "轻声自修正"
+      ],
+      "has_sentence_kernel": true,
+      "has_line_energy": true,
+      "has_social_texture": true
+    }
+  ],
+  "issues": [],
+  "source_lessons": [
+    "Yarn Spinner: analyse dialogue as nodes, blocks, destinations, and options.",
+    "ink: parse authored flow, then resolve references into runtime containers.",
+    "Ren'Py: lint jump/menu/label and expression boundaries before trusting script output.",
+    "TwineJS: keep passage ids, tags, and story metadata searchable.",
+    "Character memory systems: separate stable cards, runtime state, and retrievable episodic blocks."
+  ]
+}

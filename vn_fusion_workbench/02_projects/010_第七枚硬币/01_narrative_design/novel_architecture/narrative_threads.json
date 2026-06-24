@@ -1,0 +1,34 @@
+{
+  "threads": [
+    {
+      "id": "THR_trace",
+      "name": "清洗与留痕",
+      "question": "哪些痕迹应该被洗掉，哪些痕迹必须留到明天？",
+      "pressure": "夏停想洗掉医院味，闻舟知道热敏单会被洗坏。",
+      "scene_roles": {
+        "S001": "seed"
+      },
+      "notes": "后续用开衫、热敏单、机器备注反复回调。"
+    },
+    {
+      "id": "THR_clean_route",
+      "name": "先喘口气",
+      "question": "如果先洗掉痛感，丢失的字迹还能否补回？",
+      "pressure": "高温快洗会给夏停短暂平静，也会伤害证据。",
+      "scene_roles": {
+        "S001": "complication"
+      },
+      "notes": "快洗选择进入 clean_route。"
+    },
+    {
+      "id": "THR_trace_route",
+      "name": "留下难看的证据",
+      "question": "保存证据是否会变成另一种伤害？",
+      "pressure": "热敏单留下后，夏停必须面对母亲最后一晚。",
+      "scene_roles": {
+        "S001": "reveal"
+      },
+      "notes": "保存单据或冷水短漂进入 trace_route。"
+    }
+  ]
+}

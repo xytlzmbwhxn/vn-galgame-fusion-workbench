@@ -1,0 +1,53 @@
+{
+  "id": "CHR_linqiao",
+  "scene_entry_state": {
+    "mood": "疲惫、想快点关窗",
+    "body": "右手有印泥味，左手一直压着章盒钥匙",
+    "current_goal": "清掉最后一笔窗口日志，23:58 交章",
+    "active_lie": "他只是在按系统规定办事",
+    "unsafe_word": "三个月前"
+  },
+  "relationship_state": {
+    "CHR_mengyu": {
+      "trust": 0,
+      "read": "陌生来客，嘴快，拿着一张太干净又太脏的旧票",
+      "risk": "她会把他拖进异常件"
+    },
+    "CHR_zhaobo": {
+      "trust": -1,
+      "read": "熟悉的夜班保安，怕担责，知道旧事",
+      "risk": "对讲机可能把窗口行为留给监控"
+    }
+  },
+  "voice_state": {
+    "default": "流程口吻",
+    "under_pressure": "低声、短句、问票据细节",
+    "softening_signal": "给出可执行帮助，不说安慰"
+  },
+  "state_flags": {
+    "old_refund_guilt": true,
+    "stamp_box_locked": false,
+    "wants_to_close": true
+  },
+  "current_axes": {
+    "trust_vs_risk": "想帮孟雨保留痕迹，但害怕签名追责",
+    "rule_vs_person": "把规则当挡板，同时知道规则可以留下入口",
+    "fatigue_vs_attention": "身体想下班，眼睛仍盯着票角"
+  },
+  "active_wants": [
+    "准点交章",
+    "确认旧票红章来源",
+    "避免票角直接进入废票箱"
+  ],
+  "voice_lock": {
+    "must_keep": ["流程词先行", "不直接说安慰", "用操作表达偏心"],
+    "avoid": ["长篇解释", "连续抒情", "替自己辩白"],
+    "pressure_cues": ["票号", "签名", "窗口日志", "待核"]
+  },
+  "state_history": [
+    {
+      "scene": "before_S001",
+      "change": "夜班交章前仍被三个月前错退记录压着"
+    }
+  ]
+}

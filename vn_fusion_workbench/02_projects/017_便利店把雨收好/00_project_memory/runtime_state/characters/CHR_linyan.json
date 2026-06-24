@@ -1,0 +1,12 @@
+{
+  "character_id": "CHR_linyan",
+  "emotion_axes": {"trust": 1, "anger": 1, "fear": 3, "curiosity": 4, "fatigue": 3, "shame": 4},
+  "current_axes": {"trust": 3, "anger": 1, "fear": 2, "curiosity": 4, "fatigue": 3, "shame": 3},
+  "active_wants": ["明天归还黑伞", "把蓝伞从便利店领回", "用豆浆把感谢说得没那么郑重"],
+  "voice_lock": "疑问和玩笑多，设备外号多，被戳中时先连珠炮再小声补真话。",
+  "state_history": ["S001前：雨夜考砸后丢伞，先用玩笑挡住难堪。", "S001后：确认蓝伞还在，借走黑伞，给江迟留下“记账先生”和明天豆浆的约定。"],
+  "current_goal": "明天回到便利店还伞，顺便把感谢装进豆浆里。",
+  "current_lie": "她只是找伞，不需要别人帮她收拾今天。",
+  "known_facts": ["江迟会登记每件事。", "便利店收银机被她叫作铁算盘。", "江迟会用备注替她留下位置。", "蓝伞暂时留在便利店，黑伞在她手里。"],
+  "relationship_pressure": "欠伞、欠豆浆、欠一句正经谢谢都让她必须回来；她会继续用外号和玩笑把这件事讲轻。"
+}

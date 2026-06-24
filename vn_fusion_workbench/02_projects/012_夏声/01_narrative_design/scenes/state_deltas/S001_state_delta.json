@@ -1,0 +1,49 @@
+{
+  "scene_id": "S001",
+  "initial_state": {
+    "trust_tangxu": 2,
+    "shame_linzhishi": 3,
+    "shame_tangxu": 4,
+    "curiosity_tangxu": 2
+  },
+  "state_deltas": [
+    {
+      "event": "CHR_tangxu enters and sees CHR_linzhishi has score_page_10",
+      "effects": {
+        "shame_tangxu": 5
+      }
+    },
+    {
+      "event": "CHR_linzhishi admits he read the back of score_page_10 (all branches)",
+      "effects": {
+        "trust_tangxu": 3,
+        "shame_tangxu": 3
+      }
+    },
+    {
+      "event": "choice: who did he play for",
+      "branch_own_voice": {
+        "truth_admitted": "self",
+        "trust_tangxu": 3,
+        "shame_tangxu": 4
+      },
+      "branch_leave_unsaid": {
+        "truth_admitted": "music",
+        "trust_tangxu": 2,
+        "curiosity_tangxu": 4
+      },
+      "branch_borrowed_voice": {
+        "truth_admitted": "xushengyuan",
+        "trust_tangxu": 3,
+        "shame_linzhishi": 2
+      }
+    },
+    {
+      "event": "piano carried away",
+      "effects": {
+        "curiosity_tangxu": "all branches +1 permanent",
+        "fatigue_tangxu": "all branches -1 as relief"
+      }
+    }
+  ]
+}

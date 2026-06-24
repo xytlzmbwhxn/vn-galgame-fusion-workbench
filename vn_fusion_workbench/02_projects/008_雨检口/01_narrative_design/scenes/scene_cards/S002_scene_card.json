@@ -1,0 +1,63 @@
+{
+  "scene_id": "S002",
+  "title": "雨棚下",
+  "route": "common",
+  "chapter": "C01",
+  "location": "柳川路站 A 口雨棚",
+  "time": "00:01，备用门锁落下前",
+  "background": "bg_station_canopy_rain.png",
+  "bgm": "rain_shift.ogg",
+  "entering_pressure": "备用卷帘门即将落锁。岑遥站在黄线边，湿票根还没来得及拍证。",
+  "player_want": "在落锁前决定先保护岑遥本人，还是先逼票根露出可保存的日期。",
+  "npc_wants": {
+    "CHR_cenyao": "离开镜头范围，保住湿票根，不被叫出全名"
+  },
+  "withheld_truths": {
+    "CHR_shaoning": "他已经决定替她多拖一分钟，但不愿承认这是私心",
+    "CHR_cenyao": "她的姓能和两年前登记簿上的涂改名对上"
+  },
+  "usable_objects": [
+    {
+      "id": "OBJ_yellow_line",
+      "type": "boundary",
+      "description": "雨棚下的黄线，线内会被站口摄像头拍到",
+      "dramatic_use": "邵宁用站位提醒岑遥避开镜头，岑遥用脚尖试探是否越界"
+    },
+    {
+      "id": "OBJ_spare_umbrella",
+      "type": "resource",
+      "description": "站务室备用伞，伞骨上贴着褪色编号",
+      "dramatic_use": "递伞会变成信任和债，登记伞号能逼出岑遥的姓"
+    },
+    {
+      "id": "OBJ_wet_ticket",
+      "type": "evidence",
+      "description": "湿票根的日期正在被雨水洇开",
+      "dramatic_use": "玩家若先拍照会保住证据，但会让岑遥后退"
+    },
+    {
+      "id": "OBJ_rolling_shutter",
+      "type": "deadline",
+      "description": "备用卷帘门开始下落，铁锈从门槽里掉出来",
+      "dramatic_use": "切断退路，给每句对白加倒计时"
+    },
+    {
+      "id": "OBJ_door_glass_reflection",
+      "type": "misdirection",
+      "description": "玻璃反光会把站内人影叠到雨棚上",
+      "dramatic_use": "制造追踪者的错觉，迫使邵宁先处理站位"
+    }
+  ],
+  "choice_pressure": "递伞会让岑遥说出姓，但可能放走证据；逼她摊开票根能锁住日期，却会伤到她刚建立的信任。",
+  "theme_function": "把制度能登记的物件和制度无法保护的人放在同一个倒计时里。",
+  "scene_question": "备用门锁落下前，邵宁会先保护岑遥的身体位置，还是先保住票根日期？",
+  "scene_answer": "他能得到姓氏或照片线索，但两种做法都会在信任和证据之间留下缺口。",
+  "professional_ritual": "站口落锁、备用伞登记、镜头范围确认。",
+  "character_lie_pressure": "邵宁把保护伪装成登记；岑遥把求助伪装成拒绝。",
+  "dramatic_turn": "广播报错站名，暗示后台记录或监控链路被人动过。",
+  "sequel_decision": "玩家在递伞和逼票根露出日期之间选择，决定债务或证据先成立。",
+  "theme_pressure": "站务能登记一把伞，却无法登记为什么一个人必须站在线外。",
+  "state_delta_required": ["relationship_changes", "item_changes", "route_flags", "deadline_changes"],
+  "exit_image": "岑遥把票根按在玻璃上，日期被雨水啃掉半个数字。",
+  "qa_risks": ["邵宁解释动机", "岑遥突然坦白", "选择只像道德题", "环境只剩雨声"]
+}

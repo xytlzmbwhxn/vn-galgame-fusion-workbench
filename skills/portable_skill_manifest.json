@@ -1,0 +1,107 @@
+{
+  "version": "2026-06-24",
+  "purpose": "Portable skill registry for VN_Workbench_Project. These skills are readable by any AI without relying on host-specific Codex skill installation.",
+  "canonical_dir": "skills",
+  "workbench_copy_dir": "vn_fusion_workbench/00_workbench_core/portable_skills",
+  "handoff_copy_dir": "AI_HANDOFF_PACKAGE/portable_skills",
+  "skills": [
+    {
+      "id": "galgame-workbench-loader",
+      "file": "galgame-workbench-loader/SKILL.md",
+      "use_when": "Another AI or Codex receives this folder, needs to continue work, or must locate the active project and correct context.",
+      "must_read_after": [
+        "START_HERE.md",
+        "项目结构总览.md",
+        "AI_HANDOFF_PACKAGE/handoff_notes/CURRENT_TASK_STATE.md",
+        "AI_HANDOFF_PACKAGE/handoff_notes/WORKBENCH_OPERATING_RULES.md"
+      ]
+    },
+    {
+      "id": "vn-scene-drafting",
+      "file": "vn-scene-drafting/SKILL.md",
+      "use_when": "Writing a new visual novel scene, rewrite, script sample, choice branch, CSV script, or readable preview.",
+      "must_read_after": [
+        "vn_fusion_workbench/00_workbench_core/docs/METHOD_CALLING_WORKFLOW.md",
+        "vn_fusion_workbench/00_workbench_core/methods/method_index.json",
+        "vn_fusion_workbench/00_workbench_core/methods/chinese_vn_generation_hard_gates.md",
+        "vn_fusion_workbench/00_workbench_core/methods/deep_vn_corpus_application.md",
+        "vn_fusion_workbench/00_workbench_core/methods/vn_style_handprint_fusion.md",
+        "vn_fusion_workbench/00_workbench_core/methods/dialogue_block_ownership.md",
+        "vn_fusion_workbench/00_workbench_core/methods/private_thought_pocket_texture.md",
+        "vn_fusion_workbench/00_workbench_core/methods/literary_depth_liveliness_control.md",
+        "current project draft-session bundle"
+      ]
+    },
+    {
+      "id": "vn-fusion-writer",
+      "file": "vn-fusion-writer/SKILL.md",
+      "use_when": "Creating, outlining, drafting, revising, or QA-ing gameplay-fused visual novels and interactive fiction, especially Chinese Galgame/AVG work.",
+      "must_read_after": [
+        "vn_fusion_workbench/00_workbench_core/docs/METHOD_CALLING_WORKFLOW.md",
+        "vn_fusion_workbench/00_workbench_core/methods/method_index.json",
+        "vn_fusion_workbench/00_workbench_core/references/style-guardrails.md",
+        "vn_fusion_workbench/00_workbench_core/references/performance-layer-and-ai-character-control.md"
+      ]
+    },
+    {
+      "id": "vn-presence-revision",
+      "file": "vn-presence-revision/SKILL.md",
+      "use_when": "Text sounds flat, generic, over-polished, AI-like, unlike a human or unlike the character; also use before final prose polish.",
+      "must_read_after": [
+        "vn-presence-revision/references/changed-line-voice-check.md",
+        "vn_fusion_workbench/00_workbench_core/methods/character_presence_revision.md",
+        "vn_fusion_workbench/00_workbench_core/methods/changed_line_voice_integrity_check.md"
+      ]
+    },
+    {
+      "id": "vn-character-memory",
+      "file": "vn-character-memory/SKILL.md",
+      "use_when": "Creating, revising, presenting, or stabilizing characters, voice, runtime state, and long-term memory.",
+      "must_read_after": [
+        "current project character cards",
+        "current project runtime_state/characters",
+        "current project memory_logs/character_memory",
+        "vn_fusion_workbench/00_workbench_core/methods/retrievable_character_memory_blocks.md"
+      ]
+    }
+  ],
+  "related_method_cards": [
+    "character_presence_revision",
+    "changed_line_voice_integrity_check",
+    "source_adaptation_protocol",
+    "portable_skill_handoff_protocol",
+    "generation_context_assembly_order",
+    "user_prompt_response_protocol",
+    "character_setting_presentation",
+    "click_unit_textbox_rhythm",
+    "interiority_not_narration",
+    "private_thought_pocket_texture",
+    "non_preachy_dialogue_pressure",
+    "ai_native_workbench_entrypoint",
+    "workflow_runtime_status",
+    "style_asset_prompt_compiler",
+    "vn_quality_debt_attribution",
+    "chinese_vn_generation_hard_gates",
+    "tutorial_absorption_to_generation_contract",
+    "deep_vn_corpus_application",
+    "vn_style_handprint_fusion",
+    "dialogue_block_ownership",
+    "literary_depth_liveliness_control"
+  ],
+  "workbench_references": {
+    "dir": "vn_fusion_workbench/00_workbench_core/references",
+    "description": "Self-contained reference files copied from vn-fusion-writer. Readable by any AI without host-level Codex skills.",
+    "files": {
+      "style-guardrails": "references/style-guardrails.md",
+      "methodology": "references/methodology.md",
+      "performance-layer": "references/performance-layer-and-ai-character-control.md",
+      "famous-vn-scripts": "references/famous-vn-script-reference.md",
+      "play-fusion-patterns": "references/play-fusion-patterns.md",
+      "templates": "references/templates.md"
+    },
+    "must_read_before_drafting": [
+      "style-guardrails",
+      "performance-layer"
+    ]
+  }
+}

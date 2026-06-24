@@ -1,0 +1,46 @@
+{
+  "scene_id": "S001",
+  "state_changes": [
+    "沈律从路过者变成旧钟楼临时调查小队成员。",
+    "符遥承认广播站并没有安排第二声钟。",
+    "温眠把焦糖布丁券设为正式债务。",
+    "门缝纸角成为下一场调查钩子。"
+  ],
+  "choices": [
+    {
+      "choice_id": "branch_calm",
+      "label": "先让钟楼冷静下来",
+      "target": "branch_calm",
+      "effects": {
+        "choice_label_48": "branch_calm",
+        "trust_fuyao": "+1",
+        "bell_clue": "+1"
+      }
+    },
+    {
+      "choice_id": "branch_snack",
+      "label": "先处理布丁赔偿问题",
+      "target": "branch_snack",
+      "effects": {
+        "choice_label_48": "branch_snack",
+        "trust_wenmian": "+1",
+        "bell_clue": "+1"
+      }
+    },
+    {
+      "choice_id": "branch_escape",
+      "label": "声明自己只是路过",
+      "target": "branch_escape",
+      "effects": {
+        "choice_label_48": "branch_escape",
+        "shenlu_escape_debt": "+1",
+        "bell_clue": "+1"
+      }
+    }
+  ],
+  "memory_updates_after_acceptance": [
+    "MEM_shenlu_lunch_delay",
+    "MEM_fuyao_needs_shenlu",
+    "MEM_wenmian_pudding_debt"
+  ]
+}

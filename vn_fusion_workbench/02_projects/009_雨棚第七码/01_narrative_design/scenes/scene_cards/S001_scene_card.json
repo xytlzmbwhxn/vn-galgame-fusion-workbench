@@ -1,0 +1,90 @@
+{
+  "scene_id": "S001",
+  "title": "七号伞失效前",
+  "route": "common_route",
+  "chapter": "Chapter 1",
+  "location": "南城大学北门失物招领雨棚",
+  "time": "18:41，取件码失效前四分钟",
+  "background": "bg_rain_shed_evening",
+  "bgm": "bgm_lost_items_rain",
+  "entering_pressure": "程砚准备清空雨棚失物箱，鹿今带着被雨泡软的取件票冲进来要拿七号伞，许栀的电话随后打到值班台。",
+  "player_want": "按取件码完成归还，避免值班记录出错，也不想再盖错一枚章。",
+  "chapter_goal": "让玩家学会通过扫码、拆伞柄、改待核验三种动作表达对归还和声音的态度。",
+  "scene_synopsis": "雨夜的失物招领雨棚只剩程砚值班。鹿今带着皱取件票闯进来，撒娇要求在四分钟内拿走七号伞。程砚核对时发现伞柄有轻响，许栀打来电话要求不要外放。玩家选择扫码盖章、拧开伞柄或改成待核验。三种选择回到备用灯闪烁的雨棚，鹿今第一次承认取件码不是她的。",
+  "pov_character": "CHR_chengyan",
+  "narrative_threads": ["THR_ticket", "THR_rain_shed", "THR_recorder"],
+  "foreshadow_role": {
+    "seeds": ["FS_ticket_7", "FS_recorder", "FS_rain_alarm"],
+    "echoes": ["FS_ticket_7", "FS_rain_alarm"],
+    "payoffs": ["FS_recorder"]
+  },
+  "prose_texture_target": "雨棚、扫码枪红光、登记簿、红印章、伞柄卡扣、录音笔红点、备用灯闪烁。文字要像可制作的 Galgame 剧本，旁白和心理不打散连续对话。",
+  "npc_wants": {
+    "CHR_lujin": "拿走七号伞，阻止程砚扫入系统或外放录音，用撒娇和岔题拖住流程。",
+    "CHR_xuzhi": "拿回录音笔，阻止录音外放，同时确认鹿今有没有听见第三遍。"
+  },
+  "withheld_truths": {
+    "CHR_chengyan": "他曾把一封无人认领的信按废纸处理，怕自己又用流程处理掉某个人的声音。",
+    "CHR_lujin": "取件码不是她的，她替许栀来拿伞，也怕自己没有听完第三遍。",
+    "CHR_xuzhi": "第三遍录音是给鹿今的道歉。她想让鹿今听见，又怕她听见。"
+  },
+  "usable_objects": [
+    {
+      "object_id": "OBJ_ticket_scanner",
+      "type": "tool",
+      "description": "值班台上的扫码枪，红光在潮湿票根上延迟。",
+      "dramatic_use": "代表系统承认，也会把伞柄录音归入附件。"
+    },
+    {
+      "object_id": "OBJ_ticket_slip",
+      "type": "record",
+      "description": "被雨泡软的取件票，编号 7 还清楚，姓名被鹿今按住。",
+      "dramatic_use": "鹿今用它证明资格，也用它遮挡真正取件人。"
+    },
+    {
+      "object_id": "OBJ_umbrella_7",
+      "type": "lost_item",
+      "description": "七号长柄伞，伞柄暗格里有轻响。",
+      "dramatic_use": "是失物，也是声音容器。"
+    },
+    {
+      "object_id": "OBJ_recorder",
+      "type": "evidence",
+      "description": "旧录音笔，红点偶尔亮一下。",
+      "dramatic_use": "保留第三遍录音，决定许栀路线。"
+    },
+    {
+      "object_id": "OBJ_logbook",
+      "type": "record",
+      "description": "纸质登记簿，待核验栏还有空格。",
+      "dramatic_use": "可以给程砚拖时间，也会留下违规痕迹。"
+    },
+    {
+      "object_id": "OBJ_stamp",
+      "type": "rule",
+      "description": "红色已归还印章，印油沾在程砚拇指上。",
+      "dramatic_use": "盖下去就代表流程完成。"
+    },
+    {
+      "object_id": "OBJ_phone",
+      "type": "communication",
+      "description": "许栀打到值班台的电话，电流声夹着广播室备用灯提示。",
+      "dramatic_use": "让远处角色进入同一对话框。"
+    }
+  ],
+  "choice_pressure": "扫码盖章能保住记录但可能封存录音；拆伞柄能保留证据但违规；改待核验能拖到许栀到场但让取件码失效。",
+  "scene_question": "程砚会把七号伞按取件码归还，还是承认伞柄里的声音不能直接盖章？",
+  "scene_answer": "程砚必须选择谁来承担读取第三遍的风险：系统、自己，或赶到雨棚的本人。",
+  "professional_ritual": "接票、扫取件码、核对伞号、检查伞柄、翻登记簿、盖红章、改待核验。",
+  "character_lie_pressure": "鹿今说自己只是跑腿；程砚说自己只按流程；许栀说录音笔只是误落。",
+  "dramatic_turn": "程砚拧到七号伞柄松动，电话里许栀轻声要求别外放。",
+  "sequel_decision": "扫码盖章、拧开伞柄、改待核验。",
+  "theme_pressure": "归还流程想要一个干净闭环，但声音会把闭环戳出孔。",
+  "state_delta_required": true,
+  "exit_image": "备用灯闪白，七号伞横在桌线中央，红章、录音笔和皱取件票各压住一角。",
+  "qa_risks": [
+    "鹿今不能只撒娇，要有真正的遮掩压力。",
+    "许栀不能只虚弱，要有广播室自我修正的声纹。",
+    "程砚不能解释主题，要用流程动作和物件外号表现。"
+  ]
+}

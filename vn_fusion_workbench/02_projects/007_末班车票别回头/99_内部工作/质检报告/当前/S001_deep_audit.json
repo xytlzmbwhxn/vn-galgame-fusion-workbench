@@ -1,0 +1,345 @@
+{
+  "project": "last_bus_ticket_demo",
+  "script": "02_generated_content\\scripts\\csv\\S001_last_bus_ticket_v1.csv",
+  "scene_id": "S001",
+  "graph": {
+    "__START__": {
+      "rows": 0,
+      "row_types": {},
+      "speakers": {},
+      "memory_refs": [],
+      "effects": [],
+      "choices": [],
+      "jumps": []
+    },
+    "START": {
+      "rows": 45,
+      "row_types": {
+        "narration": 2,
+        "command": 4,
+        "thought": 7,
+        "dialogue": 29,
+        "choice": 3
+      },
+      "speakers": {
+        "CHR_linyu": 15,
+        "CHR_qiaomeng": 14
+      },
+      "memory_refs": [
+        "ARC_linyu_procedure_to_witness",
+        "ARC_qiaomeng_joke_to_bell",
+        "CHR_duanbo",
+        "CHR_linyu",
+        "CHR_qiaomeng",
+        "FS_duanbo_key",
+        "FS_orange_charm",
+        "FS_wet_ticket",
+        "OBJ_bell",
+        "OBJ_green_stamp",
+        "OBJ_ticket_stub",
+        "OBJ_wet_ticket",
+        "QS_old_station_mark",
+        "THR_linyu_father",
+        "THR_qiaomeng_grandma",
+        "THR_station_exists"
+      ],
+      "effects": [
+        {
+          "beat_id": "BP042",
+          "effects": "old_station_mark=stamp;trust_qiaomeng+=2;duanbo_warning+=2"
+        },
+        {
+          "beat_id": "BP043",
+          "effects": "old_station_mark=stub;trust_qiaomeng+=1;duanbo_warning+=1"
+        },
+        {
+          "beat_id": "BP044",
+          "effects": "old_station_mark=bell;trust_qiaomeng+=2;duanbo_warning+=3"
+        }
+      ],
+      "choices": [
+        {
+          "beat_id": "BP042",
+          "group": "TICKET_HANDLE",
+          "text": "按旧线路盖章",
+          "target": "STAMP_OLD",
+          "effects": "old_station_mark=stamp;trust_qiaomeng+=2;duanbo_warning+=2"
+        },
+        {
+          "beat_id": "BP043",
+          "group": "TICKET_HANDLE",
+          "text": "留下票根证据",
+          "target": "KEEP_STUB",
+          "effects": "old_station_mark=stub;trust_qiaomeng+=1;duanbo_warning+=1"
+        },
+        {
+          "beat_id": "BP044",
+          "group": "TICKET_HANDLE",
+          "text": "让她亲自按铃",
+          "target": "RING_BELL",
+          "effects": "old_station_mark=bell;trust_qiaomeng+=2;duanbo_warning+=3"
+        }
+      ],
+      "jumps": []
+    },
+    "STAMP_OLD": {
+      "rows": 4,
+      "row_types": {
+        "dialogue": 3,
+        "command": 1
+      },
+      "speakers": {
+        "CHR_linyu": 2,
+        "CHR_qiaomeng": 1
+      },
+      "memory_refs": [
+        "CHR_linyu",
+        "CHR_qiaomeng",
+        "FS_wet_ticket",
+        "OBJ_green_stamp",
+        "OBJ_wet_ticket"
+      ],
+      "effects": [],
+      "choices": [],
+      "jumps": [
+        {
+          "beat_id": "BP049",
+          "target": "MERGE"
+        }
+      ]
+    },
+    "KEEP_STUB": {
+      "rows": 4,
+      "row_types": {
+        "dialogue": 3,
+        "command": 1
+      },
+      "speakers": {
+        "CHR_linyu": 2,
+        "CHR_qiaomeng": 1
+      },
+      "memory_refs": [
+        "CHR_linyu",
+        "CHR_qiaomeng",
+        "FS_wet_ticket",
+        "OBJ_ticket_stub"
+      ],
+      "effects": [],
+      "choices": [],
+      "jumps": [
+        {
+          "beat_id": "BP054",
+          "target": "MERGE"
+        }
+      ]
+    },
+    "RING_BELL": {
+      "rows": 6,
+      "row_types": {
+        "dialogue": 4,
+        "command": 2
+      },
+      "speakers": {
+        "CHR_linyu": 2,
+        "CHR_qiaomeng": 2
+      },
+      "memory_refs": [
+        "ARC_qiaomeng_joke_to_bell",
+        "CHR_linyu",
+        "CHR_qiaomeng",
+        "OBJ_bell",
+        "QS_old_station_mark"
+      ],
+      "effects": [],
+      "choices": [],
+      "jumps": [
+        {
+          "beat_id": "BP061",
+          "target": "MERGE"
+        }
+      ]
+    },
+    "MERGE": {
+      "rows": 24,
+      "row_types": {
+        "command": 1,
+        "dialogue": 18,
+        "thought": 4,
+        "narration": 1
+      },
+      "speakers": {
+        "CHR_duanbo": 7,
+        "CHR_qiaomeng": 6,
+        "CHR_linyu": 5
+      },
+      "memory_refs": [
+        "ARC_duanbo_silence_to_key",
+        "ARC_linyu_procedure_to_witness",
+        "ARC_qiaomeng_joke_to_bell",
+        "CHR_duanbo",
+        "CHR_linyu",
+        "CHR_qiaomeng",
+        "FS_duanbo_key",
+        "FS_old_manual",
+        "FS_orange_charm",
+        "OBJ_bell",
+        "OBJ_old_manual",
+        "OBJ_wet_ticket",
+        "QS_duanbo_warning",
+        "QS_old_station_mark",
+        "THR_linyu_father",
+        "THR_qiaomeng_grandma",
+        "THR_station_exists"
+      ],
+      "effects": [],
+      "choices": [],
+      "jumps": []
+    },
+    "END": {
+      "rows": 0,
+      "row_types": {},
+      "speakers": {},
+      "memory_refs": [],
+      "effects": [],
+      "choices": [],
+      "jumps": []
+    }
+  },
+  "known_refs_count": 34,
+  "used_memory_refs": [
+    "ARC_duanbo_silence_to_key",
+    "ARC_linyu_procedure_to_witness",
+    "ARC_qiaomeng_joke_to_bell",
+    "CHR_duanbo",
+    "CHR_linyu",
+    "CHR_qiaomeng",
+    "FS_duanbo_key",
+    "FS_old_manual",
+    "FS_orange_charm",
+    "FS_wet_ticket",
+    "OBJ_bell",
+    "OBJ_green_stamp",
+    "OBJ_old_manual",
+    "OBJ_ticket_stub",
+    "OBJ_wet_ticket",
+    "QS_duanbo_warning",
+    "QS_old_station_mark",
+    "THR_linyu_father",
+    "THR_qiaomeng_grandma",
+    "THR_station_exists"
+  ],
+  "unknown_memory_refs": [],
+  "effect_variables": [
+    "duanbo_warning",
+    "old_station_mark",
+    "trust_qiaomeng"
+  ],
+  "state_delta_mismatches": [],
+  "character_control": [
+    {
+      "character_id": "CHR_duanbo",
+      "name": "段伯",
+      "card": true,
+      "state": true,
+      "memory_log": true,
+      "retrieval_blocks": 4,
+      "dialogue_rows": 7,
+      "voice_targets": [
+        "block",
+        "gruff",
+        "gruff_close",
+        "hard_entry",
+        "pressure",
+        "rough_care",
+        "warning"
+      ],
+      "has_sentence_kernel": false,
+      "has_line_energy": false,
+      "has_social_texture": false
+    },
+    {
+      "character_id": "CHR_linyu",
+      "name": "林屿",
+      "card": true,
+      "state": true,
+      "memory_log": true,
+      "retrieval_blocks": 4,
+      "dialogue_rows": 26,
+      "voice_targets": [
+        "accept_cost",
+        "ask",
+        "care_operation",
+        "care_order",
+        "choice_detail",
+        "choice_frame",
+        "deadpan",
+        "decision_bell",
+        "decision_stamp",
+        "decision_stub",
+        "dry_reply",
+        "honest",
+        "invitation",
+        "limited_help",
+        "machine_mutter",
+        "operation",
+        "plain_tender",
+        "procedure",
+        "quiet_promise",
+        "rule_first",
+        "rule_soft",
+        "soft_boundary",
+        "stand",
+        "understated"
+      ],
+      "has_sentence_kernel": false,
+      "has_line_energy": false,
+      "has_social_texture": false
+    },
+    {
+      "character_id": "CHR_qiaomeng",
+      "name": "乔萌",
+      "card": true,
+      "state": true,
+      "memory_log": true,
+      "retrieval_blocks": 4,
+      "dialogue_rows": 24,
+      "voice_targets": [
+        "accept_cute",
+        "banter_fear",
+        "brave_joke",
+        "bright_probe",
+        "cute_push",
+        "defend_small",
+        "hope_joke",
+        "joke_drop",
+        "memory_leak",
+        "nervous_joke",
+        "panic_cute",
+        "playful_defense",
+        "protest_cute",
+        "relief_bright",
+        "relief_play",
+        "relief_tease",
+        "request",
+        "request_true",
+        "resist_soft",
+        "self_ready",
+        "small_question",
+        "tease",
+        "tease_nervous",
+        "truth_small"
+      ],
+      "has_sentence_kernel": false,
+      "has_line_energy": false,
+      "has_social_texture": false
+    }
+  ],
+  "issues": [],
+  "source_lessons": [
+    "Yarn Spinner: analyse dialogue as nodes, blocks, destinations, and options.",
+    "ink: parse authored flow, then resolve references into runtime containers.",
+    "Ren'Py: lint jump/menu/label and expression boundaries before trusting script output.",
+    "TwineJS: keep passage ids, tags, and story metadata searchable.",
+    "Character memory systems: separate stable cards, runtime state, and retrievable episodic blocks."
+  ]
+}

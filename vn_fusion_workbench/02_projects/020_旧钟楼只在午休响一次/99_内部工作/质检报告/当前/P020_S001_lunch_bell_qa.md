@@ -1,0 +1,59 @@
+# VN Workbench QA Report
+
+## Stats
+- rows: 56
+- dialogue: 32
+- narration: 7
+- thought: 5
+- choice: 3
+- command: 9
+- comment: 0
+- errors: 0
+- warnings: 1
+- dialogue_blocks: 8
+- narration_blocks: 6
+- thought_blocks: 5
+- max_dialogue_block: 9
+- max_narration_block: 2
+- max_thought_block: 1
+- lonely_narration_bridges: 3
+- dialogue_energy_marks: 13
+- dialogue_energy_pct: 41
+- dialogue_question_lines: 8
+- dialogue_exclaim_lines: 5
+- dialogue_pause_or_cut_lines: 3
+- dialogue_casual_particle_lines: 6
+- dialogue_casual_particle_pct: 19
+- dialogue_full_stop_pct: 50
+- dialogue_unmarked_endings: 5
+- dialogue_short_fragments: 1
+- dialogue_short_fragment_pct: 3
+- dialogue_low_payload_lines: 0
+- dialogue_low_payload_pct: 0
+- dialogue_payload_avg_x10: 43
+- branch_labels: 5
+- choice_targets: 3
+- jump_targets: 4
+- unresolved_branch_targets: 0
+- stage_cue_rows: 44
+- stage_cue_pct: 100
+- dialogue_wrapped_quotes: 0
+- dialogue_double_quotes: 0
+- ellipsis_only_boxes: 0
+- first_person_narration_lines: 0
+- comma_fragment_lines: 0
+- multi_sentence_boxes: 0
+- textbox_overflow_risk: 0
+- character_state_files: 3
+- thought_rows: 5
+- thought_to_dialogue_pct: 16
+- scene_contract_fields: 6
+- novel_architecture_files: 4
+- narrative_threads: 1
+- character_arcs: 3
+- foreshadow_items: 1
+- chapter_plan_items: 1
+- novel_scene_layer_fields: 6
+
+## Issues
+- [WARNING] scene: many single narration beats sit between dialogue lines; consider continuous dialogue blocks for immersion

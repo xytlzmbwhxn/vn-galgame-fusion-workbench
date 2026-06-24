@@ -1,0 +1,23 @@
+{
+  "project": "label_room_demo",
+  "structure": "branch_and_bottleneck",
+  "routes": [
+    {
+      "id": "common_route",
+      "title": "封箱前四十分钟",
+      "dramatic_question": "林秋会按标签处理旧物，还是承认标签无法处理借太久的心事？",
+      "entry_conditions": [],
+      "spine_scenes": ["S001"],
+      "choice_logic": {
+        "S001_LABEL": {
+          "label_recycle": ["rule_breach -1", "trust_tangmi -1", "kept_pocket_note false"],
+          "label_archive": ["rule_breach +1", "trust_tangmi +1", "kept_pocket_note true"],
+          "label_borrow": ["rule_breach +2", "trust_tangmi +2", "kept_pocket_note true"]
+        }
+      },
+      "bottleneck": "回收车倒车声响起，三种处理都会回到封箱前的等待。",
+      "ending_logic": "短篇只写第一场，后续可扩为唐米路线、陶笙路线、制度归还线。"
+    }
+  ]
+}
+

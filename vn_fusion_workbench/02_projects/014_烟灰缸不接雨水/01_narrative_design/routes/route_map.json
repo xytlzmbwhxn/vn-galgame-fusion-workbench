@@ -1,0 +1,16 @@
+{
+  "project": "014_烟灰缸不接雨水",
+  "start": "S001_START",
+  "routes": [
+    {
+      "id": "R_REPORT",
+      "choice": "修完机器就走，按流程上报",
+      "state_effects": ["camera_report=true", "shiyao_alone=true", "luchuan_helped=false"]
+    },
+    {
+      "id": "R_TOOLBOX",
+      "choice": "把工具箱推过去，调亮检修灯",
+      "state_effects": ["camera_report=false", "shiyao_alone=false", "luchuan_helped=true"]
+    }
+  ]
+}

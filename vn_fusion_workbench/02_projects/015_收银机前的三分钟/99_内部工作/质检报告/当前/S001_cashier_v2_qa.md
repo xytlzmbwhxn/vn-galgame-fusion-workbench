@@ -1,0 +1,109 @@
+# VN Workbench QA Report
+
+## Stats
+- rows: 31
+- dialogue: 13
+- narration: 13
+- thought: 5
+- choice: 0
+- command: 0
+- comment: 0
+- errors: 14
+- warnings: 42
+- dialogue_blocks: 10
+- narration_blocks: 9
+- thought_blocks: 5
+- max_dialogue_block: 2
+- max_narration_block: 3
+- max_thought_block: 1
+- lonely_narration_bridges: 4
+- dialogue_energy_marks: 9
+- dialogue_energy_pct: 69
+- dialogue_question_lines: 2
+- dialogue_exclaim_lines: 3
+- dialogue_pause_or_cut_lines: 8
+- dialogue_casual_particle_lines: 1
+- dialogue_casual_particle_pct: 8
+- dialogue_full_stop_pct: 8
+- dialogue_unmarked_endings: 12
+- dialogue_short_fragments: 6
+- dialogue_short_fragment_pct: 46
+- dialogue_low_payload_lines: 6
+- dialogue_low_payload_pct: 46
+- dialogue_payload_avg_x10: 15
+- branch_labels: 0
+- choice_targets: 0
+- jump_targets: 0
+- unresolved_branch_targets: 0
+- stage_cue_rows: 10
+- stage_cue_pct: 32
+- dialogue_wrapped_quotes: 12
+- dialogue_double_quotes: 0
+- ellipsis_only_boxes: 0
+- first_person_narration_lines: 0
+- comma_fragment_lines: 0
+- multi_sentence_boxes: 3
+- textbox_overflow_risk: 1
+- character_state_files: 0
+- thought_rows: 5
+- thought_to_dialogue_pct: 38
+- scene_contract_fields: 1
+- novel_architecture_files: 0
+
+## Issues
+- [ERROR] row4: unknown speaker '周也'
+- [WARNING] row4: dialogue row lacks voice_target
+- [ERROR] row6: unknown speaker '林小满'
+- [WARNING] row6: dialogue row lacks voice_target
+- [ERROR] row7: unknown speaker '周也'
+- [WARNING] row7: dialogue row lacks voice_target
+- [ERROR] row9: unknown speaker '林小满'
+- [WARNING] row9: dialogue row lacks voice_target
+- [ERROR] row10: unknown speaker '周也'
+- [WARNING] row10: dialogue row lacks voice_target
+- [ERROR] row13: unknown speaker '林小满'
+- [WARNING] row13: dialogue row lacks voice_target
+- [ERROR] row14: unknown speaker '周也'
+- [WARNING] row14: dialogue row lacks voice_target
+- [ERROR] row16: unknown speaker '林小满'
+- [WARNING] row16: dialogue row lacks voice_target
+- [ERROR] row18: unknown speaker '周也'
+- [WARNING] row18: dialogue row lacks voice_target
+- [ERROR] row22: unknown speaker '林小满'
+- [WARNING] row22: dialogue row lacks voice_target
+- [ERROR] row24: unknown speaker '周也'
+- [WARNING] row24: dialogue row lacks voice_target
+- [ERROR] row26: unknown speaker '林小满'
+- [WARNING] row26: dialogue row lacks voice_target
+- [ERROR] row30: unknown speaker '周也'
+- [WARNING] row30: dialogue row lacks voice_target
+- [ERROR] scene: script has no effects/state changes
+- [WARNING] : dialogue and narration alternate mechanically; group dialogue, interior, or staging into stronger blocks
+- [WARNING] scene: many single narration beats sit between dialogue lines; consider continuous dialogue blocks for immersion
+- [WARNING] dialogue: pause or cutoff punctuation may be overused; make each hesitation carry a specific hidden word
+- [WARNING] dialogue: too many low-information short textboxes; combine action, response, or implication into fuller playable beats
+- [WARNING] dialogue: too many low-payload clicks; each textbox should carry voice, object/action, implication, state, or tactical pressure
+- [WARNING] : dialogue text is wrapped as quoted prose; keep raw textbox text in CSV
+- [WARNING] : dialogue text is wrapped as quoted prose; keep raw textbox text in CSV
+- [WARNING] : dialogue text is wrapped as quoted prose; keep raw textbox text in CSV
+- [WARNING] : dialogue text is wrapped as quoted prose; keep raw textbox text in CSV
+- [WARNING] : dialogue text is wrapped as quoted prose; keep raw textbox text in CSV
+- [WARNING] : narration textbox may exceed the three-line law; move part into stage cue or next screen state
+- [WARNING] : dialogue text is wrapped as quoted prose; keep raw textbox text in CSV
+- [WARNING] : dialogue textbox contains too many sentence beats; split only where the click changes leverage
+- [WARNING] : dialogue text is wrapped as quoted prose; keep raw textbox text in CSV
+- [WARNING] : thought textbox contains too many sentence beats; split only where hesitation, clue reading, or choice pressure changes
+- [WARNING] : dialogue text is wrapped as quoted prose; keep raw textbox text in CSV
+- [WARNING] : dialogue text is wrapped as quoted prose; keep raw textbox text in CSV
+- [WARNING] : dialogue text is wrapped as quoted prose; keep raw textbox text in CSV
+- [WARNING] : dialogue text is wrapped as quoted prose; keep raw textbox text in CSV
+- [WARNING] : dialogue text is wrapped as quoted prose; keep raw textbox text in CSV
+- [WARNING] scene: low production annotation density; add body_action, expression, bg, bgm, sfx, or commands so the script serves game production
+- [WARNING] CHR_lin_xiaoman: missing character_state file for long-term voice and psychology tracking
+- [WARNING] CHR_zhou_ye: missing character_state file for long-term voice and psychology tracking
+- [WARNING] : thought row lacks concrete pressure; tie it to object, body, clue, risk, or unsaid word
+- [WARNING] : thought row lacks concrete pressure; tie it to object, body, clue, risk, or unsaid word
+- [WARNING] : thought row lacks concrete pressure; tie it to object, body, clue, risk, or unsaid word
+- [WARNING] : thought row lacks concrete pressure; tie it to object, body, clue, risk, or unsaid word
+- [WARNING] S001: scene card lacks complete-work fields: scene_answer, professional_ritual, dramatic_turn, sequel_decision, theme_pressure
+- [WARNING] S001: missing novel architecture files; add chapter plan, narrative threads, character arcs, and foreshadow ledger

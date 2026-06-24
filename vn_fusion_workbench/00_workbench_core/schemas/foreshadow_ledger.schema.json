@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "VN Fusion Foreshadow Ledger",
+  "type": "object",
+  "required": ["items"],
+  "properties": {
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "object_or_phrase", "first_scene", "role", "payoff_plan"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^FS_[A-Za-z0-9_]+$" },
+          "object_or_phrase": { "type": "string" },
+          "first_scene": { "type": "string" },
+          "role": { "type": "string", "enum": ["seed", "echo", "mislead", "reveal", "payoff"] },
+          "payoff_plan": { "type": "string" },
+          "current_status": { "type": "string" }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": true
+}

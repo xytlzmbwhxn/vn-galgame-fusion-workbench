@@ -1,0 +1,100 @@
+{
+  "scene_id": "S002",
+  "character_state_changes": [
+    {
+      "character": "CHR_shaoning",
+      "field": "fear",
+      "delta": 1,
+      "reason": "备用门锁倒计时和玻璃反光让他再次绕开流程"
+    },
+    {
+      "character": "CHR_cenyao",
+      "field": "trust",
+      "delta": "choice_dependent",
+      "reason": "递伞提高信任；先逼票根露出日期会降低信任"
+    }
+  ],
+  "relationship_changes": [
+    {
+      "from": "CHR_shaoning",
+      "to": "CHR_cenyao",
+      "change": "邵宁开始用站位和物品替她挡镜头"
+    },
+    {
+      "from": "CHR_cenyao",
+      "to": "CHR_shaoning",
+      "change": "岑遥愿意给出姓氏，或在票根分支收回票根"
+    }
+  ],
+  "item_changes": [
+    {
+      "item": "OBJ_spare_umbrella",
+      "holder_before": "station_office",
+      "holder_after": "choice_dependent",
+      "state": "递伞分支由岑遥持有，形成归还债"
+    },
+    {
+      "item": "OBJ_wet_ticket",
+      "holder_before": "CHR_cenyao",
+      "holder_after": "CHR_cenyao",
+      "state": "日期继续洇开，只保住半个数字"
+    }
+  ],
+  "secret_changes": [
+    {
+      "secret": "SEC_cenyao_surname_matches_old_record",
+      "new_knowers": ["CHR_shaoning"],
+      "reveal_mode": "递伞分支中岑遥为登记伞号说出姓氏"
+    },
+    {
+      "secret": "SEC_partial_ticket_date",
+      "new_knowers": ["CHR_shaoning"],
+      "reveal_mode": "结尾票根贴在玻璃上，只露出半个二"
+    }
+  ],
+  "route_flags": [
+    {
+      "name": "flag_cenyao_surname",
+      "value": "choice_dependent"
+    },
+    {
+      "name": "evidence_ticket_photo",
+      "value": "choice_dependent"
+    },
+    {
+      "name": "flag_seen_partial_date",
+      "value": true
+    }
+  ],
+  "promises": [
+    {
+      "id": "PROM_no_police_yet",
+      "speaker": "CHR_shaoning",
+      "target": "CHR_cenyao",
+      "content": "三分钟内不报警的承诺仍在倒计时",
+      "deadline": "S002 end"
+    }
+  ],
+  "foreshadow_payoff": [
+    {
+      "setup": "S001 湿票根露出两年前日期",
+      "payoff": "S002 只剩半个数字，逼迫玩家以后找第二张票根"
+    }
+  ],
+  "deadline_changes": [
+    {
+      "id": "DL_station_lock",
+      "new_state": "backup_lock_in_76_seconds"
+    }
+  ],
+  "memory_entries_to_write": [
+    {
+      "target": "00_project_memory/memory_logs/character_memory/CHR_shaoning.md",
+      "content": "S002: 邵宁用备用伞和站位替岑遥挡开摄像头，同时继续背着不报警承诺。"
+    },
+    {
+      "target": "00_project_memory/memory_logs/character_memory/CHR_cenyao.md",
+      "content": "S002: 岑遥在递伞分支说出姓氏；在票根分支收回票根并质疑邵宁。"
+    }
+  ]
+}

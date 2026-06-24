@@ -1,0 +1,57 @@
+{
+  "project": "ticket_window_demo",
+  "title": "三号窗口的退票",
+  "structure": "single-scene branch and bottleneck",
+  "common_route": [
+    {
+      "scene_id": "S001",
+      "title": "三号窗口的退票",
+      "function": "teach refund ritual, expose red stamp contradiction, let player choose evidence handling"
+    }
+  ],
+  "variables": [
+    {
+      "id": "trust_meng",
+      "type": "int",
+      "visible_to_player": false,
+      "purpose": "孟雨交出哥哥姓名和红章来源的速度",
+      "initial": 0,
+      "payoff": "高信任时她叫林桥全名并留下联系方式"
+    },
+    {
+      "id": "station_risk",
+      "type": "int",
+      "visible_to_player": false,
+      "purpose": "林桥在窗口日志中的责任暴露",
+      "initial": 0,
+      "payoff": "风险越高，赵伯越会插手"
+    },
+    {
+      "id": "ticket_corner_kept",
+      "type": "bool",
+      "visible_to_player": true,
+      "purpose": "票角是否作为后续证据留存",
+      "initial": false,
+      "payoff": "后续可核对孟舟名字和车次"
+    },
+    {
+      "id": "refund_failed_stamp_used",
+      "type": "bool",
+      "visible_to_player": true,
+      "purpose": "是否留下官方拒退记录",
+      "initial": false,
+      "payoff": "可作为孟雨继续追问的凭据"
+    },
+    {
+      "id": "zhao_warning_unlocked",
+      "type": "bool",
+      "visible_to_player": false,
+      "purpose": "赵伯是否泄露北门风险",
+      "initial": false,
+      "payoff": "开启北门线索"
+    }
+  ],
+  "ending": {
+    "S001": "林桥把拒退记录和票角去向写进不同版本的备注，孟雨带走一个能继续查的入口。"
+  }
+}

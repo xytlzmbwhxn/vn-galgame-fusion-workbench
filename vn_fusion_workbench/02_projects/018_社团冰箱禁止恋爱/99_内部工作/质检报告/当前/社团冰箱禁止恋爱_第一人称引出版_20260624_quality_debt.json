@@ -1,0 +1,587 @@
+{
+  "script": "02_projects\\018_社团冰箱禁止恋爱\\02_generated_content\\scripts\\csv\\社团冰箱禁止恋爱_第一人称引出版_20260624.csv",
+  "project_id": "018_社团冰箱禁止恋爱",
+  "generated_at": "2026-06-24T14:37:40+08:00",
+  "row_count": 209,
+  "dialogue_count": 122,
+  "thought_count": 12,
+  "choice_count": 2,
+  "debt_counts": {
+    "performance_cue_gap": 13,
+    "punctuation_energy_loss": 12,
+    "click_unit_low_payload": 56,
+    "click_unit_overfragmented": 10,
+    "flat_voice": 2
+  },
+  "blocking": [],
+  "debts": {
+    "performance_cue_gap": [
+      {
+        "beat_id": "S001_delivery_0026",
+        "speaker": "CHR_xia_li",
+        "excerpt": "报告顾会计，冰箱先生委托我提出紧急抗议！",
+        "reason": "长对白缺少立绘、动作或音效承托。"
+      },
+      {
+        "beat_id": "S001_delivery_0029",
+        "speaker": "CHR_xia_li",
+        "excerpt": "被没收一封信，还被贴上“禁止恋爱便签”的冷酷标签。",
+        "reason": "长对白缺少立绘、动作或音效承托。"
+      },
+      {
+        "beat_id": "S001_delivery_0030",
+        "speaker": "CHR_xia_li",
+        "excerpt": "它现在压缩机很受伤，制冷效率都变得孤独了。",
+        "reason": "长对白缺少立绘、动作或音效承托。"
+      },
+      {
+        "beat_id": "S001_delivery_0036",
+        "speaker": "CHR_xia_li",
+        "excerpt": "顾会计听见冰箱伤心，只会问它有没有填表。",
+        "reason": "长对白缺少立绘、动作或音效承托。"
+      },
+      {
+        "beat_id": "S001_delivery_0043",
+        "speaker": "CHR_xia_li",
+        "excerpt": "它叫：如果顾会计愿意睁一只眼闭一只眼，下午数学课就会平安无事。",
+        "reason": "长对白缺少立绘、动作或音效承托。"
+      },
+      {
+        "beat_id": "S001_delivery_0058",
+        "speaker": "CHR_xia_li",
+        "excerpt": "如果一张便签贴在冰箱门上，但是它本人没有造成冷藏事故。",
+        "reason": "长对白缺少立绘、动作或音效承托。"
+      },
+      {
+        "beat_id": "S001_delivery_0067",
+        "speaker": "CHR_xia_li",
+        "excerpt": "我申请成立文具权益小组，成员包括我、冰箱先生、便签小姐，以及被你说成鹦鹉的小平安。",
+        "reason": "长对白缺少立绘、动作或音效承托。"
+      },
+      {
+        "beat_id": "S001_delivery_0073",
+        "speaker": "CHR_xia_li",
+        "excerpt": "姓名，夏梨。身份，便签小姐临时代理人。诉求，请顾会计归还早上扣押的粉色证物。",
+        "reason": "长对白缺少立绘、动作或音效承托。"
+      },
+      {
+        "beat_id": "S001_delivery_0074",
+        "speaker": "CHR_xia_li",
+        "excerpt": "补充说明，证物很脆弱，长期夹在账本里会沾上财务气味。",
+        "reason": "长对白缺少立绘、动作或音效承托。"
+      },
+      {
+        "beat_id": "S001_delivery_0077",
+        "speaker": "CHR_xia_li",
+        "excerpt": "像标签纸、圆珠笔、还有“我明明记得但是我偏要装作按流程”的味道。",
+        "reason": "长对白缺少立绘、动作或音效承托。"
+      },
+      {
+        "beat_id": "S001_delivery_0101",
+        "speaker": "CHR_xia_li",
+        "excerpt": "你会把打开吸管说得像办理冷藏许可证。",
+        "reason": "长对白缺少立绘、动作或音效承托。"
+      },
+      {
+        "beat_id": "S001_delivery_0102",
+        "speaker": "CHR_xia_li",
+        "excerpt": "然后当事人还真的会觉得许可证很可靠。",
+        "reason": "长对白缺少立绘、动作或音效承托。"
+      },
+      {
+        "beat_id": "S001_delivery_0123",
+        "speaker": "CHR_xia_li",
+        "excerpt": "顾淮同学因长期参与冷藏事务，被社团冰箱亲切授予代号顾淮。",
+        "reason": "长对白缺少立绘、动作或音效承托。"
+      }
+    ],
+    "punctuation_energy_loss": [
+      {
+        "beat_id": "S001_delivery_0029",
+        "speaker": "CHR_xia_li",
+        "excerpt": "被没收一封信，还被贴上“禁止恋爱便签”的冷酷标签。",
+        "reason": "较长对白缺少可表演的停顿、追问、打断、语气词或演出承托。"
+      },
+      {
+        "beat_id": "S001_delivery_0030",
+        "speaker": "CHR_xia_li",
+        "excerpt": "它现在压缩机很受伤，制冷效率都变得孤独了。",
+        "reason": "较长对白缺少可表演的停顿、追问、打断、语气词或演出承托。"
+      },
+      {
+        "beat_id": "S001_delivery_0036",
+        "speaker": "CHR_xia_li",
+        "excerpt": "顾会计听见冰箱伤心，只会问它有没有填表。",
+        "reason": "较长对白缺少可表演的停顿、追问、打断、语气词或演出承托。"
+      },
+      {
+        "beat_id": "S001_delivery_0043",
+        "speaker": "CHR_xia_li",
+        "excerpt": "它叫：如果顾会计愿意睁一只眼闭一只眼，下午数学课就会平安无事。",
+        "reason": "较长对白缺少可表演的停顿、追问、打断、语气词或演出承托。"
+      },
+      {
+        "beat_id": "S001_delivery_0058",
+        "speaker": "CHR_xia_li",
+        "excerpt": "如果一张便签贴在冰箱门上，但是它本人没有造成冷藏事故。",
+        "reason": "较长对白缺少可表演的停顿、追问、打断、语气词或演出承托。"
+      },
+      {
+        "beat_id": "S001_delivery_0067",
+        "speaker": "CHR_xia_li",
+        "excerpt": "我申请成立文具权益小组，成员包括我、冰箱先生、便签小姐，以及被你说成鹦鹉的小平安。",
+        "reason": "较长对白缺少可表演的停顿、追问、打断、语气词或演出承托。"
+      },
+      {
+        "beat_id": "S001_delivery_0073",
+        "speaker": "CHR_xia_li",
+        "excerpt": "姓名，夏梨。身份，便签小姐临时代理人。诉求，请顾会计归还早上扣押的粉色证物。",
+        "reason": "较长对白缺少可表演的停顿、追问、打断、语气词或演出承托。"
+      },
+      {
+        "beat_id": "S001_delivery_0074",
+        "speaker": "CHR_xia_li",
+        "excerpt": "补充说明，证物很脆弱，长期夹在账本里会沾上财务气味。",
+        "reason": "较长对白缺少可表演的停顿、追问、打断、语气词或演出承托。"
+      },
+      {
+        "beat_id": "S001_delivery_0077",
+        "speaker": "CHR_xia_li",
+        "excerpt": "像标签纸、圆珠笔、还有“我明明记得但是我偏要装作按流程”的味道。",
+        "reason": "较长对白缺少可表演的停顿、追问、打断、语气词或演出承托。"
+      },
+      {
+        "beat_id": "S001_delivery_0101",
+        "speaker": "CHR_xia_li",
+        "excerpt": "你会把打开吸管说得像办理冷藏许可证。",
+        "reason": "较长对白缺少可表演的停顿、追问、打断、语气词或演出承托。"
+      },
+      {
+        "beat_id": "S001_delivery_0102",
+        "speaker": "CHR_xia_li",
+        "excerpt": "然后当事人还真的会觉得许可证很可靠。",
+        "reason": "较长对白缺少可表演的停顿、追问、打断、语气词或演出承托。"
+      },
+      {
+        "beat_id": "S001_delivery_0123",
+        "speaker": "CHR_xia_li",
+        "excerpt": "顾淮同学因长期参与冷藏事务，被社团冰箱亲切授予代号顾淮。",
+        "reason": "较长对白缺少可表演的停顿、追问、打断、语气词或演出承托。"
+      }
+    ],
+    "click_unit_low_payload": [
+      {
+        "beat_id": "S001_delivery_0041",
+        "speaker": "CHR_gu_huai",
+        "excerpt": "第二盒无名。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_delivery_0042",
+        "speaker": "CHR_xia_li",
+        "excerpt": "不，它有名字。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_delivery_0044",
+        "speaker": "CHR_gu_huai",
+        "excerpt": "名字太长。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_delivery_0045",
+        "speaker": "CHR_xia_li",
+        "excerpt": "那简称小平安。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_delivery_0048",
+        "speaker": "CHR_gu_huai",
+        "excerpt": "它是牛奶。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_delivery_0049",
+        "speaker": "CHR_xia_li",
+        "excerpt": "牛奶也有自尊！",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_delivery_0056",
+        "speaker": "CHR_xia_li",
+        "excerpt": "顾会计。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_delivery_0060",
+        "speaker": "CHR_xia_li",
+        "excerpt": "那它算违规吗？",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_delivery_0061",
+        "speaker": "CHR_gu_huai",
+        "excerpt": "本人？",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_delivery_0062",
+        "speaker": "CHR_xia_li",
+        "excerpt": "便签本人。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_delivery_0063",
+        "speaker": "CHR_gu_huai",
+        "excerpt": "便签没有人格。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_delivery_0066",
+        "speaker": "CHR_xia_li",
+        "excerpt": "太落后了！",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_delivery_0068",
+        "speaker": "CHR_gu_huai",
+        "excerpt": "驳回。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_delivery_0069",
+        "speaker": "CHR_xia_li",
+        "excerpt": "这么快？",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_delivery_0075",
+        "speaker": "CHR_gu_huai",
+        "excerpt": "财务没有气味。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_delivery_0076",
+        "speaker": "CHR_xia_li",
+        "excerpt": "有。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_delivery_0083",
+        "speaker": "CHR_gu_huai",
+        "excerpt": "违规物。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_delivery_0084",
+        "speaker": "CHR_xia_li",
+        "excerpt": "情绪附件。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_delivery_0089",
+        "speaker": "CHR_gu_huai",
+        "excerpt": "纸不会脸红。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_delivery_0090",
+        "speaker": "CHR_xia_li",
+        "excerpt": "代理人会。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_delivery_0094",
+        "speaker": "CHR_gu_huai",
+        "excerpt": "给我。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_delivery_0095",
+        "speaker": "CHR_xia_li",
+        "excerpt": "什么？",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_delivery_0096",
+        "speaker": "CHR_gu_huai",
+        "excerpt": "吸管。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_delivery_0104",
+        "speaker": "CHR_xia_li",
+        "excerpt": "这很危险。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_delivery_0114",
+        "speaker": "CHR_xia_li",
+        "excerpt": "等、等一下！",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_delivery_0121",
+        "speaker": "CHR_gu_huai",
+        "excerpt": "疑问句无效。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_delivery_0125",
+        "speaker": "CHR_xia_li",
+        "excerpt": "方便记忆嘛！",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_delivery_0134",
+        "speaker": "CHR_xia_li",
+        "excerpt": "啊？",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_delivery_0135",
+        "speaker": "CHR_gu_huai",
+        "excerpt": "无名牛奶一盒。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_delivery_0136",
+        "speaker": "CHR_gu_huai",
+        "excerpt": "凭证一张。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_delivery_0138",
+        "speaker": "CHR_xia_li",
+        "excerpt": "暂不公开？",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_delivery_0139",
+        "speaker": "CHR_gu_huai",
+        "excerpt": "保护代理人。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_delivery_0141",
+        "speaker": "CHR_xia_li",
+        "excerpt": "顾会计。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_delivery_0143",
+        "speaker": "CHR_gu_huai",
+        "excerpt": "没有这个科目。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_delivery_0148",
+        "speaker": "CHR_gu_huai",
+        "excerpt": "需要。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_delivery_0149",
+        "speaker": "CHR_xia_li",
+        "excerpt": "代理人可以吗？",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_delivery_0154",
+        "speaker": "CHR_gu_huai",
+        "excerpt": "批准冷藏回收。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_delivery_0162",
+        "speaker": "CHR_gu_huai",
+        "excerpt": "嗯。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_delivery_0163",
+        "speaker": "CHR_xia_li",
+        "excerpt": "顾会计也是。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_delivery_0166",
+        "speaker": "CHR_gu_huai",
+        "excerpt": "为什么。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_delivery_0177",
+        "speaker": "CHR_xia_li",
+        "excerpt": "顾会计。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_delivery_0186",
+        "speaker": "CHR_xia_li",
+        "excerpt": "那我收回草稿。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_delivery_0187",
+        "speaker": "CHR_gu_huai",
+        "excerpt": "已经提交。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_delivery_0188",
+        "speaker": "CHR_xia_li",
+        "excerpt": "还没盖章。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_delivery_0189",
+        "speaker": "CHR_gu_huai",
+        "excerpt": "可以补。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_delivery_0190",
+        "speaker": "CHR_xia_li",
+        "excerpt": "不许补！",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_delivery_0192",
+        "speaker": "CHR_gu_huai",
+        "excerpt": "那先暂存。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_delivery_0193",
+        "speaker": "CHR_xia_li",
+        "excerpt": "暂存多久？",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_delivery_0195",
+        "speaker": "CHR_xia_li",
+        "excerpt": "这么短？",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_delivery_0196",
+        "speaker": "CHR_gu_huai",
+        "excerpt": "牛奶需要冷藏。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_delivery_0197",
+        "speaker": "CHR_xia_li",
+        "excerpt": "便签也需要？",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_delivery_0198",
+        "speaker": "CHR_gu_huai",
+        "excerpt": "需要降温。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_delivery_0202",
+        "speaker": "CHR_xia_li",
+        "excerpt": "别冻坏。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_delivery_0204",
+        "speaker": "CHR_gu_huai",
+        "excerpt": "保管完整。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_delivery_0205",
+        "speaker": "CHR_xia_li",
+        "excerpt": "保管人评价？",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      },
+      {
+        "beat_id": "S001_delivery_0206",
+        "speaker": "CHR_gu_huai",
+        "excerpt": "暂不公开。",
+        "reason": "对白点击单位过短，除非配合强演出，否则玩家点击收益偏低。"
+      }
+    ],
+    "click_unit_overfragmented": [
+      {
+        "beat_id": "S001_delivery_0032",
+        "speaker": "CHR_gu_huai",
+        "excerpt": "压缩机也不会孤独。",
+        "reason": "同一角色连续短句可能应合并为一个更有负载的点击单位。"
+      },
+      {
+        "beat_id": "S001_delivery_0033",
+        "speaker": "CHR_gu_huai",
+        "excerpt": "草莓牛奶先登记。",
+        "reason": "同一角色连续短句可能应合并为一个更有负载的点击单位。"
+      },
+      {
+        "beat_id": "S001_delivery_0056",
+        "speaker": "CHR_xia_li",
+        "excerpt": "顾会计。",
+        "reason": "同一角色连续短句可能应合并为一个更有负载的点击单位。"
+      },
+      {
+        "beat_id": "S001_delivery_0114",
+        "speaker": "CHR_xia_li",
+        "excerpt": "等、等一下！",
+        "reason": "同一角色连续短句可能应合并为一个更有负载的点击单位。"
+      },
+      {
+        "beat_id": "S001_delivery_0115",
+        "speaker": "CHR_xia_li",
+        "excerpt": "这个不能算正式证物。",
+        "reason": "同一角色连续短句可能应合并为一个更有负载的点击单位。"
+      },
+      {
+        "beat_id": "S001_delivery_0136",
+        "speaker": "CHR_gu_huai",
+        "excerpt": "凭证一张。",
+        "reason": "同一角色连续短句可能应合并为一个更有负载的点击单位。"
+      },
+      {
+        "beat_id": "S001_delivery_0137",
+        "speaker": "CHR_gu_huai",
+        "excerpt": "收件人暂不公开。",
+        "reason": "同一角色连续短句可能应合并为一个更有负载的点击单位。"
+      },
+      {
+        "beat_id": "S001_delivery_0156",
+        "speaker": "CHR_xia_li",
+        "excerpt": "我懂，流程用语。",
+        "reason": "同一角色连续短句可能应合并为一个更有负载的点击单位。"
+      },
+      {
+        "beat_id": "S001_delivery_0165",
+        "speaker": "CHR_xia_li",
+        "excerpt": "小平安先押在你这里。",
+        "reason": "同一角色连续短句可能应合并为一个更有负载的点击单位。"
+      },
+      {
+        "beat_id": "S001_delivery_0202",
+        "speaker": "CHR_xia_li",
+        "excerpt": "别冻坏。",
+        "reason": "同一角色连续短句可能应合并为一个更有负载的点击单位。"
+      }
+    ],
+    "flat_voice": [
+      {
+        "beat_id": "S001_delivery_0026",
+        "speaker": "CHR_xia_li",
+        "excerpt": "报告顾会计，冰箱先生委托我提出紧急抗议！",
+        "reason": "`CHR_xia_li` 的句形、语气或动作手迹不足。"
+      },
+      {
+        "beat_id": "S001_delivery_0031",
+        "speaker": "CHR_gu_huai",
+        "excerpt": "冰箱没有委托权。",
+        "reason": "`CHR_gu_huai` 的句形、语气或动作手迹不足。"
+      }
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "id": "CHR_id",
+  "name": "",
+  "role": "",
+  "identity": {
+    "age": "",
+    "job": "",
+    "region": "",
+    "education_trace": "",
+    "class_trace": ""
+  },
+  "desire": "",
+  "fear": "",
+  "shame_source": "",
+  "presentation": {
+    "first_screen_impression": "",
+    "memory_points": [],
+    "signature_objects": [],
+    "signature_gestures": [],
+    "relationship_hooks": [],
+    "arc_promise": "",
+    "charm_hook": "",
+    "liveliness_floor": "",
+    "punctuation_play": ""
+  },
+  "taboo_topics": [],
+  "speech_fingerprint": {
+    "default_rhythm": "",
+    "pressure_rhythm": "",
+    "vocabulary": [],
+    "fillers": [],
+    "forbidden_words": [],
+    "dodge": "",
+    "lie_style": "",
+    "request_style": "",
+    "tenderness_style": "",
+    "cruelty_style": "",
+    "punctuation": ""
+  },
+  "embodiment": {
+    "hands": [],
+    "gaze": [],
+    "posture": [],
+    "idle_action": "",
+    "pressure_action": "",
+    "environment_first_touch": ""
+  },
+  "emotion_axes": {
+    "trust": 0,
+    "anger": 0,
+    "fear": 0,
+    "curiosity": 0,
+    "fatigue": 0,
+    "shame": 0
+  },
+  "relationships": {},
+  "example_dialogue": {
+    "relaxed": [],
+    "pressured": [],
+    "lying": [],
+    "apologizing": [],
+    "intimate": []
+  },
+  "character_card_v2_export": {
+    "description": "",
+    "personality": "",
+    "scenario": "",
+    "first_mes": "",
+    "mes_example": "",
+    "system_prompt": "",
+    "post_history_instructions": "",
+    "character_book": {
+      "entries": []
+    }
+  }
+}

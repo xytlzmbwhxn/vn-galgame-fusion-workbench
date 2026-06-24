@@ -1,0 +1,20 @@
+{
+  "id": "route_register",
+  "project": "015_收银机前的三分钟",
+  "type": "kinetic_no_branch",
+  "description": "单线短篇，无分支。围绕收银台前的拉锯展开。",
+  "scenes": [
+    {
+      "id": "S001",
+      "title": "差一块钱",
+      "summary": "深夜便利店，林小满翻包凑钱，周也观察后替她垫了一块钱。"
+    }
+  ],
+  "endings": [
+    {
+      "id": "E001",
+      "type": "single",
+      "description": "林小满走出店门回头看了一眼。欠一块钱——某种关系已经开始了。"
+    }
+  ]
+}

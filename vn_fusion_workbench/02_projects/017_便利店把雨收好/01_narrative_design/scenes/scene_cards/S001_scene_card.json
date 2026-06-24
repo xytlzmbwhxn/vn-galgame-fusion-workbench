@@ -1,0 +1,20 @@
+{
+  "id": "S001",
+  "scene_id": "S001",
+  "title": "雨袋架旁边",
+  "location": "夜雨里的便利店，雨袋架、失物箱、收银台、热饮柜都在同一视野里。",
+  "visual_state": "门口脚垫湿了一半，失物箱在雨袋架下面，收银机屏幕待机。",
+  "bgm": "雨夜低频，自动门和收银机偶尔响。",
+  "entering_pressure": "林檐冲进店里找旧蓝伞，江迟必须决定按流程登记还是先接住她的慌张。",
+  "spoken_agenda": "找伞、登记、查监控、确认明天怎么取。",
+  "private_agenda": "林檐不想承认蓝伞连着母亲；江迟不想承认自己想多管这件事。",
+  "scene_question": "江迟会把这场雨登记成失物流程，还是给林檐留一个能回来的理由？",
+  "scene_answer": "他用失物本、小票和黑伞把关系债写成可执行步骤。",
+  "professional_ritual": "接待、失物登记、监控查询、留证、借伞。",
+  "dramatic_turn": "蓝伞不是普通失物，而是林檐和母亲之间尚未处理完的旧物。",
+  "sequel_decision": "第二天午休回店，分支根据小票或记忆回调。",
+  "theme_pressure": "规章既保护隐私，也可能错过需要被接住的人。",
+  "pov_character": "CHR_jiangchi",
+  "choices": ["CHOICE_01", "CHOICE_02"],
+  "exit_image": "寄存栏建立，蓝伞暂时留在便利店。"
+}

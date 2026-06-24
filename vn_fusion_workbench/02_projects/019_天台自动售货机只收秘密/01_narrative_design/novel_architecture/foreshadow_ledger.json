@@ -1,0 +1,19 @@
+{
+  "foreshadows": [
+    {
+      "id": "FS_note_corner_shen",
+      "setup": "纸条边角露出“沈”字。",
+      "payoff": "午休复核时确认收件人。"
+    },
+    {
+      "id": "FS_warm_yuzu_soda",
+      "setup": "售货机吐出温柚子汽水。",
+      "payoff": "冷藏复核成为下一次见面的借口。"
+    },
+    {
+      "id": "FS_observation_sticker",
+      "setup": "沈岚贴上“观察中”。",
+      "payoff": "观察对象从机器转向两人的秘密。"
+    }
+  ]
+}

@@ -1,0 +1,1173 @@
+{
+  "project": "017_便利店把雨收好",
+  "script": "02_generated_content\\scripts\\csv\\convenience_rain_thought_rewrite_v3.csv",
+  "scene_id": "S001",
+  "graph": {
+    "__START__": {
+      "rows": 0,
+      "row_types": {},
+      "speakers": {},
+      "memory_refs": [],
+      "effects": [],
+      "choices": [],
+      "jumps": []
+    },
+    "S001_雨袋架旁边": {
+      "rows": 50,
+      "row_types": {
+        "command": 5,
+        "narration": 12,
+        "dialogue": 28,
+        "thought": 4,
+        "choice": 1
+      },
+      "speakers": {
+        "CHR_jiangchi": 10,
+        "CHR_linyan": 18
+      },
+      "memory_refs": [
+        "CHR_jiangchi",
+        "CHR_linyan",
+        "THR_blue_umbrella",
+        "THR_receipt_debt"
+      ],
+      "effects": [
+        {
+          "beat_id": "S001_0051",
+          "effects": "umbrella_recorded=true; trust_style=procedure"
+        }
+      ],
+      "choices": [
+        {
+          "beat_id": "S001_0051",
+          "group": "CHOICE_01",
+          "text": "按失物流程登记",
+          "target": "CHOICE_01_A",
+          "effects": "umbrella_recorded=true; trust_style=procedure"
+        }
+      ],
+      "jumps": []
+    },
+    "CHOICE_01_A": {
+      "rows": 0,
+      "row_types": {},
+      "speakers": {},
+      "memory_refs": [],
+      "effects": [],
+      "choices": [],
+      "jumps": []
+    },
+    "LINE_043_A": {
+      "rows": 1,
+      "row_types": {
+        "dialogue": 1
+      },
+      "speakers": {
+        "CHR_jiangchi": 1
+      },
+      "memory_refs": [
+        "CHR_jiangchi"
+      ],
+      "effects": [],
+      "choices": [],
+      "jumps": []
+    },
+    "LINE_044_A": {
+      "rows": 1,
+      "row_types": {
+        "dialogue": 1
+      },
+      "speakers": {
+        "CHR_jiangchi": 1
+      },
+      "memory_refs": [
+        "CHR_jiangchi"
+      ],
+      "effects": [],
+      "choices": [],
+      "jumps": []
+    },
+    "LINE_045_A": {
+      "rows": 1,
+      "row_types": {
+        "dialogue": 1
+      },
+      "speakers": {
+        "CHR_jiangchi": 1
+      },
+      "memory_refs": [
+        "CHR_jiangchi"
+      ],
+      "effects": [],
+      "choices": [],
+      "jumps": []
+    },
+    "LINE_046_A": {
+      "rows": 1,
+      "row_types": {
+        "dialogue": 1
+      },
+      "speakers": {
+        "CHR_linyan": 1
+      },
+      "memory_refs": [
+        "CHR_linyan"
+      ],
+      "effects": [],
+      "choices": [],
+      "jumps": []
+    },
+    "LINE_047_A": {
+      "rows": 1,
+      "row_types": {
+        "dialogue": 1
+      },
+      "speakers": {
+        "CHR_jiangchi": 1
+      },
+      "memory_refs": [
+        "CHR_jiangchi"
+      ],
+      "effects": [],
+      "choices": [],
+      "jumps": []
+    },
+    "LINE_048_A": {
+      "rows": 1,
+      "row_types": {
+        "dialogue": 1
+      },
+      "speakers": {
+        "CHR_linyan": 1
+      },
+      "memory_refs": [
+        "CHR_linyan"
+      ],
+      "effects": [],
+      "choices": [],
+      "jumps": []
+    },
+    "LINE_049_A": {
+      "rows": 1,
+      "row_types": {
+        "dialogue": 1
+      },
+      "speakers": {
+        "CHR_linyan": 1
+      },
+      "memory_refs": [
+        "CHR_linyan"
+      ],
+      "effects": [],
+      "choices": [],
+      "jumps": []
+    },
+    "LINE_050_A": {
+      "rows": 2,
+      "row_types": {
+        "command": 1,
+        "choice": 1
+      },
+      "speakers": {},
+      "memory_refs": [
+        "THR_blue_umbrella",
+        "THR_receipt_debt"
+      ],
+      "effects": [
+        {
+          "beat_id": "S001_0068",
+          "effects": "umbrella_recorded=true"
+        },
+        {
+          "beat_id": "S001_0069",
+          "effects": "early_trust=true; registration_delayed=true"
+        }
+      ],
+      "choices": [
+        {
+          "beat_id": "S001_0069",
+          "group": "CHOICE_01",
+          "text": "先把箱里的蓝伞拿给她确认",
+          "target": "CHOICE_01_B",
+          "effects": "early_trust=true; registration_delayed=true"
+        }
+      ],
+      "jumps": []
+    },
+    "CHOICE_01_B": {
+      "rows": 0,
+      "row_types": {},
+      "speakers": {},
+      "memory_refs": [],
+      "effects": [],
+      "choices": [],
+      "jumps": []
+    },
+    "LINE_052_B": {
+      "rows": 2,
+      "row_types": {
+        "narration": 2
+      },
+      "speakers": {},
+      "memory_refs": [],
+      "effects": [],
+      "choices": [],
+      "jumps": []
+    },
+    "LINE_053_B": {
+      "rows": 1,
+      "row_types": {
+        "dialogue": 1
+      },
+      "speakers": {
+        "CHR_linyan": 1
+      },
+      "memory_refs": [
+        "CHR_linyan"
+      ],
+      "effects": [],
+      "choices": [],
+      "jumps": []
+    },
+    "LINE_054_B": {
+      "rows": 1,
+      "row_types": {
+        "dialogue": 1
+      },
+      "speakers": {
+        "CHR_linyan": 1
+      },
+      "memory_refs": [
+        "CHR_linyan"
+      ],
+      "effects": [],
+      "choices": [],
+      "jumps": []
+    },
+    "LINE_055_B": {
+      "rows": 1,
+      "row_types": {
+        "dialogue": 1
+      },
+      "speakers": {
+        "CHR_linyan": 1
+      },
+      "memory_refs": [
+        "CHR_linyan"
+      ],
+      "effects": [],
+      "choices": [],
+      "jumps": []
+    },
+    "LINE_056_B": {
+      "rows": 1,
+      "row_types": {
+        "dialogue": 1
+      },
+      "speakers": {
+        "CHR_linyan": 1
+      },
+      "memory_refs": [
+        "CHR_linyan"
+      ],
+      "effects": [],
+      "choices": [],
+      "jumps": []
+    },
+    "LINE_057_B": {
+      "rows": 1,
+      "row_types": {
+        "dialogue": 1
+      },
+      "speakers": {
+        "CHR_jiangchi": 1
+      },
+      "memory_refs": [
+        "CHR_jiangchi"
+      ],
+      "effects": [],
+      "choices": [],
+      "jumps": []
+    },
+    "LINE_058_B": {
+      "rows": 1,
+      "row_types": {
+        "dialogue": 1
+      },
+      "speakers": {
+        "CHR_linyan": 1
+      },
+      "memory_refs": [
+        "CHR_linyan"
+      ],
+      "effects": [],
+      "choices": [],
+      "jumps": []
+    },
+    "LINE_059_B": {
+      "rows": 1,
+      "row_types": {
+        "dialogue": 1
+      },
+      "speakers": {
+        "CHR_jiangchi": 1
+      },
+      "memory_refs": [
+        "CHR_jiangchi"
+      ],
+      "effects": [],
+      "choices": [],
+      "jumps": []
+    },
+    "LINE_060_B": {
+      "rows": 1,
+      "row_types": {
+        "narration": 1
+      },
+      "speakers": {},
+      "memory_refs": [],
+      "effects": [],
+      "choices": [],
+      "jumps": []
+    },
+    "LINE_061_B": {
+      "rows": 1,
+      "row_types": {
+        "dialogue": 1
+      },
+      "speakers": {
+        "CHR_linyan": 1
+      },
+      "memory_refs": [
+        "CHR_linyan"
+      ],
+      "effects": [],
+      "choices": [],
+      "jumps": []
+    },
+    "LINE_062_B": {
+      "rows": 1,
+      "row_types": {
+        "dialogue": 1
+      },
+      "speakers": {
+        "CHR_linyan": 1
+      },
+      "memory_refs": [
+        "CHR_linyan"
+      ],
+      "effects": [],
+      "choices": [],
+      "jumps": []
+    },
+    "LINE_063_B": {
+      "rows": 1,
+      "row_types": {
+        "dialogue": 1
+      },
+      "speakers": {
+        "CHR_jiangchi": 1
+      },
+      "memory_refs": [
+        "CHR_jiangchi"
+      ],
+      "effects": [],
+      "choices": [],
+      "jumps": []
+    },
+    "LINE_064_B": {
+      "rows": 2,
+      "row_types": {
+        "command": 2
+      },
+      "speakers": {},
+      "memory_refs": [],
+      "effects": [
+        {
+          "beat_id": "S001_0097",
+          "effects": "early_trust=true"
+        }
+      ],
+      "choices": [],
+      "jumps": []
+    },
+    "CHOICE_01_REJOIN": {
+      "rows": 78,
+      "row_types": {
+        "dialogue": 54,
+        "command": 4,
+        "narration": 17,
+        "thought": 2,
+        "choice": 1
+      },
+      "speakers": {
+        "CHR_jiangchi": 26,
+        "CHR_linyan": 28
+      },
+      "memory_refs": [
+        "CHR_jiangchi",
+        "CHR_linyan",
+        "THR_blue_umbrella",
+        "THR_receipt_debt"
+      ],
+      "effects": [
+        {
+          "beat_id": "S001_0177",
+          "effects": "receipt_kept=true; heyi_risk=true"
+        }
+      ],
+      "choices": [
+        {
+          "beat_id": "S001_0177",
+          "group": "CHOICE_02",
+          "text": "把小票夹进失物本",
+          "target": "CHOICE_02_A",
+          "effects": "receipt_kept=true; heyi_risk=true"
+        }
+      ],
+      "jumps": []
+    },
+    "CHOICE_02_A": {
+      "rows": 0,
+      "row_types": {},
+      "speakers": {},
+      "memory_refs": [],
+      "effects": [],
+      "choices": [],
+      "jumps": []
+    },
+    "LINE_136_A": {
+      "rows": 1,
+      "row_types": {
+        "narration": 1
+      },
+      "speakers": {},
+      "memory_refs": [],
+      "effects": [],
+      "choices": [],
+      "jumps": []
+    },
+    "LINE_137_A": {
+      "rows": 1,
+      "row_types": {
+        "dialogue": 1
+      },
+      "speakers": {
+        "CHR_jiangchi": 1
+      },
+      "memory_refs": [
+        "CHR_jiangchi"
+      ],
+      "effects": [],
+      "choices": [],
+      "jumps": []
+    },
+    "LINE_138_A": {
+      "rows": 1,
+      "row_types": {
+        "dialogue": 1
+      },
+      "speakers": {
+        "CHR_jiangchi": 1
+      },
+      "memory_refs": [
+        "CHR_jiangchi"
+      ],
+      "effects": [],
+      "choices": [],
+      "jumps": []
+    },
+    "LINE_139_A": {
+      "rows": 1,
+      "row_types": {
+        "dialogue": 1
+      },
+      "speakers": {
+        "CHR_jiangchi": 1
+      },
+      "memory_refs": [
+        "CHR_jiangchi"
+      ],
+      "effects": [],
+      "choices": [],
+      "jumps": []
+    },
+    "LINE_140_A": {
+      "rows": 1,
+      "row_types": {
+        "dialogue": 1
+      },
+      "speakers": {
+        "CHR_linyan": 1
+      },
+      "memory_refs": [
+        "CHR_linyan"
+      ],
+      "effects": [],
+      "choices": [],
+      "jumps": []
+    },
+    "LINE_141_A": {
+      "rows": 1,
+      "row_types": {
+        "dialogue": 1
+      },
+      "speakers": {
+        "CHR_jiangchi": 1
+      },
+      "memory_refs": [
+        "CHR_jiangchi"
+      ],
+      "effects": [],
+      "choices": [],
+      "jumps": []
+    },
+    "LINE_142_A": {
+      "rows": 1,
+      "row_types": {
+        "dialogue": 1
+      },
+      "speakers": {
+        "CHR_linyan": 1
+      },
+      "memory_refs": [
+        "CHR_linyan"
+      ],
+      "effects": [],
+      "choices": [],
+      "jumps": []
+    },
+    "LINE_143_A": {
+      "rows": 2,
+      "row_types": {
+        "command": 1,
+        "choice": 1
+      },
+      "speakers": {},
+      "memory_refs": [
+        "THR_blue_umbrella",
+        "THR_receipt_debt"
+      ],
+      "effects": [
+        {
+          "beat_id": "S001_0194",
+          "effects": "receipt_kept=true"
+        },
+        {
+          "beat_id": "S001_0195",
+          "effects": "receipt_hidden=true; memory_debt=true"
+        }
+      ],
+      "choices": [
+        {
+          "beat_id": "S001_0195",
+          "group": "CHOICE_02",
+          "text": "不留小票，只记下线索",
+          "target": "CHOICE_02_B",
+          "effects": "receipt_hidden=true; memory_debt=true"
+        }
+      ],
+      "jumps": []
+    },
+    "CHOICE_02_B": {
+      "rows": 0,
+      "row_types": {},
+      "speakers": {},
+      "memory_refs": [],
+      "effects": [],
+      "choices": [],
+      "jumps": []
+    },
+    "LINE_145_B": {
+      "rows": 1,
+      "row_types": {
+        "narration": 1
+      },
+      "speakers": {},
+      "memory_refs": [],
+      "effects": [],
+      "choices": [],
+      "jumps": []
+    },
+    "LINE_146_B": {
+      "rows": 1,
+      "row_types": {
+        "dialogue": 1
+      },
+      "speakers": {
+        "CHR_jiangchi": 1
+      },
+      "memory_refs": [
+        "CHR_jiangchi"
+      ],
+      "effects": [],
+      "choices": [],
+      "jumps": []
+    },
+    "LINE_147_B": {
+      "rows": 1,
+      "row_types": {
+        "dialogue": 1
+      },
+      "speakers": {
+        "CHR_jiangchi": 1
+      },
+      "memory_refs": [
+        "CHR_jiangchi"
+      ],
+      "effects": [],
+      "choices": [],
+      "jumps": []
+    },
+    "LINE_148_B": {
+      "rows": 1,
+      "row_types": {
+        "dialogue": 1
+      },
+      "speakers": {
+        "CHR_jiangchi": 1
+      },
+      "memory_refs": [
+        "CHR_jiangchi"
+      ],
+      "effects": [],
+      "choices": [],
+      "jumps": []
+    },
+    "LINE_149_B": {
+      "rows": 1,
+      "row_types": {
+        "dialogue": 1
+      },
+      "speakers": {
+        "CHR_jiangchi": 1
+      },
+      "memory_refs": [
+        "CHR_jiangchi"
+      ],
+      "effects": [],
+      "choices": [],
+      "jumps": []
+    },
+    "LINE_150_B": {
+      "rows": 1,
+      "row_types": {
+        "dialogue": 1
+      },
+      "speakers": {
+        "CHR_linyan": 1
+      },
+      "memory_refs": [
+        "CHR_linyan"
+      ],
+      "effects": [],
+      "choices": [],
+      "jumps": []
+    },
+    "LINE_151_B": {
+      "rows": 1,
+      "row_types": {
+        "dialogue": 1
+      },
+      "speakers": {
+        "CHR_jiangchi": 1
+      },
+      "memory_refs": [
+        "CHR_jiangchi"
+      ],
+      "effects": [],
+      "choices": [],
+      "jumps": []
+    },
+    "LINE_152_B": {
+      "rows": 1,
+      "row_types": {
+        "dialogue": 1
+      },
+      "speakers": {
+        "CHR_linyan": 1
+      },
+      "memory_refs": [
+        "CHR_linyan"
+      ],
+      "effects": [],
+      "choices": [],
+      "jumps": []
+    },
+    "LINE_153_B": {
+      "rows": 1,
+      "row_types": {
+        "dialogue": 1
+      },
+      "speakers": {
+        "CHR_jiangchi": 1
+      },
+      "memory_refs": [
+        "CHR_jiangchi"
+      ],
+      "effects": [],
+      "choices": [],
+      "jumps": []
+    },
+    "LINE_154_B": {
+      "rows": 1,
+      "row_types": {
+        "dialogue": 1
+      },
+      "speakers": {
+        "CHR_linyan": 1
+      },
+      "memory_refs": [
+        "CHR_linyan"
+      ],
+      "effects": [],
+      "choices": [],
+      "jumps": []
+    },
+    "LINE_155_B": {
+      "rows": 2,
+      "row_types": {
+        "command": 2
+      },
+      "speakers": {},
+      "memory_refs": [],
+      "effects": [
+        {
+          "beat_id": "S001_0218",
+          "effects": "receipt_hidden=true"
+        }
+      ],
+      "choices": [],
+      "jumps": []
+    },
+    "CHOICE_02_REJOIN": {
+      "rows": 48,
+      "row_types": {
+        "narration": 12,
+        "dialogue": 32,
+        "thought": 2,
+        "command": 2
+      },
+      "speakers": {
+        "CHR_linyan": 17,
+        "CHR_jiangchi": 15
+      },
+      "memory_refs": [
+        "CHR_jiangchi",
+        "CHR_linyan"
+      ],
+      "effects": [],
+      "choices": [],
+      "jumps": []
+    },
+    "S002_午休四十分钟": {
+      "rows": 36,
+      "row_types": {
+        "command": 4,
+        "narration": 13,
+        "dialogue": 17,
+        "thought": 2
+      },
+      "speakers": {
+        "CHR_heyi": 1,
+        "CHR_linyan": 11,
+        "CHR_jiangchi": 5
+      },
+      "memory_refs": [
+        "CHR_heyi",
+        "CHR_jiangchi",
+        "CHR_linyan"
+      ],
+      "effects": [],
+      "choices": [],
+      "jumps": []
+    },
+    "LINE_226_A": {
+      "rows": 2,
+      "row_types": {
+        "narration": 2
+      },
+      "speakers": {},
+      "memory_refs": [],
+      "effects": [],
+      "choices": [],
+      "jumps": []
+    },
+    "LINE_227_A": {
+      "rows": 1,
+      "row_types": {
+        "dialogue": 1
+      },
+      "speakers": {
+        "CHR_linyan": 1
+      },
+      "memory_refs": [
+        "CHR_linyan"
+      ],
+      "effects": [],
+      "choices": [],
+      "jumps": []
+    },
+    "LINE_228_A": {
+      "rows": 1,
+      "row_types": {
+        "dialogue": 1
+      },
+      "speakers": {
+        "CHR_linyan": 1
+      },
+      "memory_refs": [
+        "CHR_linyan"
+      ],
+      "effects": [],
+      "choices": [],
+      "jumps": []
+    },
+    "LINE_229_A": {
+      "rows": 1,
+      "row_types": {
+        "dialogue": 1
+      },
+      "speakers": {
+        "CHR_linyan": 1
+      },
+      "memory_refs": [
+        "CHR_linyan"
+      ],
+      "effects": [],
+      "choices": [],
+      "jumps": []
+    },
+    "LINE_230_A": {
+      "rows": 1,
+      "row_types": {
+        "dialogue": 1
+      },
+      "speakers": {
+        "CHR_linyan": 1
+      },
+      "memory_refs": [
+        "CHR_linyan"
+      ],
+      "effects": [],
+      "choices": [],
+      "jumps": []
+    },
+    "LINE_231_A": {
+      "rows": 1,
+      "row_types": {
+        "dialogue": 1
+      },
+      "speakers": {
+        "CHR_linyan": 1
+      },
+      "memory_refs": [
+        "CHR_linyan"
+      ],
+      "effects": [],
+      "choices": [],
+      "jumps": []
+    },
+    "LINE_232_A": {
+      "rows": 2,
+      "row_types": {
+        "command": 2
+      },
+      "speakers": {},
+      "memory_refs": [],
+      "effects": [
+        {
+          "beat_id": "S002_0320",
+          "effects": "trust_plus=1"
+        }
+      ],
+      "choices": [],
+      "jumps": []
+    },
+    "LINE_234_B": {
+      "rows": 2,
+      "row_types": {
+        "narration": 2
+      },
+      "speakers": {},
+      "memory_refs": [],
+      "effects": [],
+      "choices": [],
+      "jumps": []
+    },
+    "LINE_235_B": {
+      "rows": 1,
+      "row_types": {
+        "dialogue": 1
+      },
+      "speakers": {
+        "CHR_linyan": 1
+      },
+      "memory_refs": [
+        "CHR_linyan"
+      ],
+      "effects": [],
+      "choices": [],
+      "jumps": []
+    },
+    "LINE_236_B": {
+      "rows": 1,
+      "row_types": {
+        "dialogue": 1
+      },
+      "speakers": {
+        "CHR_jiangchi": 1
+      },
+      "memory_refs": [
+        "CHR_jiangchi"
+      ],
+      "effects": [],
+      "choices": [],
+      "jumps": []
+    },
+    "LINE_237_B": {
+      "rows": 1,
+      "row_types": {
+        "dialogue": 1
+      },
+      "speakers": {
+        "CHR_jiangchi": 1
+      },
+      "memory_refs": [
+        "CHR_jiangchi"
+      ],
+      "effects": [],
+      "choices": [],
+      "jumps": []
+    },
+    "LINE_238_B": {
+      "rows": 1,
+      "row_types": {
+        "dialogue": 1
+      },
+      "speakers": {
+        "CHR_jiangchi": 1
+      },
+      "memory_refs": [
+        "CHR_jiangchi"
+      ],
+      "effects": [],
+      "choices": [],
+      "jumps": []
+    },
+    "LINE_239_B": {
+      "rows": 1,
+      "row_types": {
+        "dialogue": 1
+      },
+      "speakers": {
+        "CHR_jiangchi": 1
+      },
+      "memory_refs": [
+        "CHR_jiangchi"
+      ],
+      "effects": [],
+      "choices": [],
+      "jumps": []
+    },
+    "LINE_240_B": {
+      "rows": 1,
+      "row_types": {
+        "dialogue": 1
+      },
+      "speakers": {
+        "CHR_linyan": 1
+      },
+      "memory_refs": [
+        "CHR_linyan"
+      ],
+      "effects": [],
+      "choices": [],
+      "jumps": []
+    },
+    "LINE_241_B": {
+      "rows": 1,
+      "row_types": {
+        "dialogue": 1
+      },
+      "speakers": {
+        "CHR_jiangchi": 1
+      },
+      "memory_refs": [
+        "CHR_jiangchi"
+      ],
+      "effects": [],
+      "choices": [],
+      "jumps": []
+    },
+    "LINE_242_B": {
+      "rows": 1,
+      "row_types": {
+        "dialogue": 1
+      },
+      "speakers": {
+        "CHR_linyan": 1
+      },
+      "memory_refs": [
+        "CHR_linyan"
+      ],
+      "effects": [],
+      "choices": [],
+      "jumps": []
+    },
+    "LINE_243_B": {
+      "rows": 1,
+      "row_types": {
+        "dialogue": 1
+      },
+      "speakers": {
+        "CHR_jiangchi": 1
+      },
+      "memory_refs": [
+        "CHR_jiangchi"
+      ],
+      "effects": [],
+      "choices": [],
+      "jumps": []
+    },
+    "LINE_244_B": {
+      "rows": 1,
+      "row_types": {
+        "dialogue": 1
+      },
+      "speakers": {
+        "CHR_linyan": 1
+      },
+      "memory_refs": [
+        "CHR_linyan"
+      ],
+      "effects": [],
+      "choices": [],
+      "jumps": []
+    },
+    "LINE_245_B": {
+      "rows": 57,
+      "row_types": {
+        "command": 6,
+        "narration": 14,
+        "dialogue": 35,
+        "thought": 2
+      },
+      "speakers": {
+        "CHR_linyan": 22,
+        "CHR_jiangchi": 13
+      },
+      "memory_refs": [
+        "CHR_jiangchi",
+        "CHR_linyan"
+      ],
+      "effects": [
+        {
+          "beat_id": "S002_0346",
+          "effects": "trust_repaired=1"
+        }
+      ],
+      "choices": [],
+      "jumps": []
+    },
+    "S003_晚自习前的寄存格": {
+      "rows": 150,
+      "row_types": {
+        "command": 9,
+        "narration": 39,
+        "dialogue": 95,
+        "thought": 7
+      },
+      "speakers": {
+        "CHR_heyi": 5,
+        "CHR_jiangchi": 32,
+        "CHR_linyan": 58
+      },
+      "memory_refs": [
+        "CHR_heyi",
+        "CHR_jiangchi",
+        "CHR_linyan"
+      ],
+      "effects": [],
+      "choices": [],
+      "jumps": []
+    }
+  },
+  "known_refs_count": 15,
+  "used_memory_refs": [
+    "CHR_heyi",
+    "CHR_jiangchi",
+    "CHR_linyan",
+    "THR_blue_umbrella",
+    "THR_receipt_debt"
+  ],
+  "unknown_memory_refs": [],
+  "effect_variables": [
+    "early_trust",
+    "heyi_risk",
+    "memory_debt",
+    "receipt_hidden",
+    "receipt_kept",
+    "registration_delayed",
+    "trust_plus",
+    "trust_repaired",
+    "trust_style",
+    "umbrella_recorded"
+  ],
+  "state_delta_mismatches": [],
+  "character_control": [
+    {
+      "character_id": "CHR_heyi",
+      "name": "何姨",
+      "card": true,
+      "state": true,
+      "memory_log": true,
+      "retrieval_blocks": 1,
+      "dialogue_rows": 6,
+      "voice_targets": [
+        "CHR_heyi"
+      ],
+      "has_sentence_kernel": false,
+      "has_line_energy": false,
+      "has_social_texture": false
+    },
+    {
+      "character_id": "CHR_jiangchi",
+      "name": "江迟",
+      "card": true,
+      "state": true,
+      "memory_log": true,
+      "retrieval_blocks": 2,
+      "dialogue_rows": 124,
+      "voice_targets": [
+        "CHR_jiangchi"
+      ],
+      "has_sentence_kernel": false,
+      "has_line_energy": false,
+      "has_social_texture": false
+    },
+    {
+      "character_id": "CHR_linyan",
+      "name": "林檐",
+      "card": true,
+      "state": true,
+      "memory_log": true,
+      "retrieval_blocks": 2,
+      "dialogue_rows": 178,
+      "voice_targets": [
+        "CHR_linyan"
+      ],
+      "has_sentence_kernel": false,
+      "has_line_energy": false,
+      "has_social_texture": false
+    }
+  ],
+  "issues": [],
+  "source_lessons": [
+    "Yarn Spinner: analyse dialogue as nodes, blocks, destinations, and options.",
+    "ink: parse authored flow, then resolve references into runtime containers.",
+    "Ren'Py: lint jump/menu/label and expression boundaries before trusting script output.",
+    "TwineJS: keep passage ids, tags, and story metadata searchable.",
+    "Character memory systems: separate stable cards, runtime state, and retrievable episodic blocks."
+  ]
+}

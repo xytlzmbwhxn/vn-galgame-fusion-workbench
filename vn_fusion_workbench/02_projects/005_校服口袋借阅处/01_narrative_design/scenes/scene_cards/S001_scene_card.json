@@ -1,0 +1,85 @@
+{
+  "scene_id": "S001",
+  "title": "48 号箱盖",
+  "route": "common_route",
+  "chapter": "Chapter 1",
+  "location": "南城大学旧校服回收处",
+  "time": "18:20，回收车到达前四十分钟",
+  "background": "bg_uniform_return_room_evening",
+  "bgm": "bgm_after_graduation_room",
+  "entering_pressure": "林秋正在封最后三箱旧校服，唐米冲进来要拿走已经入箱的 48 号外套，陶笙通过电话催促 19:00 前封箱。",
+  "player_want": "准时封箱，避免借出牌缺签名的问题暴露，也不想当着唐米和陶笙处理旧事。",
+  "chapter_goal": "让玩家学会通过贴标签、拆内袋、改借出牌三种动作表达处理旧物和关系的态度。",
+  "scene_synopsis": "毕业典礼后，旧校服回收处只剩林秋值班。唐米带着明信片袋闯进来，撒娇要求拿走 48 号外套。陶笙电话催封箱，同时在听见 48 号后变得不自然。林秋检查外套，发现内袋里有纸星星和一粒纽扣。玩家选择贴回收标签、拆内袋留档或把借出牌改到唐米名下。三种选择都回到回收车倒车声响起的等待，唐米第一次说出她借走外套后没有归还。",
+  "pov_character": "CHR_linqiu",
+  "narrative_threads": ["THR_label", "THR_borrowed_time", "THR_teacher_box"],
+  "foreshadow_role": {
+    "seeds": ["FS_paper_star", "FS_blue_card"],
+    "echoes": ["FS_tape_sound"],
+    "payoffs": ["FS_paper_star", "FS_blue_card"]
+  },
+  "prose_texture_target": "毕业后的旧校服回收处：纸箱、衣架、封箱胶带、黄标签、蓝借出牌、落在袖口的亮片。文字要有晚间教室和行政杂务的生活感，不要写成纯抒情告别。",
+  "npc_wants": {
+    "CHR_tangmi": "拿走 48 号外套，避免林秋拆开内袋，先用撒娇和玩笑拖住场面。",
+    "CHR_taosheng": "催林秋封箱，阻止 48 号旧事被公开说出，同时给学生留一点不算违规的时间。"
+  },
+  "withheld_truths": {
+    "CHR_linqiu": "她曾私自留过一件退学室友的旧校服，怕自己没有资格讲规则。",
+    "CHR_tangmi": "她借走 48 号外套后没有还给原主，内袋纸星星是一句迟到的道歉。",
+    "CHR_taosheng": "她认得 48 号外套原主，当年替唐米压过一次冲突记录。"
+  },
+  "usable_objects": [
+    {
+      "object_id": "OBJ_yellow_label",
+      "type": "rule",
+      "description": "黄色回收标签，贴上后衣物归入回收箱。",
+      "dramatic_use": "代表交给制度，也会把内袋纸星星一起压进箱底。"
+    },
+    {
+      "object_id": "OBJ_blue_card",
+      "type": "record",
+      "description": "蓝色借出牌，48 号记录缺归还签名。",
+      "dramatic_use": "可以被改到唐米名下，给她拿走外套的名义，也增加林秋违规风险。"
+    },
+    {
+      "object_id": "OBJ_jacket_48",
+      "type": "clothing",
+      "description": "48 号旧校服外套，袖口磨白，内袋鼓起。",
+      "dramatic_use": "唐米想拿走的物件，也是旧事入口。"
+    },
+    {
+      "object_id": "OBJ_paper_star",
+      "type": "evidence",
+      "description": "内袋里硬纸折成的小星星，写着半句道歉。",
+      "dramatic_use": "保留后可打开唐米路线，破坏后形成封箱坏结局阴影。"
+    },
+    {
+      "object_id": "OBJ_tape",
+      "type": "sound",
+      "description": "半透明封箱胶带，一拉就响。",
+      "dramatic_use": "打断或逼迫对话进入截止状态。"
+    },
+    {
+      "object_id": "OBJ_phone",
+      "type": "pressure",
+      "description": "陶笙的手机外放，伴随清单翻页和老师命令。",
+      "dramatic_use": "远程施压，也会在关键处泄露她认得 48 号。"
+    }
+  ],
+  "choice_pressure": "贴回收标签能准时封箱但会压坏纸星星；拆内袋能保留证据但会刺痛唐米并拖延封箱；改借出牌能让唐米拿走外套但让林秋承担违规。",
+  "scene_question": "林秋会把 48 号外套按制度封箱，还是承认这件外套需要先被一个人好好归还？",
+  "scene_answer": "不管选择哪种动作，林秋都必须承认自己处理的不是衣服编号，而是一段被借走太久的关系。",
+  "professional_ritual": "核对箱号、翻袖口、摸内袋、贴黄标签、翻蓝借出牌、拍照留档、封箱。",
+  "character_lie_pressure": "唐米说外套只是拍照道具；林秋说自己只按流程；陶笙说自己只是催清单。",
+  "dramatic_turn": "林秋摸到 48 号外套内袋里的纸星星，陶笙听见 48 号后命令她先别封死。",
+  "sequel_decision": "贴回收标签、拆内袋留档、改借出牌给唐米。",
+  "theme_pressure": "回收处要把旧物送走，但人物真正害怕的是旧物还记得他们没有说完的话。",
+  "state_delta_required": true,
+  "exit_image": "回收车倒车声响起，48 号箱盖半开，黄标签只贴住了一角或蓝借出牌被翻到唐米名下。",
+  "qa_risks": [
+    "唐米不能只可爱，要有明确回避压力。",
+    "林秋不能变成解释主题的人。",
+    "陶笙不能只做规则工具，要有电话里的生活感和保护动作。"
+  ]
+}
+

@@ -1,0 +1,34 @@
+{
+  "threads": [
+    {
+      "id": "THR_station_exists",
+      "name": "临站是否存在",
+      "question": "被系统撤掉的站名，是否仍能被人承认？",
+      "pressure": "系统没有记录，票面却有水痕中的旧字。",
+      "scene_roles": {
+        "S001": "seed"
+      },
+      "notes": "用票面、旧线路手册、段伯反应三层确认，不让角色直接解释完。"
+    },
+    {
+      "id": "THR_linyu_father",
+      "name": "林屿的旧12路记忆",
+      "question": "林屿为什么对临站反应过度？",
+      "pressure": "他把私人记忆藏在手续动作里。",
+      "scene_roles": {
+        "S001": "mislead"
+      },
+      "notes": "本场只露出他记得，不说父亲细节。"
+    },
+    {
+      "id": "THR_qiaomeng_grandma",
+      "name": "乔萌的回程",
+      "question": "乔萌为什么非要改签一张旧票？",
+      "pressure": "她用玩笑挡住外婆留下的最后一通电话。",
+      "scene_roles": {
+        "S001": "seed"
+      },
+      "notes": "本场让她说出饭卡套住了三年，暂不直接说外婆去世。"
+    }
+  ]
+}

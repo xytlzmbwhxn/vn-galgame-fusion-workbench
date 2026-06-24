@@ -1,0 +1,76 @@
+{
+  "character_id": "CHR_cenyao",
+  "updated_after_scene": "S002",
+  "current_axes": {
+    "trust": 2,
+    "anger": 2,
+    "fear": 5,
+    "curiosity": 2,
+    "fatigue": 3,
+    "shame": 4
+  },
+  "active_wants": [
+    "leave the camera's clean frame",
+    "keep the wet ticket close enough to control",
+    "test whether Shao Ning helps people or only collects facts"
+  ],
+  "active_fears": [
+    "her full name may connect her to the old altered record",
+    "photographing the ticket may become proof against her",
+    "being taken home is worse than staying in the rain"
+  ],
+  "unspoken_truths": [
+    "her surname matches a damaged old entry",
+    "she has handled forged or altered station records before",
+    "she wants help but treats help as a trap first"
+  ],
+  "voice_lock": {
+    "sentence_shapes": [
+      "short fragments and wrong-subject answers",
+      "object-first phrasing",
+      "sudden politeness when cornered",
+      "sharp line after receiving care"
+    ],
+    "dodge_moves": [
+      "replace the dangerous noun with that or it",
+      "ask who the proof is for",
+      "look at ticket, umbrella, glass, or badge instead of the person"
+    ],
+    "allowed_words": ["那个", "不用", "别问这个", "你们", "我自己来", "纸的"],
+    "forbidden_drift": [
+      "full confession",
+      "clean request for rescue",
+      "explaining family history in order",
+      "poetic abstract confession"
+    ],
+    "sample_lines": [
+      "你别把它放进你们那套表里。",
+      "我说了姓。够用了。",
+      "你先别做好人。先把门挡住。"
+    ]
+  },
+  "relationship_pressure": {
+    "CHR_shaoning": {
+      "current_leverage": "he can delay alarm; she can reveal that his old guilt is incomplete",
+      "debt": "she may owe him an umbrella and a surname",
+      "dangerous_line": "You can delete me."
+    }
+  },
+  "promises_and_debts": [
+    {
+      "id": "DEBT_spare_umbrella",
+      "status": "choice_dependent",
+      "deadline": "return or mention before route lock"
+    }
+  ],
+  "state_history": [
+    {
+      "scene_id": "S001",
+      "change": "allowed Shao Ning to see the wet ticket date but kept control of her name"
+    },
+    {
+      "scene_id": "S002",
+      "change": "may reveal surname if protected first; withdraws if evidence is taken first"
+    }
+  ]
+}

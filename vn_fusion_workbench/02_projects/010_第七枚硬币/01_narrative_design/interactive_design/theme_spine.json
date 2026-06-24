@@ -1,0 +1,39 @@
+{
+  "thesis_question": "当清洗会抹掉一个人存在过的证据时，照顾对方到底是洗干净，还是把脏痕留下来？",
+  "player_role": "晚潮自助洗衣夜班看店人闻舟。",
+  "repeated_player_behavior": "在洗衣流程里选择是否查口袋、保留单据、改温度、延长时间。",
+  "cost_of_playing_well": "保留痕迹会增加店铺赔偿风险、暴露闻舟私自处理、让夏停不得不面对她想躲开的时间。",
+  "false_comfort": "只要洗干净，明天就不会有人追问。",
+  "material_object": "一件奶油色开衫、一张热敏挂号单、一枚弯硬币。",
+  "route_arguments": [
+    {
+      "route_id": "trace_route",
+      "argument": "痕迹难看，但它给后来的人留了入口。",
+      "cost": "夏停被迫承认母亲的最后一晚，闻舟要在店账上撒一个小谎。",
+      "payoff": "热敏单被保存，后续可解锁病房时间线。"
+    },
+    {
+      "route_id": "clean_route",
+      "argument": "有人需要先喘口气，再面对真相。",
+      "cost": "部分单据字迹受损，后续调查需要靠人证补回。",
+      "payoff": "夏停暂时信任闻舟，但后续会为字迹消失爆发。"
+    }
+  ],
+  "final_payoff": "终章让玩家亲手选择开衫是否再次入水：这次不是为了逃避，而是为了把该留的东西先取出来。",
+  "bad_end_shadow_answers": [
+    "高温热烘直接毁掉热敏单，夏停得到一件干净开衫，也失去可以向妹妹解释的时间。",
+    "拒绝开机赶人，夏停在雨里把开衫丢进公共垃圾桶，闻舟第二天只在监控里看见她弯腰。"
+  ],
+  "object_reinterpretations": [
+    {
+      "object_id": "OBJ_bent_coin",
+      "first_reading": "差一枚开机硬币。",
+      "later_reading": "夏停保留旧关系的方式，也是她不愿求助的理由。"
+    },
+    {
+      "object_id": "OBJ_thermal_receipt",
+      "first_reading": "洗衣前应该掏出的纸。",
+      "later_reading": "母亲最后一次挂号时间，妹妹会问的第一件事。"
+    }
+  ]
+}

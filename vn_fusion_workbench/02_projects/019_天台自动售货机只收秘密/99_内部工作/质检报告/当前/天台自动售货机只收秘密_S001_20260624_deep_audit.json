@@ -1,0 +1,253 @@
+{
+  "project": "019_天台自动售货机只收秘密",
+  "script": "02_generated_content\\scripts\\csv\\天台自动售货机只收秘密_S001_20260624.csv",
+  "scene_id": "S001",
+  "graph": {
+    "__START__": {
+      "rows": 0,
+      "row_types": {},
+      "speakers": {},
+      "memory_refs": [],
+      "effects": [],
+      "choices": [],
+      "jumps": []
+    },
+    "S001_START": {
+      "rows": 43,
+      "row_types": {
+        "narration": 12,
+        "thought": 5,
+        "command": 1,
+        "dialogue": 23,
+        "choice": 2
+      },
+      "speakers": {
+        "CHR_xu_you": 14,
+        "CHR_shen_lan": 9
+      },
+      "memory_refs": [
+        "ARC_xu_you_proxy_to_direct",
+        "CHR_shen_lan",
+        "CHR_xu_you",
+        "FS_note_corner_shen",
+        "FS_observation_sticker",
+        "S001",
+        "THR_secret_as_device_case"
+      ],
+      "effects": [
+        {
+          "beat_id": "S001_0043",
+          "effects": "seal_without_reading=true;recipient_temporarily_private=true"
+        },
+        {
+          "beat_id": "S001_0044",
+          "effects": "ask_refund_reason=true;recipient_temporarily_private=true"
+        }
+      ],
+      "choices": [
+        {
+          "beat_id": "S001_0043",
+          "group": "CHOICE_01",
+          "text": "直接封存，不读纸条",
+          "target": "S001_A",
+          "effects": "seal_without_reading=true;recipient_temporarily_private=true"
+        },
+        {
+          "beat_id": "S001_0044",
+          "group": "CHOICE_01",
+          "text": "询问退货理由",
+          "target": "S001_B",
+          "effects": "ask_refund_reason=true;recipient_temporarily_private=true"
+        }
+      ],
+      "jumps": []
+    },
+    "S001_A": {
+      "rows": 6,
+      "row_types": {
+        "dialogue": 4,
+        "thought": 1,
+        "command": 1
+      },
+      "speakers": {
+        "CHR_shen_lan": 2,
+        "CHR_xu_you": 2
+      },
+      "memory_refs": [
+        "ARC_shen_lan_process_to_care",
+        "CHR_shen_lan",
+        "CHR_xu_you",
+        "FS_note_corner_shen",
+        "S001"
+      ],
+      "effects": [
+        {
+          "beat_id": "S001_0046",
+          "effects": "seal_without_reading=true"
+        }
+      ],
+      "choices": [],
+      "jumps": [
+        {
+          "beat_id": "S001_0051",
+          "target": "S001_REJOIN"
+        }
+      ]
+    },
+    "S001_B": {
+      "rows": 8,
+      "row_types": {
+        "dialogue": 6,
+        "thought": 1,
+        "command": 1
+      },
+      "speakers": {
+        "CHR_shen_lan": 3,
+        "CHR_xu_you": 3
+      },
+      "memory_refs": [
+        "CHR_shen_lan",
+        "CHR_xu_you",
+        "S001"
+      ],
+      "effects": [
+        {
+          "beat_id": "S001_0053",
+          "effects": "ask_refund_reason=true"
+        }
+      ],
+      "choices": [],
+      "jumps": [
+        {
+          "beat_id": "S001_0060",
+          "target": "S001_REJOIN"
+        }
+      ]
+    },
+    "S001_REJOIN": {
+      "rows": 21,
+      "row_types": {
+        "narration": 6,
+        "dialogue": 12,
+        "thought": 2,
+        "command": 1
+      },
+      "speakers": {
+        "CHR_xu_you": 7,
+        "CHR_shen_lan": 5
+      },
+      "memory_refs": [
+        "ARC_shen_lan_process_to_care",
+        "ARC_xu_you_proxy_to_direct",
+        "CHR_shen_lan",
+        "CHR_xu_you",
+        "FS_warm_yuzu_soda",
+        "S001",
+        "THR_rooftop_recheck"
+      ],
+      "effects": [
+        {
+          "beat_id": "S001_0062",
+          "effects": "secret_note_sealed=true"
+        },
+        {
+          "beat_id": "S001_0068",
+          "effects": "warm_yuzu_soda_debt=true"
+        }
+      ],
+      "choices": [],
+      "jumps": []
+    }
+  },
+  "known_refs_count": 21,
+  "used_memory_refs": [
+    "ARC_shen_lan_process_to_care",
+    "ARC_xu_you_proxy_to_direct",
+    "CHR_shen_lan",
+    "CHR_xu_you",
+    "FS_note_corner_shen",
+    "FS_observation_sticker",
+    "FS_warm_yuzu_soda",
+    "S001",
+    "THR_rooftop_recheck",
+    "THR_secret_as_device_case"
+  ],
+  "unknown_memory_refs": [],
+  "effect_variables": [
+    "ask_refund_reason",
+    "recipient_temporarily_private",
+    "seal_without_reading",
+    "secret_note_sealed",
+    "warm_yuzu_soda_debt"
+  ],
+  "state_delta_mismatches": [],
+  "character_control": [
+    {
+      "character_id": "CHR_shen_lan",
+      "name": "沈岚",
+      "card": true,
+      "state": true,
+      "memory_log": true,
+      "retrieval_blocks": 5,
+      "dialogue_rows": 19,
+      "voice_targets": [
+        "direct_probe",
+        "dry_probe",
+        "procedural_cover",
+        "procedural_deadpan",
+        "procedural_gentle",
+        "procedural_joke",
+        "procedural_offer",
+        "procedural_probe",
+        "procedural_repair",
+        "procedural_short",
+        "short_gentle"
+      ],
+      "has_sentence_kernel": false,
+      "has_line_energy": false,
+      "has_social_texture": false
+    },
+    {
+      "character_id": "CHR_xu_you",
+      "name": "许柚",
+      "card": true,
+      "state": true,
+      "memory_log": true,
+      "retrieval_blocks": 5,
+      "dialogue_rows": 26,
+      "voice_targets": [
+        "anxious_joke",
+        "evasive_soft",
+        "flustered_joke",
+        "playful_claim",
+        "playful_complaint",
+        "playful_embarrassed",
+        "playful_escalation",
+        "playful_exit",
+        "playful_objection",
+        "playful_push",
+        "playful_soft",
+        "relieved_playful",
+        "soft_joke",
+        "soft_probe",
+        "soft_promise",
+        "softening",
+        "surprised_soft",
+        "teasing_probe",
+        "teasing_relief",
+        "teasing_soft"
+      ],
+      "has_sentence_kernel": false,
+      "has_line_energy": false,
+      "has_social_texture": false
+    }
+  ],
+  "issues": [],
+  "source_lessons": [
+    "Yarn Spinner: analyse dialogue as nodes, blocks, destinations, and options.",
+    "ink: parse authored flow, then resolve references into runtime containers.",
+    "Ren'Py: lint jump/menu/label and expression boundaries before trusting script output.",
+    "TwineJS: keep passage ids, tags, and story metadata searchable.",
+    "Character memory systems: separate stable cards, runtime state, and retrievable episodic blocks."
+  ]
+}
